@@ -1,0 +1,21 @@
+# APEX v1.0 test run - 2026-10-04T03:03:26Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage1_sources.py', ResourceWarnings counted as failures)
+
+test_bitmex_uses_recorded_interval_and_as_of (test_stage1_sources.Adapters.test_bitmex_uses_recorded_interval_and_as_of) ... ok
+test_deribit_dedupes_and_labels_semantics (test_stage1_sources.Adapters.test_deribit_dedupes_and_labels_semantics) ... ok
+test_h41_release_calendar_handles_holiday (test_stage1_sources.Adapters.test_h41_release_calendar_handles_holiday) ... ok
+test_kraken_and_intx_derive_spacing (test_stage1_sources.Adapters.test_kraken_and_intx_derive_spacing) ... ok
+test_nyfed_late_edits_are_flagged (test_stage1_sources.Adapters.test_nyfed_late_edits_are_flagged) ... ok
+test_raw_archive_detects_tampering (test_stage1_sources.Adapters.test_raw_archive_detects_tampering) ... ok
+test_rows_insert_into_the_schema (test_stage1_sources.Adapters.test_rows_insert_into_the_schema) ... ok
+test_tga_layouts_spliced_only_when_seams_match (test_stage1_sources.Adapters.test_tga_layouts_spliced_only_when_seams_match) ... ok
+test_yields_and_vix (test_stage1_sources.Adapters.test_yields_and_vix) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.022s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (9 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

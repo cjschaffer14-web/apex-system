@@ -1,0 +1,17 @@
+{
+  "note": "Example only. python3 setup_models.py writes config/model_pins.json for you: every file of each model, pinned by SHA-256 after it matched the hash its Hugging Face commit publishes. APEX loads nothing that does not match its pin. A hand-added model needs the same shape.",
+  "artifacts": [
+    {
+      "name": "mlx-community/Qwen3.5-9B-4bit",
+      "role": "fast",
+      "kind": "multimodal",
+      "license": "Apache-2.0",
+      "path": "models/fast/Qwen3.5-9B-4bit",
+      "source": "https://huggingface.co/mlx-community/Qwen3.5-9B-4bit/tree/8b2b98c00a6b4d291155e4890773ca8f769aee53",
+      "revision": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+      "files": {"model-00001-of-00002.safetensors": "<sha256>", "config.json": "<sha256>"},
+      "sha256": "<digest over the sorted name:sha256 lines>",
+      "verified_on": "YYYY-MM-DD"
+    }
+  ]
+}

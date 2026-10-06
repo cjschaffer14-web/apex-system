@@ -1,0 +1,343 @@
+{
+  "stage": 0,
+  "package_manifest": {
+    "manifest": "PACKAGE_MANIFEST.json",
+    "files": 45,
+    "all_pass": true,
+    "failures": []
+  },
+  "baseline_manifest": {
+    "manifest": "baseline_v09/PACKAGE_MANIFEST.json",
+    "files": 36,
+    "all_pass": true,
+    "failures": []
+  },
+  "checksums_txt": {
+    "all_pass": true,
+    "rows": [
+      {
+        "original_path": "/mnt/data/APEX_v09_cross_ai/trading_backtest_v09.py",
+        "matched": [
+          "baseline_v09/code/trading_backtest_v09.py"
+        ],
+        "expected_sha256": "babd06698dd0e14e2d67994bc834588ed4d232a27ba5b504a43899aa3f5938f7",
+        "actual_sha256": "babd06698dd0e14e2d67994bc834588ed4d232a27ba5b504a43899aa3f5938f7",
+        "pass_": true
+      },
+      {
+        "original_path": "/mnt/data/APEX_v09_cross_ai/historical_v09_results.json",
+        "matched": [
+          "baseline_v09/results/historical_v09_results.json"
+        ],
+        "expected_sha256": "4324e22d17c3b715ad42c3e2308fbbd2d62c88702940740bff27158d3ff56962",
+        "actual_sha256": "4324e22d17c3b715ad42c3e2308fbbd2d62c88702940740bff27158d3ff56962",
+        "pass_": true
+      }
+    ]
+  },
+  "frozen_spec": {
+    "quoted_in_README_HANDOFF": [
+      "e3415de69d1ba2e56f6afeb71fd61be2feb7253b061b5cc1b61a60ffbf4b4707"
+    ],
+    "actual_sha256": "e3415de69d1ba2e56f6afeb71fd61be2feb7253b061b5cc1b61a60ffbf4b4707",
+    "pass_": true
+  },
+  "database": {
+    "file": "baseline_v09/data/market_2026-10-03.sqlite",
+    "expected_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+    "expected_bytes": 20119552,
+    "actual_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+    "actual_bytes": 20119552,
+    "integrity_check": "ok",
+    "tables": {
+      "candles": {
+        "expected": 220062,
+        "actual": 220062
+      },
+      "readings": {
+        "expected": 52583,
+        "actual": 52583
+      },
+      "imports": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    "series_mismatches": {
+      "candles": [],
+      "readings": []
+    },
+    "observations": {
+      "candle_calendar_gaps": [
+        {
+          "pair": "AAVE-USD",
+          "interval_min": 1440,
+          "rows": 2118,
+          "expected_steps": 2118,
+          "missing_steps": 0
+        },
+        {
+          "pair": "ADA-USD",
+          "interval_min": 1440,
+          "rows": 2025,
+          "expected_steps": 2025,
+          "missing_steps": 0
+        },
+        {
+          "pair": "ALGO-USD",
+          "interval_min": 1440,
+          "rows": 2606,
+          "expected_steps": 2606,
+          "missing_steps": 0
+        },
+        {
+          "pair": "ATOM-USD",
+          "interval_min": 1440,
+          "rows": 2454,
+          "expected_steps": 2454,
+          "missing_steps": 0
+        },
+        {
+          "pair": "AVAX-USD",
+          "interval_min": 1440,
+          "rows": 1829,
+          "expected_steps": 1829,
+          "missing_steps": 0
+        },
+        {
+          "pair": "BCH-USD",
+          "interval_min": 1440,
+          "rows": 3205,
+          "expected_steps": 3209,
+          "missing_steps": 4
+        },
+        {
+          "pair": "BTC-USD",
+          "interval_min": 60,
+          "rows": 85437,
+          "expected_steps": 85490,
+          "missing_steps": 53
+        },
+        {
+          "pair": "BTC-USD",
+          "interval_min": 1440,
+          "rows": 4093,
+          "expected_steps": 4093,
+          "missing_steps": 0
+        },
+        {
+          "pair": "DOGE-USD",
+          "interval_min": 1440,
+          "rows": 1948,
+          "expected_steps": 1948,
+          "missing_steps": 0
+        },
+        {
+          "pair": "DOT-USD",
+          "interval_min": 1440,
+          "rows": 1935,
+          "expected_steps": 1935,
+          "missing_steps": 0
+        },
+        {
+          "pair": "ETC-USD",
+          "interval_min": 1440,
+          "rows": 2978,
+          "expected_steps": 2978,
+          "missing_steps": 0
+        },
+        {
+          "pair": "ETH-USD",
+          "interval_min": 60,
+          "rows": 85452,
+          "expected_steps": 85490,
+          "missing_steps": 38
+        },
+        {
+          "pair": "ETH-USD",
+          "interval_min": 1440,
+          "rows": 3788,
+          "expected_steps": 3790,
+          "missing_steps": 2
+        },
+        {
+          "pair": "FIL-USD",
+          "interval_min": 1440,
+          "rows": 2124,
+          "expected_steps": 2124,
+          "missing_steps": 0
+        },
+        {
+          "pair": "HBAR-USD",
+          "interval_min": 1440,
+          "rows": 1451,
+          "expected_steps": 1451,
+          "missing_steps": 0
+        },
+        {
+          "pair": "LINK-USD",
+          "interval_min": 1440,
+          "rows": 2655,
+          "expected_steps": 2655,
+          "missing_steps": 0
+        },
+        {
+          "pair": "LTC-USD",
+          "interval_min": 1440,
+          "rows": 3698,
+          "expected_steps": 3699,
+          "missing_steps": 1
+        },
+        {
+          "pair": "NEAR-USD",
+          "interval_min": 1440,
+          "rows": 1493,
+          "expected_steps": 1493,
+          "missing_steps": 0
+        },
+        {
+          "pair": "SOL-USD",
+          "interval_min": 1440,
+          "rows": 1934,
+          "expected_steps": 1934,
+          "missing_steps": 0
+        },
+        {
+          "pair": "UNI-USD",
+          "interval_min": 1440,
+          "rows": 2207,
+          "expected_steps": 2207,
+          "missing_steps": 0
+        },
+        {
+          "pair": "XLM-USD",
+          "interval_min": 1440,
+          "rows": 2760,
+          "expected_steps": 2760,
+          "missing_steps": 0
+        },
+        {
+          "pair": "XRP-USD",
+          "interval_min": 1440,
+          "rows": 1872,
+          "expected_steps": 2776,
+          "missing_steps": 904
+        }
+      ],
+      "reading_calendar_gaps": [
+        {
+          "source": "attention",
+          "metric": "fear_greed",
+          "rows": 3163,
+          "span_days": 3167,
+          "missing_days": 4
+        },
+        {
+          "source": "attention",
+          "metric": "gdelt:bitcoin",
+          "rows": 3530,
+          "span_days": 3562,
+          "missing_days": 32
+        },
+        {
+          "source": "attention",
+          "metric": "gdelt:cryptocurrency",
+          "rows": 3530,
+          "span_days": 3562,
+          "missing_days": 32
+        },
+        {
+          "source": "attention",
+          "metric": "gdelt_tone:bitcoin",
+          "rows": 3530,
+          "span_days": 3562,
+          "missing_days": 32
+        },
+        {
+          "source": "attention",
+          "metric": "wiki:Bitcoin",
+          "rows": 4112,
+          "span_days": 4112,
+          "missing_days": 0
+        },
+        {
+          "source": "attention",
+          "metric": "wiki:Cryptocurrency",
+          "rows": 4112,
+          "span_days": 4112,
+          "missing_days": 0
+        },
+        {
+          "source": "attention",
+          "metric": "wiki:Ethereum",
+          "rows": 4112,
+          "span_days": 4112,
+          "missing_days": 0
+        },
+        {
+          "source": "funding",
+          "metric": "funding:BTC-USD",
+          "rows": 368,
+          "span_days": 368,
+          "missing_days": 0
+        },
+        {
+          "source": "funding",
+          "metric": "funding:ETH-USD",
+          "rows": 368,
+          "span_days": 368,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:AdrActCnt",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:CapMVRVCur",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:FlowInExNtv",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:FlowOutExNtv",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:SplyCur",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        },
+        {
+          "source": "onchain",
+          "metric": "cm:SplyExNtv",
+          "rows": 4293,
+          "span_days": 4293,
+          "missing_days": 0
+        }
+      ],
+      "readings_timestamp_unit": "day number (days since 1970-01-01 UTC); no publication time"
+    },
+    "pass_": true
+  },
+  "unlisted_files": [
+    "STAGE0_REPORT.md",
+    "requirements-v10.txt"
+  ],
+  "all_pass": true
+}

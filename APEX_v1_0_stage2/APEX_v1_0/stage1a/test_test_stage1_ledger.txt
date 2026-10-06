@@ -1,0 +1,23 @@
+# APEX v1.0 test run - 2026-10-04T03:03:00Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage1_ledger.py', ResourceWarnings counted as failures)
+
+test_apex_v05_history_imported (test_stage1_ledger.Ledger.test_apex_v05_history_imported) ... ok
+test_controls_failures_and_sensitivities_retained (test_stage1_ledger.Ledger.test_controls_failures_and_sensitivities_retained) ... ok
+test_counts_match_the_frozen_artifacts (test_stage1_ledger.Ledger.test_counts_match_the_frozen_artifacts) ... ok
+test_identical_paths_stay_distinct_trials (test_stage1_ledger.Ledger.test_identical_paths_stay_distinct_trials) ... ok
+test_ids_and_identities_are_unique (test_stage1_ledger.Ledger.test_ids_and_identities_are_unique) ... ok
+test_lines_round_trip_exactly (test_stage1_ledger.Ledger.test_lines_round_trip_exactly) ... ok
+test_no_orphan_return_files (test_stage1_ledger.Ledger.test_no_orphan_return_files) ... ok
+test_reconstruction_reconciles (test_stage1_ledger.Ledger.test_reconstruction_reconciles) ... ok
+test_sensitivities_point_to_real_parents (test_stage1_ledger.Ledger.test_sensitivities_point_to_real_parents) ... ok
+test_stored_series_match_their_hashes_and_equivalence_ids (test_stage1_ledger.Ledger.test_stored_series_match_their_hashes_and_equivalence_ids) ... ok
+test_summary_matches_the_file (test_stage1_ledger.Ledger.test_summary_matches_the_file) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 19.923s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (11 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

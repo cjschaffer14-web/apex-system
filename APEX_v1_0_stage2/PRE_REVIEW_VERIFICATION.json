@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-04",
+  "source_zip": "APEX_v1_0_stage1a_complete.zip",
+  "source_zip_sha256": "7ea36a02bb0c5f9130edb3c4bbc9e07d296c5381f8018cd32b90ee528bb99d52",
+  "environment": {
+    "os": "macOS-26.6.2-arm64",
+    "python": "3.14.7",
+    "sqlite": "3.51.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "manifests": {
+    "stage1a": {
+      "files": 1639,
+      "mismatches": 0,
+      "core_artifact_mismatches": 0
+    },
+    "package": {
+      "files": 45,
+      "mismatches": 0
+    },
+    "stage1": {
+      "files": 642,
+      "mismatches": [
+        "tests_v10/test_stage1_pit_coverage.py",
+        "tests_v10/test_stage1_sources.py"
+      ]
+    }
+  },
+  "hashes_match_report": true,
+  "db_integrity": "ok",
+  "fk_violations": 0,
+  "counts": {
+    "ledger_records": 1483,
+    "dsr_rows": 277,
+    "forensic": {
+      "series": 59,
+      "statistic_only": 86,
+      "mismatch": 3
+    },
+    "gate": {
+      "PASS": 65,
+      "PARTIAL": 92,
+      "FAIL": 155
+    }
+  },
+  "stray_files": 0,
+  "secret_scan_hits": 0,
+  "tests": {
+    "mode": "single process",
+    "ran": 75,
+    "passed": 74,
+    "failed": 1,
+    "resource_warnings": 0,
+    "failure": {
+      "test": "test_stage0_baseline.FrozenValidation.test_v09_validation_reruns_identically_and_leaves_baseline_untouched",
+      "check": "matrix_kelly_near_singular_covariance_is_finite_and_gross_capped",
+      "field": "max_gross",
+      "frozen": 3.0000000000000004,
+      "rerun": 3.0,
+      "all_11_checks_pass": true,
+      "classification": "cross-platform floating-point, 1 ulp"
+    }
+  }
+}

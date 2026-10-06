@@ -1,0 +1,21 @@
+{
+  "source": "owner, 3 Oct 2026: BTC reacts at round numbers and their golden-ratio multiples (10k->16.18k, 20k->32.4k, 40k->64.7k, 100k->161.8k) and at powers of 1.618, 1.1618 and other constants; holding BTC won because of a shared agreement on bitcoin as the base, visible near whale activity; can a simple rule make a positive return; experiment with media data",
+  "note": "Registered before testing and counted as trials. Results are recorded as HypothesisTested events. The research behind these is in research/owner_ideas_2026-10-03/.",
+  "hypotheses": [
+    {"name": "round numbers 1-2-5 (10k, 20k, 50k, 100k), BTC", "spec": {"type": "level", "family": "round", "mantissas": [1, 2, 5], "product": "BTC-USD"}},
+    {"name": "multiples of 10k, BTC", "spec": {"type": "level", "family": "arithmetic", "step": 10000, "product": "BTC-USD"}},
+    {"name": "round numbers x golden ratio (16.18k, 32.4k, 64.7k, 161.8k), BTC", "spec": {"type": "level", "family": "round", "mantissas": [1, 2, 4, 5], "times": 1.618033988749895, "product": "BTC-USD"}},
+    {"name": "powers of the golden ratio 1.618, BTC", "spec": {"type": "level", "family": "geometric", "ratio": 1.618033988749895, "product": "BTC-USD"}},
+    {"name": "powers of 1.1618 (as written), BTC", "spec": {"type": "level", "family": "geometric", "ratio": 1.1618, "product": "BTC-USD"}},
+    {"name": "powers of e, BTC", "spec": {"type": "level", "family": "geometric", "ratio": 2.718281828459045, "product": "BTC-USD"}},
+    {"name": "powers of pi, BTC", "spec": {"type": "level", "family": "geometric", "ratio": 3.141592653589793, "product": "BTC-USD"}},
+    {"name": "simple rule: BTC above its 200-day average, vol-sized (the core book), spot costs", "spec": {"type": "rule", "product": "BTC-USD", "rule": "sma", "days": 200, "vol_target": 0.5, "band": 0.05, "cost_bps": 85.0}},
+    {"name": "simple rule: BTC above its 200-day average, spot costs", "spec": {"type": "rule", "product": "BTC-USD", "rule": "sma", "days": 200, "cost_bps": 85.0}},
+    {"name": "whales: net flow into exchanges -> next-week BTC return", "spec": {"type": "feature", "feature": "exchange_netflow_7d", "target": "return7", "product": "BTC-USD"}},
+    {"name": "whales: change in exchange balances -> next-week BTC return", "spec": {"type": "feature", "feature": "exchange_balance_change_28d", "target": "return7", "product": "BTC-USD"}},
+    {"name": "media: extreme fear -> next-week BTC return", "spec": {"type": "feature", "feature": "extreme_fear", "target": "return7", "product": "BTC-USD"}},
+    {"name": "media: news tone -> next-week BTC return", "spec": {"type": "feature", "feature": "news_tone", "target": "return7", "product": "BTC-USD"}},
+    {"name": "media: Wikipedia attention surprise -> next-week BTC volatility", "spec": {"type": "feature", "feature": "wiki_surprise", "target": "vol7", "product": "BTC-USD"}},
+    {"name": "whales: net flow into exchanges -> next-week BTC volatility", "spec": {"type": "feature", "feature": "exchange_netflow_7d", "target": "vol7", "product": "BTC-USD"}}
+  ]
+}

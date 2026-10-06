@@ -1,0 +1,28 @@
+# APEX v1.0 test run - 2026-10-04T21:01:02Z
+# python 3.12.14 | sqlite 3.53.1 | Linux-6.18.44-x86_64-with-glibc2.39 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage2_layer7_ChatGPT.py', ResourceWarnings counted as failures)
+
+test_stage2_layer7_ChatGPT (unittest.loader._FailedTest.test_stage2_layer7_ChatGPT) ... ERROR
+
+======================================================================
+ERROR: test_stage2_layer7_ChatGPT (unittest.loader._FailedTest.test_stage2_layer7_ChatGPT)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_stage2_layer7_ChatGPT
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/4d508204c720/APEX_v1_0/tests_v10/test_stage2_layer7_ChatGPT.py", line 5, in <module>
+    from apex_v10.interfaces import RiskAllocation, ExecutionKind
+ModuleNotFoundError: No module named 'apex_v10'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+ResourceWarnings: 0
+RESULT: FAIL (1 tests, 0 failures, 1 errors, 0 skipped, 0 ResourceWarnings)

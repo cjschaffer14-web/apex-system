@@ -1,0 +1,91 @@
+{
+  "ledger": "ledger/trial_ledger.jsonl",
+  "ledger_sha256": "70661932c844e427c69ca7afb46fdc0a135920987129e77cea1f0ef02b529d3e",
+  "records": 1483,
+  "duplicate_artifact_rows_collapsed": 0,
+  "n_conservative_all_viewed_real_data_trials": 1483,
+  "by_kind": {
+    "candidate": 99,
+    "control": 131,
+    "hypothesis_test": 902,
+    "sensitivity": 351
+  },
+  "by_source_version": {
+    "adhoc-2026-10-02": 30,
+    "owner_ideas_2026-10-03": 82,
+    "v0.5": 21,
+    "v0.5.1": 15,
+    "v0.6": 128,
+    "v0.7-nn": 8,
+    "v0.8": 22,
+    "v0.9": 1177
+  },
+  "by_returns_status": {
+    "unavailable": 148,
+    "stored": 839,
+    "reconstructable": 496
+  },
+  "by_status": {
+    "evaluated": 1482,
+    "failed": 1
+  },
+  "strategy_like_trials (candidate+control+sensitivity)": 581,
+  "return_equivalence": {
+    "series_with_id": 839,
+    "classes": 820,
+    "classes_shared_by_several_trials": 14,
+    "examples": [
+      [
+        "v0.6|BTC-USD|T11_elliott_soft_wave4|25bps",
+        "v0.6|BTC-USD|T12_named_fibonacci|25bps",
+        "v0.6|BTC-USD|T12_placebo_00|25bps",
+        "v0.6|BTC-USD|T12_placebo_19|25bps",
+        "v0.6|BTC-USD|T12_placebo_44|25bps"
+      ],
+      [
+        "v0.6|BTC-USD|T12_placebo_01|25bps",
+        "v0.6|BTC-USD|T12_placebo_10|25bps",
+        "v0.6|BTC-USD|T12_placebo_30|25bps"
+      ],
+      [
+        "v0.6|BTC-USD|T12_placebo_37|25bps",
+        "v0.6|BTC-USD|T12_placebo_49|25bps"
+      ],
+      [
+        "v0.6|BTC-USD|hold|25bps",
+        "v0.9|BTC-USD|hold_long|25bps"
+      ],
+      [
+        "v0.6|BTC-USD|sma200|25bps",
+        "v0.9|BTC-USD|sma200_long|25bps"
+      ],
+      [
+        "v0.6|ETH-USD|T11_elliott_soft_wave4|25bps",
+        "v0.6|ETH-USD|T12_named_fibonacci|25bps"
+      ],
+      [
+        "v0.6|ETH-USD|T12_placebo_01|25bps",
+        "v0.6|ETH-USD|T12_placebo_30|25bps",
+        "v0.6|ETH-USD|T12_placebo_44|25bps"
+      ],
+      [
+        "v0.6|ETH-USD|T12_placebo_02|25bps",
+        "v0.6|ETH-USD|T12_placebo_40|25bps"
+      ]
+    ]
+  },
+  "dependence_diagnostic": {
+    "daily_series": 227,
+    "non_constant": 225,
+    "common_days": 3787,
+    "from_ts": 1463616000,
+    "to_ts": 1790899200,
+    "participation_ratio": 8.96,
+    "method": "eigenvalues of the correlation matrix of stored daily trial returns on their common dates"
+  },
+  "reconstruction": {
+    "checks": 1339,
+    "passed": 1339
+  },
+  "counting_rule": "DSR uses the conservative count of all viewed real-data trials; the participation ratio and equivalence classes are reported alongside, never instead (Stage 0 review)."
+}

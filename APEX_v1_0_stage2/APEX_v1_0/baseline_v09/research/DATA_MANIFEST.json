@@ -1,0 +1,279 @@
+{
+  "file": "market_2026-10-03.sqlite",
+  "sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+  "size_bytes": 20119552,
+  "tables": {
+    "candles": {
+      "rows": 220062
+    },
+    "readings": {
+      "rows": 52583
+    },
+    "imports": {
+      "rows": 0
+    }
+  },
+  "candles": [
+    {
+      "pair": "AAVE-USD",
+      "interval": 1440,
+      "rows": 2118,
+      "min_ts": 1607990400,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "ADA-USD",
+      "interval": 1440,
+      "rows": 2025,
+      "min_ts": 1616025600,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "ALGO-USD",
+      "interval": 1440,
+      "rows": 2606,
+      "min_ts": 1565827200,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "ATOM-USD",
+      "interval": 1440,
+      "rows": 2454,
+      "min_ts": 1578960000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "AVAX-USD",
+      "interval": 1440,
+      "rows": 1829,
+      "min_ts": 1632960000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "BCH-USD",
+      "interval": 1440,
+      "rows": 3205,
+      "min_ts": 1513728000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "BTC-USD",
+      "interval": 60,
+      "rows": 85437,
+      "min_ts": 1483228800,
+      "max_ts": 1790989200
+    },
+    {
+      "pair": "BTC-USD",
+      "interval": 1440,
+      "rows": 4093,
+      "min_ts": 1437350400,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "DOGE-USD",
+      "interval": 1440,
+      "rows": 1948,
+      "min_ts": 1622678400,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "DOT-USD",
+      "interval": 1440,
+      "rows": 1935,
+      "min_ts": 1623801600,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "ETC-USD",
+      "interval": 1440,
+      "rows": 2978,
+      "min_ts": 1533686400,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "ETH-USD",
+      "interval": 60,
+      "rows": 85452,
+      "min_ts": 1483228800,
+      "max_ts": 1790989200
+    },
+    {
+      "pair": "ETH-USD",
+      "interval": 1440,
+      "rows": 3788,
+      "min_ts": 1463529600,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "FIL-USD",
+      "interval": 1440,
+      "rows": 2124,
+      "min_ts": 1607472000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "HBAR-USD",
+      "interval": 1440,
+      "rows": 1451,
+      "min_ts": 1665619200,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "LINK-USD",
+      "interval": 1440,
+      "rows": 2655,
+      "min_ts": 1561593600,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "LTC-USD",
+      "interval": 1440,
+      "rows": 3698,
+      "min_ts": 1471392000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "NEAR-USD",
+      "interval": 1440,
+      "rows": 1493,
+      "min_ts": 1661990400,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "SOL-USD",
+      "interval": 1440,
+      "rows": 1934,
+      "min_ts": 1623888000,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "UNI-USD",
+      "interval": 1440,
+      "rows": 2207,
+      "min_ts": 1600300800,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "XLM-USD",
+      "interval": 1440,
+      "rows": 2760,
+      "min_ts": 1552521600,
+      "max_ts": 1790899200
+    },
+    {
+      "pair": "XRP-USD",
+      "interval": 1440,
+      "rows": 1872,
+      "min_ts": 1551139200,
+      "max_ts": 1790899200
+    }
+  ],
+  "readings": [
+    {
+      "source": "attention",
+      "metric": "fear_greed",
+      "rows": 3163,
+      "min_day": 17563,
+      "max_day": 20729
+    },
+    {
+      "source": "attention",
+      "metric": "gdelt:bitcoin",
+      "rows": 3530,
+      "min_day": 17167,
+      "max_day": 20728
+    },
+    {
+      "source": "attention",
+      "metric": "gdelt:cryptocurrency",
+      "rows": 3530,
+      "min_day": 17167,
+      "max_day": 20728
+    },
+    {
+      "source": "attention",
+      "metric": "gdelt_tone:bitcoin",
+      "rows": 3530,
+      "min_day": 17167,
+      "max_day": 20728
+    },
+    {
+      "source": "attention",
+      "metric": "wiki:Bitcoin",
+      "rows": 4112,
+      "min_day": 16617,
+      "max_day": 20728
+    },
+    {
+      "source": "attention",
+      "metric": "wiki:Cryptocurrency",
+      "rows": 4112,
+      "min_day": 16617,
+      "max_day": 20728
+    },
+    {
+      "source": "attention",
+      "metric": "wiki:Ethereum",
+      "rows": 4112,
+      "min_day": 16617,
+      "max_day": 20728
+    },
+    {
+      "source": "funding",
+      "metric": "funding:BTC-USD",
+      "rows": 368,
+      "min_day": 20362,
+      "max_day": 20729
+    },
+    {
+      "source": "funding",
+      "metric": "funding:ETH-USD",
+      "rows": 368,
+      "min_day": 20362,
+      "max_day": 20729
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:AdrActCnt",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:CapMVRVCur",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:FlowInExNtv",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:FlowOutExNtv",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:SplyCur",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    },
+    {
+      "source": "onchain",
+      "metric": "cm:SplyExNtv",
+      "rows": 4293,
+      "min_day": 16436,
+      "max_day": 20728
+    }
+  ]
+}

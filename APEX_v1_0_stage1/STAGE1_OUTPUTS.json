@@ -1,0 +1,252 @@
+{
+  "stage": 1,
+  "mode": "raw",
+  "baseline_verified": {
+    "package": true,
+    "baseline": true,
+    "database": true
+  },
+  "migrate": {
+    "source_sha256_before": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+    "source_sha256_after": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+    "source_unchanged": true,
+    "legacy_logical_digest": {
+      "candles": "ac34e53fa3b04e9ac209bc038e9f9989a5d0f8fb2898ae102d03483b0b2f2006",
+      "imports": "3bd0782db4216ba44a827f7d6f056386db4839ea6fd534e64ed72bbbf6b22e59",
+      "readings": "ee6bdbe4a61841dae8585f15dc47e581a036c742f6718dfd7db238ec71592c3d"
+    }
+  },
+  "ingest": {
+    "mode": "raw",
+    "as_of_ts": 1790992800,
+    "adapters": {
+      "bitmex": {
+        "funding_rows": 20192,
+        "macro_rows": 0,
+        "release_rows": 0,
+        "payloads": 41,
+        "notes": []
+      },
+      "deribit": {
+        "funding_rows": 130206,
+        "macro_rows": 0,
+        "release_rows": 0,
+        "payloads": 202,
+        "notes": [
+          "Deribit funding accrues continuously; interest_1h is stored as an hourly sample. The exact accrual formula must be confirmed against Deribit documentation before execution use."
+        ]
+      },
+      "kraken_futures": {
+        "funding_rows": 17590,
+        "macro_rows": 0,
+        "release_rows": 0,
+        "payloads": 2,
+        "notes": []
+      },
+      "coinbase_intx": {
+        "funding_rows": 61884,
+        "macro_rows": 0,
+        "release_rows": 0,
+        "payloads": 62,
+        "notes": []
+      },
+      "fed_h41": {
+        "funding_rows": 0,
+        "macro_rows": 666,
+        "release_rows": 1580,
+        "payloads": 2,
+        "notes": [
+          "H.4.1 values are the DDP's latest vintage; release timing is exact, but a value revised after first release would not show its first-release figure. Wednesday levels are rarely revised.",
+          "release calendar provenance fed_h41:0511d3f5bd470277"
+        ]
+      },
+      "nyfed_rrp": {
+        "funding_rows": 0,
+        "macro_rows": 3186,
+        "release_rows": 0,
+        "payloads": 1,
+        "notes": []
+      },
+      "treasury_tga": {
+        "funding_rows": 0,
+        "macro_rows": 3203,
+        "release_rows": 0,
+        "payloads": 4,
+        "notes": [
+          "TGA seam 2021-09-30->2021-10-01 continuous at 215160 (USD millions)",
+          "TGA seam 2022-04-15->2022-04-18 continuous at 578473 (USD millions)"
+        ]
+      },
+      "treasury_yields": {
+        "funding_rows": 0,
+        "macro_rows": 6380,
+        "release_rows": 0,
+        "payloads": 13,
+        "notes": []
+      },
+      "cboe_vix": {
+        "funding_rows": 0,
+        "macro_rows": 3240,
+        "release_rows": 0,
+        "payloads": 1,
+        "notes": []
+      }
+    },
+    "requests": 328
+  },
+  "database": {
+    "file": "data_v10/market_2026-10-03_v10.sqlite",
+    "file_sha256": "2b5f420cebe5823f1e11653ffdcfaf548364d8c2ee4de923d2183d9721ac7e8e",
+    "bytes": 59748352,
+    "logical_sha256": "b6be7251b11c5a3598d4d718f9b874505c1c4ddf346250637bf653617fb76c51",
+    "table_logical_sha256": {
+      "candles": "ac34e53fa3b04e9ac209bc038e9f9989a5d0f8fb2898ae102d03483b0b2f2006",
+      "data_families": "7370cfe26503fe847d63a979d68eb02babe946b817bbe219e612bb7913839121",
+      "funding_events": "2bc5eefd6e62de6364434d076ed2897d9d28c81eb5dde11fe336eedc2a3ee4dd",
+      "imports": "3bd0782db4216ba44a827f7d6f056386db4839ea6fd534e64ed72bbbf6b22e59",
+      "macro_observations": "9b79d6fb4eee2c12e93bb6b526799f4264f3d004743dd798466b451ecfbdbc7f",
+      "provenance": "685aa972daab93b78077c26bd14eeb4c758dc5b428aab4401d2a660a52e05f82",
+      "reading_availability": "23a9d17fb76fcf8edb81cfc3384ec256f50752b2b4c6e049c0731bce942fb49a",
+      "readings": "ee6bdbe4a61841dae8585f15dc47e581a036c742f6718dfd7db238ec71592c3d",
+      "release_calendar": "390bc248a0865790b2ce0dbb8aa6cb52f496d92df238c1a68b3071911818d284"
+    },
+    "row_counts": {
+      "candles": 220062,
+      "data_families": 51,
+      "funding_events": 229872,
+      "imports": 0,
+      "macro_observations": 16675,
+      "provenance": 328,
+      "reading_availability": 15,
+      "readings": 52583,
+      "release_calendar": 1580,
+      "schema_version": 1
+    },
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "parent_db_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+    "schema_version": "1.0.0-stage1",
+    "as_of_ts": 1790992800,
+    "code_sha256": "63437d6771619fd45ab512ad12d4a75375922d33df8e07f9a31c0144887a1d08",
+    "sqlite_version": "3.45.1",
+    "built_utc": "2026-10-03T23:43:29+00:00",
+    "note": "file_sha256 depends on the SQLite build; logical_sha256 is the cross-machine reproducibility check"
+  },
+  "ledger": {
+    "ledger": "ledger/trial_ledger.jsonl",
+    "ledger_sha256": "70661932c844e427c69ca7afb46fdc0a135920987129e77cea1f0ef02b529d3e",
+    "records": 1483,
+    "duplicate_artifact_rows_collapsed": 0,
+    "n_conservative_all_viewed_real_data_trials": 1483,
+    "by_kind": {
+      "candidate": 99,
+      "control": 131,
+      "hypothesis_test": 902,
+      "sensitivity": 351
+    },
+    "by_source_version": {
+      "adhoc-2026-10-02": 30,
+      "owner_ideas_2026-10-03": 82,
+      "v0.5": 21,
+      "v0.5.1": 15,
+      "v0.6": 128,
+      "v0.7-nn": 8,
+      "v0.8": 22,
+      "v0.9": 1177
+    },
+    "by_returns_status": {
+      "unavailable": 148,
+      "stored": 839,
+      "reconstructable": 496
+    },
+    "by_status": {
+      "evaluated": 1482,
+      "failed": 1
+    },
+    "strategy_like_trials (candidate+control+sensitivity)": 581,
+    "return_equivalence": {
+      "series_with_id": 839,
+      "classes": 820,
+      "classes_shared_by_several_trials": 14,
+      "examples": [
+        [
+          "v0.6|BTC-USD|T11_elliott_soft_wave4|25bps",
+          "v0.6|BTC-USD|T12_named_fibonacci|25bps",
+          "v0.6|BTC-USD|T12_placebo_00|25bps",
+          "v0.6|BTC-USD|T12_placebo_19|25bps",
+          "v0.6|BTC-USD|T12_placebo_44|25bps"
+        ],
+        [
+          "v0.6|BTC-USD|T12_placebo_01|25bps",
+          "v0.6|BTC-USD|T12_placebo_10|25bps",
+          "v0.6|BTC-USD|T12_placebo_30|25bps"
+        ],
+        [
+          "v0.6|BTC-USD|T12_placebo_37|25bps",
+          "v0.6|BTC-USD|T12_placebo_49|25bps"
+        ],
+        [
+          "v0.6|BTC-USD|hold|25bps",
+          "v0.9|BTC-USD|hold_long|25bps"
+        ],
+        [
+          "v0.6|BTC-USD|sma200|25bps",
+          "v0.9|BTC-USD|sma200_long|25bps"
+        ],
+        [
+          "v0.6|ETH-USD|T11_elliott_soft_wave4|25bps",
+          "v0.6|ETH-USD|T12_named_fibonacci|25bps"
+        ],
+        [
+          "v0.6|ETH-USD|T12_placebo_01|25bps",
+          "v0.6|ETH-USD|T12_placebo_30|25bps",
+          "v0.6|ETH-USD|T12_placebo_44|25bps"
+        ],
+        [
+          "v0.6|ETH-USD|T12_placebo_02|25bps",
+          "v0.6|ETH-USD|T12_placebo_40|25bps"
+        ]
+      ]
+    },
+    "dependence_diagnostic": {
+      "daily_series": 227,
+      "non_constant": 225,
+      "common_days": 3787,
+      "from_ts": 1463616000,
+      "to_ts": 1790899200,
+      "participation_ratio": 8.96,
+      "method": "eigenvalues of the correlation matrix of stored daily trial returns on their common dates"
+    },
+    "reconstruction": {
+      "checks": 1339,
+      "passed": 1339
+    },
+    "counting_rule": "DSR uses the conservative count of all viewed real-data trials; the participation ratio and equivalence classes are reported alongside, never instead (Stage 0 review)."
+  },
+  "reports": {
+    "families": 51,
+    "gate_status_counts": {
+      "PARTIAL": 170,
+      "FAIL": 65,
+      "PASS": 71
+    },
+    "frozen_db_unchanged": true,
+    "legacy_tables_identical": {
+      "candles": true,
+      "readings": true,
+      "imports": true
+    },
+    "duplicate_keys": {
+      "funding_events": 0,
+      "macro_observations": 0,
+      "candles": 0,
+      "readings": 0
+    },
+    "future_rows_after_as_of": {
+      "funding_events": 0,
+      "macro_observations": 0
+    }
+  },
+  "baseline_unchanged": true,
+  "seconds": 75.4
+}

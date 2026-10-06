@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "APEX Trading EvidenceBundle",
+  "type": "object",
+  "required": ["schema_version","bundle_id","source_ai","role","created_at","experiment_refs","observations","interpretations","falsifiers","provenance"],
+  "properties": {
+    "schema_version": {"const": "0.9"},
+    "bundle_id": {"type":"string"},
+    "source_ai": {"type":"string"},
+    "role": {"enum":["proposer","falsifier","leakage_auditor","execution_auditor","statistical_reviewer","structure_reviewer","macro_reviewer","synthesizer"]},
+    "created_at": {"type":"string"},
+    "experiment_refs": {"type":"array","items":{"type":"string"}},
+    "observations": {"type":"array","items":{"type":"object","required":["claim","evidence_refs"],"properties":{"claim":{"type":"string"},"evidence_refs":{"type":"array","items":{"type":"string"}},"confidence":{"type":"number","minimum":0,"maximum":1}}}},
+    "interpretations": {"type":"array","items":{"type":"object","required":["hypothesis","alternatives"],"properties":{"hypothesis":{"type":"string"},"alternatives":{"type":"array","items":{"type":"string"}},"confidence":{"type":"number","minimum":0,"maximum":1}}}},
+    "falsifiers": {"type":"array","items":{"type":"string"}},
+    "proposed_experiments": {"type":"array","items":{"type":"string"}},
+    "provenance": {"type":"object","required":["spec_sha256","data_sha256"],"properties":{"spec_sha256":{"type":"string"},"data_sha256":{"type":"string"},"code_sha256":{"type":"string"}}},
+    "authority_request": {"const": false}
+  }
+}

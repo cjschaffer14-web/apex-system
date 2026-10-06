@@ -1,0 +1,27 @@
+{
+  "comparable_sets": 33,
+  "dsr_input_rows": 277,
+  "forensic_paths_recovered": 59,
+  "forensic_statistic_only": 86,
+  "forensic_unavailable": 3,
+  "global_conservative_n": 1483,
+  "ledger": "ledger/trial_ledger_1a.jsonl",
+  "ledger_sha256": "7740820d1f2fbd57503522fb75069334b51204ef8a7c20f71ecab71d650903ba",
+  "parent_stage1_ledger_sha256": "70661932c844e427c69ca7afb46fdc0a135920987129e77cea1f0ef02b529d3e",
+  "records": 1483,
+  "reproduction_status": {
+    "mismatch": 3,
+    "reproduced_series": 59,
+    "reproduced_statistic_only": 86,
+    "stage1_reconciled": 1335
+  },
+  "return_equivalence_classes": 878,
+  "returns_status": {
+    "reconstructable": 496,
+    "stored": 898,
+    "unavailable": 89
+  },
+  "rule": "No DSR or PBO verdict is computed in Stage 1A. Global N=1,483 is retained; family N and aligned CSCV matrices are prepared separately.",
+  "selection_families": 84,
+  "stage": "1A"
+}

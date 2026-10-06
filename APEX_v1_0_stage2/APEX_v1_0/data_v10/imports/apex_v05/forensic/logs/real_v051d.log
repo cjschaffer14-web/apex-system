@@ -1,0 +1,20 @@
+APEX 0.5.1 awake | authorityd pid 3419 (this process 3416) | walls all pass | hatch HATCHED
+leases: network.web (open), market.paper_order (open)
+[heartbeat 1] WARM worked_on=None
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+
+EVIDENCE (continuous; nothing passes or fails here)
+  trials counted 21 | probability of backtest overfitting (family) 0.4
+  signal:mom14                       Sharpe   0.96  deflated Sharpe 0.78  evidence 0.47
+  signal:trend50                     Sharpe   0.62  deflated Sharpe 0.41  evidence 0.25
+  signal:mom3                        Sharpe   0.62  deflated Sharpe 0.40  evidence 0.24
+  signal:lowbeta60                   Sharpe   0.59  deflated Sharpe 0.37  evidence 0.22
+  signal:mom28                       Sharpe   0.50  deflated Sharpe 0.29  evidence 0.17
+  model:combined:perps_long_short    Sharpe   0.26  deflated Sharpe 0.11  evidence 0.06
+  model:combined:spot_long_only      Sharpe   0.19  deflated Sharpe 0.08  evidence 0.05
+  benchmarks: {'btc_hold_sharpe': 1.127, 'equal_weight_hold_sharpe': 0.724}
+  attention -> volatility: {'attention_series': ['wiki:Bitcoin'], 'dm_t': 0.85, 'improvement_pct': 0.82, 'loss_har': 0.2521, 'loss_har_attention': 0.25, 'weeks_tested': 475}
+  paper perps_long_short: 1 days, return -0.05%, Sharpe 0.0, t 0.0
+  paper spot_long_only: 1 days, return -0.68%, Sharpe 0.0, t 0.0
+
+LADDER: R0 Public data: done | R1 Evidence (continuous): combined-model evidence 0.06 of 1.00 | R2 Paper trading (continuous): 1 days of paper record | R3 Shadow: owner: venue, attorney review, limits, keys | R4 Live, single deployment: owner ratification with verified presence

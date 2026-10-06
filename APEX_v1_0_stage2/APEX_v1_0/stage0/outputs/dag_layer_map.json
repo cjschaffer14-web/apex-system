@@ -1,0 +1,148 @@
+{
+  "note": "Stage 0 map of the frozen v0.9 code to the eight DAG layers. 'entangled' marks functions that mix layers and must be split behind interfaces in Stage 2 (the frozen originals stay untouched).",
+  "layers": {
+    "L1_data_chronology": {
+      "baseline": [
+        "v06.load_sqlite",
+        "v08.load_csv",
+        "v06.synthetic",
+        "v08.paired_synthetic",
+        "data/market_2026-10-03.sqlite",
+        "research/DATA_MANIFEST.json"
+      ],
+      "gaps": [
+        "readings carry day numbers only (no published_ts)",
+        "no macro series",
+        "funding: 368 daily rows (Kraken Futures PF_*, daily sums of hourly rates, written by APEX v0.5) - not settlement events",
+        "no venue fee/margin schedules"
+      ]
+    },
+    "L2_structural_operators": {
+      "baseline": [
+        "v06.sma",
+        "v06.smma",
+        "v06.tr",
+        "v06.atr",
+        "v06.rolling_std_returns",
+        "v06.choppiness",
+        "v06.Pivot",
+        "v06.causal_zigzag",
+        "v06.pivot_state_series",
+        "v06.fib_proximity",
+        "v06.elliott_wave4_score",
+        "v07.rolling_std",
+        "v07.causal_pivot_features",
+        "v07.feature_matrix",
+        "v08.rolling_mean",
+        "v08.rolling_std",
+        "v08.wave_features_multi",
+        "v08.analysis_feature_matrix",
+        "v09.roll_max",
+        "v09.momentum",
+        "v09.alternating_candidate",
+        "v09.current_geometry_levels"
+      ],
+      "notes": [
+        "causal_zigzag records known_i (confirmation index); prefix-invariance verified by validate_v09"
+      ]
+    },
+    "L3_environmental_state": {
+      "baseline": [
+        "v09.classify_states (frozen priority rules, hard labels)",
+        "v08.strict_bull_regime"
+      ],
+      "notes": [
+        "outputs labels, not probabilities -> wrap as one-hot MarketStateDistribution baseline"
+      ]
+    },
+    "L4_strategy_experts": {
+      "baseline": [
+        "v06.signal_elliott",
+        "v06.signal_williams",
+        "v06.signal_chop_trend",
+        "v06.signal_sma200",
+        "v06.pyramid_exposure",
+        "v07.pyramid_exposure_tightening",
+        "v07.walkforward_mlp_exposure",
+        "v08.t20_intrabar_pyramid (entangled: expert + execution + costs)",
+        "v08.walkforward_analysis_net",
+        "v08.make_analysis_targets",
+        "v08.complementary_mean_reversion",
+        "v09.mean_reversion_signal",
+        "v09.expert_streams"
+      ],
+      "notes": [
+        "experts emit exposures in [-1,7], not forecasts; no common horizon/units"
+      ]
+    },
+    "L5_mixture_router": {
+      "baseline": [
+        "v08.strategy_state_portfolio (entangled with execution)",
+        "v09.mixture_returns (entangled: routing + execution + costs)"
+      ]
+    },
+    "L6_risk_allocation": {
+      "baseline": [
+        "v06.kelly_exposure",
+        "v06.vol_target_exposure",
+        "v08.kelly_fixed_fractional",
+        "v08.kelly_continuous",
+        "v08.matrix_kelly (fixed ridge 0.20 + pinv; no condition check)",
+        "v09.matrix_kelly_pair"
+      ],
+      "notes": [
+        "matrix_kelly sizes from trailing mean returns (shrunk 0.35), not from expert forecasts"
+      ]
+    },
+    "L7_venue_execution": {
+      "baseline": [
+        "v06.run_vector (flat bps on turnover, close-to-close)",
+        "v07.leveraged_stats",
+        "v08.t20_intrabar_pyramid internal OHLC simulation (gap-through stops, conservative same-bar rule)"
+      ],
+      "notes": [
+        "no funding, no fee tiers, no maker/taker, no liquidation; v06.stats floors equity at 1e-9 so a leveraged wipe-out is truncated rather than liquidated"
+      ]
+    },
+    "L8_evidence": {
+      "baseline": [
+        "v06.stats",
+        "v06.period_stats",
+        "v06.one",
+        "v06.batch",
+        "v06.md_report",
+        "v07.run_sweep",
+        "v07.report",
+        "v08.stats_from_returns",
+        "v08.run_validation",
+        "v08.run_real_single",
+        "v09.conditional_stats",
+        "v09.empirical_projection",
+        "v09.geometry_events",
+        "v09.geometry_summary",
+        "v09.run_asset",
+        "v09.main",
+        "code/validate_v09.py",
+        "schemas/*.json",
+        "research/FINANCIAL_TRUTH_PROTOCOL.md"
+      ],
+      "notes": [
+        "result files store summary statistics only (no per-period returns)",
+        "no DSR/PBO computed",
+        "no trial ledger; v06 meta.trial_count_this_batch=64 = 14 runs + 50 placebos per asset"
+      ]
+    }
+  },
+  "reproducibility": {
+    "results/btc_v06_historical_25bps.json": "byte-identical",
+    "results/eth_v06_historical_25bps.json": "byte-identical",
+    "results/btc_real_v08_25bps.json": "byte-identical",
+    "results/eth_real_v08_25bps.json": "byte-identical",
+    "results/historical_v09_results.json": "identical structure, max |numeric difference| 7.1e-15",
+    "results/validation_v09.json": "all 11 tests identical",
+    "results/neural_ablation_real_25bps.{json,csv}": "generator script not in package",
+    "results/frozen_ladder_v08_25bps.csv": "derived table (v0.8 runs); derivation script not in package",
+    "results/mixture_cost_sensitivity.csv, matrix_kelly_btc_eth_25bps.csv": "derived from v0.9 results; derivation script not in package",
+    "results/state_forward_distributions.csv, geometry_named_vs_neighbors.csv": "derived; derivation script not in package"
+  }
+}

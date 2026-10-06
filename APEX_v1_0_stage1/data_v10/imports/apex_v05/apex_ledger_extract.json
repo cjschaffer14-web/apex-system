@@ -1,0 +1,1871 @@
+{
+ "source": "APEX v0.5/v0.5.1 hash-chained ledger (real-data run on the build machine, 2-3 Oct 2026)",
+ "n": 74,
+ "events": [
+  {
+   "event_id": "evt_66461fbf56fc419a",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9885833,
+   "payload": {
+    "id": "08848f078433",
+    "name": "6th hour (UTC) return, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "98a67355b8d70039eae5bb42436cf99c94e09c1a02a98303aafc2f3affc91d2e"
+  },
+  {
+   "event_id": "evt_806cfcd180c844aa",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9888906,
+   "payload": {
+    "id": "af648cd165d5",
+    "name": "6th hour (UTC) volatility, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "measure": "abs_return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "e17b3f5304c7db5cf69e4a290e646c5d26806276982fdd87b0d00c9003a6293a"
+  },
+  {
+   "event_id": "evt_fa413e05aef24ca9",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9891167,
+   "payload": {
+    "id": "b169503dcf25",
+    "name": "6th day of the month return, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "monthday",
+     "value": 6
+    }
+   },
+   "payload_hash": "312e98e319b8a4ddfa4fa1c9d7f6ca437b974f28365c6befe92c3deecb3ca409"
+  },
+  {
+   "event_id": "evt_01d77969abb54230",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9893343,
+   "payload": {
+    "id": "40835dbcb1db",
+    "name": "6th weekday (Saturday) return, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "weekday",
+     "value": 6
+    }
+   },
+   "payload_hash": "12eaabb5712805c6757700abbe4d8880c85384ebf12714c2df33ec7444b7c48c"
+  },
+  {
+   "event_id": "evt_125d41d1855a4b34",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.989614,
+   "payload": {
+    "id": "a18ccf57c1fd",
+    "name": "6-month cycle, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "months": 6,
+     "product": "BTC-USD",
+     "type": "cycle"
+    }
+   },
+   "payload_hash": "ffe59ecb3cf14ed55a39aeba69b57d94215f8c4153fe00847e04187031e384c6"
+  },
+  {
+   "event_id": "evt_144c19f19ee5459d",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9899678,
+   "payload": {
+    "id": "8274037280e4",
+    "name": "6th hour (UTC) return, ETH",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "measure": "return",
+     "product": "ETH-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "48a484a53bb1ef2c7008d7d4cb38359bcf6819d7ac80d55660aa3b12421b30cc"
+  },
+  {
+   "event_id": "evt_bb3f23c57cf8433f",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790995033.9902246,
+   "payload": {
+    "id": "1da2acb7bae0",
+    "name": "6-month cycle, ETH",
+    "rationale": "",
+    "source": "owner_2026-10-02.json",
+    "spec": {
+     "months": 6,
+     "product": "ETH-USD",
+     "type": "cycle"
+    }
+   },
+   "payload_hash": "046bf2733dd6280988255940725061ed57d22ec2733b7f7f8a45901764de3e3f"
+  },
+  {
+   "event_id": "evt_daf00f047bb74ae4",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6940808,
+   "payload": {
+    "dsr": 0.484,
+    "evidence": 0.29,
+    "ic_mean": -0.0077,
+    "ic_t": -0.47,
+    "kind": "signal",
+    "name": "signal:mom3",
+    "psr": 0.976,
+    "sharpe": 0.618,
+    "weeks": 396
+   },
+   "payload_hash": "2e680fb5bf7a35417e96c3d370d8743965c11e5163c6fa91070d7fcd1b6f8b4a"
+  },
+  {
+   "event_id": "evt_c296da013c844918",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6946607,
+   "payload": {
+    "dsr": 0.329,
+    "evidence": 0.198,
+    "ic_mean": -0.0089,
+    "ic_t": -0.54,
+    "kind": "signal",
+    "name": "signal:mom7",
+    "psr": 0.928,
+    "sharpe": 0.485,
+    "weeks": 395
+   },
+   "payload_hash": "901bfd062b9f251ad7c9e5c5157534488d408b277ed87cd3e848f66e761d5289"
+  },
+  {
+   "event_id": "evt_86a15ed507464131",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6949403,
+   "payload": {
+    "dsr": 0.838,
+    "evidence": 0.503,
+    "ic_mean": 0.0101,
+    "ic_t": 0.62,
+    "kind": "signal",
+    "name": "signal:mom14",
+    "psr": 0.998,
+    "sharpe": 0.956,
+    "weeks": 394
+   },
+   "payload_hash": "f9d52f26dfd3197ded0b7c11be9f64c78827183da42679217258a4ebae682121"
+  },
+  {
+   "event_id": "evt_4591e452dad04c9d",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6951928,
+   "payload": {
+    "dsr": 0.357,
+    "evidence": 0.214,
+    "ic_mean": -0.0106,
+    "ic_t": -0.63,
+    "kind": "signal",
+    "name": "signal:mom28",
+    "psr": 0.92,
+    "sharpe": 0.503,
+    "weeks": 392
+   },
+   "payload_hash": "5a628bb6dd072d52a651e70960e371d47f5e149162fee0e0eabab563a4c088db"
+  },
+  {
+   "event_id": "evt_b4a6cec9f3e84daf",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6954162,
+   "payload": {
+    "dsr": 0.271,
+    "evidence": 0.163,
+    "ic_mean": 0.0032,
+    "ic_t": 0.18,
+    "kind": "signal",
+    "name": "signal:mom56",
+    "psr": 0.878,
+    "sharpe": 0.418,
+    "weeks": 388
+   },
+   "payload_hash": "6ea940269cadc663d7497b6ff0aafe1be7f0bcbd7db54e4a66993e9f522933d2"
+  },
+  {
+   "event_id": "evt_84404d98e9184e7a",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6956425,
+   "payload": {
+    "dsr": 0.0,
+    "evidence": 0.0,
+    "ic_mean": -0.005,
+    "ic_t": -0.3,
+    "kind": "signal",
+    "name": "signal:rev1",
+    "psr": 0.005,
+    "sharpe": -0.849,
+    "weeks": 396
+   },
+   "payload_hash": "3e814ab9d541e74a142eb8b9f52ff90c569cd82d81a1d6ca2196229557565884"
+  },
+  {
+   "event_id": "evt_4abb49be64034ebe",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6958654,
+   "payload": {
+    "dsr": 0.002,
+    "evidence": 0.001,
+    "ic_mean": 0.0763,
+    "ic_t": 4.39,
+    "kind": "signal",
+    "name": "signal:lowvol28",
+    "psr": 0.16,
+    "sharpe": -0.345,
+    "weeks": 392
+   },
+   "payload_hash": "15b4986a0c07f94d33d3adccab7ced9f827b3e3d72e5889a978fa1a26c135357"
+  },
+  {
+   "event_id": "evt_ff5fcb567dfe4131",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6961484,
+   "payload": {
+    "dsr": 0.484,
+    "evidence": 0.29,
+    "ic_mean": -0.015,
+    "ic_t": -0.9,
+    "kind": "signal",
+    "name": "signal:trend50",
+    "psr": 0.96,
+    "sharpe": 0.622,
+    "weeks": 389
+   },
+   "payload_hash": "a8a42a48b69ce134e395cd3da792b38871ad2ae8745e35c19883f850441d1bc5"
+  },
+  {
+   "event_id": "evt_6ab4859dbdff420a",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6964064,
+   "payload": {
+    "dsr": 0.004,
+    "evidence": 0.002,
+    "ic_mean": 0.0453,
+    "ic_t": 2.76,
+    "kind": "signal",
+    "name": "signal:maxret7",
+    "psr": 0.208,
+    "sharpe": -0.276,
+    "weeks": 395
+   },
+   "payload_hash": "7f692d79cacd13aa77c12f7012e607dc0c08eb8050995c10c1310d7b9f33b23c"
+  },
+  {
+   "event_id": "evt_1de27a9280a74f2b",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6966655,
+   "payload": {
+    "dsr": 0.155,
+    "evidence": 0.093,
+    "ic_mean": -0.0013,
+    "ic_t": -0.08,
+    "kind": "signal",
+    "name": "signal:volz28",
+    "psr": 0.779,
+    "sharpe": 0.274,
+    "weeks": 392
+   },
+   "payload_hash": "5b93237e685464ea12323ac81c7063db90e17933d42c851fceef378b5f6aae98"
+  },
+  {
+   "event_id": "evt_729c58bdf7d740f4",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6968734,
+   "payload": {
+    "dsr": 0.447,
+    "evidence": 0.268,
+    "ic_mean": 0.0443,
+    "ic_t": 2.52,
+    "kind": "signal",
+    "name": "signal:lowbeta60",
+    "psr": 0.952,
+    "sharpe": 0.591,
+    "weeks": 387
+   },
+   "payload_hash": "85d1fdb89a8c4269d6bc99289bdcf3105b19d4339127ee1a08aa74dceee44abb"
+  },
+  {
+   "event_id": "evt_9248b262f5214f39",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6970804,
+   "payload": {
+    "dsr": 0.004,
+    "evidence": 0.002,
+    "ic_mean": 0.0155,
+    "ic_t": 0.99,
+    "kind": "signal",
+    "name": "signal:edm_simplex",
+    "psr": 0.178,
+    "sharpe": -0.342,
+    "weeks": 362
+   },
+   "payload_hash": "5170a9cba60121b2e6d840a589f7f9a93c0d0beb43ea312b75927cf590b2cc45"
+  },
+  {
+   "event_id": "evt_34bee189c2ca460b",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6973183,
+   "payload": {
+    "dsr": 0.145,
+    "evidence": 0.087,
+    "gross_sharpe": 0.378,
+    "kind": "model",
+    "max_drawdown": 0.203,
+    "name": "model:combined:perps_long_short",
+    "psr": 0.759,
+    "sharpe": 0.255,
+    "turnover_per_year": 27.37,
+    "weeks": 387
+   },
+   "payload_hash": "fd4b0c0d421c5ae4bae47f49dc2143c9b4fb5547c34e6bd7543c316b39addec7"
+  },
+  {
+   "event_id": "evt_c0fc557aa292404d",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995056.6975343,
+   "payload": {
+    "dsr": 0.106,
+    "evidence": 0.064,
+    "gross_sharpe": 0.706,
+    "kind": "model",
+    "max_drawdown": 0.243,
+    "name": "model:combined:spot_long_only",
+    "psr": 0.696,
+    "sharpe": 0.186,
+    "turnover_per_year": 7.9,
+    "weeks": 387
+   },
+   "payload_hash": "af1fd6ac2256562416202e3e26c124f239a71758fd7fb714e628d85dc3096078"
+  },
+  {
+   "event_id": "evt_57803070ebd647a3",
+   "event_type": "EvidenceUpdated",
+   "timestamp": 1790995057.0502043,
+   "payload": {
+    "attention_volatility": {
+     "attention_series": [
+      "wiki:Bitcoin"
+     ],
+     "dm_t": 0.85,
+     "improvement_pct": 0.82,
+     "loss_har": 0.2521,
+     "loss_har_attention": 0.25,
+     "weeks_tested": 475
+    },
+    "benchmarks": {
+     "btc_hold_sharpe": 1.127,
+     "equal_weight_hold_sharpe": 0.724
+    },
+    "books": {
+     "perps_long_short": {
+      "gross_sharpe": 0.378,
+      "max_drawdown": 0.203,
+      "return": 0.206,
+      "sharpe": 0.255,
+      "turnover_per_year": 27.366,
+      "weeks": 387
+     },
+     "spot_long_only": {
+      "gross_sharpe": 0.706,
+      "max_drawdown": 0.243,
+      "return": 0.123,
+      "sharpe": 0.186,
+      "turnover_per_year": 7.896,
+      "weeks": 387
+     }
+    },
+    "latest_day": "2026-10-02",
+    "pbo_family": 0.4,
+    "trials_counted": 14
+   },
+   "payload_hash": "c5d7f34e22c23bd9c3edcc62e9cf2c4c08d11c5215cc6092350004029fa2cf83"
+  },
+  {
+   "event_id": "evt_48643f72b2fe4487",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995067.4964256,
+   "payload": {
+    "id": "08848f078433",
+    "name": "hypothesis:6th hour (UTC) return, BTC",
+    "result": {
+     "after": {
+      "familywise_p": 1.0,
+      "labels": 24,
+      "n": 41650,
+      "t": -0.76
+     },
+     "before": {
+      "familywise_p": 1.0,
+      "labels": 24,
+      "n": 43766,
+      "t": 1.16
+     },
+     "supported": false,
+     "verdict": "not supported (fails a period or the multiple-testing check)"
+    },
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "105cc4484829e08662522b17b5d06105a5385f535d4ccbaa80a1473a192bce9e"
+  },
+  {
+   "event_id": "evt_1b22964092554167",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995077.3784475,
+   "payload": {
+    "id": "af648cd165d5",
+    "name": "hypothesis:6th hour (UTC) volatility, BTC",
+    "result": {
+     "after": {
+      "familywise_p": 0.0,
+      "labels": 24,
+      "n": 41650,
+      "t": -7.22
+     },
+     "before": {
+      "familywise_p": 0.0,
+      "labels": 24,
+      "n": 43766,
+      "t": -5.39
+     },
+     "supported": true,
+     "verdict": "supported in both periods"
+    },
+    "spec": {
+     "measure": "abs_return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "9d0f302a586239bd249ff62b073d95c71012f165c59804b4df9b22f144c30b12"
+  },
+  {
+   "event_id": "evt_fbdc03f72c5b445e",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995077.8112478,
+   "payload": {
+    "id": "b169503dcf25",
+    "name": "hypothesis:6th day of the month return, BTC",
+    "result": {
+     "after": {
+      "familywise_p": 1.0,
+      "labels": 31,
+      "n": 1736,
+      "t": 0.85
+     },
+     "before": {
+      "familywise_p": 0.997,
+      "labels": 31,
+      "n": 2356,
+      "t": 1.47
+     },
+     "supported": false,
+     "verdict": "not supported (fails a period or the multiple-testing check)"
+    },
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "monthday",
+     "value": 6
+    }
+   },
+   "payload_hash": "84b9f69e2e69cb8f40acc9dbba4ad7cf9b15eacfcc139e2a2e7b670359e0d21e"
+  },
+  {
+   "event_id": "evt_df924392151b4ed7",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995078.237909,
+   "payload": {
+    "id": "40835dbcb1db",
+    "name": "hypothesis:6th weekday (Saturday) return, BTC",
+    "result": {
+     "after": {
+      "familywise_p": 1.0,
+      "labels": 7,
+      "n": 1736,
+      "t": -0.46
+     },
+     "before": {
+      "familywise_p": 0.93,
+      "labels": 7,
+      "n": 2356,
+      "t": 0.94
+     },
+     "supported": false,
+     "verdict": "not supported (fails a period or the multiple-testing check)"
+    },
+    "spec": {
+     "measure": "return",
+     "product": "BTC-USD",
+     "type": "calendar",
+     "unit": "weekday",
+     "value": 6
+    }
+   },
+   "payload_hash": "74804af361c3d93b76f4cdf8f295f18e1e80d6caf2cc43efbf1f65358318ecbf"
+  },
+  {
+   "event_id": "evt_a7e959ac6e3e49aa",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995078.2434363,
+   "payload": {
+    "id": "a18ccf57c1fd",
+    "name": "hypothesis:6-month cycle, BTC",
+    "result": {
+     "autocorrelation": 0.05,
+     "months": 134,
+     "noise_band_95": 0.169,
+     "supported": false,
+     "verdict": "inside the noise band"
+    },
+    "spec": {
+     "months": 6,
+     "product": "BTC-USD",
+     "type": "cycle"
+    }
+   },
+   "payload_hash": "a00d3722d8524cbd5c3e7168f84d97b97e08be316cd82458d1c628ad222d1ce6"
+  },
+  {
+   "event_id": "evt_d7bf70afed9642b7",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995088.3213754,
+   "payload": {
+    "id": "8274037280e4",
+    "name": "hypothesis:6th hour (UTC) return, ETH",
+    "result": {
+     "after": {
+      "familywise_p": 1.0,
+      "labels": 24,
+      "n": 41650,
+      "t": -1.12
+     },
+     "before": {
+      "familywise_p": 1.0,
+      "labels": 24,
+      "n": 43783,
+      "t": 0.03
+     },
+     "supported": false,
+     "verdict": "not supported (fails a period or the multiple-testing check)"
+    },
+    "spec": {
+     "measure": "return",
+     "product": "ETH-USD",
+     "type": "calendar",
+     "unit": "hour",
+     "value": 6
+    }
+   },
+   "payload_hash": "b693b47cad780f21a80e28692d0077c5b2867a7a54924abc1b2659bad60c8ff0"
+  },
+  {
+   "event_id": "evt_ee74f6eaece742f2",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790995088.3264246,
+   "payload": {
+    "id": "1da2acb7bae0",
+    "name": "hypothesis:6-month cycle, ETH",
+    "result": {
+     "autocorrelation": -0.01,
+     "months": 124,
+     "noise_band_95": 0.176,
+     "supported": false,
+     "verdict": "inside the noise band"
+    },
+    "spec": {
+     "months": 6,
+     "product": "ETH-USD",
+     "type": "cycle"
+    }
+   },
+   "payload_hash": "119e892711ae5f17360b51420959af2b022926d4c848d196175820a3c935cc1c"
+  },
+  {
+   "event_id": "evt_71df04f88aa44144",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5577457,
+   "payload": {
+    "dsr": 0.4,
+    "evidence": 0.24,
+    "ic_mean": -0.0077,
+    "ic_t": -0.47,
+    "kind": "signal",
+    "name": "signal:mom3",
+    "psr": 0.976,
+    "sharpe": 0.618,
+    "weeks": 396
+   },
+   "payload_hash": "c285ae13d1b4d6b44e9a7998d1c76e67ff9884273f3fda7bdc587e876e99d497"
+  },
+  {
+   "event_id": "evt_2bc36e2d1bda46b6",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5584254,
+   "payload": {
+    "dsr": 0.26,
+    "evidence": 0.156,
+    "ic_mean": -0.0089,
+    "ic_t": -0.54,
+    "kind": "signal",
+    "name": "signal:mom7",
+    "psr": 0.928,
+    "sharpe": 0.485,
+    "weeks": 395
+   },
+   "payload_hash": "93b3ffdf0d593ddd5e6491ab0eef75095d1619eaa6db5536e2236d8f7f6f909f"
+  },
+  {
+   "event_id": "evt_0170249e1ad247e2",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5588417,
+   "payload": {
+    "dsr": 0.784,
+    "evidence": 0.47,
+    "ic_mean": 0.0101,
+    "ic_t": 0.62,
+    "kind": "signal",
+    "name": "signal:mom14",
+    "psr": 0.998,
+    "sharpe": 0.956,
+    "weeks": 394
+   },
+   "payload_hash": "c50b2e7c5b6a1005a7c74a56912de6212e4bb138add59f68bf731991661ba36d"
+  },
+  {
+   "event_id": "evt_562ac8400f2e4dda",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5591123,
+   "payload": {
+    "dsr": 0.29,
+    "evidence": 0.174,
+    "ic_mean": -0.0106,
+    "ic_t": -0.63,
+    "kind": "signal",
+    "name": "signal:mom28",
+    "psr": 0.92,
+    "sharpe": 0.503,
+    "weeks": 392
+   },
+   "payload_hash": "df6a22197891b181c2780140736cb561ce9d018ee0bf451d7d86865785137150"
+  },
+  {
+   "event_id": "evt_be42b7dfafa4490c",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5593429,
+   "payload": {
+    "dsr": 0.213,
+    "evidence": 0.128,
+    "ic_mean": 0.0032,
+    "ic_t": 0.18,
+    "kind": "signal",
+    "name": "signal:mom56",
+    "psr": 0.878,
+    "sharpe": 0.418,
+    "weeks": 388
+   },
+   "payload_hash": "364d95b55f0c664b97a01cc4585146ce0ab67dfe8c2a14450e52dc4176441190"
+  },
+  {
+   "event_id": "evt_d457aad772a24728",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5595596,
+   "payload": {
+    "dsr": 0.0,
+    "evidence": 0.0,
+    "ic_mean": -0.005,
+    "ic_t": -0.3,
+    "kind": "signal",
+    "name": "signal:rev1",
+    "psr": 0.005,
+    "sharpe": -0.849,
+    "weeks": 396
+   },
+   "payload_hash": "3e814ab9d541e74a142eb8b9f52ff90c569cd82d81a1d6ca2196229557565884"
+  },
+  {
+   "event_id": "evt_d79566e98984484f",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5597932,
+   "payload": {
+    "dsr": 0.001,
+    "evidence": 0.001,
+    "ic_mean": 0.0763,
+    "ic_t": 4.39,
+    "kind": "signal",
+    "name": "signal:lowvol28",
+    "psr": 0.16,
+    "sharpe": -0.345,
+    "weeks": 392
+   },
+   "payload_hash": "9ef526e54c8ba29aabe9994a76d9f41efda3d9a8ece987227b676719b1b14b72"
+  },
+  {
+   "event_id": "evt_68b5f9b3363244b4",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5600088,
+   "payload": {
+    "dsr": 0.409,
+    "evidence": 0.246,
+    "ic_mean": -0.015,
+    "ic_t": -0.9,
+    "kind": "signal",
+    "name": "signal:trend50",
+    "psr": 0.96,
+    "sharpe": 0.622,
+    "weeks": 389
+   },
+   "payload_hash": "12461584903f4f4fcbe83c025a46aa0b423bce91423bf7424b9247d645b63b86"
+  },
+  {
+   "event_id": "evt_07788b527fb74c82",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5602305,
+   "payload": {
+    "dsr": 0.002,
+    "evidence": 0.001,
+    "ic_mean": 0.0453,
+    "ic_t": 2.76,
+    "kind": "signal",
+    "name": "signal:maxret7",
+    "psr": 0.208,
+    "sharpe": -0.276,
+    "weeks": 395
+   },
+   "payload_hash": "87f3f8e85c509acaa87921143f107217fbeac91e35d91a38749e2187a22c606d"
+  },
+  {
+   "event_id": "evt_81411411261549da",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5604527,
+   "payload": {
+    "dsr": 0.115,
+    "evidence": 0.069,
+    "ic_mean": -0.0013,
+    "ic_t": -0.08,
+    "kind": "signal",
+    "name": "signal:volz28",
+    "psr": 0.779,
+    "sharpe": 0.274,
+    "weeks": 392
+   },
+   "payload_hash": "88cad84d16331e3c4f8fe83d4fc8293b49bd489cc7cd79ca0e416cbbb20604b9"
+  },
+  {
+   "event_id": "evt_00294c5a3cb0476c",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.560725,
+   "payload": {
+    "dsr": 0.374,
+    "evidence": 0.224,
+    "ic_mean": 0.0443,
+    "ic_t": 2.52,
+    "kind": "signal",
+    "name": "signal:lowbeta60",
+    "psr": 0.952,
+    "sharpe": 0.591,
+    "weeks": 387
+   },
+   "payload_hash": "3c9482f9d950aac6cc9838dd1da80203b88edc2c1435956bc1c409e2e31eb50f"
+  },
+  {
+   "event_id": "evt_3874ae3327964bd9",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.5609732,
+   "payload": {
+    "dsr": 0.002,
+    "evidence": 0.001,
+    "ic_mean": 0.0155,
+    "ic_t": 0.99,
+    "kind": "signal",
+    "name": "signal:edm_simplex",
+    "psr": 0.178,
+    "sharpe": -0.342,
+    "weeks": 362
+   },
+   "payload_hash": "3db604a57fd205cf967ba1037158ab003ca6539363548bb9cc65439293708051"
+  },
+  {
+   "event_id": "evt_e1685efb8d3e4e7a",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.561188,
+   "payload": {
+    "dsr": 0.107,
+    "evidence": 0.064,
+    "gross_sharpe": 0.378,
+    "kind": "model",
+    "max_drawdown": 0.203,
+    "name": "model:combined:perps_long_short",
+    "psr": 0.759,
+    "sharpe": 0.255,
+    "turnover_per_year": 27.37,
+    "weeks": 387
+   },
+   "payload_hash": "82c4c3ee679f2025e4586a7b9fb36cbaa6019e03e0b0937a4b111c164353788f"
+  },
+  {
+   "event_id": "evt_0da66ddbf76341ca",
+   "event_type": "ResearchTrial",
+   "timestamp": 1790995110.561402,
+   "payload": {
+    "dsr": 0.076,
+    "evidence": 0.046,
+    "gross_sharpe": 0.706,
+    "kind": "model",
+    "max_drawdown": 0.243,
+    "name": "model:combined:spot_long_only",
+    "psr": 0.696,
+    "sharpe": 0.186,
+    "turnover_per_year": 7.9,
+    "weeks": 387
+   },
+   "payload_hash": "8363fbf28ad6b049d9f3b0fb63aed662882026509b32534e7b374045f1602ff9"
+  },
+  {
+   "event_id": "evt_01770fb49f194da9",
+   "event_type": "EvidenceUpdated",
+   "timestamp": 1790995110.93292,
+   "payload": {
+    "attention_volatility": {
+     "attention_series": [
+      "wiki:Bitcoin"
+     ],
+     "dm_t": 0.85,
+     "improvement_pct": 0.82,
+     "loss_har": 0.2521,
+     "loss_har_attention": 0.25,
+     "weeks_tested": 475
+    },
+    "benchmarks": {
+     "btc_hold_sharpe": 1.127,
+     "equal_weight_hold_sharpe": 0.724
+    },
+    "books": {
+     "perps_long_short": {
+      "gross_sharpe": 0.378,
+      "max_drawdown": 0.203,
+      "return": 0.206,
+      "sharpe": 0.255,
+      "turnover_per_year": 27.366,
+      "weeks": 387
+     },
+     "spot_long_only": {
+      "gross_sharpe": 0.706,
+      "max_drawdown": 0.243,
+      "return": 0.123,
+      "sharpe": 0.186,
+      "turnover_per_year": 7.896,
+      "weeks": 387
+     }
+    },
+    "latest_day": "2026-10-02",
+    "pbo_family": 0.4,
+    "trials_counted": 21
+   },
+   "payload_hash": "552cfd917e1f716a31fc09db17fd8312bb90f2fa55d6fa6c127d44d2b42becb0"
+  },
+  {
+   "event_id": "evt_ecbfa337a949467c",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5970657,
+   "payload": {
+    "id": "c0c214dbaf5b",
+    "name": "round numbers 1-2-5 (10k, 20k, 50k, 100k), BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "round",
+     "mantissas": [
+      1,
+      2,
+      5
+     ],
+     "product": "BTC-USD",
+     "type": "level"
+    }
+   },
+   "payload_hash": "2837c82e1f87ed0a69c98cf00c9d5edd51b059cc382f350499669083a21887f5"
+  },
+  {
+   "event_id": "evt_47f030817dfa4909",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5975814,
+   "payload": {
+    "id": "35b0e5ba2831",
+    "name": "multiples of 10k, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "arithmetic",
+     "product": "BTC-USD",
+     "step": 10000,
+     "type": "level"
+    }
+   },
+   "payload_hash": "61b96a73e895acc17dda1b82a8ae743e7079819d30ca3b10262c4aee91d0b047"
+  },
+  {
+   "event_id": "evt_b6d958ae8e864442",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5979476,
+   "payload": {
+    "id": "a52bbd934678",
+    "name": "round numbers x golden ratio (16.18k, 32.4k, 64.7k, 161.8k), BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "round",
+     "mantissas": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "product": "BTC-USD",
+     "times": 1.618033988749895,
+     "type": "level"
+    }
+   },
+   "payload_hash": "d13bfcb789c94cfe16688d45cafc91d4cee3d29a21307992e5727b2a4a345603"
+  },
+  {
+   "event_id": "evt_1e3ec7c701ad40ef",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5983448,
+   "payload": {
+    "id": "efc10d457638",
+    "name": "powers of the golden ratio 1.618, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 1.618033988749895,
+     "type": "level"
+    }
+   },
+   "payload_hash": "879cefbb183c5656444f064da7773298c5585400d2827f0544e52011df20e70f"
+  },
+  {
+   "event_id": "evt_af78a6efa4b04b5c",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.598661,
+   "payload": {
+    "id": "8e1db77648b0",
+    "name": "powers of 1.1618 (as written), BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 1.1618,
+     "type": "level"
+    }
+   },
+   "payload_hash": "6f16fbfd6b6fc6cd5e7fad7ea8f322cb01aaba362d0b012d57b00caaaf9fa1f4"
+  },
+  {
+   "event_id": "evt_397c2057b0914fa5",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5989394,
+   "payload": {
+    "id": "75ac9f0009e2",
+    "name": "powers of e, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 2.718281828459045,
+     "type": "level"
+    }
+   },
+   "payload_hash": "37707d0c246788147ea1571f53c92422bf72a975d373e4a1b0e63f98c33351d5"
+  },
+  {
+   "event_id": "evt_e0eaf2a8addf47b1",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.599223,
+   "payload": {
+    "id": "ff49b26d583b",
+    "name": "powers of pi, BTC",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 3.141592653589793,
+     "type": "level"
+    }
+   },
+   "payload_hash": "e39577fd7fc51daa27999590aeeaef4ef4998eebf6647d8a5f590968eeded417"
+  },
+  {
+   "event_id": "evt_6df58fa221834cfd",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5995014,
+   "payload": {
+    "id": "f7cccc54cfba",
+    "name": "simple rule: BTC above its 200-day average, vol-sized (the core book), spot costs",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "band": 0.05,
+     "cost_bps": 85.0,
+     "days": 200,
+     "product": "BTC-USD",
+     "rule": "sma",
+     "type": "rule",
+     "vol_target": 0.5
+    }
+   },
+   "payload_hash": "cff95edbaf88f20b4b25f948293c947ae750598d2a6c3686a2bb481da48c7c59"
+  },
+  {
+   "event_id": "evt_fc3d416a3a0d43e7",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.5997736,
+   "payload": {
+    "id": "cdbbbea1c5c1",
+    "name": "simple rule: BTC above its 200-day average, spot costs",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "cost_bps": 85.0,
+     "days": 200,
+     "product": "BTC-USD",
+     "rule": "sma",
+     "type": "rule"
+    }
+   },
+   "payload_hash": "223e3f4d47cfea5a2aeff0c56d3f904f361c0296cdf65861e71e31e268c2be56"
+  },
+  {
+   "event_id": "evt_3945333d541043f7",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6000378,
+   "payload": {
+    "id": "2f5723e47efa",
+    "name": "whales: net flow into exchanges -> next-week BTC return",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "exchange_netflow_7d",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "2994967636dfbdd66cbaba63b3b56ad5b771c0bf4497f24ab997ec9970ff460b"
+  },
+  {
+   "event_id": "evt_2a7883ee99d94403",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6003141,
+   "payload": {
+    "id": "f91ebc78b2ee",
+    "name": "whales: change in exchange balances -> next-week BTC return",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "exchange_balance_change_28d",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "de04fd86e16177dc16355a28c54a8f51aa85e56677fb29ba3757451104525f9d"
+  },
+  {
+   "event_id": "evt_ce563a8e620e47ce",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6005657,
+   "payload": {
+    "id": "cdc70e40e1b6",
+    "name": "media: extreme fear -> next-week BTC return",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "extreme_fear",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "15c3d22a10154936acd855c04f124c0cfc2548efa4bac858ad654e10c579c0bf"
+  },
+  {
+   "event_id": "evt_35d1bd7fbcb74417",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6007996,
+   "payload": {
+    "id": "ee8f55e40f4a",
+    "name": "media: news tone -> next-week BTC return",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "news_tone",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "1a594eba18c3bc83952339ed5ae2d2e90c3f65dff6a1fd9c2c2eb851205341ca"
+  },
+  {
+   "event_id": "evt_ce3b56f63c1d4430",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6010563,
+   "payload": {
+    "id": "f2aa6f2a5953",
+    "name": "media: Wikipedia attention surprise -> next-week BTC volatility",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "wiki_surprise",
+     "product": "BTC-USD",
+     "target": "vol7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "be6c63735cc0cec662cdd380205a41489354b2606a13e011be864d4b16bf97b3"
+  },
+  {
+   "event_id": "evt_f0ee99cd3c7548d5",
+   "event_type": "HypothesisRegistered",
+   "timestamp": 1790998327.6013489,
+   "payload": {
+    "id": "254d902ec7c0",
+    "name": "whales: net flow into exchanges -> next-week BTC volatility",
+    "rationale": "",
+    "source": "owner_2026-10-03.json",
+    "spec": {
+     "feature": "exchange_netflow_7d",
+     "product": "BTC-USD",
+     "target": "vol7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "290e17dd4d7f2f498d2d232f9df9d50c7e1ac1546efe439c8ad2a6d6b596f889"
+  },
+  {
+   "event_id": "evt_24aa632dea9b4e2a",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998445.9733536,
+   "payload": {
+    "id": "c0c214dbaf5b",
+    "name": "hypothesis:round numbers 1-2-5 (10k, 20k, 50k, 100k), BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.4853,
+      "bounce_placebo": 0.5425,
+      "bounce_z": -0.93,
+      "touches": 68,
+      "vol": 1.3178,
+      "vol_placebo": 1.0254,
+      "vol_z": 1.98
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5289,
+      "bounce_placebo": 0.5278,
+      "bounce_z": 0.03,
+      "touches": 121,
+      "vol": 1.0465,
+      "vol_placebo": 1.029,
+      "vol_z": 0.12
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "round",
+     "mantissas": [
+      1,
+      2,
+      5
+     ],
+     "product": "BTC-USD",
+     "type": "level"
+    }
+   },
+   "payload_hash": "6c22a6ea2819010a1e0e6fba252eecd7ad8afa8e81c189d1bbaaf75978a02169"
+  },
+  {
+   "event_id": "evt_91be52b74dc449e6",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998448.2929735,
+   "payload": {
+    "id": "35b0e5ba2831",
+    "name": "hypothesis:multiples of 10k, BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.56,
+      "bounce_placebo": 0.5464,
+      "bounce_z": 0.51,
+      "touches": 300,
+      "vol": 1.0519,
+      "vol_placebo": 0.9726,
+      "vol_z": 1.32
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5182,
+      "bounce_placebo": 0.5413,
+      "bounce_z": -0.64,
+      "touches": 137,
+      "vol": 1.059,
+      "vol_placebo": 1.0893,
+      "vol_z": -0.22
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "arithmetic",
+     "product": "BTC-USD",
+     "step": 10000,
+     "type": "level"
+    }
+   },
+   "payload_hash": "607e24a095f0eb020380cd18aac757574fd210abffb83349ed783fe494c5f880"
+  },
+  {
+   "event_id": "evt_a53a17342cb34e8c",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998450.7077546,
+   "payload": {
+    "id": "a52bbd934678",
+    "name": "hypothesis:round numbers x golden ratio (16.18k, 32.4k, 64.7k, 161.8k), BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.5,
+      "bounce_placebo": 0.5412,
+      "bounce_z": -0.89,
+      "touches": 88,
+      "vol": 0.9147,
+      "vol_placebo": 1.0365,
+      "vol_z": -0.95
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.4926,
+      "bounce_placebo": 0.5282,
+      "bounce_z": -1.05,
+      "touches": 203,
+      "vol": 0.9476,
+      "vol_placebo": 1.06,
+      "vol_z": -0.86
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "round",
+     "mantissas": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "product": "BTC-USD",
+     "times": 1.618033988749895,
+     "type": "level"
+    }
+   },
+   "payload_hash": "7cbf6e1d357509ae67cda24db693d5fd8f685b69cf3702ff22f167ea88714a58"
+  },
+  {
+   "event_id": "evt_af9ff4fc35bf4f72",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998453.029034,
+   "payload": {
+    "id": "efc10d457638",
+    "name": "hypothesis:powers of the golden ratio 1.618, BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.4928,
+      "bounce_placebo": 0.5424,
+      "bounce_z": -1.25,
+      "touches": 138,
+      "vol": 0.9214,
+      "vol_placebo": 1.0637,
+      "vol_z": -1.03
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5607,
+      "bounce_placebo": 0.5389,
+      "bounce_z": 0.7,
+      "touches": 173,
+      "vol": 0.8776,
+      "vol_placebo": 1.0192,
+      "vol_z": -1.25
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 1.618033988749895,
+     "type": "level"
+    }
+   },
+   "payload_hash": "35fe723dd2202dd0191899e194ddd5ade150e37b2bea5bc6fb416cab5b1a8ea2"
+  },
+  {
+   "event_id": "evt_8ebd007a3a954002",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998455.6806386,
+   "payload": {
+    "id": "8e1db77648b0",
+    "name": "hypothesis:powers of 1.1618 (as written), BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.5141,
+      "bounce_placebo": 0.5438,
+      "bounce_z": -1.52,
+      "touches": 354,
+      "vol": 0.9942,
+      "vol_placebo": 1.0146,
+      "vol_z": -0.31
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5243,
+      "bounce_placebo": 0.5332,
+      "bounce_z": -0.5,
+      "touches": 658,
+      "vol": 1.0134,
+      "vol_placebo": 1.0067,
+      "vol_z": 0.1
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 1.1618,
+     "type": "level"
+    }
+   },
+   "payload_hash": "9ec9ba226f9444b52bc1c88211ef44e9554e63e827046dd71e2d84fe5f43964a"
+  },
+  {
+   "event_id": "evt_3b41c9c4a8fb400b",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998457.995098,
+   "payload": {
+    "id": "75ac9f0009e2",
+    "name": "hypothesis:powers of e, BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.6296,
+      "bounce_placebo": 0.5418,
+      "bounce_z": 1.16,
+      "touches": 54,
+      "vol": 1.201,
+      "vol_placebo": 1.1137,
+      "vol_z": 0.24
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5495,
+      "bounce_placebo": 0.5254,
+      "bounce_z": 0.54,
+      "touches": 111,
+      "vol": 0.9516,
+      "vol_placebo": 1.126,
+      "vol_z": -0.61
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 2.718281828459045,
+     "type": "level"
+    }
+   },
+   "payload_hash": "7ad3ab057a2d5fc00dda4f005075e16ccdb7780c94244bd0b47669d19bdc69c6"
+  },
+  {
+   "event_id": "evt_b7859f415ffd493c",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998460.3261745,
+   "payload": {
+    "id": "ff49b26d583b",
+    "name": "hypothesis:powers of pi, BTC",
+    "result": {
+     "2022_on": {
+      "bounce": 0.6216,
+      "bounce_placebo": 0.5474,
+      "bounce_z": 0.84,
+      "touches": 74,
+      "vol": 1.0747,
+      "vol_placebo": 1.0219,
+      "vol_z": 0.22
+     },
+     "placebos": 100,
+     "supported": false,
+     "to_2021": {
+      "bounce": 0.5857,
+      "bounce_placebo": 0.532,
+      "bounce_z": 1.0,
+      "touches": 70,
+      "vol": 0.9626,
+      "vol_placebo": 1.0547,
+      "vol_z": -0.41
+     },
+     "verdict": "not supported: these levels behave like randomly placed levels with the same spacing"
+    },
+    "spec": {
+     "family": "geometric",
+     "product": "BTC-USD",
+     "ratio": 3.141592653589793,
+     "type": "level"
+    }
+   },
+   "payload_hash": "79c8c8bca18d9e7ad86b4d12aa5de67c2a0c4183c8c7262cab7f69de574497dd"
+  },
+  {
+   "event_id": "evt_dbf254c6f5ff44c4",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998463.3481395,
+   "payload": {
+    "id": "f7cccc54cfba",
+    "name": "hypothesis:simple rule: BTC above its 200-day average, vol-sized (the core book), spot costs",
+    "result": {
+     "2022_on": {
+      "hold": {
+       "cagr": 0.1353,
+       "days": 1736,
+       "max_drawdown": 0.67,
+       "sharpe": 0.504
+      },
+      "rule": {
+       "cagr": 0.2287,
+       "days": 1736,
+       "max_drawdown": 0.33,
+       "sharpe": 0.803
+      }
+     },
+     "cost_bps": 85.0,
+     "dsr": 0.958,
+     "hold": {
+      "cagr": 0.6582,
+      "days": 3892,
+      "max_drawdown": 0.838,
+      "sharpe": 1.094
+     },
+     "last_365d": {
+      "hold": {
+       "cagr": -0.2994,
+       "days": 365,
+       "max_drawdown": 0.531,
+       "sharpe": -0.568
+      },
+      "rule": {
+       "cagr": -0.0423,
+       "days": 365,
+       "max_drawdown": 0.233,
+       "sharpe": -0.129
+      }
+     },
+     "rule": {
+      "cagr": 0.4505,
+      "days": 3892,
+      "max_drawdown": 0.578,
+      "sharpe": 1.154
+     },
+     "supported": true,
+     "time_in_market": 0.511,
+     "to_2021": {
+      "hold": {
+       "cagr": 1.2496,
+       "days": 2156,
+       "max_drawdown": 0.838,
+       "sharpe": 1.441
+      },
+      "rule": {
+       "cagr": 0.658,
+       "days": 2156,
+       "max_drawdown": 0.578,
+       "sharpe": 1.383
+      }
+     },
+     "verdict": "positive return beyond luck; does not beat holding on Sharpe; smaller drawdowns than holding",
+     "vs_hold": {
+      "p_drawdown_smaller": 0.963,
+      "p_sharpe_better": 0.64
+     }
+    },
+    "spec": {
+     "band": 0.05,
+     "cost_bps": 85.0,
+     "days": 200,
+     "product": "BTC-USD",
+     "rule": "sma",
+     "type": "rule",
+     "vol_target": 0.5
+    }
+   },
+   "payload_hash": "01c134267360ded476e0cbd6e9c70b3aa022e669ffe374e32ba3f346537e23d6"
+  },
+  {
+   "event_id": "evt_6772935213654e3b",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998466.2909038,
+   "payload": {
+    "id": "cdbbbea1c5c1",
+    "name": "hypothesis:simple rule: BTC above its 200-day average, spot costs",
+    "result": {
+     "2022_on": {
+      "hold": {
+       "cagr": 0.1353,
+       "days": 1736,
+       "max_drawdown": 0.67,
+       "sharpe": 0.504
+      },
+      "rule": {
+       "cagr": 0.2387,
+       "days": 1736,
+       "max_drawdown": 0.367,
+       "sharpe": 0.803
+      }
+     },
+     "cost_bps": 85.0,
+     "dsr": 0.934,
+     "hold": {
+      "cagr": 0.6582,
+      "days": 3892,
+      "max_drawdown": 0.838,
+      "sharpe": 1.094
+     },
+     "last_365d": {
+      "hold": {
+       "cagr": -0.2994,
+       "days": 365,
+       "max_drawdown": 0.531,
+       "sharpe": -0.568
+      },
+      "rule": {
+       "cagr": -0.0473,
+       "days": 365,
+       "max_drawdown": 0.238,
+       "sharpe": -0.152
+      }
+     },
+     "rule": {
+      "cagr": 0.546,
+      "days": 3892,
+      "max_drawdown": 0.725,
+      "sharpe": 1.091
+     },
+     "supported": false,
+     "time_in_market": 0.615,
+     "to_2021": {
+      "hold": {
+       "cagr": 1.2496,
+       "days": 2156,
+       "max_drawdown": 0.838,
+       "sharpe": 1.441
+      },
+      "rule": {
+       "cagr": 0.848,
+       "days": 2156,
+       "max_drawdown": 0.725,
+       "sharpe": 1.281
+      }
+     },
+     "verdict": "positive return not established; does not beat holding on Sharpe; drawdowns not reliably smaller",
+     "vs_hold": {
+      "p_drawdown_smaller": 0.74,
+      "p_sharpe_better": 0.543
+     }
+    },
+    "spec": {
+     "cost_bps": 85.0,
+     "days": 200,
+     "product": "BTC-USD",
+     "rule": "sma",
+     "type": "rule"
+    }
+   },
+   "payload_hash": "02d301bffd1e49750d32a685870e563e03d50963979be4644feaed33303f3ac9"
+  },
+  {
+   "event_id": "evt_786d10e0e3ef4a27",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998466.6307468,
+   "payload": {
+    "id": "2f5723e47efa",
+    "name": "hypothesis:whales: net flow into exchanges -> next-week BTC return",
+    "result": {
+     "2022_on": {
+      "ic": -0.07,
+      "n": 247,
+      "z": -1.06
+     },
+     "controls": null,
+     "feature": "coins flowing into exchanges minus out, last 7 days, share of supply (whales selling?)",
+     "full": {
+      "ic": -0.097,
+      "n": 567,
+      "z": -2.18
+     },
+     "supported": false,
+     "target": "return7",
+     "to_2021": {
+      "ic": -0.115,
+      "n": 320,
+      "z": -2.02
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "exchange_netflow_7d",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "48fc87bcc75015c19f8f057aee5f1374a16e48b4ad4c45a49fc3d8c99c166b25"
+  },
+  {
+   "event_id": "evt_284fc376292b4b44",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998466.9717262,
+   "payload": {
+    "id": "f91ebc78b2ee",
+    "name": "hypothesis:whales: change in exchange balances -> next-week BTC return",
+    "result": {
+     "2022_on": {
+      "ic": -0.006,
+      "n": 247,
+      "z": -0.09
+     },
+     "controls": null,
+     "feature": "change in coins held on exchanges over 28 days, share of supply",
+     "full": {
+      "ic": -0.076,
+      "n": 567,
+      "z": -1.77
+     },
+     "supported": false,
+     "target": "return7",
+     "to_2021": {
+      "ic": -0.125,
+      "n": 320,
+      "z": -2.22
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "exchange_balance_change_28d",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "1fdcb00cf85ee262124e795dae57eaf73f2ff8459a763bdf7f0bd2e99e12a07d"
+  },
+  {
+   "event_id": "evt_9ac053e2a955436c",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998467.2344472,
+   "payload": {
+    "id": "cdc70e40e1b6",
+    "name": "hypothesis:media: extreme fear -> next-week BTC return",
+    "result": {
+     "2022_on": {
+      "ic": -0.042,
+      "n": 247,
+      "z": -0.67
+     },
+     "controls": null,
+     "feature": "Fear & Greed below 25",
+     "full": {
+      "ic": 0.03,
+      "n": 450,
+      "z": 0.64
+     },
+     "supported": false,
+     "target": "return7",
+     "to_2021": {
+      "ic": 0.12,
+      "n": 203,
+      "z": 1.7
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "extreme_fear",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "ed51aa9f524df54cbe08de62bee088a1ba7b1580d03d4400c1466aa73ae26ec9"
+  },
+  {
+   "event_id": "evt_b5bd7dea1d5646d9",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998467.7882888,
+   "payload": {
+    "id": "f2aa6f2a5953",
+    "name": "hypothesis:media: Wikipedia attention surprise -> next-week BTC volatility",
+    "result": {
+     "2022_on": {
+      "ic": 0.085,
+      "n": 247,
+      "z": 1.52
+     },
+     "controls": "today's 7- and 28-day volatility",
+     "feature": "Wikipedia 'Bitcoin' views, last 7 days vs the 28 before",
+     "full": {
+      "ic": 0.12,
+      "n": 567,
+      "z": 2.87
+     },
+     "supported": false,
+     "target": "vol7",
+     "to_2021": {
+      "ic": 0.145,
+      "n": 320,
+      "z": 2.4
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "wiki_surprise",
+     "product": "BTC-USD",
+     "target": "vol7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "333dfd124519907f295474f3aa6d7201313f1ed284c87b8fe3bb3d6d69560282"
+  },
+  {
+   "event_id": "evt_2b354e20a1d240e8",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790998468.4317925,
+   "payload": {
+    "id": "254d902ec7c0",
+    "name": "hypothesis:whales: net flow into exchanges -> next-week BTC volatility",
+    "result": {
+     "2022_on": {
+      "ic": 0.082,
+      "n": 247,
+      "z": 1.32
+     },
+     "controls": "today's 7- and 28-day volatility",
+     "feature": "coins flowing into exchanges minus out, last 7 days, share of supply (whales selling?)",
+     "full": {
+      "ic": 0.149,
+      "n": 567,
+      "z": 3.47
+     },
+     "supported": false,
+     "target": "vol7",
+     "to_2021": {
+      "ic": 0.16,
+      "n": 320,
+      "z": 2.73
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "exchange_netflow_7d",
+     "product": "BTC-USD",
+     "target": "vol7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "be563b22a74855a87e43abdaffe23e318429817eb89120386454bc2d43483681"
+  },
+  {
+   "event_id": "evt_feffe51f64cc4464",
+   "event_type": "HypothesisTested",
+   "timestamp": 1790999792.8206322,
+   "payload": {
+    "id": "ee8f55e40f4a",
+    "name": "hypothesis:media: news tone -> next-week BTC return",
+    "result": {
+     "2022_on": {
+      "ic": 0.045,
+      "n": 240,
+      "z": 0.71
+     },
+     "controls": null,
+     "feature": "GDELT 'bitcoin' news tone, last 7 days minus the 28 before",
+     "full": {
+      "ic": 0.034,
+      "n": 497,
+      "z": 0.76
+     },
+     "supported": false,
+     "target": "return7",
+     "to_2021": {
+      "ic": 0.022,
+      "n": 257,
+      "z": 0.38
+     },
+     "verdict": "not supported (fails a period)"
+    },
+    "spec": {
+     "feature": "news_tone",
+     "product": "BTC-USD",
+     "target": "return7",
+     "type": "feature"
+    }
+   },
+   "payload_hash": "16b9f0a80cab44fa9c25035242cd7dbe9f6969265592d14b7a32752d62feeff9"
+  }
+ ]
+}

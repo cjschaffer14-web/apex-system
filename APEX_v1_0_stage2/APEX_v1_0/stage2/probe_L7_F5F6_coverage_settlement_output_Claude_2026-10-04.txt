@@ -1,0 +1,14 @@
+[AS EXPECTED] F4 valid close->settle->reopen->accrual: accepted
+[AS EXPECTED] F5a flat-period charge after reopen (28800->32400): refused (ValueError: funding gap or overlap)
+[AS EXPECTED] F5b zero-net close, reopen before settlement: refused (ValueError: open requires recorded settlement at or after symbol close)
+[AS EXPECTED] F5b zero-net close, reopen after settlement: accepted
+[AS EXPECTED] F6 other BTC instrument accrued after settlement, reopen at 30000: accepted
+[AS EXPECTED] stale settlement: 2nd close then reopen before next settlement: refused (ValueError: open requires recorded settlement at or after symbol close)
+[AS EXPECTED] 2nd cycle with next-day settlement: accepted
+[AS EXPECTED] settlement after reopen with no accrual covering it: refused (ValueError: settlement requires complete accrued coverage through its timestamp)
+[AS EXPECTED] settlement after reopen with accrual through settlement: accepted
+[AS EXPECTED] close, settle and reopen all at 08:00: accepted
+[AS EXPECTED] reopen with wrong currency: refused (ValueError: currency mismatch, duplicate, or out-of-order event)
+[AS EXPECTED] reopen of an active symbol: refused (ValueError: open requires a previously closed symbol)
+
+12/12 cases as expected

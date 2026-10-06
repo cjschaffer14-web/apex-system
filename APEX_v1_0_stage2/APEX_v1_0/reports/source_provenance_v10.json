@@ -1,0 +1,245 @@
+{
+ "as_of_utc": "2026-10-03 02:00",
+ "raw_archive": "data_v10/raw",
+ "raw_manifest_entries": 328,
+ "note": "payloads_contributing_no_rows: empty windows before a venue's history starts (Deribit before 2019-04-30), the H.4.1 release-date file, and the TGA seam-validation request",
+ "rule": "every funding and macro row names a provenance_id; every provenance_id names an archived raw payload (sha256 + path); no value is entered by hand and no source is spliced across venues",
+ "sources": {
+  "bitmex": {
+   "originator": "BitMEX public REST /api/v1/funding (originator)",
+   "timing_and_semantics": "funding settlement events XBTUSD/ETHUSD; interval from the per-event `fundingInterval` field; available at the settlement timestamp (source_timestamp)",
+   "third_party": false,
+   "endpoints": [
+    "https://www.bitmex.com/api/v1/funding"
+   ],
+   "payloads": 41,
+   "payload_bytes": 3275155,
+   "retrieved_utc": [
+    "2026-10-03 23:16",
+    "2026-10-03 23:18"
+   ],
+   "rows": 20192,
+   "series": [
+    "bitmex:ETHUSD",
+    "bitmex:XBTUSD"
+   ],
+   "first": "2016-05-14 12:00",
+   "last": "2026-09-16 12:00",
+   "availability_quality": {
+    "source_timestamp": 20192
+   },
+   "payloads_contributing_no_rows": 0
+  },
+  "cboe": {
+   "originator": "CBOE VIX_History.csv (originator)",
+   "timing_and_semantics": "VIX daily close; available 17:00 ET same day (conservative_lag)",
+   "third_party": false,
+   "endpoints": [
+    "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+   ],
+   "payloads": 1,
+   "payload_bytes": 473329,
+   "retrieved_utc": [
+    "2026-10-03 23:24",
+    "2026-10-03 23:24"
+   ],
+   "rows": 3240,
+   "series": [
+    "cboe:vix_close"
+   ],
+   "first": "2014-01-02 21:15",
+   "last": "2026-10-02 20:15",
+   "availability_quality": {
+    "conservative_lag": 3240
+   },
+   "payloads_contributing_no_rows": 0
+  },
+  "coinbase_intx": {
+   "originator": "Coinbase International /api/v1/instruments/{id}/funding (originator)",
+   "timing_and_semantics": "hourly funding with mark price; interval derived from spacing; history from March 2023",
+   "third_party": false,
+   "endpoints": [
+    "https://api.international.coinbase.com/api/v1/instruments/BTC-PERP/funding",
+    "https://api.international.coinbase.com/api/v1/instruments/ETH-PERP/funding"
+   ],
+   "payloads": 62,
+   "payload_bytes": 7656325,
+   "retrieved_utc": [
+    "2026-10-03 23:21",
+    "2026-10-03 23:23"
+   ],
+   "rows": 61884,
+   "series": [
+    "coinbase_intx:BTC-PERP",
+    "coinbase_intx:ETH-PERP"
+   ],
+   "first": "2023-03-22 00:00",
+   "last": "2026-10-01 09:00",
+   "availability_quality": {
+    "source_timestamp": 61884
+   },
+   "payloads_contributing_no_rows": 0
+  },
+  "deribit": {
+   "originator": "Deribit public API get_funding_rate_history (originator)",
+   "timing_and_semantics": "continuous funding sampled hourly (interest_1h); not discrete settlements; available at the sample timestamp (source_timestamp)",
+   "third_party": false,
+   "endpoints": [
+    "https://www.deribit.com/api/v2/public/get_funding_rate_history"
+   ],
+   "payloads": 202,
+   "payload_bytes": 18995001,
+   "retrieved_utc": [
+    "2026-10-03 23:18",
+    "2026-10-03 23:21"
+   ],
+   "rows": 130206,
+   "series": [
+    "deribit:BTC-PERPETUAL",
+    "deribit:ETH-PERPETUAL"
+   ],
+   "first": "2019-04-30 10:00",
+   "last": "2026-10-03 02:00",
+   "availability_quality": {
+    "source_timestamp": 130206
+   },
+   "payloads_contributing_no_rows": 20
+  },
+  "fed_h41": {
+   "originator": "Federal Reserve Data Download Program, H.4.1 package + H.4.1 release-date archive (originator)",
+   "timing_and_semantics": "RESPPMA_N.WW Wednesday level; available 16:30 ET on the release date listed by the Fed (exact_release); value is the latest vintage at retrieval",
+   "third_party": false,
+   "endpoints": [
+    "https://www.federalreserve.gov/datadownload/Output.aspx",
+    "https://www.federalreserve.gov/releases/h41/releaseDates.json"
+   ],
+   "payloads": 2,
+   "payload_bytes": 9149552,
+   "retrieved_utc": [
+    "2026-10-03 23:23",
+    "2026-10-03 23:23"
+   ],
+   "rows": 666,
+   "series": [
+    "fed_h41:RESPPMA_N.WW"
+   ],
+   "first": "2014-01-02 05:00",
+   "last": "2026-10-01 04:00",
+   "availability_quality": {
+    "exact_release": 666
+   },
+   "payloads_contributing_no_rows": 1
+  },
+  "kraken_futures": {
+   "originator": "Kraken Futures /derivatives/api/v4/historicalfundingrates (originator)",
+   "timing_and_semantics": "hourly relative funding rate; interval derived from spacing; the API returns about 12 months",
+   "third_party": false,
+   "endpoints": [
+    "https://futures.kraken.com/derivatives/api/v4/historicalfundingrates"
+   ],
+   "payloads": 2,
+   "payload_bytes": 2031561,
+   "retrieved_utc": [
+    "2026-10-03 23:21",
+    "2026-10-03 23:21"
+   ],
+   "rows": 17590,
+   "series": [
+    "kraken_futures:PF_ETHUSD",
+    "kraken_futures:PF_XBTUSD"
+   ],
+   "first": "2025-10-01 08:00",
+   "last": "2026-10-03 02:00",
+   "availability_quality": {
+    "source_timestamp": 17590
+   },
+   "payloads_contributing_no_rows": 0
+  },
+  "nyfed": {
+   "originator": "NY Fed Markets API, reverse repo operation results (originator)",
+   "timing_and_semantics": "total accepted per operation date; available at the record's same-day lastUpdated stamp (source_timestamp); records edited on a later date are tagged approximate",
+   "third_party": false,
+   "endpoints": [
+    "https://markets.newyorkfed.org/api/rp/results/search.json"
+   ],
+   "payloads": 1,
+   "payload_bytes": 4763411,
+   "retrieved_utc": [
+    "2026-10-03 23:23",
+    "2026-10-03 23:23"
+   ],
+   "rows": 3186,
+   "series": [
+    "nyfed:rrp_total_accepted"
+   ],
+   "first": "2014-01-02 16:45",
+   "last": "2026-10-02 17:15",
+   "availability_quality": {
+    "approximate": 497,
+    "source_timestamp": 2689
+   },
+   "payloads_contributing_no_rows": 0
+  },
+  "treasury_fiscaldata": {
+   "originator": "US Treasury Fiscal Data API, Daily Treasury Statement operating cash balance (originator)",
+   "timing_and_semantics": "TGA closing balance, three account layouts spliced only at verified seams; available 17:00 ET next federal business day (conservative_lag)",
+   "third_party": false,
+   "endpoints": [
+    "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/dts/operating_cash_balance"
+   ],
+   "payloads": 4,
+   "payload_bytes": 422558,
+   "retrieved_utc": [
+    "2026-10-03 23:23",
+    "2026-10-03 23:31"
+   ],
+   "rows": 3203,
+   "series": [
+    "treasury_fiscaldata:tga_closing_balance"
+   ],
+   "first": "2014-01-03 05:00",
+   "last": "2026-10-02 04:00",
+   "availability_quality": {
+    "conservative_lag": 3203
+   },
+   "payloads_contributing_no_rows": 1
+  },
+  "treasury_yields": {
+   "originator": "home.treasury.gov daily par yield curve CSV (originator)",
+   "timing_and_semantics": "2-year and 10-year par yields; available 20:00 ET same day (conservative_lag)",
+   "third_party": false,
+   "endpoints": [
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2014/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2015/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2016/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2017/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2018/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2019/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2020/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2021/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2022/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2023/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2024/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2025/all",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all"
+   ],
+   "payloads": 13,
+   "payload_bytes": 229122,
+   "retrieved_utc": [
+    "2026-10-03 23:23",
+    "2026-10-03 23:24"
+   ],
+   "rows": 6380,
+   "series": [
+    "treasury_yields:par_yield_10y",
+    "treasury_yields:par_yield_2y"
+   ],
+   "first": "2014-01-02 20:30",
+   "last": "2026-10-02 19:30",
+   "availability_quality": {
+    "conservative_lag": 6380
+   },
+   "payloads_contributing_no_rows": 0
+  }
+ }
+}

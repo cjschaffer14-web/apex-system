@@ -1,0 +1,36 @@
+{
+ "long_only_top3_85bps": {
+  "days": 2751,
+  "sharpe": 0.51,
+  "total_return": 0.447,
+  "max_drawdown": 0.971,
+  "psr": 0.92
+ },
+ "long_only_top3_45bps": {
+  "days": 2751,
+  "sharpe": 0.741,
+  "total_return": 6.195,
+  "max_drawdown": 0.906,
+  "psr": 0.98
+ },
+ "long_short_3x3_perps_6bps": {
+  "days": 2751,
+  "sharpe": 0.776,
+  "total_return": 3.327,
+  "max_drawdown": 0.358,
+  "psr": 0.984
+ },
+ "long_short_3x3_85bps": {
+  "days": 2751,
+  "sharpe": -0.615,
+  "total_return": -0.848,
+  "max_drawdown": 0.894,
+  "psr": 0.046
+ },
+ "equal_weight_basket_hold": {
+  "days": 2776,
+  "sharpe": 0.748,
+  "total_return": 6.948,
+  "max_drawdown": 0.812
+ }
+}

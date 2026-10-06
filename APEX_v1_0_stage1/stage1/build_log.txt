@@ -1,0 +1,31 @@
+1/5 migrate
+2/5 ingest
+  bitmex: 20192 rows from 41 payload(s)
+  deribit: 130206 rows from 202 payload(s)
+  kraken_futures: 17590 rows from 2 payload(s)
+  coinbase_intx: 61884 rows from 62 payload(s)
+  fed_h41: 666 rows from 2 payload(s)
+  nyfed_rrp: 3186 rows from 1 payload(s)
+  treasury_tga: 3203 rows from 4 payload(s)
+  treasury_yields: 6380 rows from 13 payload(s)
+  cboe_vix: 3240 rows from 1 payload(s)
+3/5 finalize
+4/5 ledger
+5/5 reports
+{
+  "db_file_sha256": "2b5f420cebe5823f1e11653ffdcfaf548364d8c2ee4de923d2183d9721ac7e8e",
+  "db_logical_sha256": "b6be7251b11c5a3598d4d718f9b874505c1c4ddf346250637bf653617fb76c51",
+  "ledger_records": 1483,
+  "ledger_sha256": "70661932c844e427c69ca7afb46fdc0a135920987129e77cea1f0ef02b529d3e",
+  "reconstruction": {
+    "checks": 1339,
+    "passed": 1339
+  },
+  "gate": {
+    "PARTIAL": 170,
+    "FAIL": 65,
+    "PASS": 71
+  },
+  "baseline_unchanged": true,
+  "seconds": 75.4
+}

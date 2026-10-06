@@ -1,0 +1,18 @@
+BTC-USD hour-of-day return, 2017-2021 {"t_for_6": 0.95, "familywise_p_for_6": 1.0, "strongest_label": 20, "strongest_t": 2.66, "strongest_familywise_p": 0.163, "labels": 24}
+BTC-USD hour-of-day |return|, 2017-2021 {"t_for_6": -2.39, "familywise_p_for_6": 0.333, "strongest_label": 23, "strongest_t": 6.16, "strongest_familywise_p": 0.0, "labels": 24}
+BTC-USD day-of-month return, 2017-2021 {"t_for_6": 0.26, "familywise_p_for_6": 1.0, "strongest_label": 9, "strongest_t": -3.65, "strongest_familywise_p": 0.01, "labels": 31}
+BTC-USD day-of-week return (Mon=1, 6=Sat), 2017-2021 {"t_for_6": -1.38, "familywise_p_for_6": 0.717, "strongest_label": 6, "strongest_t": -1.38, "strongest_familywise_p": 0.717, "labels": 7}
+BTC-USD hour-of-day return, 2022-2026 {"t_for_6": 0.04, "familywise_p_for_6": 1.0, "strongest_label": 21, "strongest_t": 2.49, "strongest_familywise_p": 0.243, "labels": 24}
+BTC-USD hour-of-day |return|, 2022-2026 {"t_for_6": -7.65, "familywise_p_for_6": 0.0, "strongest_label": 13, "strongest_t": 13.71, "strongest_familywise_p": 0.0, "labels": 24}
+BTC-USD day-of-month return, 2022-2026 {"t_for_6": -0.71, "familywise_p_for_6": 1.0, "strongest_label": 4, "strongest_t": -2.18, "strongest_familywise_p": 0.643, "labels": 31}
+BTC-USD day-of-week return (Mon=1, 6=Sat), 2022-2026 {"t_for_6": 0.3, "familywise_p_for_6": 1.0, "strongest_label": 3, "strongest_t": -1.97, "strongest_familywise_p": 0.287, "labels": 7}
+BTC-USD monthly autocorrelation {"lag6": 0.088, "band_95pct": 0.168, "largest_lag": 8, "largest": 0.138, "months": 136}
+ETH-USD hour-of-day return, 2017-2021 {"t_for_6": -0.07, "familywise_p_for_6": 1.0, "strongest_label": 20, "strongest_t": 3.33, "strongest_familywise_p": 0.013, "labels": 24}
+ETH-USD hour-of-day |return|, 2017-2021 {"t_for_6": -3.59, "familywise_p_for_6": 0.027, "strongest_label": 23, "strongest_t": 6.24, "strongest_familywise_p": 0.0, "labels": 24}
+ETH-USD day-of-month return, 2017-2021 {"t_for_6": -1.65, "familywise_p_for_6": 0.963, "strongest_label": 9, "strongest_t": -2.77, "strongest_familywise_p": 0.19, "labels": 31}
+ETH-USD day-of-week return (Mon=1, 6=Sat), 2017-2021 {"t_for_6": -0.02, "familywise_p_for_6": 1.0, "strongest_label": 3, "strongest_t": -1.15, "strongest_familywise_p": 0.827, "labels": 7}
+ETH-USD hour-of-day return, 2022-2026 {"t_for_6": 0.33, "familywise_p_for_6": 1.0, "strongest_label": 21, "strongest_t": 2.19, "strongest_familywise_p": 0.457, "labels": 24}
+ETH-USD hour-of-day |return|, 2022-2026 {"t_for_6": -7.01, "familywise_p_for_6": 0.0, "strongest_label": 3, "strongest_t": -14.08, "strongest_familywise_p": 0.0, "labels": 24}
+ETH-USD day-of-month return, 2022-2026 {"t_for_6": -0.19, "familywise_p_for_6": 1.0, "strongest_label": 22, "strongest_t": 1.95, "strongest_familywise_p": 0.833, "labels": 31}
+ETH-USD day-of-week return (Mon=1, 6=Sat), 2022-2026 {"t_for_6": 0.07, "familywise_p_for_6": 1.0, "strongest_label": 3, "strongest_t": -1.77, "strongest_familywise_p": 0.42, "labels": 7}
+ETH-USD monthly autocorrelation {"lag6": 0.023, "band_95pct": 0.175, "largest_lag": 3, "largest": 0.176, "months": 126}

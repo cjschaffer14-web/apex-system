@@ -1,0 +1,121 @@
+{
+  "rule": "add-only: every v0.2 file's original bytes must remain as an exact prefix; .py files must be identical; state/ is append-only runtime history",
+  "files": {
+    "APEX_V0_2_IMPLEMENTATION_SPEC.md": {
+      "sha256": "819f2f46384cb056e623875fd9301c31ba44a9d6391d2e06a1e1537cc3e128f3",
+      "bytes": 18413
+    },
+    "README.md": {
+      "sha256": "a5666902eb687d4c6cb5ba896bed80f154f15518167037b416eb8c5e0768a963",
+      "bytes": 1732
+    },
+    "TEST_RESULTS.txt": {
+      "sha256": "a3f10b8346377aa62a54101cb5af8adf2a803d94ffa389fcbefc2852d369d5fd",
+      "bytes": 2336
+    },
+    "apex/__init__.py": {
+      "sha256": "18f04cdf930a0ec5da8eba56f29c07d2310dbe5dae69f75283a1166cbead5be9",
+      "bytes": 65
+    },
+    "apex/actuation/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/actuation/runtime.py": {
+      "sha256": "d2d14f381b1ffc6a8e67abb0f2cd371a553ca9d4bfe9eee3115a1d4b7379422e",
+      "bytes": 1295
+    },
+    "apex/authority/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/authority/broker.py": {
+      "sha256": "116731d3ad801196a8a007f51b3e4af9bde41bca132064c8bf4e58d11329547a",
+      "bytes": 1318
+    },
+    "apex/authority/constitution.py": {
+      "sha256": "a7c6afba8b8c983a0ef0f165224b96198a7b6690109fe3a9c22be275ee3ebf38",
+      "bytes": 1301
+    },
+    "apex/authority/gatekeeper.py": {
+      "sha256": "a0c18bd9c156029091a14517f3c2d6e5218a709245ff5c4eea8dfff9f0b2a630",
+      "bytes": 2637
+    },
+    "apex/cognition/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/cognition/deliberation.py": {
+      "sha256": "39eb4d8dacb8b89993de72ac77ccbc0922957408e10d654f62d84f25428fb691",
+      "bytes": 886
+    },
+    "apex/cognition/evolution.py": {
+      "sha256": "995bcffe39ef7dc664f3f85512332361a45c7f1593b570dce95ed993f8757db4",
+      "bytes": 1325
+    },
+    "apex/cognition/layers.py": {
+      "sha256": "d68364cb6174a954fcc0d978b8d6711efffb3ab8697279ff3cc538954fb53cea",
+      "bytes": 6600
+    },
+    "apex/cognition/math_systems.py": {
+      "sha256": "c136587b7e9035ac71746591d74c026b82b7b177c64a40951d3a22ef60d5e261",
+      "bytes": 7750
+    },
+    "apex/collab.py": {
+      "sha256": "beaad743d12604d79f0076175c8ce88247a472d7487bc7cb814fc5c8915a1bbc",
+      "bytes": 1832
+    },
+    "apex/core.py": {
+      "sha256": "4968ff1de46f80b4f50491bb0d0d2ffc9de78b9cf810e929c4312c5db8fd5078",
+      "bytes": 7042
+    },
+    "apex/domain/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/domain/base.py": {
+      "sha256": "faa5dda23f1198e5cf0b22b9f760fce3dc7e24f4816311cee5007ecbc8e497fd",
+      "bytes": 662
+    },
+    "apex/domain/research.py": {
+      "sha256": "97bbf7d680c88679c48319bc84319bf939fbd3917f5ae1265a6e74098e8b5996",
+      "bytes": 654
+    },
+    "apex/domain/trading.py": {
+      "sha256": "446f7cf89939d66e97281c4cf41f3b17a219e409ba5f0c3f02649421f897a927",
+      "bytes": 674
+    },
+    "apex/scheduler.py": {
+      "sha256": "daadb01f3ee6a903aca1eb77e2fd72b1cc8ed91bf530c0920da368a1b0e2f99c",
+      "bytes": 768
+    },
+    "docs/ABSTRACTION_MAP.md": {
+      "sha256": "cb56588dff5aba6ee5827a7193df5df30658e3b651c5597fe7b1c03b62050cfd",
+      "bytes": 2005
+    },
+    "docs/CROSS_AI_COLLAB_PSEUDOCODE.md": {
+      "sha256": "e474e8f3aa60bb8b2acfee300ff41490420b6bc41987f41d317a051933c58046",
+      "bytes": 8546
+    },
+    "docs/IMPLEMENTATION_PLAN.md": {
+      "sha256": "cfb55da4346cb0001ebde189fd8c4abda9499ccd871cb0d2a9222a0b6ec0fc08",
+      "bytes": 1455
+    },
+    "docs/MATHEMATICAL_SYSTEMS.md": {
+      "sha256": "06c463eef09eb0822b288745a5869b71a4d68cae9939447d48a4d43737dda41b",
+      "bytes": 4605
+    },
+    "run.py": {
+      "sha256": "98a19b44953bcbfef46eed1dd7ca9999c06e87293e7eabaf0ea8a1ab53f6e3f0",
+      "bytes": 1568
+    },
+    "state/events.jsonl": {
+      "sha256": "b346d618c7f4f740eeaa3e0fceb94423762946ecdccd3f353cb153624e70a64b",
+      "bytes": 1550
+    },
+    "tests/test_apex.py": {
+      "sha256": "5facd4b482ef20bbda30019eb0dd3010b8f2577b6101967ea0d6ce2069a4428c",
+      "bytes": 1631
+    }
+  }
+}

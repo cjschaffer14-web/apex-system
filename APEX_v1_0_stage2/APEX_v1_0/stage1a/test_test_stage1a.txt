@@ -1,0 +1,19 @@
+# APEX v1.0 test run - 2026-10-04T03:04:27Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage1a.py', ResourceWarnings counted as failures)
+
+test_cscv_matrices_and_dsr_inputs (test_stage1a.Stage1A.test_cscv_matrices_and_dsr_inputs) ... ok
+test_evidence_gate_fail_closed (test_stage1a.Stage1A.test_evidence_gate_fail_closed) ... ok
+test_forensic_outcomes_complete (test_stage1a.Stage1A.test_forensic_outcomes_complete) ... ok
+test_h41_all_archived_pages_parse (test_stage1a.Stage1A.test_h41_all_archived_pages_parse) ... ok
+test_ledger_1a (test_stage1a.Stage1A.test_ledger_1a) ... ok
+test_parent_stage1_immutable (test_stage1a.Stage1A.test_parent_stage1_immutable) ... ok
+test_stage1a_database_and_h41 (test_stage1a.Stage1A.test_stage1a_database_and_h41) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.882s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (7 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

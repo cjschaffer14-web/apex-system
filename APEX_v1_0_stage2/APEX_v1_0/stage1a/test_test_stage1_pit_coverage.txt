@@ -1,0 +1,21 @@
+# APEX v1.0 test run - 2026-10-04T03:03:25Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage1_pit_coverage.py', ResourceWarnings counted as failures)
+
+test_require_named_ablation (test_stage1_pit_coverage.Gate.test_require_named_ablation) ... ok
+test_require_refuses_fail_and_partial_by_default (test_stage1_pit_coverage.Gate.test_require_refuses_fail_and_partial_by_default) ... ok
+test_require_shortens_only_when_the_shorter_window_passes (test_stage1_pit_coverage.Gate.test_require_shortens_only_when_the_shorter_window_passes) ... ok
+test_statuses (test_stage1_pit_coverage.Gate.test_statuses) ... ok
+test_funding_accrues_only_at_recorded_events (test_stage1_pit_coverage.PointInTime.test_funding_accrues_only_at_recorded_events) ... ok
+test_legacy_readings_use_their_lag_rule (test_stage1_pit_coverage.PointInTime.test_legacy_readings_use_their_lag_rule) ... ok
+test_macro_asof_respects_publication_and_revisions (test_stage1_pit_coverage.PointInTime.test_macro_asof_respects_publication_and_revisions) ... ok
+test_macro_series_matches_sql_on_random_revisions (test_stage1_pit_coverage.PointInTime.test_macro_series_matches_sql_on_random_revisions) ... ok
+test_position_opened_after_the_settlement_instant_is_not_charged (test_stage1_pit_coverage.PointInTime.test_position_opened_after_the_settlement_instant_is_not_charged) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.045s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (9 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

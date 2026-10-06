@@ -1,0 +1,86 @@
+{
+  "aggregate": "PASS",
+  "modules": [
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_interfaces.txt",
+      "log_sha256": "1e0e1378321a55350186f9c4bd9275f90be022c97a977106adff886f3989682d",
+      "module": "interfaces",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 22
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage0_baseline.txt",
+      "log_sha256": "cd4713bc5d74137c98d33fbebbe055cd38243c56fc35d593dab726fa66c9b080",
+      "module": "stage0_baseline",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 4
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage1_database.txt",
+      "log_sha256": "8656e996bcc7cfb1bb305e3e37a76db53209432363b8dd7b48f1e54849dce258",
+      "module": "stage1_database",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 13
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage1_ledger.txt",
+      "log_sha256": "2ca20fe39c146b06037cd7ba78e0345cdc434b040314809571e8730b5ffd9907",
+      "module": "stage1_ledger",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 11
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage1_pit_coverage.txt",
+      "log_sha256": "be2b5ae4abe5dbfb4f8193a4b00f8e2b14e8ff38c80ca821ad1c67ce73a70e76",
+      "module": "stage1_pit_coverage",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 9
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage1_sources.txt",
+      "log_sha256": "16e85ca7499f2c2234c6bb2facd08f7e1f6254aa6888e43b20f6d19b80461873",
+      "module": "stage1_sources",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 9
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "log": "stage1a/test_test_stage1a.txt",
+      "log_sha256": "997bdbd1494726e0d05651a5764350ba9daa71e6e9388335143b1e814226b181",
+      "module": "stage1a",
+      "resource_warnings": 0,
+      "result": "PASS",
+      "skipped": 0,
+      "tests": 7
+    }
+  ],
+  "note": "The warning-as-error runner was executed per test module; this is the same unittest suite partitioned into seven deterministic module runs.",
+  "resource_warnings_total": 0,
+  "stage": "1A",
+  "tests_total": 75
+}

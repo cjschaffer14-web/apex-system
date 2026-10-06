@@ -1,0 +1,18 @@
+{
+  "owner_id": "owner",
+  "display_name": "Owner",
+  "channels": [
+    {
+      "kind": "outbox_file",
+      "address": "state/operator_outbox.jsonl",
+      "verified": true,
+      "priority": 0
+    },
+    {
+      "kind": "email",
+      "address": "you@example.com",
+      "verified": false,
+      "priority": 1
+    }
+  ]
+}

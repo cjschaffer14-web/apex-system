@@ -1,0 +1,2111 @@
+{
+  "families": {
+    "candles:coinbase:AAVE-USD:1440": {
+      "evidence_rows": 2118,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.747881,
+          "reason": "evidence starts 2020-12-15 (after requested start); evidence-grade coverage 74.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.59461,
+          "reason": "evidence starts 2020-12-15 (after requested start); evidence-grade coverage 59.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.16207,
+          "reason": "only 16% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.517469,
+          "reason": "evidence starts 2020-12-15 (after requested start); evidence-grade coverage 51.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.558839,
+          "reason": "evidence starts 2020-12-15 (after requested start); evidence-grade coverage 55.9% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:ADA-USD:1440": {
+      "evidence_rows": 2025,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.715042,
+          "reason": "evidence starts 2021-03-18 (after requested start); evidence-grade coverage 71.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.568501,
+          "reason": "evidence starts 2021-03-18 (after requested start); evidence-grade coverage 56.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.122613,
+          "reason": "only 12% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.494747,
+          "reason": "only 49% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.534301,
+          "reason": "evidence starts 2021-03-18 (after requested start); evidence-grade coverage 53.4% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:ALGO-USD:1440": {
+      "evidence_rows": 2606,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.920198,
+          "reason": "evidence starts 2019-08-15 (after requested start); evidence-grade coverage 92.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.731611,
+          "reason": "evidence starts 2019-08-15 (after requested start); evidence-grade coverage 73.2% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.369113,
+          "reason": "only 37% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.636697,
+          "reason": "evidence starts 2019-08-15 (after requested start); evidence-grade coverage 63.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.687599,
+          "reason": "evidence starts 2019-08-15 (after requested start); evidence-grade coverage 68.8% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:ATOM-USD:1440": {
+      "evidence_rows": 2454,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.866525,
+          "reason": "evidence starts 2020-01-14 (after requested start); evidence-grade coverage 86.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.688939,
+          "reason": "evidence starts 2020-01-14 (after requested start); evidence-grade coverage 68.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.304625,
+          "reason": "only 30% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.59956,
+          "reason": "evidence starts 2020-01-14 (after requested start); evidence-grade coverage 60.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.647493,
+          "reason": "evidence starts 2020-01-14 (after requested start); evidence-grade coverage 64.7% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:AVAX-USD:1440": {
+      "evidence_rows": 1829,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.645833,
+          "reason": "evidence starts 2021-09-30 (after requested start); evidence-grade coverage 64.6% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.513476,
+          "reason": "evidence starts 2021-09-30 (after requested start); evidence-grade coverage 51.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.039457,
+          "reason": "only 4% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.44686,
+          "reason": "only 45% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.482586,
+          "reason": "only 48% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "candles:coinbase:BCH-USD:1440": {
+      "evidence_rows": 3205,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.899775,
+          "reason": "evidence starts 2017-12-20 (after requested start); evidence-grade coverage 90.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.62325,
+          "reason": "evidence starts 2017-12-20 (after requested start); evidence-grade coverage 62.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.783044,
+          "reason": "evidence starts 2017-12-20 (after requested start); evidence-grade coverage 78.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.845646,
+          "reason": "evidence starts 2017-12-20 (after requested start); evidence-grade coverage 84.6% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:BTC-USD:1440": {
+      "evidence_rows": 4093,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_btc_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_eth_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "candles:coinbase:BTC-USD:60": {
+      "evidence_rows": 85437,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.99972,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.99938,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 0.999688,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.774007,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 77.4% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.869727,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 87.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.939259,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 93.9% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:DOGE-USD:1440": {
+      "evidence_rows": 1948,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.687853,
+          "reason": "evidence starts 2021-06-03 (after requested start); evidence-grade coverage 68.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.546884,
+          "reason": "evidence starts 2021-06-03 (after requested start); evidence-grade coverage 54.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.089945,
+          "reason": "only 9% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.475935,
+          "reason": "only 48% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.513984,
+          "reason": "evidence starts 2021-06-03 (after requested start); evidence-grade coverage 51.4% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:DOT-USD:1440": {
+      "evidence_rows": 1935,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.683263,
+          "reason": "evidence starts 2021-06-16 (after requested start); evidence-grade coverage 68.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.543234,
+          "reason": "evidence starts 2021-06-16 (after requested start); evidence-grade coverage 54.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.084429,
+          "reason": "only 8% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.472758,
+          "reason": "only 47% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.510554,
+          "reason": "evidence starts 2021-06-16 (after requested start); evidence-grade coverage 51.1% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:ETC-USD:1440": {
+      "evidence_rows": 2978,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.836047,
+          "reason": "evidence starts 2018-08-08 (after requested start); evidence-grade coverage 83.6% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.526941,
+          "reason": "evidence starts 2018-08-08 (after requested start); evidence-grade coverage 52.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.727584,
+          "reason": "evidence starts 2018-08-08 (after requested start); evidence-grade coverage 72.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.785752,
+          "reason": "evidence starts 2018-08-08 (after requested start); evidence-grade coverage 78.6% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:ETH-USD:1440": {
+      "evidence_rows": 3788,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.870598,
+          "reason": "evidence starts 2016-05-18 (after requested start); evidence-grade coverage 87.1% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.925483,
+          "reason": "evidence starts 2016-05-18 (after requested start); evidence-grade coverage 92.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.999472,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "candles:coinbase:ETH-USD:60": {
+      "evidence_rows": 85452,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.999735,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.999555,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 0.999688,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.774272,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 77.4% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.869879,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 87.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.939424,
+          "reason": "evidence starts 2017-01-01 (after requested start); evidence-grade coverage 93.9% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:FIL-USD:1440": {
+      "evidence_rows": 2124,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.75,
+          "reason": "evidence starts 2020-12-09 (after requested start); evidence-grade coverage 75.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.596294,
+          "reason": "evidence starts 2020-12-09 (after requested start); evidence-grade coverage 59.6% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.164616,
+          "reason": "only 16% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.518935,
+          "reason": "evidence starts 2020-12-09 (after requested start); evidence-grade coverage 51.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.560422,
+          "reason": "evidence starts 2020-12-09 (after requested start); evidence-grade coverage 56.0% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:HBAR-USD:1440": {
+      "evidence_rows": 1451,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.512359,
+          "reason": "evidence starts 2022-10-13 (after requested start); evidence-grade coverage 51.2% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.407355,
+          "reason": "only 41% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.835829,
+          "reason": "evidence starts 2022-10-13 (after requested start); evidence-grade coverage 83.6% of expected observations",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.354508,
+          "reason": "only 35% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.38285,
+          "reason": "only 38% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "candles:coinbase:LINK-USD:1440": {
+      "evidence_rows": 2655,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.9375,
+          "reason": "evidence starts 2019-06-27 (after requested start); evidence-grade coverage 93.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.745368,
+          "reason": "evidence starts 2019-06-27 (after requested start); evidence-grade coverage 74.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.389902,
+          "reason": "only 39% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.648668,
+          "reason": "evidence starts 2019-06-27 (after requested start); evidence-grade coverage 64.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.700528,
+          "reason": "evidence starts 2019-06-27 (after requested start); evidence-grade coverage 70.1% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:LTC-USD:1440": {
+      "evidence_rows": 3698,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.832414,
+          "reason": "evidence starts 2016-08-17 (after requested start); evidence-grade coverage 83.2% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.903494,
+          "reason": "evidence starts 2016-08-17 (after requested start); evidence-grade coverage 90.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.975726,
+          "reason": "evidence starts 2016-08-17 (after requested start); evidence-grade coverage 97.6% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:NEAR-USD:1440": {
+      "evidence_rows": 1493,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.527189,
+          "reason": "evidence starts 2022-09-01 (after requested start); evidence-grade coverage 52.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.419147,
+          "reason": "only 42% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.860023,
+          "reason": "evidence starts 2022-09-01 (after requested start); evidence-grade coverage 86.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.364769,
+          "reason": "only 36% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.393931,
+          "reason": "only 39% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "candles:coinbase:SOL-USD:1440": {
+      "evidence_rows": 1934,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.68291,
+          "reason": "evidence starts 2021-06-17 (after requested start); evidence-grade coverage 68.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.542953,
+          "reason": "evidence starts 2021-06-17 (after requested start); evidence-grade coverage 54.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.084005,
+          "reason": "only 8% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.472514,
+          "reason": "only 47% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.51029,
+          "reason": "evidence starts 2021-06-17 (after requested start); evidence-grade coverage 51.0% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:UNI-USD:1440": {
+      "evidence_rows": 2207,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.779308,
+          "reason": "evidence starts 2020-09-17 (after requested start); evidence-grade coverage 77.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.619596,
+          "reason": "evidence starts 2020-09-17 (after requested start); evidence-grade coverage 62.0% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.19983,
+          "reason": "only 20% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.539213,
+          "reason": "evidence starts 2020-09-17 (after requested start); evidence-grade coverage 53.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.582322,
+          "reason": "evidence starts 2020-09-17 (after requested start); evidence-grade coverage 58.2% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:XLM-USD:1440": {
+      "evidence_rows": 2760,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.974576,
+          "reason": "evidence starts 2019-03-14 (after requested start); evidence-grade coverage 97.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.774846,
+          "reason": "evidence starts 2019-03-14 (after requested start); evidence-grade coverage 77.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.434451,
+          "reason": "only 43% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.674322,
+          "reason": "evidence starts 2019-03-14 (after requested start); evidence-grade coverage 67.4% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.728232,
+          "reason": "evidence starts 2019-03-14 (after requested start); evidence-grade coverage 72.8% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "candles:coinbase:XRP-USD:1440": {
+      "evidence_rows": 1872,
+      "family_policy_evidence_eligible": true,
+      "kind": "candles",
+      "policy_rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.661017,
+          "reason": "evidence starts 2019-02-26 (after requested start); evidence-grade coverage 66.1% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.525547,
+          "reason": "evidence starts 2019-02-26 (after requested start); evidence-grade coverage 52.6% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 0.678571,
+          "reason": "evidence-grade coverage 67.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.294442,
+          "reason": "only 29% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.457366,
+          "reason": "only 46% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.493931,
+          "reason": "only 49% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "funding:bitmex:ETHUSD": {
+      "evidence_rows": 8902,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.994116,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.832975,
+          "reason": "evidence starts 2018-08-02 (after requested start); evidence ends 2026-09-16 (before requested end); evidence-grade coverage 83.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 0.990401,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.52927,
+          "reason": "evidence starts 2018-08-02 (after requested start); evidence-grade coverage 52.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.724919,
+          "reason": "evidence starts 2018-08-02 (after requested start); evidence ends 2026-09-16 (before requested end); evidence-grade coverage 72.5% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.782869,
+          "reason": "evidence starts 2018-08-02 (after requested start); evidence ends 2026-09-16 (before requested end); evidence-grade coverage 78.3% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "funding:bitmex:XBTUSD": {
+      "evidence_rows": 11290,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.994116,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.995321,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 0.990401,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.86694,
+          "reason": "evidence starts 2016-05-14 (after requested start); evidence-grade coverage 86.7% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.919381,
+          "reason": "evidence starts 2016-05-14 (after requested start); evidence ends 2026-09-16 (before requested end); evidence-grade coverage 91.9% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.992525,
+          "reason": "evidence ends 2026-09-16 (before requested end)",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "funding:coinbase_intx:BTC-PERP": {
+      "evidence_rows": 30942,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.455237,
+          "reason": "only 46% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.361941,
+          "reason": "only 36% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.742638,
+          "reason": "evidence starts 2023-03-22 (after requested start); evidence ends 2026-10-01 (before requested end); evidence-grade coverage 74.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.314986,
+          "reason": "only 31% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.340168,
+          "reason": "only 34% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "funding:coinbase_intx:ETH-PERP": {
+      "evidence_rows": 30942,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.455237,
+          "reason": "only 46% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.361941,
+          "reason": "only 36% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.742638,
+          "reason": "evidence starts 2023-03-22 (after requested start); evidence ends 2026-10-01 (before requested end); evidence-grade coverage 74.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.314986,
+          "reason": "only 31% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.340168,
+          "reason": "only 34% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "funding:deribit:BTC-PERPETUAL": {
+      "evidence_rows": 65103,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.95779,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 95.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.761501,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 76.2% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 0.999976,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.414291,
+          "reason": "only 41% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.66271,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 66.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.715691,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 71.6% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "funding:deribit:ETH-PERPETUAL": {
+      "evidence_rows": 65103,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.95779,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 95.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.761501,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 76.2% of expected observations",
+          "status": "PARTIAL"
+        },
+        "post_2022": {
+          "coverage": 0.999976,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.414291,
+          "reason": "only 41% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.66271,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 66.3% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.715691,
+          "reason": "evidence starts 2019-04-30 (after requested start); evidence-grade coverage 71.6% of expected observations",
+          "status": "PARTIAL"
+        }
+      }
+    },
+    "funding:kraken_futures:PF_ETHUSD": {
+      "evidence_rows": 8795,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.129353,
+          "reason": "only 13% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.102844,
+          "reason": "only 10% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.211016,
+          "reason": "only 21% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.089501,
+          "reason": "only 9% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.096657,
+          "reason": "only 10% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "funding:kraken_futures:PF_XBTUSD": {
+      "evidence_rows": 8795,
+      "family_policy_evidence_eligible": true,
+      "kind": "funding",
+      "policy_rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.129353,
+          "reason": "only 13% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.102844,
+          "reason": "only 10% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.211016,
+          "reason": "only 21% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade overlap with the requested window",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.089501,
+          "reason": "only 9% of expected evidence-grade data",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.096657,
+          "reason": "only 10% of expected evidence-grade data",
+          "status": "FAIL"
+        }
+      }
+    },
+    "macro:cboe:vix_close": {
+      "evidence_rows": 3240,
+      "family_policy_evidence_eligible": true,
+      "kind": "macro",
+      "policy_rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_btc_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_eth_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "macro:fed_h41:RESPPMA_N.WW": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "macro",
+      "policy_rationale": "DDP value is latest vintage even though its release time is exact.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; DDP value is latest vintage even though its release time is exact.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "macro:fed_h41_first_release:RESPPMA_N.WW": {
+      "evidence_rows": 666,
+      "family_policy_evidence_eligible": true,
+      "kind": "macro",
+      "policy_rationale": "Value parsed from the Board's archived first H.4.1 release after the observation Wednesday.",
+      "revision_status": "first_release_verified",
+      "value_vintage_quality": "first_release",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_btc_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_eth_full": {
+          "coverage": 1.0,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "macro:nyfed:rrp_total_accepted": {
+      "evidence_rows": 2689,
+      "family_policy_evidence_eligible": true,
+      "kind": "macro",
+      "policy_rationale": "Rows whose source lastUpdated is same-day are admissible; edited rows are downgraded row-wise.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "unrevised_since_release",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.992791,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.992223,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 0.994118,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.930779,
+          "reason": "evidence starts 2015-12-07 (after requested start); evidence-grade coverage 93.1% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.957621,
+          "reason": "evidence starts 2015-12-07 (after requested start); evidence-grade coverage 95.8% of expected observations",
+          "status": "PARTIAL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.992689,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "macro:treasury_fiscaldata:tga_closing_balance": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "macro",
+      "policy_rationale": "TGA first-print archive was not available in this environment; excluded from evidence-grade use.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; TGA first-print archive was not available in this environment; excluded from evidence-grade use.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "macro:treasury_yields:par_yield_10y": {
+      "evidence_rows": 3190,
+      "family_policy_evidence_eligible": true,
+      "kind": "macro",
+      "policy_rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.99897,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.998363,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 0.998319,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.998146,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_btc_full": {
+          "coverage": 0.998219,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_eth_full": {
+          "coverage": 0.998461,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "macro:treasury_yields:par_yield_2y": {
+      "evidence_rows": 3190,
+      "family_policy_evidence_eligible": true,
+      "kind": "macro",
+      "policy_rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.99897,
+          "reason": "",
+          "status": "PASS"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.998363,
+          "reason": "",
+          "status": "PASS"
+        },
+        "post_2022": {
+          "coverage": 0.998319,
+          "reason": "",
+          "status": "PASS"
+        },
+        "pre_2022": {
+          "coverage": 0.998146,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_btc_full": {
+          "coverage": 0.998219,
+          "reason": "",
+          "status": "PASS"
+        },
+        "v09_eth_full": {
+          "coverage": 0.998461,
+          "reason": "",
+          "status": "PASS"
+        }
+      }
+    },
+    "readings:attention:fear_greed": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:gdelt:bitcoin": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:gdelt:cryptocurrency": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:gdelt_tone:bitcoin": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:wiki:Bitcoin": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:wiki:Cryptocurrency": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:attention:wiki:Ethereum": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:funding:funding:BTC-USD": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:funding:funding:ETH-USD": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=unverified, revision_status=unverified; Legacy day-stamped reading lacks a verified publication/vintage record.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:AdrActCnt": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:CapMVRVCur": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:FlowInExNtv": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:FlowOutExNtv": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:SplyCur": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    },
+    "readings:onchain:cm:SplyExNtv": {
+      "evidence_rows": 0,
+      "family_policy_evidence_eligible": false,
+      "kind": "readings",
+      "policy_rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage",
+      "windows": {
+        "funding_era_2019_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "hourly_2017_on": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "post_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "pre_2022": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_btc_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        },
+        "v09_eth_full": {
+          "coverage": 0.0,
+          "reason": "no evidence-grade observations (vintage=latest_vintage, revision_status=latest_vintage; Legacy Coin Metrics values have no stored historical vintage.)",
+          "status": "FAIL"
+        }
+      }
+    }
+  },
+  "grade": "evidence",
+  "windows": {
+    "funding_era_2019_on": [
+      "2019-01-01",
+      "2026-10-02"
+    ],
+    "hourly_2017_on": [
+      "2017-01-01",
+      "2026-10-02"
+    ],
+    "post_2022": [
+      "2022-01-01",
+      "2026-10-02"
+    ],
+    "pre_2022": [
+      "2015-07-20",
+      "2021-12-31"
+    ],
+    "v09_btc_full": [
+      "2015-07-20",
+      "2026-10-02"
+    ],
+    "v09_eth_full": [
+      "2016-05-18",
+      "2026-10-02"
+    ]
+  }
+}

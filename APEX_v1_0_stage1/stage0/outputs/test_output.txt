@@ -1,0 +1,25 @@
+test_asof_uses_publication_time_not_observation_time (test_interfaces.Chronology.test_asof_uses_publication_time_not_observation_time) ... ok
+test_bars_must_be_ordered_and_consistent (test_interfaces.Chronology.test_bars_must_be_ordered_and_consistent) ... ok
+test_frame_rejects_future_bars_and_unpublished_observations (test_interfaces.Chronology.test_frame_rejects_future_bars_and_unpublished_observations) ... ok
+test_gate_rules (test_interfaces.Evidence.test_gate_rules) ... ok
+test_objects_are_frozen_and_hash_deterministically (test_interfaces.Evidence.test_objects_are_frozen_and_hash_deterministically) ... ok
+test_trial_identity_and_returns_status (test_interfaces.Evidence.test_trial_identity_and_returns_status) ... ok
+test_funding_needs_recorded_event_and_liquidation_flags (test_interfaces.Execution.test_funding_needs_recorded_event_and_liquidation_flags) ... ok
+test_same_bar_ambiguity_is_resolved_pessimistically_by_default (test_interfaces.Execution.test_same_bar_ambiguity_is_resolved_pessimistically_by_default) ... ok
+test_expert_cannot_reach_account_router_or_future (test_interfaces.Experts.test_expert_cannot_reach_account_router_or_future) ... ok
+test_forecast_units_and_bounds (test_interfaces.Experts.test_forecast_units_and_bounds) ... ok
+test_common_horizon_and_weights (test_interfaces.Mixture.test_common_horizon_and_weights) ... ok
+test_caps_and_fallback_rungs (test_interfaces.Risk.test_caps_and_fallback_rungs) ... ok
+test_distribution_sums_to_one_and_baseline_is_one_hot (test_interfaces.State.test_distribution_sums_to_one_and_baseline_is_one_hot) ... ok
+test_state_objects_cannot_size_trades (test_interfaces.State.test_state_objects_cannot_size_trades) ... ok
+test_geometry_forecast_monotone_and_uses_ratio_grid (test_interfaces.Structure.test_geometry_forecast_monotone_and_uses_ratio_grid) ... ok
+test_only_confirmed_pivots (test_interfaces.Structure.test_only_confirmed_pivots) ... ok
+test_both_manifests_verify (test_stage0_baseline.BaselineHashes.test_both_manifests_verify) ... ok
+test_database_and_frozen_spec (test_stage0_baseline.BaselineHashes.test_database_and_frozen_spec) ... ok
+test_path_redirect_is_exact (test_stage0_baseline.FrozenValidation.test_path_redirect_is_exact) ... ok
+test_v09_validation_reruns_identically_and_leaves_baseline_untouched (test_stage0_baseline.FrozenValidation.test_v09_validation_reruns_identically_and_leaves_baseline_untouched) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.155s
+
+OK

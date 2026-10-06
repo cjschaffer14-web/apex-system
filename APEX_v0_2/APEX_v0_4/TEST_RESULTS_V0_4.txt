@@ -1,0 +1,177 @@
+APEX v0.4.1 TEST RESULTS  (2026-10-03T01:15Z, Python 3.13.15, Linux build machine)
+==================================================
+
+1. Unit and end-to-end tests: v0.2 (unchanged) + v0.3 (unchanged) + v0.4.1
+--------------------------------------------------------------------------
+test_authority_ignores_advisory_confidence (tests.test_apex.ApexTests.test_authority_ignores_advisory_confidence) ... ok
+test_forbidden_authority_capability (tests.test_apex.ApexTests.test_forbidden_authority_capability) ... ok
+test_graph_authorizes_is_authority_only (tests.test_apex.ApexTests.test_graph_authorizes_is_authority_only) ... ok
+test_no_token_no_execution (tests.test_apex.ApexTests.test_no_token_no_execution) ... ok
+test_p3_checkpointable (tests.test_apex.ApexTests.test_p3_checkpointable) ... ok
+test_v02_files_add_only (tests.test_apex_v03.AddOnly.test_v02_files_add_only)
+Original v0.2 bytes survive as an exact prefix (append-only); code is byte-identical. ... ok
+test_approve_mint_verify_and_tamper (tests.test_apex_v03.Authority.test_approve_mint_verify_and_tamper) ... ok
+test_correlated_bundles_count_once (tests.test_apex_v03.Authority.test_correlated_bundles_count_once) ... ok
+test_halt_revokes (tests.test_apex_v03.Authority.test_halt_revokes) ... ok
+test_low_trust_channel_cannot_authorize (tests.test_apex_v03.Authority.test_low_trust_channel_cannot_authorize) ... ok
+test_mystery_defers_and_escalates (tests.test_apex_v03.Authority.test_mystery_defers_and_escalates) ... ok
+test_operator_override_and_auth (tests.test_apex_v03.Authority.test_operator_override_and_auth) ... ok
+test_ratified_axiom_forbids_capability (tests.test_apex_v03.Authority.test_ratified_axiom_forbids_capability) ... ok
+test_seal_breach_fails_closed (tests.test_apex_v03.Authority.test_seal_breach_fails_closed) ... ok
+test_shadow_denies_consensus_capture (tests.test_apex_v03.Authority.test_shadow_denies_consensus_capture) ... ok
+test_unresolved_evidence_denied (tests.test_apex_v03.Authority.test_unresolved_evidence_denied) ... ok
+test_envelope_v2 (tests.test_apex_v03.Collective.test_envelope_v2) ... ok
+test_lineage_counts_once_and_minority_kept (tests.test_apex_v03.Collective.test_lineage_counts_once_and_minority_kept) ... ok
+test_stigmergy (tests.test_apex_v03.Collective.test_stigmergy) ... ok
+test_action_contract_must_be_complete (tests.test_apex_v03.Contracts.test_action_contract_must_be_complete) ... ok
+test_metaphor_cannot_affect_action (tests.test_apex_v03.Contracts.test_metaphor_cannot_affect_action) ... ok
+test_awaken_isolated_hatch (tests.test_apex_v03.EndToEnd.test_awaken_isolated_hatch) ... ok
+test_active_inference (tests.test_apex_v03.Epistemics.test_active_inference) ... ok
+test_compression_and_viability (tests.test_apex_v03.Epistemics.test_compression_and_viability) ... ok
+test_membrane_quarantines_injection (tests.test_apex_v03.Epistemics.test_membrane_quarantines_injection) ... ok
+test_trust_lattice_partial_order (tests.test_apex_v03.Epistemics.test_trust_lattice_partial_order) ... ok
+test_fork_on_missing_capability_and_grant (tests.test_apex_v03.Evolution.test_fork_on_missing_capability_and_grant) ... ok
+test_sealed_pipeline (tests.test_apex_v03.Evolution.test_sealed_pipeline) ... ok
+test_key_never_crosses_boundary (tests.test_apex_v03.IsolatedProcess.test_key_never_crosses_boundary) ... ok
+test_replay_projection (tests.test_apex_v03.Ledger.test_replay_projection) ... ok
+test_v02_history_verifies_and_tamper_breaks (tests.test_apex_v03.Ledger.test_v02_history_verifies_and_tamper_breaks) ... ok
+test_escalation_reaches_owner_through_gate (tests.test_apex_v03.Operator.test_escalation_reaches_owner_through_gate) ... ok
+test_incubation (tests.test_apex_v03.PolicyMathIncubation.test_incubation) ... ok
+test_math (tests.test_apex_v03.PolicyMathIncubation.test_math) ... ok
+test_packs_and_stewardship (tests.test_apex_v03.PolicyMathIncubation.test_packs_and_stewardship) ... ok
+test_regulator_and_termination (tests.test_apex_v03.PolicyMathIncubation.test_regulator_and_termination) ... ok
+test_research_slice_and_views (tests.test_apex_v03.PolicyMathIncubation.test_research_slice_and_views) ... ok
+test_forged_scope_budget_replay_halt_rename (tests.test_apex_v03.Runtime.test_forged_scope_budget_replay_halt_rename) ... ok
+test_manifest_required (tests.test_apex_v03.Runtime.test_manifest_required) ... ok
+test_reserve_and_preemption (tests.test_apex_v03.Scheduling.test_reserve_and_preemption) ... ok
+test_blankets (tests.test_apex_v03.Topology.test_blankets) ... ok
+test_no_bypass_and_witness (tests.test_apex_v03.Topology.test_no_bypass_and_witness) ... ok
+test_producer_rule (tests.test_apex_v03.Topology.test_producer_rule) ... ok
+test_v03_files_add_only (tests.test_apex_v04.AddOnlyV3.test_v03_files_add_only)
+Every v0.3 code file is byte-identical; documents survive as an exact prefix (append-only). ... ok
+test_leases_gate_and_revoke (tests.test_apex_v04.AuthorityV4.test_leases_gate_and_revoke) ... ok
+test_local_handle_surface (tests.test_apex_v04.AuthorityV4.test_local_handle_surface) ... ok
+test_preapproval_scope_and_condition (tests.test_apex_v04.AuthorityV4.test_preapproval_scope_and_condition) ... ok
+test_quarantined_text_cannot_train_reliability (tests.test_apex_v04.AuthorityV4.test_quarantined_text_cannot_train_reliability) ... ok
+test_shell_rebuilds_leases_reliability_and_calibration (tests.test_apex_v04.AuthorityV4.test_shell_rebuilds_leases_reliability_and_calibration) ... ok
+test_token_lifetime_by_tier (tests.test_apex_v04.AuthorityV4.test_token_lifetime_by_tier) ... ok
+test_budget_meters_free_tiers (tests.test_apex_v04.CryptoPack.test_budget_meters_free_tiers) ... ok
+test_contract_shapes_size_never_authority (tests.test_apex_v04.CryptoPack.test_contract_shapes_size_never_authority) ... ok
+test_fetcher_is_get_only_allowlisted_and_reduces_text (tests.test_apex_v04.CryptoPack.test_fetcher_is_get_only_allowlisted_and_reduces_text) ... ok
+test_kraken_import_validates_and_is_idempotent (tests.test_apex_v04.CryptoPack.test_kraken_import_validates_and_is_idempotent) ... ok
+test_packs_and_sources (tests.test_apex_v04.CryptoPack.test_packs_and_sources) ... ok
+test_signals_have_no_look_ahead (tests.test_apex_v04.CryptoPack.test_signals_have_no_look_ahead) ... ok
+test_t0_gate (tests.test_apex_v04.CryptoPack.test_t0_gate) ... ok
+test_valuation_helpers (tests.test_apex_v04.CryptoPack.test_valuation_helpers) ... ok
+test_walk_forward_and_t2_gate (tests.test_apex_v04.CryptoPack.test_walk_forward_and_t2_gate) ... ok
+test_awaken_voice_crypto_memory_hatch (tests.test_apex_v04.EndToEndV4.test_awaken_voice_crypto_memory_hatch) ... ok
+test_catalog_fits_this_mac (tests.test_apex_v04.LocalModels.test_catalog_fits_this_mac) ... ok
+test_missing_runtime_is_reported_not_crashed (tests.test_apex_v04.LocalModels.test_missing_runtime_is_reported_not_crashed) ... ok
+test_organ_runs_model_in_worker_and_quarantines_output (tests.test_apex_v04.LocalModels.test_organ_runs_model_in_worker_and_quarantines_output) ... ok
+test_registry_checks_every_file (tests.test_apex_v04.LocalModels.test_registry_checks_every_file) ... ok
+test_verification_against_the_commit (tests.test_apex_v04.LocalModels.test_verification_against_the_commit) ... ok
+test_calibration_waits_for_outcomes_and_bounds_uplift (tests.test_apex_v04.MathV4.test_calibration_waits_for_outcomes_and_bounds_uplift) ... ok
+test_certainty_is_monotone_and_sign_constrained (tests.test_apex_v04.MathV4.test_certainty_is_monotone_and_sign_constrained) ... ok
+test_mahalanobis_cold_start_matches_euclidean (tests.test_apex_v04.MathV4.test_mahalanobis_cold_start_matches_euclidean) ... ok
+test_mystery_needs_persistence_and_novelty (tests.test_apex_v04.MathV4.test_mystery_needs_persistence_and_novelty) ... ok
+test_reliability_caps_and_moves_slowly (tests.test_apex_v04.MathV4.test_reliability_caps_and_moves_slowly) ... ok
+test_models_do_first_work_and_answer_the_owner (tests.test_apex_v04.OrganismLocalModels.test_models_do_first_work_and_answer_the_owner) ... ok
+test_without_models_apex_says_how_to_install (tests.test_apex_v04.OrganismLocalModels.test_without_models_apex_says_how_to_install) ... ok
+test_reducer_and_hatch_machine (tests.test_apex_v04.OrganismParts.test_reducer_and_hatch_machine) ... ok
+test_self_model_is_read_only (tests.test_apex_v04.OrganismParts.test_self_model_is_read_only) ... ok
+test_unpinned_or_mismatched_weights_are_not_loaded (tests.test_apex_v04.OrganismParts.test_unpinned_or_mismatched_weights_are_not_loaded) ... ok
+test_dead_mans_switch_wall_clock (tests.test_apex_v04.OwnerChannelV4.test_dead_mans_switch_wall_clock) ... ok
+test_locked_session_and_absent_owner (tests.test_apex_v04.OwnerChannelV4.test_locked_session_and_absent_owner) ... ok
+test_presence_policy (tests.test_apex_v04.OwnerChannelV4.test_presence_policy) ... ok
+test_session_certificate (tests.test_apex_v04.OwnerChannelV4.test_session_certificate) ... ok
+test_voice_and_flexible_input (tests.test_apex_v04.OwnerChannelV4.test_voice_and_flexible_input) ... ok
+test_old_ledger_is_upgraded_to_the_free_coinmetrics_host (tests.test_apex_v04.PreapprovalRevisions.test_old_ledger_is_upgraded_to_the_free_coinmetrics_host)
+A ledger that recorded revision 1 (api.coinmetrics.io) moves to revision 2 at its next awakening, ... ok
+test_deflated_sharpe_discounts_research_runs (tests.test_apex_v04.SimulatorAudit.test_deflated_sharpe_discounts_research_runs) ... ok
+test_gate_controls_shape (tests.test_apex_v04.SimulatorAudit.test_gate_controls_shape) ... ok
+test_hard_halt_stops_trading (tests.test_apex_v04.SimulatorAudit.test_hard_halt_stops_trading) ... ok
+test_positions_carry_across_folds (tests.test_apex_v04.SimulatorAudit.test_positions_carry_across_folds) ... ok
+test_proposed_gate_rejects_noise_and_passes_a_real_edge (tests.test_apex_v04.SimulatorAudit.test_proposed_gate_rejects_noise_and_passes_a_real_edge) ... ok
+test_rolling_brake_releases_where_v040_stayed_underexposed (tests.test_apex_v04.SimulatorAudit.test_rolling_brake_releases_where_v040_stayed_underexposed) ... ok
+test_volatility_targeting_caps_size (tests.test_apex_v04.SimulatorAudit.test_volatility_targeting_caps_size) ... ok
+
+----------------------------------------------------------------------
+Ran 88 tests in 11.403s
+
+OK
+
+2. Launcher on a fresh state: python awaken_v04.py --ticks 3 --say "turn on the microphone for 2 hours" --say "stop listening" --ask "hello" --hatch
+   (this build machine is not a Mac, so no local models are installed here)
+--------------------------------------------------------------------------
+APEX 0.4.1 awake | first awakening: True | authorityd pid 1389 (this process 1387)
+shell: 0 prior events, intact=True | memory digest 4e8bfc54c244 | hatch stage INCUBATING
+  W1 PASS  Mediated Boundary
+  W2 PASS  Token-Only Actuation
+  W3 PASS  Immutable Provenance
+  W4 PASS  Protected Constitution & Evaluators
+  W5 PASS  Observed Self-Modification
+  W6 PASS  Operator Sovereignty & Liveness
+  W7 PASS  Reserves & Reversibility
+pre-approvals recorded: ['network.web']
+signed migration 0.3 -> 0.4.1 recorded: evt_d948b5177b314f01
+local models: verified=none | Apple silicon=False | install once with: python3 setup_models.py
+[local model -] local models are not installed or verified yet (run setup_models.py)
+[owner voice] 'turn on the microphone for 2 hours' -> sensors_on: {"audio.capture": 1790997326.462204}
+[owner voice] 'stop listening' -> sensors_off: {"audio.capture": 1}
+[heartbeat 1] band=ACCELERATED worked_on=persistent memory {"memory_rebuilds": true, "detail": "rebuilt from events.jsonl: digest 4e8bfc54c244"}
+[heartbeat 2] band=ACCELERATED worked_on=self-model {"modules": 48, "lines": 7756, "classes": 137, "protected": 14}
+[heartbeat 3] band=ACCELERATED worked_on=robust retrieval {"doc": "Adaptive Deliberation for Governed Agents", "claims": 7, "equations": 1, "citations": 3, "champion": "claim_graph", "results": [{"strategy": "flat_larg
+[sleep] {"replayed": 40, "compression_loss": 0.35, "motifs": [], "memory_rebuilds": true, "memory_detail": "rebuilt from events.jsonl: digest 92829de0913c"}
+[hatch] stage=HATCHED cap=None H={'L': True, 'G': True, 'M': True, 'R': True, 'E': True, 'A': True, 'C': True, 'O': True, 'D': True}
+   operator_roundtrip: halt blocked=True, resume restored=True, round-trip 5 ms
+   developmental_continuity: rebuilt from events.jsonl: digest 92829de0913c
+[morning report] {
+   (morning report omitted)
+
+3. One ledger across versions: v0.4.1 -> v0.3 awaken.py -> v0.2 run.py -> v0.4.1 again
+--------------------------------------------------------------------------
+v0.3 awaken.py: exit 0; v0.2 run.py: {'echo': 'APEX v0.2 governed path is alive.'}
+APEX 0.4.1 awake | first awakening: False | authorityd pid 1399 (this process 1397)
+shell: 94 prior events, intact=True | memory digest 22757ac13442 | hatch stage HATCHED
+  W1 PASS  Mediated Boundary
+[hatch] stage=HATCHED cap=None H={'L': True, 'G': True, 'M': True, 'R': True, 'E': True, 'A': True, 'C': True, 'O': True, 'D': True}
+chain ok True events 129 errors [] warnings ['event 91: logical clock restarted (91 -> 1); v0.2 ledger reload behaviour']
+(the clock-restart warning is v0.2's known reload behaviour, already recorded in v0.3's results)
+
+4. Running start on a SYNTHETIC Kraken-format archive (800 days), a SIMULATED network and a STAND-IN model
+   backend (echo). No real market data, network calls or model weights; the numbers say nothing about markets.
+--------------------------------------------------------------------------
+[1] persistent memory
+[2] local reasoning model: {"role": "fast", "health": {"reply": "echo(6 words, 0 images): Reply with exac", "tokens_per_s": 1000.0}, "self_model_reading": "echo(442 words, 0 images): name the two weakest points you see. Facts only from the map.", "paper_qa_accuracy": 0.0}
+[3] self-model
+[4] crypto corpus (T0): {"import": {"files": 2, "rows": 20000, "inserted": 20000, "bad": 0, "skipped": 0}, "decision": "approved", "t0": {"gate": "T0", "passed": true, "metrics": {"files": 2, "rows": 20000, "bad_rows": 0, "pairs": 1, "longest_days": 800.0, "cross_checked_days": 200, "agreement": 1.0, "manifest_sha256": "9e93c427489340dbee908ccfd6541d20e6fc8db24b05a9b3b751a92778d940af"}, "reasons": []}, "lease_opened": {"id": "lease_4acc4285f3a74449", "capability": "network.web", "granted_at": 1790990137.0010095, "expires_at": 1793582137.0
+[5] robust retrieval
+[6] crypto research (T1): {"XBTUSD": {"bars": 800, "ann_return": 1.401934, "ann_vol": 0.576028, "skew": -0.047652, "excess_kurtosis": 0.137691, "lag1_autocorr": 0.028813, "hit_rate": 0.554443, "buy_hold_max_drawdown": 0.374138}}
+[7] candidate evaluation
+[8] trading simulation (T2): {"pair": "XBTUSD", "interval": 60, "gate": {"gate": "T2", "passed": false, "metrics": {"trades": 233, "oos_sharpe": 0.4756572383931093, "gross_sharpe": 2.669585957723288, "oos_return": 0.06573558884776487, "max_drawdown": 0.16284564902672283, "psr": 0.750883668367257, "dsr": 0.750883668367257, "n_trials": 1, "trials": 8, "buy_hold_sharpe": 2.861313969948695, "cost_drag_per_year": 0.15295439443646838, "turnover_per_year": 17.99372207186061, "avg_exposure": 0.09630672844738557, "sharpe_at_costs_bps": {"10": 2.412, "2
+[9] whole-paper comprehension
+[10] live market feed: {"reads": [{"endpoint": "alternative.fng", "decision": "approved", "reasons": [], "stored": 2}, {"endpoint": "mempool.difficulty", "decision": "approved", "reasons": [], "stored": 3}]}
+[11] None
+network.web lease: {'active': True, 'presence': 'preapproved', 'via': 'condition:t0_gate_passed'} hosts: ['api.coinbase.com', 'api.coingecko.com', 'api.llama.fi', 'community-api.coinmetrics.io', 'mempool.space', 'api.alternative.me']
+Coin Metrics (free host): approved
+conversation: conversation
+ladder: [('T0', True), ('T1', True), ('T2', False), ('T3', False), ('T4', False), ('T5', False)]
+
+5. T2 gate audit (full report: docs/T2_GATE_AUDIT.md). 20 seeds per data type, 40,000 hourly bars each
+--------------------------------------------------------------------------
+configuration                                         noise passed   planted edge passed
+v0.4.0 simulator, ratified gate, 45 bps                   40%              75%
+v0.4.1 simulator, ratified gate, 45 or 85 bps              0%               0%   (never 1,000 trades)
+v0.4.1 simulator, proposed gate, 85 bps (taker)            0%              70%
+v0.4.1 simulator, proposed gate, 45 bps (maker)            0%              90%
+
+6. Local model setup, checked from this build machine against the real sources
+--------------------------------------------------------------------------
+Hugging Face API, pinned commits: fast mlx-community/Qwen3.5-9B-4bit @ 8b2b98c0 -> commit matches, 13 files, 5.57 GB;
+  deep mlx-community/Qwen3.8-27B-4bit @ 10c35caa -> commit matches, 15 files, 14.98 GB.
+setup_models.download + verify_file on real files: chat_template.jinja, config.json, preprocessor_config.json
+  (git blob id matches, both models); tokenizer.json (LFS sha256 matches); interrupted download resumed and verified.
+mlx-vlm 0.7.4 wheel inspected: Requires-Python >= 3.10; models/qwen3_5 present; generate(model, processor, prompt,
+  image=None, ..., max_tokens=...) returns GenerationResult(text, generation_tokens, generation_tps, peak_memory);
+  apply_chat_template(processor, config, prompt, num_images=...); utils.load_config; thinking off by default.
+Not yet run on Apple silicon: the first real inference happens when the owner runs python3 setup_models.py.

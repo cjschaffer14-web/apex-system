@@ -1,0 +1,2326 @@
+{
+ "definition": "CoverageGate: a formal definition of \"full database\" for every data family and requested window.",
+ "windows": {
+  "v09_btc_full": [
+   "2015-07-20",
+   "2026-10-02"
+  ],
+  "v09_eth_full": [
+   "2016-05-18",
+   "2026-10-02"
+  ],
+  "pre_2022": [
+   "2015-07-20",
+   "2021-12-31"
+  ],
+  "post_2022": [
+   "2022-01-01",
+   "2026-10-02"
+  ],
+  "hourly_2017_on": [
+   "2017-01-01",
+   "2026-10-02"
+  ],
+  "funding_era_2019_on": [
+   "2019-01-01",
+   "2026-10-02"
+  ]
+ },
+ "families": {
+  "candles:coinbase:AAVE-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase AAVE-USD 1440-minute OHLCV bars",
+   "first": "2020-12-15T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2118,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.517469,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-15 (after requested start); coverage 51.7% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.558839,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-15 (after requested start); coverage 55.9% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.16207,
+     "quality": "source_timestamp",
+     "reason": "only 16% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.59461,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-15 (after requested start); coverage 59.5% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.747881,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-15 (after requested start); coverage 74.8% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:ADA-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase ADA-USD 1440-minute OHLCV bars",
+   "first": "2021-03-18T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2025,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.494747,
+     "quality": "source_timestamp",
+     "reason": "only 49% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.534301,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-03-18 (after requested start); coverage 53.4% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.122613,
+     "quality": "source_timestamp",
+     "reason": "only 12% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.568501,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-03-18 (after requested start); coverage 56.9% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.715042,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-03-18 (after requested start); coverage 71.5% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:ALGO-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase ALGO-USD 1440-minute OHLCV bars",
+   "first": "2019-08-15T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2606,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.636697,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-08-15 (after requested start); coverage 63.7% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.687599,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-08-15 (after requested start); coverage 68.8% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.369113,
+     "quality": "source_timestamp",
+     "reason": "only 37% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.731611,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-08-15 (after requested start); coverage 73.2% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.920198,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-08-15 (after requested start); coverage 92.0% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:ATOM-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase ATOM-USD 1440-minute OHLCV bars",
+   "first": "2020-01-14T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2454,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.59956,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-01-14 (after requested start); coverage 60.0% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.647493,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-01-14 (after requested start); coverage 64.7% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.304625,
+     "quality": "source_timestamp",
+     "reason": "only 30% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.688939,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-01-14 (after requested start); coverage 68.9% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.866525,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-01-14 (after requested start); coverage 86.7% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:AVAX-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase AVAX-USD 1440-minute OHLCV bars",
+   "first": "2021-09-30T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1829,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.44686,
+     "quality": "source_timestamp",
+     "reason": "only 45% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.482586,
+     "quality": "source_timestamp",
+     "reason": "only 48% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.039457,
+     "quality": "source_timestamp",
+     "reason": "only 4% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.513476,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-09-30 (after requested start); coverage 51.3% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.645833,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-09-30 (after requested start); coverage 64.6% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:BCH-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase BCH-USD 1440-minute OHLCV bars",
+   "first": "2017-12-20T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3205,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.783044,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-12-20 (after requested start); coverage 78.3% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.845646,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-12-20 (after requested start); coverage 84.6% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.62325,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-12-20 (after requested start); coverage 62.3% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.899775,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-12-20 (after requested start); coverage 90.0% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:BTC-USD:60": {
+   "kind": "candles",
+   "description": "coinbase BTC-USD 60-minute OHLCV bars",
+   "first": "2017-01-01T00:00:00+00:00",
+   "last": "2026-10-03T01:00:00+00:00",
+   "rows": 85437,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.869727,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 87.0% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.939259,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 93.9% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.774007,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 77.4% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.999688,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 0.99938,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 0.99972,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:BTC-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase BTC-USD 1440-minute OHLCV bars",
+   "first": "2015-07-20T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4093,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:DOGE-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase DOGE-USD 1440-minute OHLCV bars",
+   "first": "2021-06-03T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1948,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.475935,
+     "quality": "source_timestamp",
+     "reason": "only 48% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.513984,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-03 (after requested start); coverage 51.4% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.089945,
+     "quality": "source_timestamp",
+     "reason": "only 9% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.546884,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-03 (after requested start); coverage 54.7% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.687853,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-03 (after requested start); coverage 68.8% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:DOT-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase DOT-USD 1440-minute OHLCV bars",
+   "first": "2021-06-16T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1935,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.472758,
+     "quality": "source_timestamp",
+     "reason": "only 47% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.510554,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-16 (after requested start); coverage 51.1% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.084429,
+     "quality": "source_timestamp",
+     "reason": "only 8% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.543234,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-16 (after requested start); coverage 54.3% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.683263,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-16 (after requested start); coverage 68.3% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:ETC-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase ETC-USD 1440-minute OHLCV bars",
+   "first": "2018-08-08T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2978,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.727584,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-08 (after requested start); coverage 72.8% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.785752,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-08 (after requested start); coverage 78.6% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.526941,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-08 (after requested start); coverage 52.7% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.836047,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-08 (after requested start); coverage 83.6% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:ETH-USD:60": {
+   "kind": "candles",
+   "description": "coinbase ETH-USD 60-minute OHLCV bars",
+   "first": "2017-01-01T00:00:00+00:00",
+   "last": "2026-10-03T01:00:00+00:00",
+   "rows": 85452,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.869879,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 87.0% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.939424,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 93.9% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.774272,
+     "quality": "source_timestamp",
+     "reason": "starts 2017-01-01 (after requested start); coverage 77.4% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.999688,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 0.999555,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 0.999735,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:ETH-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase ETH-USD 1440-minute OHLCV bars",
+   "first": "2016-05-18T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3788,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.925483,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-05-18 (after requested start); coverage 92.5% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 0.999472,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.870598,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-05-18 (after requested start); coverage 87.1% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:FIL-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase FIL-USD 1440-minute OHLCV bars",
+   "first": "2020-12-09T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2124,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.518935,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-09 (after requested start); coverage 51.9% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.560422,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-09 (after requested start); coverage 56.0% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.164616,
+     "quality": "source_timestamp",
+     "reason": "only 16% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.596294,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-09 (after requested start); coverage 59.6% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.75,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-12-09 (after requested start); coverage 75.0% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:HBAR-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase HBAR-USD 1440-minute OHLCV bars",
+   "first": "2022-10-13T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1451,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.354508,
+     "quality": "source_timestamp",
+     "reason": "only 35% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.38285,
+     "quality": "source_timestamp",
+     "reason": "only 38% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "source_timestamp",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.835829,
+     "quality": "source_timestamp",
+     "reason": "starts 2022-10-13 (after requested start); coverage 83.6% of expected observations"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.407355,
+     "quality": "source_timestamp",
+     "reason": "only 41% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.512359,
+     "quality": "source_timestamp",
+     "reason": "starts 2022-10-13 (after requested start); coverage 51.2% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:LINK-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase LINK-USD 1440-minute OHLCV bars",
+   "first": "2019-06-27T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2655,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.648668,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-06-27 (after requested start); coverage 64.9% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.700528,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-06-27 (after requested start); coverage 70.1% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.389902,
+     "quality": "source_timestamp",
+     "reason": "only 39% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.745368,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-06-27 (after requested start); coverage 74.5% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.9375,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-06-27 (after requested start); coverage 93.8% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:LTC-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase LTC-USD 1440-minute OHLCV bars",
+   "first": "2016-08-17T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3698,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.903494,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-08-17 (after requested start); coverage 90.3% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.975726,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-08-17 (after requested start); coverage 97.6% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.832414,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-08-17 (after requested start); coverage 83.2% of expected observations"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    }
+   }
+  },
+  "candles:coinbase:NEAR-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase NEAR-USD 1440-minute OHLCV bars",
+   "first": "2022-09-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1493,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.364769,
+     "quality": "source_timestamp",
+     "reason": "only 36% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.393931,
+     "quality": "source_timestamp",
+     "reason": "only 39% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "source_timestamp",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.860023,
+     "quality": "source_timestamp",
+     "reason": "starts 2022-09-01 (after requested start); coverage 86.0% of expected observations"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.419147,
+     "quality": "source_timestamp",
+     "reason": "only 42% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.527189,
+     "quality": "source_timestamp",
+     "reason": "starts 2022-09-01 (after requested start); coverage 52.7% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:SOL-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase SOL-USD 1440-minute OHLCV bars",
+   "first": "2021-06-17T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1934,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.472514,
+     "quality": "source_timestamp",
+     "reason": "only 47% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.51029,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-17 (after requested start); coverage 51.0% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.084005,
+     "quality": "source_timestamp",
+     "reason": "only 8% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.542953,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-17 (after requested start); coverage 54.3% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.68291,
+     "quality": "source_timestamp",
+     "reason": "starts 2021-06-17 (after requested start); coverage 68.3% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:UNI-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase UNI-USD 1440-minute OHLCV bars",
+   "first": "2020-09-17T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2207,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.539213,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-09-17 (after requested start); coverage 53.9% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.582322,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-09-17 (after requested start); coverage 58.2% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.19983,
+     "quality": "source_timestamp",
+     "reason": "only 20% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.619596,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-09-17 (after requested start); coverage 62.0% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.779308,
+     "quality": "source_timestamp",
+     "reason": "starts 2020-09-17 (after requested start); coverage 77.9% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:XLM-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase XLM-USD 1440-minute OHLCV bars",
+   "first": "2019-03-14T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 2760,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.674322,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-03-14 (after requested start); coverage 67.4% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.728232,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-03-14 (after requested start); coverage 72.8% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.434451,
+     "quality": "source_timestamp",
+     "reason": "only 43% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.774846,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-03-14 (after requested start); coverage 77.5% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.974576,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-03-14 (after requested start); coverage 97.5% of expected observations"
+    }
+   }
+  },
+  "candles:coinbase:XRP-USD:1440": {
+   "kind": "candles",
+   "description": "coinbase XRP-USD 1440-minute OHLCV bars",
+   "first": "2019-02-26T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 1872,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.457366,
+     "quality": "source_timestamp",
+     "reason": "only 46% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.493931,
+     "quality": "source_timestamp",
+     "reason": "only 49% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.294442,
+     "quality": "source_timestamp",
+     "reason": "only 29% of expected data"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.678571,
+     "quality": "source_timestamp",
+     "reason": "coverage 67.9% of expected observations"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.525547,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-02-26 (after requested start); coverage 52.6% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.661017,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-02-26 (after requested start); coverage 66.1% of expected observations"
+    }
+   }
+  },
+  "readings:attention:fear_greed": {
+   "kind": "readings",
+   "description": "legacy attention reading fear_greed (day-stamped)",
+   "first": "2018-02-01T00:00:00+00:00",
+   "last": "2026-10-03T00:00:00+00:00",
+   "rows": 3163,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.772538,
+     "quality": "approximate",
+     "reason": "starts 2018-02-01 (after requested start); coverage 77.3% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.834301,
+     "quality": "approximate",
+     "reason": "starts 2018-02-01 (after requested start); coverage 83.4% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.605431,
+     "quality": "approximate",
+     "reason": "starts 2018-02-01 (after requested start); coverage 60.5% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.999424,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.887704,
+     "quality": "approximate",
+     "reason": "starts 2018-02-01 (after requested start); coverage 88.8% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.999647,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:gdelt:bitcoin": {
+   "kind": "readings",
+   "description": "legacy attention reading gdelt:bitcoin (day-stamped)",
+   "first": "2017-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3530,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.862448,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 86.2% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.931398,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 93.1% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.773441,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 77.3% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.983295,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.991016,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.989407,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:gdelt:cryptocurrency": {
+   "kind": "readings",
+   "description": "legacy attention reading gdelt:cryptocurrency (day-stamped)",
+   "first": "2017-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3530,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.862448,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 86.2% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.931398,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 93.1% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.773441,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 77.3% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.983295,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.991016,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.989407,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:gdelt_tone:bitcoin": {
+   "kind": "readings",
+   "description": "legacy attention reading gdelt_tone:bitcoin (day-stamped)",
+   "first": "2017-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 3530,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.862448,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 86.2% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.931398,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 93.1% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.773441,
+     "quality": "approximate",
+     "reason": "starts 2017-01-01 (after requested start); coverage 77.3% of expected observations; approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.983295,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.991016,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.989407,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:wiki:Bitcoin": {
+   "kind": "readings",
+   "description": "legacy attention reading wiki:Bitcoin (day-stamped)",
+   "first": "2015-07-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4112,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:wiki:Cryptocurrency": {
+   "kind": "readings",
+   "description": "legacy attention reading wiki:Cryptocurrency (day-stamped)",
+   "first": "2015-07-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4112,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:attention:wiki:Ethereum": {
+   "kind": "readings",
+   "description": "legacy attention reading wiki:Ethereum (day-stamped)",
+   "first": "2015-07-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4112,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:funding:funding:BTC-USD": {
+   "kind": "readings",
+   "description": "legacy funding reading funding:BTC-USD (day-stamped)",
+   "first": "2025-10-01T00:00:00+00:00",
+   "last": "2026-10-03T00:00:00+00:00",
+   "rows": 368,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.089665,
+     "quality": "approximate",
+     "reason": "only 9% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.096834,
+     "quality": "approximate",
+     "reason": "only 10% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "FAIL",
+     "coverage": 0.211406,
+     "quality": "approximate",
+     "reason": "only 21% of expected data"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.103032,
+     "quality": "approximate",
+     "reason": "only 10% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.12959,
+     "quality": "approximate",
+     "reason": "only 13% of expected data"
+    }
+   }
+  },
+  "readings:funding:funding:ETH-USD": {
+   "kind": "readings",
+   "description": "legacy funding reading funding:ETH-USD (day-stamped)",
+   "first": "2025-10-01T00:00:00+00:00",
+   "last": "2026-10-03T00:00:00+00:00",
+   "rows": 368,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.089665,
+     "quality": "approximate",
+     "reason": "only 9% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.096834,
+     "quality": "approximate",
+     "reason": "only 10% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "FAIL",
+     "coverage": 0.211406,
+     "quality": "approximate",
+     "reason": "only 21% of expected data"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.103032,
+     "quality": "approximate",
+     "reason": "only 10% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.12959,
+     "quality": "approximate",
+     "reason": "only 13% of expected data"
+    }
+   }
+  },
+  "readings:onchain:cm:AdrActCnt": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:AdrActCnt (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:onchain:cm:CapMVRVCur": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:CapMVRVCur (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:onchain:cm:FlowInExNtv": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:FlowInExNtv (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:onchain:cm:FlowOutExNtv": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:FlowOutExNtv (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:onchain:cm:SplyCur": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:SplyCur (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "readings:onchain:cm:SplyExNtv": {
+   "kind": "readings",
+   "description": "legacy onchain reading cm:SplyExNtv (day-stamped)",
+   "first": "2015-01-01T00:00:00+00:00",
+   "last": "2026-10-02T00:00:00+00:00",
+   "rows": 4293,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 1.0,
+     "quality": "approximate",
+     "reason": "approximate availability timing (100% of rows)"
+    }
+   }
+  },
+  "funding:bitmex:ETHUSD": {
+   "kind": "funding",
+   "description": "bitmex ETHUSD funding events",
+   "first": "2018-08-02T12:00:00+00:00",
+   "last": "2026-09-16T12:00:00+00:00",
+   "rows": 8902,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.724919,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-02 (after requested start); ends 2026-09-16 (before requested end); coverage 72.5% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.782869,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-02 (after requested start); ends 2026-09-16 (before requested end); coverage 78.3% of expected observations"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.52927,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-02 (after requested start); coverage 52.9% of expected observations"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.990401,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.832975,
+     "quality": "source_timestamp",
+     "reason": "starts 2018-08-02 (after requested start); ends 2026-09-16 (before requested end); coverage 83.3% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.994116,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    }
+   }
+  },
+  "funding:bitmex:XBTUSD": {
+   "kind": "funding",
+   "description": "bitmex XBTUSD funding events",
+   "first": "2016-05-14T12:00:00+00:00",
+   "last": "2026-09-16T12:00:00+00:00",
+   "rows": 11290,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.919381,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-05-14 (after requested start); ends 2026-09-16 (before requested end); coverage 91.9% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.992525,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.86694,
+     "quality": "source_timestamp",
+     "reason": "starts 2016-05-14 (after requested start); coverage 86.7% of expected observations"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.990401,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.995321,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.994116,
+     "quality": "source_timestamp",
+     "reason": "ends 2026-09-16 (before requested end)"
+    }
+   }
+  },
+  "funding:coinbase_intx:BTC-PERP": {
+   "kind": "funding",
+   "description": "coinbase_intx BTC-PERP funding events",
+   "first": "2023-03-22T00:00:00+00:00",
+   "last": "2026-10-01T09:00:00+00:00",
+   "rows": 30942,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.314986,
+     "quality": "source_timestamp",
+     "reason": "only 31% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.340168,
+     "quality": "source_timestamp",
+     "reason": "only 34% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.742638,
+     "quality": "source_timestamp",
+     "reason": "starts 2023-03-22 (after requested start); ends 2026-10-01 (before requested end); coverage 74.3% of expected observations"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.361941,
+     "quality": "source_timestamp",
+     "reason": "only 36% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.455237,
+     "quality": "source_timestamp",
+     "reason": "only 46% of expected data"
+    }
+   }
+  },
+  "funding:coinbase_intx:ETH-PERP": {
+   "kind": "funding",
+   "description": "coinbase_intx ETH-PERP funding events",
+   "first": "2023-03-22T00:00:00+00:00",
+   "last": "2026-10-01T09:00:00+00:00",
+   "rows": 30942,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.314986,
+     "quality": "source_timestamp",
+     "reason": "only 31% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.340168,
+     "quality": "source_timestamp",
+     "reason": "only 34% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.742638,
+     "quality": "source_timestamp",
+     "reason": "starts 2023-03-22 (after requested start); ends 2026-10-01 (before requested end); coverage 74.3% of expected observations"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.361941,
+     "quality": "source_timestamp",
+     "reason": "only 36% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.455237,
+     "quality": "source_timestamp",
+     "reason": "only 46% of expected data"
+    }
+   }
+  },
+  "funding:deribit:BTC-PERPETUAL": {
+   "kind": "funding",
+   "description": "deribit BTC-PERPETUAL funding events",
+   "first": "2019-04-30T10:00:00+00:00",
+   "last": "2026-10-03T02:00:00+00:00",
+   "rows": 65103,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.66271,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 66.3% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.715691,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 71.6% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.414291,
+     "quality": "source_timestamp",
+     "reason": "only 41% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.999976,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.761501,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 76.2% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.95779,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 95.8% of expected observations"
+    }
+   }
+  },
+  "funding:deribit:ETH-PERPETUAL": {
+   "kind": "funding",
+   "description": "deribit ETH-PERPETUAL funding events",
+   "first": "2019-04-30T10:00:00+00:00",
+   "last": "2026-10-03T02:00:00+00:00",
+   "rows": 65103,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.66271,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 66.3% of expected observations"
+    },
+    "v09_eth_full": {
+     "status": "PARTIAL",
+     "coverage": 0.715691,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 71.6% of expected observations"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.414291,
+     "quality": "source_timestamp",
+     "reason": "only 41% of expected data"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.999976,
+     "quality": "source_timestamp",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PARTIAL",
+     "coverage": 0.761501,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 76.2% of expected observations"
+    },
+    "funding_era_2019_on": {
+     "status": "PARTIAL",
+     "coverage": 0.95779,
+     "quality": "source_timestamp",
+     "reason": "starts 2019-04-30 (after requested start); coverage 95.8% of expected observations"
+    }
+   }
+  },
+  "funding:kraken_futures:PF_ETHUSD": {
+   "kind": "funding",
+   "description": "kraken_futures PF_ETHUSD funding events",
+   "first": "2025-10-01T08:00:00+00:00",
+   "last": "2026-10-03T02:00:00+00:00",
+   "rows": 8795,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.089501,
+     "quality": "source_timestamp",
+     "reason": "only 9% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.096657,
+     "quality": "source_timestamp",
+     "reason": "only 10% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "FAIL",
+     "coverage": 0.211016,
+     "quality": "source_timestamp",
+     "reason": "only 21% of expected data"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.102844,
+     "quality": "source_timestamp",
+     "reason": "only 10% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.129353,
+     "quality": "source_timestamp",
+     "reason": "only 13% of expected data"
+    }
+   }
+  },
+  "funding:kraken_futures:PF_XBTUSD": {
+   "kind": "funding",
+   "description": "kraken_futures PF_XBTUSD funding events",
+   "first": "2025-10-01T08:00:00+00:00",
+   "last": "2026-10-03T02:00:00+00:00",
+   "rows": 8795,
+   "windows": {
+    "v09_btc_full": {
+     "status": "FAIL",
+     "coverage": 0.089501,
+     "quality": "source_timestamp",
+     "reason": "only 9% of expected data"
+    },
+    "v09_eth_full": {
+     "status": "FAIL",
+     "coverage": 0.096657,
+     "quality": "source_timestamp",
+     "reason": "only 10% of expected data"
+    },
+    "pre_2022": {
+     "status": "FAIL",
+     "coverage": 0.0,
+     "quality": "approximate",
+     "reason": "no overlap with the requested window"
+    },
+    "post_2022": {
+     "status": "FAIL",
+     "coverage": 0.211016,
+     "quality": "source_timestamp",
+     "reason": "only 21% of expected data"
+    },
+    "hourly_2017_on": {
+     "status": "FAIL",
+     "coverage": 0.102844,
+     "quality": "source_timestamp",
+     "reason": "only 10% of expected data"
+    },
+    "funding_era_2019_on": {
+     "status": "FAIL",
+     "coverage": 0.129353,
+     "quality": "source_timestamp",
+     "reason": "only 13% of expected data"
+    }
+   }
+  },
+  "macro:cboe:vix_close": {
+   "kind": "macro",
+   "description": "cboe vix_close",
+   "first": "2014-01-02T21:15:00+00:00",
+   "last": "2026-10-02T20:15:00+00:00",
+   "rows": 3240,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    }
+   }
+  },
+  "macro:fed_h41:RESPPMA_N.WW": {
+   "kind": "macro",
+   "description": "fed_h41 RESPPMA_N.WW",
+   "first": "2014-01-02T05:00:00+00:00",
+   "last": "2026-10-01T04:00:00+00:00",
+   "rows": 666,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "exact_release",
+     "reason": ""
+    }
+   }
+  },
+  "macro:nyfed:rrp_total_accepted": {
+   "kind": "macro",
+   "description": "nyfed rrp_total_accepted",
+   "first": "2014-01-02T16:45:00+00:00",
+   "last": "2026-10-02T17:15:00+00:00",
+   "rows": 3186,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PARTIAL",
+     "coverage": 0.997151,
+     "quality": "approximate",
+     "reason": "approximate availability timing (4% of rows)"
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 0.997307,
+     "quality": "approximate",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PARTIAL",
+     "coverage": 0.997528,
+     "quality": "approximate",
+     "reason": "approximate availability timing (7% of rows)"
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.996639,
+     "quality": "approximate",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 0.997135,
+     "quality": "approximate",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 0.997425,
+     "quality": "approximate",
+     "reason": ""
+    }
+   }
+  },
+  "macro:treasury_fiscaldata:tga_closing_balance": {
+   "kind": "macro",
+   "description": "treasury_fiscaldata tga_closing_balance",
+   "first": "2014-01-03T05:00:00+00:00",
+   "last": "2026-10-02T04:00:00+00:00",
+   "rows": 3203,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 1.0,
+     "quality": "conservative_lag",
+     "reason": ""
+    }
+   }
+  },
+  "macro:treasury_yields:par_yield_10y": {
+   "kind": "macro",
+   "description": "treasury_yields par_yield_10y",
+   "first": "2014-01-02T20:30:00+00:00",
+   "last": "2026-10-02T19:30:00+00:00",
+   "rows": 3190,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 0.998219,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 0.998461,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 0.998146,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.998319,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 0.998363,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 0.99897,
+     "quality": "conservative_lag",
+     "reason": ""
+    }
+   }
+  },
+  "macro:treasury_yields:par_yield_2y": {
+   "kind": "macro",
+   "description": "treasury_yields par_yield_2y",
+   "first": "2014-01-02T20:30:00+00:00",
+   "last": "2026-10-02T19:30:00+00:00",
+   "rows": 3190,
+   "windows": {
+    "v09_btc_full": {
+     "status": "PASS",
+     "coverage": 0.998219,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "v09_eth_full": {
+     "status": "PASS",
+     "coverage": 0.998461,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "pre_2022": {
+     "status": "PASS",
+     "coverage": 0.998146,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "post_2022": {
+     "status": "PASS",
+     "coverage": 0.998319,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "hourly_2017_on": {
+     "status": "PASS",
+     "coverage": 0.998363,
+     "quality": "conservative_lag",
+     "reason": ""
+    },
+    "funding_era_2019_on": {
+     "status": "PASS",
+     "coverage": 0.99897,
+     "quality": "conservative_lag",
+     "reason": ""
+    }
+   }
+  }
+ }
+}

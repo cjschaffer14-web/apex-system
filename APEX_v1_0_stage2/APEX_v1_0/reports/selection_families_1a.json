@@ -1,0 +1,758 @@
+[
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.calendar_six / BTC-USD / none",
+    "family_id": "adhoc-2026-10-02|adhoc.calendar_six|BTC-USD|none|hypothesis_test_statistic",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.cross_sectional / universe20 / adhoc.xsec:equal_weight_basket_hold",
+    "family_id": "adhoc-2026-10-02|adhoc.cross_sectional|universe20|adhoc.xsec:equal_weight_basket_hold|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.cross_sectional / universe20 / adhoc.xsec:long_only_top3_45bps",
+    "family_id": "adhoc-2026-10-02|adhoc.cross_sectional|universe20|adhoc.xsec:long_only_top3_45bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.cross_sectional / universe20 / adhoc.xsec:long_only_top3_85bps",
+    "family_id": "adhoc-2026-10-02|adhoc.cross_sectional|universe20|adhoc.xsec:long_only_top3_85bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.cross_sectional / universe20 / adhoc.xsec:long_short_3x3_85bps",
+    "family_id": "adhoc-2026-10-02|adhoc.cross_sectional|universe20|adhoc.xsec:long_short_3x3_85bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "adhoc-2026-10-02 / adhoc.cross_sectional / universe20 / adhoc.xsec:long_short_3x3_perps_6bps",
+    "family_id": "adhoc-2026-10-02|adhoc.cross_sectional|universe20|adhoc.xsec:long_short_3x3_perps_6bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 42,
+    "description": "adhoc-2026-10-02 / adhoc.fibonacci_levels / BTC-USD / adhoc.fib:45bps",
+    "family_id": "adhoc-2026-10-02|adhoc.fibonacci_levels|BTC-USD|daily|fibonacci_placebo_test",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "fibonacci_placebo_test",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 42,
+    "description": "adhoc-2026-10-02 / adhoc.fibonacci_levels / BTC-USD / adhoc.fib:45bps",
+    "family_id": "adhoc-2026-10-02|adhoc.fibonacci_levels|BTC-USD|hourly|fibonacci_placebo_test",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "fibonacci_placebo_test",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 42,
+    "description": "adhoc-2026-10-02 / adhoc.fibonacci_levels / ETH-USD / adhoc.fib:45bps",
+    "family_id": "adhoc-2026-10-02|adhoc.fibonacci_levels|ETH-USD|daily|fibonacci_placebo_test",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "fibonacci_placebo_test",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 42,
+    "description": "adhoc-2026-10-02 / adhoc.fibonacci_levels / ETH-USD / adhoc.fib:45bps",
+    "family_id": "adhoc-2026-10-02|adhoc.fibonacci_levels|ETH-USD|hourly|fibonacci_placebo_test",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "fibonacci_placebo_test",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / BTC-USD / v041.fee_bps:40",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|BTC-USD|v041.fee_bps:40|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / BTC-USD / v041.fee_bps:5",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|BTC-USD|v041.fee_bps:5|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / BTC-USD / v041.fee_bps:80",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|BTC-USD|v041.fee_bps:80|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / ETH-USD / v041.fee_bps:40",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|ETH-USD|v041.fee_bps:40|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / ETH-USD / v041.fee_bps:5",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|ETH-USD|v041.fee_bps:5|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "adhoc-2026-10-02 / v041.walk_forward / ETH-USD / v041.fee_bps:80",
+    "family_id": "adhoc-2026-10-02|v041.walk_forward|ETH-USD|v041.fee_bps:80|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 27,
+    "description": "owner_ideas_2026-10-03 / adhoc.media_feature / BTC-USD / none",
+    "family_id": "owner_ideas_2026-10-03|adhoc.media_feature|BTC-USD|none|hypothesis_test_statistic",
+    "members_in_ledger": 27,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "owner_ideas_2026-10-03 / adhoc.media_vol_partial / BTC-USD / none",
+    "family_id": "owner_ideas_2026-10-03|adhoc.media_vol_partial|BTC-USD|none|hypothesis_test_statistic",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_check / BTC-USD / adhoc.flat:85bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_check|BTC-USD|adhoc.flat:85bps|hypothesis_test_statistic",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 3,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_check / ETH-USD / adhoc.flat:85bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_check|ETH-USD|adhoc.flat:85bps|annualized_sharpe",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_check / ETH-USD / adhoc.flat:85bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_check|ETH-USD|adhoc.flat:85bps|hypothesis_test_statistic",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 8,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_rule / BTC-USD / adhoc.flat:40bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|BTC-USD|adhoc.flat:40bps|annualized_sharpe",
+    "members_in_ledger": 8,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 8,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_rule / BTC-USD / adhoc.flat:85bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|BTC-USD|adhoc.flat:85bps|annualized_sharpe",
+    "members_in_ledger": 8,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_rule / basket / adhoc.flat:40bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|basket|adhoc.flat:40bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "owner_ideas_2026-10-03 / adhoc.occam_rule / basket / adhoc.flat:85bps",
+    "family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|basket|adhoc.flat:85bps|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 21,
+    "description": "owner_ideas_2026-10-03 / adhoc.price_levels / BTC-USD / none",
+    "family_id": "owner_ideas_2026-10-03|adhoc.price_levels|BTC-USD|none|hypothesis_test_statistic",
+    "members_in_ledger": 21,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 6,
+    "description": "v0.5.1 / apex.hypothesis.feature / BTC-USD / cost_bps:n/a",
+    "family_id": "v0.5.1|apex.hypothesis.feature|BTC-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 6,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 7,
+    "description": "v0.5.1 / apex.hypothesis.level / BTC-USD / cost_bps:n/a",
+    "family_id": "v0.5.1|apex.hypothesis.level|BTC-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 7,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.5.1 / apex.hypothesis.rule / BTC-USD / cost_bps:85.0",
+    "family_id": "v0.5.1|apex.hypothesis.rule|BTC-USD|cost_bps:85.0|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.5 / apex.hypothesis.calendar / BTC-USD / cost_bps:n/a",
+    "family_id": "v0.5|apex.hypothesis.calendar|BTC-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.5 / apex.hypothesis.calendar / ETH-USD / cost_bps:n/a",
+    "family_id": "v0.5|apex.hypothesis.calendar|ETH-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.5 / apex.hypothesis.cycle / BTC-USD / cost_bps:n/a",
+    "family_id": "v0.5|apex.hypothesis.cycle|BTC-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.5 / apex.hypothesis.cycle / ETH-USD / cost_bps:n/a",
+    "family_id": "v0.5|apex.hypothesis.cycle|ETH-USD|cost_bps:n/a|hypothesis_test_statistic",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "hypothesis_test_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.5 / apex.research_v05.model / universe20 / apex.v05.venues",
+    "family_id": "v0.5|apex.research_v05.model|universe20|apex.v05.venues|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 12,
+    "description": "v0.5 / apex.research_v05.signal / universe20 / apex.v05.venues",
+    "family_id": "v0.5|apex.research_v05.signal|universe20|apex.v05.venues|annualized_sharpe",
+    "members_in_ledger": 12,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T11 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T11|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T11 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T11|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 51,
+    "description": "v0.6 / v06.T12 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T12|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 51,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 51,
+    "description": "v0.6 / v06.T12 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T12|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 51,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T13 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T13|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T13 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T13|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.6 / v06.T14 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T14|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.6 / v06.T14 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T14|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T20 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T20|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.T20 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T20|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.6 / v06.T21 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T21|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.6 / v06.T21 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.T21|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.hold / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.hold|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.hold / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.hold|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.sma200 / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.sma200|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.6 / v06.sma200 / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.6|v06.sma200|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.7-nn / v07.walkforward_mlp / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.7-nn|v07.walkforward_mlp|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.7-nn / v07.walkforward_mlp / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.7-nn|v07.walkforward_mlp|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.8 / v08.NN / BTC-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.NN|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.8 / v08.NN / ETH-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.NN|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.8 / v08.STATE / BTC-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.STATE|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 1,
+    "description": "v0.8 / v08.STATE / ETH-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.STATE|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 1,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.8 / v08.T20 / BTC-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.T20|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.8 / v08.T20 / ETH-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.T20|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.8 / v08.T21 / BTC-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.T21|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 4,
+    "description": "v0.8 / v08.T21 / ETH-USD / v08.flat_bps:25",
+    "family_id": "v0.8|v08.T21|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 4,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.conditional_expert_state|BTC-USD|v06.flat_bps:25|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / BTC-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.conditional_expert_state|BTC-USD|v06.flat_bps:6|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / BTC-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.conditional_expert_state|BTC-USD|v06.flat_bps:85|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.conditional_expert_state|ETH-USD|v06.flat_bps:25|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / ETH-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.conditional_expert_state|ETH-USD|v06.flat_bps:6|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 72,
+    "description": "v0.9 / v09.conditional_expert_state / ETH-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.conditional_expert_state|ETH-USD|v06.flat_bps:85|conditional_forward_return_statistic",
+    "members_in_ledger": 72,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "conditional_forward_return_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / BTC-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:6|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / BTC-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:85|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / ETH-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:6|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 9,
+    "description": "v0.9 / v09.expert / ETH-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:85|annualized_sharpe",
+    "members_in_ledger": 9,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 306,
+    "description": "v0.9 / v09.geometry_target_cell / BTC-USD / none",
+    "family_id": "v0.9|v09.geometry_target_cell|BTC-USD|none|target_before_invalidation_statistic",
+    "members_in_ledger": 306,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "target_before_invalidation_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 306,
+    "description": "v0.9 / v09.geometry_target_cell / ETH-USD / none",
+    "family_id": "v0.9|v09.geometry_target_cell|ETH-USD|none|target_before_invalidation_statistic",
+    "members_in_ledger": 306,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "target_before_invalidation_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 3,
+    "description": "v0.9 / v09.matrix_kelly_pair / BTC-USD+ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.matrix_kelly_pair|BTC-USD+ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 3,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / BTC-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / BTC-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:6|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / BTC-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:85|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / ETH-USD / v06.flat_bps:25",
+    "family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / ETH-USD / v06.flat_bps:6",
+    "family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:6|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 2,
+    "description": "v0.9 / v09.mixture / ETH-USD / v06.flat_bps:85",
+    "family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:85|annualized_sharpe",
+    "members_in_ledger": 2,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "annualized_sharpe",
+    "sharpe_objective": true
+  },
+  {
+    "alternatives_evaluated": 32,
+    "description": "v0.9 / v09.state_forward_distribution / BTC-USD / none",
+    "family_id": "v0.9|v09.state_forward_distribution|BTC-USD|none|state_forward_distribution_statistic",
+    "members_in_ledger": 32,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "state_forward_distribution_statistic",
+    "sharpe_objective": false
+  },
+  {
+    "alternatives_evaluated": 32,
+    "description": "v0.9 / v09.state_forward_distribution / ETH-USD / none",
+    "family_id": "v0.9|v09.state_forward_distribution|ETH-USD|none|state_forward_distribution_statistic",
+    "members_in_ledger": 32,
+    "note": "Family N counts compressed alternatives where explicitly known; global N remains 1,483.",
+    "objective_metric": "state_forward_distribution_statistic",
+    "sharpe_objective": false
+  }
+]

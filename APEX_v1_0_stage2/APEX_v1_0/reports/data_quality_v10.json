@@ -1,0 +1,323 @@
+{
+ "frozen_db_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+ "frozen_db_unchanged": true,
+ "legacy_tables_identical": {
+  "candles": true,
+  "readings": true,
+  "imports": true
+ },
+ "duplicate_keys": {
+  "funding_events": 0,
+  "macro_observations": 0,
+  "candles": 0,
+  "readings": 0
+ },
+ "future_rows_after_as_of": {
+  "funding_events": 0,
+  "macro_observations": 0
+ },
+ "published_before_observation": 0,
+ "funding": {
+  "bitmex:ETHUSD": {
+   "rows": 8902,
+   "first": "2018-08-02 12:00",
+   "last": "2026-09-16 12:00",
+   "days_stale_at_as_of": 16.6,
+   "rate_semantics": "bitmex_settlement_rate_per_interval",
+   "interval_changes": [
+    {
+     "from": "2018-08-02 12:00",
+     "interval_s": 28800
+    }
+   ],
+   "irregular_spacings": {},
+   "non_hour_aligned_stamps": 0
+  },
+  "bitmex:XBTUSD": {
+   "rows": 11290,
+   "first": "2016-05-14 12:00",
+   "last": "2026-09-16 12:00",
+   "days_stale_at_as_of": 16.6,
+   "rate_semantics": "bitmex_settlement_rate_per_interval",
+   "interval_changes": [
+    {
+     "from": "2016-05-14 12:00",
+     "interval_s": 86400
+    },
+    {
+     "from": "2016-06-04 20:00",
+     "interval_s": 28800
+    }
+   ],
+   "irregular_spacings": {
+    "86400": 21
+   },
+   "non_hour_aligned_stamps": 0
+  },
+  "coinbase_intx:BTC-PERP": {
+   "rows": 30942,
+   "first": "2023-03-22 00:00",
+   "last": "2026-10-01 09:00",
+   "days_stale_at_as_of": 1.7,
+   "rate_semantics": "coinbase_intx_funding_rate_per_period",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "12025": 1,
+    "2375": 1,
+    "7200": 2,
+    "3608": 1,
+    "3592": 1,
+    "7069": 1,
+    "131": 1
+   },
+   "non_hour_aligned_stamps": 3
+  },
+  "coinbase_intx:ETH-PERP": {
+   "rows": 30942,
+   "first": "2023-03-22 00:00",
+   "last": "2026-10-01 09:00",
+   "days_stale_at_as_of": 1.7,
+   "rate_semantics": "coinbase_intx_funding_rate_per_period",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "12025": 1,
+    "2375": 1,
+    "7200": 2,
+    "3608": 1,
+    "3592": 1,
+    "7069": 1,
+    "131": 1
+   },
+   "non_hour_aligned_stamps": 3
+  },
+  "deribit:BTC-PERPETUAL": {
+   "rows": 65103,
+   "first": "2019-04-30 10:00",
+   "last": "2026-10-03 02:00",
+   "days_stale_at_as_of": 0.0,
+   "rate_semantics": "deribit_continuous_funding_hourly_sample:interest_1h",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "10800": 1
+   },
+   "non_hour_aligned_stamps": 0
+  },
+  "deribit:ETH-PERPETUAL": {
+   "rows": 65103,
+   "first": "2019-04-30 10:00",
+   "last": "2026-10-03 02:00",
+   "days_stale_at_as_of": 0.0,
+   "rate_semantics": "deribit_continuous_funding_hourly_sample:interest_1h",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "10800": 1
+   },
+   "non_hour_aligned_stamps": 0
+  },
+  "kraken_futures:PF_ETHUSD": {
+   "rows": 8795,
+   "first": "2025-10-01 08:00",
+   "last": "2026-10-03 02:00",
+   "days_stale_at_as_of": 0.0,
+   "rate_semantics": "kraken_relative_funding_rate_per_period",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "10800": 1,
+    "7200": 6
+   },
+   "non_hour_aligned_stamps": 0
+  },
+  "kraken_futures:PF_XBTUSD": {
+   "rows": 8795,
+   "first": "2025-10-01 08:00",
+   "last": "2026-10-03 02:00",
+   "days_stale_at_as_of": 0.0,
+   "rate_semantics": "kraken_relative_funding_rate_per_period",
+   "interval_changes": [],
+   "irregular_spacings": {
+    "10800": 1,
+    "7200": 6
+   },
+   "non_hour_aligned_stamps": 0
+  }
+ },
+ "macro": {
+  "cboe:vix_close": {
+   "rows": 3240,
+   "publication_lag_hours_median": 0.75,
+   "publication_lag_hours_max": 0.75,
+   "availability_quality": {
+    "conservative_lag": 3240
+   }
+  },
+  "fed_h41:RESPPMA_N.WW": {
+   "rows": 666,
+   "publication_lag_hours_median": 16.5,
+   "publication_lag_hours_max": 112.5,
+   "availability_quality": {
+    "exact_release": 666
+   }
+  },
+  "nyfed:rrp_total_accepted": {
+   "rows": 3186,
+   "publication_lag_hours_median": 0.02,
+   "publication_lag_hours_max": 3.59,
+   "availability_quality": {
+    "approximate": 497,
+    "source_timestamp": 2689
+   }
+  },
+  "treasury_fiscaldata:tga_closing_balance": {
+   "rows": 3203,
+   "publication_lag_hours_median": 17.0,
+   "publication_lag_hours_max": 89.0,
+   "availability_quality": {
+    "conservative_lag": 3203
+   }
+  },
+  "treasury_yields:par_yield_10y": {
+   "rows": 3190,
+   "publication_lag_hours_median": 4.5,
+   "publication_lag_hours_max": 4.5,
+   "availability_quality": {
+    "conservative_lag": 3190
+   }
+  },
+  "treasury_yields:par_yield_2y": {
+   "rows": 3190,
+   "publication_lag_hours_median": 4.5,
+   "publication_lag_hours_max": 4.5,
+   "availability_quality": {
+    "conservative_lag": 3190
+   }
+  }
+ },
+ "tga_layout_seams": [
+  {
+   "seam": "2021-09-30 -> 2021-10-01",
+   "close_before": "215160",
+   "open_after": "215160",
+   "continuous": true
+  },
+  {
+   "seam": "2022-04-15 -> 2022-04-18",
+   "close_before": "578473",
+   "open_after": "578473",
+   "continuous": true
+  }
+ ],
+ "fed_h41_release_calendar_rows": 1580,
+ "legacy_reading_rules": [
+  {
+   "source": "attention",
+   "metric": "fear_greed",
+   "publish_lag_s": 21600,
+   "publish_rule": "day start + 6h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "gdelt:bitcoin",
+   "publish_lag_s": 108000,
+   "publish_rule": "day start + 30h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "gdelt:cryptocurrency",
+   "publish_lag_s": 108000,
+   "publish_rule": "day start + 30h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "gdelt_tone:bitcoin",
+   "publish_lag_s": 108000,
+   "publish_rule": "day start + 30h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "wiki:Bitcoin",
+   "publish_lag_s": 172800,
+   "publish_rule": "day start + 48h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "wiki:Cryptocurrency",
+   "publish_lag_s": 172800,
+   "publish_rule": "day start + 48h",
+   "quality": "approximate"
+  },
+  {
+   "source": "attention",
+   "metric": "wiki:Ethereum",
+   "publish_lag_s": 172800,
+   "publish_rule": "day start + 48h",
+   "quality": "approximate"
+  },
+  {
+   "source": "funding",
+   "metric": "funding:BTC-USD",
+   "publish_lag_s": 86400,
+   "publish_rule": "day start + 24h",
+   "quality": "approximate"
+  },
+  {
+   "source": "funding",
+   "metric": "funding:ETH-USD",
+   "publish_lag_s": 86400,
+   "publish_rule": "day start + 24h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:AdrActCnt",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:CapMVRVCur",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:FlowInExNtv",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:FlowOutExNtv",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:SplyCur",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  },
+  {
+   "source": "onchain",
+   "metric": "cm:SplyExNtv",
+   "publish_lag_s": 129600,
+   "publish_rule": "day start + 36h",
+   "quality": "approximate"
+  }
+ ],
+ "not_ingested": {
+  "binance_funding": "HTTP 451 'restricted location' from a US network; not circumvented",
+  "bybit_funding": "HTTP 403 (geo-blocked) from a US network; not circumvented",
+  "dxy_equity_indexes": "deferred from Stage 1 (no free originator source; third-party provenance would be weak)",
+  "fred": "not used (direct sources preferred by owner decision)"
+ }
+}

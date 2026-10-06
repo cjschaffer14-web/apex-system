@@ -1,0 +1,27 @@
+{
+  "approved_on": "2026-10-02",
+  "approved_by": "owner, in chat: decisions 1-4 agreed (own price history from public sources, paper trading now, evidence record instead of the simulation gate, free social and attention sources now)",
+  "note": "Revision 3 supersedes the v0.4 file: the web lease no longer waits for the T0 gate. Leases with no condition open at awakening and reopen inside the same scope when they expire. The owner can revoke either by voice or command at any time. Live trading is not covered by anything here.",
+  "preapprovals": [
+    {
+      "capability": "network.web",
+      "purpose": "Read-only public market and attention data",
+      "revision": 3,
+      "scope": {
+        "hosts": ["api.coinbase.com", "api.coingecko.com", "api.llama.fi", "community-api.coinmetrics.io", "mempool.space",
+                  "api.alternative.me", "wikimedia.org", "api.gdeltproject.org", "futures.kraken.com"],
+        "methods": ["GET"]
+      },
+      "ttl_s": 2592000,
+      "condition": ""
+    },
+    {
+      "capability": "market.paper_order",
+      "purpose": "Paper trading only: simulated fills at public prices; nothing is sent to any exchange",
+      "revision": 1,
+      "scope": {"hosts": ["paper.local"], "book": ["perps_long_short", "spot_long_only"]},
+      "ttl_s": 2592000,
+      "condition": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "owner, 2 Oct 2026: markets follow 6-based timelines (the 6th hour, the 6th day, 6 months)",
+  "note": "Registered before testing and counted as trials. Results are recorded as HypothesisTested events.",
+  "hypotheses": [
+    {"name": "6th hour (UTC) return, BTC", "spec": {"type": "calendar", "unit": "hour", "value": 6, "product": "BTC-USD", "measure": "return"}},
+    {"name": "6th hour (UTC) volatility, BTC", "spec": {"type": "calendar", "unit": "hour", "value": 6, "product": "BTC-USD", "measure": "abs_return"}},
+    {"name": "6th day of the month return, BTC", "spec": {"type": "calendar", "unit": "monthday", "value": 6, "product": "BTC-USD", "measure": "return"}},
+    {"name": "6th weekday (Saturday) return, BTC", "spec": {"type": "calendar", "unit": "weekday", "value": 6, "product": "BTC-USD", "measure": "return"}},
+    {"name": "6-month cycle, BTC", "spec": {"type": "cycle", "months": 6, "product": "BTC-USD"}},
+    {"name": "6th hour (UTC) return, ETH", "spec": {"type": "calendar", "unit": "hour", "value": 6, "product": "ETH-USD", "measure": "return"}},
+    {"name": "6-month cycle, ETH", "spec": {"type": "cycle", "months": 6, "product": "ETH-USD"}}
+  ]
+}

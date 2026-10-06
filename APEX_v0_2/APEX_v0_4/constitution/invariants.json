@@ -1,0 +1,66 @@
+{
+  "version": "0.3.0",
+  "note": "The Yolk. Kept deliberately small. Changing anything here is a constitutional act reserved to the owner.",
+  "yolk": [
+    "Proposal != Authority",
+    "Authority != Actuation",
+    "No token -> no consequential action",
+    "Preserve provenance",
+    "Preserve operator control",
+    "Preserve rollback",
+    "Preserve evaluator independence",
+    "Preserve audit history"
+  ],
+  "autonomous_liveness": "Once awakened, absence of operator input must not prevent continued safe learning, research, experimentation, evaluation or improvement within the pre-authorized envelope.",
+  "universal_principles": [
+    "do not exceed authorized capital",
+    "preserve operator control",
+    "do not bypass risk checks",
+    "respect loss ceilings",
+    "keep auditable provenance"
+  ],
+  "forbidden_capability_prefixes_for_proposals": [
+    "authority.",
+    "operator.",
+    "ledger.",
+    "evaluator."
+  ],
+  "walls": [
+    {
+      "id": "W1",
+      "name": "Mediated Boundary",
+      "manifold": "every trajectory from thought to effect crosses Authority"
+    },
+    {
+      "id": "W2",
+      "name": "Token-Only Actuation",
+      "manifold": "no consequential state change without a valid, scoped, unexpired, unused token"
+    },
+    {
+      "id": "W3",
+      "name": "Immutable Provenance",
+      "manifold": "history is append-only and verifiable; nothing is silently erased"
+    },
+    {
+      "id": "W4",
+      "name": "Protected Constitution & Evaluators",
+      "manifold": "the organism cannot amend its own law or its own judges"
+    },
+    {
+      "id": "W5",
+      "name": "Observed Self-Modification",
+      "manifold": "every change to the organism passes sealed evaluation; evaluators stay outside mutation"
+    },
+    {
+      "id": "W6",
+      "name": "Operator Sovereignty & Liveness",
+      "manifold": "the owner can always act and stop; absence of the owner never stops safe development"
+    },
+    {
+      "id": "W7",
+      "name": "Reserves & Reversibility",
+      "manifold": "resource floors hold and every promotion can be rolled back"
+    }
+  ],
+  "not_constitutional": "Kelly fraction, stewardship floor, redistribution, drawdown, slippage, strategy -> packs/trading (CapitalStewardshipPolicy)"
+}

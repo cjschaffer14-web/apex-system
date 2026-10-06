@@ -1,0 +1,60 @@
+{
+ "BTC-USD": {
+  "hold": {
+   "sharpe": 1.094,
+   "max_drawdown": 0.838,
+   "cagr": 0.6582
+  },
+  "sma200": {
+   "sharpe": 1.091,
+   "max_drawdown": 0.725,
+   "cagr": 0.546
+  },
+  "sma200_vt": {
+   "sharpe": 1.128,
+   "max_drawdown": 0.589,
+   "cagr": 0.4366
+  },
+  "sma200_vs_hold": {
+   "sharpe_diff": -0.003,
+   "p_sharpe_better": 0.477,
+   "drawdown_reduction": 0.113,
+   "p_drawdown_smaller": 0.682
+  },
+  "sma200_vt_vs_hold": {
+   "sharpe_diff": 0.034,
+   "p_sharpe_better": 0.561,
+   "drawdown_reduction": 0.249,
+   "p_drawdown_smaller": 0.965
+  }
+ },
+ "ETH-USD": {
+  "hold": {
+   "sharpe": 1.11,
+   "max_drawdown": 0.94,
+   "cagr": 0.8206
+  },
+  "sma200": {
+   "sharpe": 1.241,
+   "max_drawdown": 0.834,
+   "cagr": 0.8981
+  },
+  "sma200_vt": {
+   "sharpe": 1.305,
+   "max_drawdown": 0.472,
+   "cagr": 0.5802
+  },
+  "sma200_vs_hold": {
+   "sharpe_diff": 0.131,
+   "p_sharpe_better": 0.709,
+   "drawdown_reduction": 0.106,
+   "p_drawdown_smaller": 0.88
+  },
+  "sma200_vt_vs_hold": {
+   "sharpe_diff": 0.195,
+   "p_sharpe_better": 0.792,
+   "drawdown_reduction": 0.468,
+   "p_drawdown_smaller": 1.0
+  }
+ }
+}

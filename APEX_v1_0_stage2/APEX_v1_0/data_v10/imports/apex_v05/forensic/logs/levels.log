@@ -1,0 +1,23 @@
+2017-21   round 1-2-5 (10k, 20k, 50k, 100k ...)                      touches   121  bounce 0.529 (z -0.09)  vol x1.047 (z +0.10)  dwell z -0.40
+2017-21   round multiples of 10k                                     touches   137  bounce 0.518 (z -0.55)  vol x1.059 (z -0.51)  dwell z +0.27
+2017-21   round x golden ratio (16.18k, 32.4k, 64.7k, 161.8k ...)    touches   203  bounce 0.493 (z -1.20)  vol x0.948 (z -0.58)  dwell z +1.22
+2017-21   powers of 1.618 (golden ratio)                             touches   173  bounce 0.561 (z +0.86)  vol x0.878 (z -1.32)  dwell z +0.44
+2017-21   powers of 1.1618 (as written)                              touches   659  bounce 0.527 (z -0.34)  vol x1.013 (z +0.13)  dwell z +0.30
+2017-21   powers of e                                                touches   111  bounce 0.550 (z +0.45)  vol x0.952 (z -0.52)  dwell z +0.53
+2017-21   powers of pi                                               touches    70  bounce 0.586 (z +0.96)  vol x0.963 (z -0.40)  dwell z +0.21
+2022-26   round 1-2-5 (10k, 20k, 50k, 100k ...)                      touches    68  bounce 0.485 (z -1.16)  vol x1.318 (z +1.95)  dwell z -0.92
+2022-26   round multiples of 10k                                     touches   300  bounce 0.560 (z +0.56)  vol x1.052 (z +1.17)  dwell z -0.67
+2022-26   round x golden ratio (16.18k, 32.4k, 64.7k, 161.8k ...)    touches    88  bounce 0.500 (z -0.83)  vol x0.915 (z -0.86)  dwell z +0.41
+2022-26   powers of 1.618 (golden ratio)                             touches   138  bounce 0.493 (z -1.21)  vol x0.921 (z -0.89)  dwell z +1.88
+2022-26   powers of 1.1618 (as written)                              touches   354  bounce 0.514 (z -1.45)  vol x0.994 (z -0.25)  dwell z +0.95
+2022-26   powers of e                                                touches    54  bounce 0.630 (z +1.24)  vol x1.201 (z +0.51)  dwell z -0.85
+2022-26   powers of pi                                               touches    74  bounce 0.622 (z +0.85)  vol x1.075 (z -0.06)  dwell z +1.03
+full      round 1-2-5 (10k, 20k, 50k, 100k ...)                      touches   189  bounce 0.513 (z -0.66)  vol x1.165 (z +1.16)  dwell z -0.82
+full      round multiples of 10k                                     touches   437  bounce 0.547 (z +0.22)  vol x0.897 (z +1.02)  dwell z -0.43
+full      round x golden ratio (16.18k, 32.4k, 64.7k, 161.8k ...)    touches   291  bounce 0.495 (z -1.43)  vol x0.960 (z -0.50)  dwell z +1.03
+full      powers of 1.618 (golden ratio)                             touches   311  bounce 0.531 (z -0.26)  vol x0.860 (z -1.31)  dwell z +1.32
+full      powers of 1.1618 (as written)                              touches  1013  bounce 0.522 (z -1.14)  vol x0.993 (z -0.32)  dwell z +0.91
+full      powers of e                                                touches   165  bounce 0.576 (z +1.22)  vol x1.076 (z +0.37)  dwell z -0.21
+full      powers of pi                                               touches   144  bounce 0.604 (z +1.74)  vol x0.965 (z -0.52)  dwell z +0.87
+
+SUPPORTED: none

@@ -1,0 +1,482 @@
+{
+ "files": {
+  "APEX_V0_2_IMPLEMENTATION_SPEC.md": {
+   "bytes": 18413,
+   "sha256": "819f2f46384cb056e623875fd9301c31ba44a9d6391d2e06a1e1537cc3e128f3"
+  },
+  "APEX_V0_3_IMPLEMENTATION_SPEC.md": {
+   "bytes": 19435,
+   "sha256": "76296ba180030bfb58e8c74d5c2bd1aacaf1ddd4a0a1d3097e86042677c5280e"
+  },
+  "APEX_V0_4_IMPLEMENTATION_SPEC.md": {
+   "bytes": 23759,
+   "sha256": "9fbdf97e8e16632a6f473a35caee4df8cf1261d184ca9102ddc59df765be68fa"
+  },
+  "APEX_V0_5_IMPLEMENTATION_SPEC.md": {
+   "bytes": 11489,
+   "sha256": "e8949ab41c881afd56334fa847d10229c7b7df71f5fa7de2786bf67733dc2266"
+  },
+  "MANIFEST_V0_2.json": {
+   "bytes": 4318,
+   "sha256": "95dd10acada0205d960a346d34d320778436dc53454f13beec1c1362da068b18"
+  },
+  "MANIFEST_V0_3.json": {
+   "bytes": 9134,
+   "sha256": "c35e318c2dab95707a1e66cc9aac2621133ad2d81863362c08a25c0dc84e1689"
+  },
+  "MANIFEST_V0_4.json": {
+   "bytes": 10876,
+   "sha256": "ee1c62bad41d876501437dd1dfa2f31def09f571716e5313a2b21ff63122ccb7"
+  },
+  "README.md": {
+   "bytes": 8538,
+   "sha256": "b1673cb634409366feee928158431951eb862b047625c508cda60aa38495edb6"
+  },
+  "TEST_RESULTS.txt": {
+   "bytes": 2336,
+   "sha256": "a3f10b8346377aa62a54101cb5af8adf2a803d94ffa389fcbefc2852d369d5fd"
+  },
+  "TEST_RESULTS_V0_3.txt": {
+   "bytes": 7185,
+   "sha256": "968c1a40e7f0282427521f1c802714a6ae5bbf3514a4afec555c4d6d544ec50e"
+  },
+  "TEST_RESULTS_V0_4.txt": {
+   "bytes": 17437,
+   "sha256": "ea78510fc559b7bec747cdcf356465dfdb9c01e2ca1641dfa469bdc423a6ba4a"
+  },
+  "TEST_RESULTS_V0_5.txt": {
+   "bytes": 6179,
+   "sha256": "49a879c76cf6b38638f8f5ec29a8e03f59764df27974a143963d870d589655ae"
+  },
+  "TEST_RESULTS_V0_5_1.txt": {
+   "bytes": 4810,
+   "sha256": "2ffa9a7bdd8b0a2b6b24298f8b45cf6076695b7e7650f70dea4bf260633e3384"
+  },
+  "apex/__init__.py": {
+   "bytes": 65,
+   "sha256": "18f04cdf930a0ec5da8eba56f29c07d2310dbe5dae69f75283a1166cbead5be9"
+  },
+  "apex/actuation/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "apex/actuation/runtime.py": {
+   "bytes": 1295,
+   "sha256": "d2d14f381b1ffc6a8e67abb0f2cd371a553ca9d4bfe9eee3115a1d4b7379422e"
+  },
+  "apex/authority/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "apex/authority/broker.py": {
+   "bytes": 1318,
+   "sha256": "116731d3ad801196a8a007f51b3e4af9bde41bca132064c8bf4e58d11329547a"
+  },
+  "apex/authority/constitution.py": {
+   "bytes": 1301,
+   "sha256": "a7c6afba8b8c983a0ef0f165224b96198a7b6690109fe3a9c22be275ee3ebf38"
+  },
+  "apex/authority/gatekeeper.py": {
+   "bytes": 2637,
+   "sha256": "a0c18bd9c156029091a14517f3c2d6e5218a709245ff5c4eea8dfff9f0b2a630"
+  },
+  "apex/cognition/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "apex/cognition/deliberation.py": {
+   "bytes": 886,
+   "sha256": "39eb4d8dacb8b89993de72ac77ccbc0922957408e10d654f62d84f25428fb691"
+  },
+  "apex/cognition/evolution.py": {
+   "bytes": 1325,
+   "sha256": "995bcffe39ef7dc664f3f85512332361a45c7f1593b570dce95ed993f8757db4"
+  },
+  "apex/cognition/layers.py": {
+   "bytes": 6600,
+   "sha256": "d68364cb6174a954fcc0d978b8d6711efffb3ab8697279ff3cc538954fb53cea"
+  },
+  "apex/cognition/math_systems.py": {
+   "bytes": 7750,
+   "sha256": "c136587b7e9035ac71746591d74c026b82b7b177c64a40951d3a22ef60d5e261"
+  },
+  "apex/collab.py": {
+   "bytes": 1832,
+   "sha256": "beaad743d12604d79f0076175c8ce88247a472d7487bc7cb814fc5c8915a1bbc"
+  },
+  "apex/core.py": {
+   "bytes": 7042,
+   "sha256": "4968ff1de46f80b4f50491bb0d0d2ffc9de78b9cf810e929c4312c5db8fd5078"
+  },
+  "apex/domain/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "apex/domain/base.py": {
+   "bytes": 662,
+   "sha256": "faa5dda23f1198e5cf0b22b9f760fce3dc7e24f4816311cee5007ecbc8e497fd"
+  },
+  "apex/domain/research.py": {
+   "bytes": 654,
+   "sha256": "97bbf7d680c88679c48319bc84319bf939fbd3917f5ae1265a6e74098e8b5996"
+  },
+  "apex/domain/trading.py": {
+   "bytes": 674,
+   "sha256": "446f7cf89939d66e97281c4cf41f3b17a219e409ba5f0c3f02649421f897a927"
+  },
+  "apex/ext/__init__.py": {
+   "bytes": 2399,
+   "sha256": "7db7d49167110bae09da49b066710bb9129440e5b9246a9945df86ff976640e3"
+  },
+  "apex/ext/authority_service.py": {
+   "bytes": 23702,
+   "sha256": "07e7b364e5bb2ca5f05f686cd228a49c94b810ae0ac08109793c93f17ba4b72b"
+  },
+  "apex/ext/authority_v04.py": {
+   "bytes": 19444,
+   "sha256": "4b99c9ec7986f2e5797f59f2f787a62178516bf03a7d2e799967b294dbe7fe1d"
+  },
+  "apex/ext/authority_v05.py": {
+   "bytes": 7637,
+   "sha256": "7eab00c178316290b70dbf30cec2900d21cdf10987026f3a529d5c4b5292cdbf"
+  },
+  "apex/ext/awakening.py": {
+   "bytes": 20166,
+   "sha256": "0ac83a616b6873d4024bb7bbeaa16d4d9ffa501424f63384fc86f77cceaaa735"
+  },
+  "apex/ext/collective.py": {
+   "bytes": 11297,
+   "sha256": "82cd9c01548ef4e6ffd4455fa24e59f7d6636282cf6e5ae5edb2342e9a92c387"
+  },
+  "apex/ext/contracts.py": {
+   "bytes": 5352,
+   "sha256": "39368737c24dcbff485fe4997c766378275cef6f4fcf0cd514fd4a7fa0be76a2"
+  },
+  "apex/ext/crypto_pack.py": {
+   "bytes": 49470,
+   "sha256": "6d5aef022f99d66cb7ab677c6b51aa7387c3a9b38e875a7c83bbd7e488fee02d"
+  },
+  "apex/ext/cybernetics.py": {
+   "bytes": 3956,
+   "sha256": "81ed078ea296bae0262854a745723bd9becf9917a98ef8e90e52c9cd9677efee"
+  },
+  "apex/ext/data_v05.py": {
+   "bytes": 14107,
+   "sha256": "3527f7692ae4aae61332abfbf0528749aa8b9e9dd5ea1b0ad999291b1e830a98"
+  },
+  "apex/ext/design_space.py": {
+   "bytes": 10802,
+   "sha256": "f02c48e241266437c9df4a22fa4eb6720ab7460c488e5b569c0cd4253f01abf2"
+  },
+  "apex/ext/domain_policy.py": {
+   "bytes": 6219,
+   "sha256": "f99f20f276e5569fe5dc7c5d921efda454958a02127c80915478c4a1250e4905"
+  },
+  "apex/ext/epistemics.py": {
+   "bytes": 11726,
+   "sha256": "4fb045278c5a45b9d5ce9190ffecae13346747716cc77f5c190ab6ce05a0b984"
+  },
+  "apex/ext/evolution.py": {
+   "bytes": 9719,
+   "sha256": "23a98ed2d4870c2b38e8c2e6f6776d9107f4af33cadd86f32dbc9753a00c203c"
+  },
+  "apex/ext/hypotheses_v051.py": {
+   "bytes": 22478,
+   "sha256": "d3cfc2276b1a8ba4f35095367e1c9cbe971b16d307c068e956f044f6efac6466"
+  },
+  "apex/ext/incubation.py": {
+   "bytes": 7399,
+   "sha256": "8d0b871b7a7e2308c11da2c302e87dec7c14106ba36ed0d7a61ec8f97a8f301a"
+  },
+  "apex/ext/ledger.py": {
+   "bytes": 5062,
+   "sha256": "f517941d19bea4fd9307a6296e29a29386a3531f189f6dad77bdaf74eeb9265c"
+  },
+  "apex/ext/local_models.py": {
+   "bytes": 12944,
+   "sha256": "1ae1b34acd5a4cb151563ce104f69c17922fa7b2542204967cc68a705c920c24"
+  },
+  "apex/ext/math_ext.py": {
+   "bytes": 5451,
+   "sha256": "002fd6465c3071ef28946b99fdb582845b394edf72440a9d00bd2deaca374937"
+  },
+  "apex/ext/model_worker.py": {
+   "bytes": 5198,
+   "sha256": "140104873ed990f85ca7267e563a8ba96748c3d37f1c597677f39d531a5cd7ed"
+  },
+  "apex/ext/operator_channel.py": {
+   "bytes": 6472,
+   "sha256": "0f4aa202050da4413f5af4487c18e13fdffb4aa80c69c7fc965177ddff3d2988"
+  },
+  "apex/ext/operator_v04.py": {
+   "bytes": 8874,
+   "sha256": "db489c798e6bc95aa49e585d2b9209981168c407c22df059909aa4c00632430b"
+  },
+  "apex/ext/organism_v04.py": {
+   "bytes": 58018,
+   "sha256": "8db77bbaf82b13b67b64be97c2f866b8620702e98bc21bdc3e9e22009d67fd6e"
+  },
+  "apex/ext/organism_v05.py": {
+   "bytes": 38477,
+   "sha256": "96a89cc2b3814e4842fca839ae94bb433a77f3a1b04e33229fd9b2b8810449e2"
+  },
+  "apex/ext/paper_v05.py": {
+   "bytes": 5456,
+   "sha256": "27d494f33b946d10bb7a673a49a0af7acdaf13746dd3572683cd7565dfea767a"
+  },
+  "apex/ext/registry_ext.py": {
+   "bytes": 9522,
+   "sha256": "796f8779e6cbc7c5fe04a7a756295c571ff59f43657c397c25ba96bf9a80ae48"
+  },
+  "apex/ext/research_slice.py": {
+   "bytes": 8580,
+   "sha256": "55c10445c168f95b749e66db5c33b42f28851f2b694b354b1a0e4f456b07faff"
+  },
+  "apex/ext/research_v05.py": {
+   "bytes": 27542,
+   "sha256": "daf4f6a65b2215b76ff3ae15796b6a1e2924a34e9765b962adb561563b769d44"
+  },
+  "apex/ext/runtime.py": {
+   "bytes": 6827,
+   "sha256": "80efbd610ccd3798f389c27fb031b57bf486c9e91e129cdb922325eaffd2c26e"
+  },
+  "apex/ext/scheduler.py": {
+   "bytes": 3783,
+   "sha256": "113745b6d4ec3b7c8cdec955765bc328b959d9a9970904fc4d597a3511e1d19d"
+  },
+  "apex/ext/topology.py": {
+   "bytes": 7862,
+   "sha256": "364678f7b8cf900c7e688c24e514c90f1a7be1aeb3bb9cfe8d85c09cbfacd32e"
+  },
+  "apex/ext/transcendent.py": {
+   "bytes": 7494,
+   "sha256": "2d526fadc8dca46d6ef3056cfb32abf7d215a14a91a825139ad392af102500c6"
+  },
+  "apex/ext/v04_math.py": {
+   "bytes": 11666,
+   "sha256": "f73b6f8ea9cd7820c4a75b11570220b448aa6ac6d01b74fb0331c76a2e0e3a89"
+  },
+  "apex/ext/views.py": {
+   "bytes": 4244,
+   "sha256": "f20b281e8b7e6b59bd69edeb7e94994819e8a92aa6ef7b8a0f46ad9fea88aed7"
+  },
+  "apex/ext/walls.py": {
+   "bytes": 5960,
+   "sha256": "2d516d349902a10f05cce41644de5920b515d41b2797d7c05d3edcf3a54627a9"
+  },
+  "apex/scheduler.py": {
+   "bytes": 768,
+   "sha256": "daadb01f3ee6a903aca1eb77e2fd72b1cc8ed91bf530c0920da368a1b0e2f99c"
+  },
+  "awaken.py": {
+   "bytes": 2978,
+   "sha256": "d914c1dff75d2db982ee979861bc7b2d5465795fce641eb8028b621b9784c25f"
+  },
+  "awaken_v04.py": {
+   "bytes": 4849,
+   "sha256": "8c7d57553487a275edb1c1f66a691c60a6f5c30c58fc53b8c9aff469e8573679"
+  },
+  "awaken_v05.py": {
+   "bytes": 4692,
+   "sha256": "bc39090b4c5a008dee446c1900ad2cbbe1350b176b14e02895971a14b30547a2"
+  },
+  "config/api_keys.example.json": {
+   "bytes": 262,
+   "sha256": "b2c6c0d453d86b08db8db6f5bcab21334e8af1722708a82250a788b0feea747d"
+  },
+  "config/model_pins.example.json": {
+   "bytes": 862,
+   "sha256": "5fc193f51f58155e1699aecd4e35a3aaa64bf13aef54136514f4682c7e2003fd"
+  },
+  "config/owner.example.json": {
+   "bytes": 323,
+   "sha256": "dc5d0adca7bc4ca0804590926584ead185ca8142069adc759fb2eede2d779bf3"
+  },
+  "constitution/autonomy_charter.json": {
+   "bytes": 1312,
+   "sha256": "d6dba7e63fff83a14ba7898c33565fe7c692b7e46e44da5375e69a68860842a5"
+  },
+  "constitution/invariants.json": {
+   "bytes": 2253,
+   "sha256": "e5f38ae764e7c9e3092f11e686db3ed7f7e73d2655badae0dc588906a45bf7c6"
+  },
+  "constitution/preapproved_leases.json": {
+   "bytes": 1328,
+   "sha256": "e416e58662f42c1ef1bdddd877d6acd326749822a050fbe148f014ff24aa5bfe"
+  },
+  "constitution/preapproved_leases_v05.json": {
+   "bytes": 1337,
+   "sha256": "5966dbdba9f9f51391d838e462e0e6c85098707b30978dff16fb4a3649dc23b2"
+  },
+  "docs/ABSTRACTION_MAP.md": {
+   "bytes": 2005,
+   "sha256": "cb56588dff5aba6ee5827a7193df5df30658e3b651c5597fe7b1c03b62050cfd"
+  },
+  "docs/CROSS_AI_COLLAB_PSEUDOCODE.md": {
+   "bytes": 8546,
+   "sha256": "e474e8f3aa60bb8b2acfee300ff41490420b6bc41987f41d317a051933c58046"
+  },
+  "docs/IMPLEMENTATION_PLAN.md": {
+   "bytes": 1455,
+   "sha256": "cfb55da4346cb0001ebde189fd8c4abda9499ccd871cb0d2a9222a0b6ec0fc08"
+  },
+  "docs/MATHEMATICAL_SYSTEMS.md": {
+   "bytes": 4605,
+   "sha256": "06c463eef09eb0822b288745a5869b71a4d68cae9939447d48a4d43737dda41b"
+  },
+  "docs/OWNER_IDEAS_2026-10-03.md": {
+   "bytes": 10872,
+   "sha256": "e644f441a43c26bf7a8eb27507e2a03766c21fff8037eb7018bfc561a960e7d6"
+  },
+  "docs/REAL_DATA_BASELINE.md": {
+   "bytes": 3556,
+   "sha256": "f40f9cb3810387076902a551d28173bd60c6a55b8274f29c15985e36985d57a2"
+  },
+  "docs/T2_GATE_AUDIT.md": {
+   "bytes": 6810,
+   "sha256": "3d2f4bbf65c0d8eb0ea1df0c593619b562095fcd846ed2248188d459ff2b36bf"
+  },
+  "hypotheses/owner_2026-10-02.json": {
+   "bytes": 1191,
+   "sha256": "05082cf8404227aea6727621a821be19b8fd20d2714ce9156ff0f890ffa160a3"
+  },
+  "hypotheses/owner_2026-10-03.json": {
+   "bytes": 3056,
+   "sha256": "5a7c75d3a7267de268c020a9edc859b2bb2b9e68b56074b15330bd84e6864946"
+  },
+  "philosophy/egg.md": {
+   "bytes": 2910,
+   "sha256": "d2a0c532840b219dbb16bd1cc0f4c19f6f0e7d8c757074f6dcc9ccd2c16efa92"
+  },
+  "philosophy/many_worlds.md": {
+   "bytes": 2955,
+   "sha256": "4d1907e373baf320fb35b8c9f49b2e4ab357b790f5248ab7330a4fbab20e6261"
+  },
+  "philosophy/ontology.md": {
+   "bytes": 2589,
+   "sha256": "a712d4d155c686685e96ff3f48e67f62663753d7cf81d7307b81dbca610551ce"
+  },
+  "philosophy/tower.md": {
+   "bytes": 1791,
+   "sha256": "916d4914fde141a8d17f6acb3b6f6254b3889269cdd7edcbbe525b8c1a635cba"
+  },
+  "research/owner_ideas_2026-10-03/levels.json": {
+   "bytes": 10968,
+   "sha256": "bd6ebd03180c50db00501a725fa3ae1cbee9a936e37ed95ca6266dcd289006aa"
+  },
+  "research/owner_ideas_2026-10-03/levels.py": {
+   "bytes": 7239,
+   "sha256": "78bef5babced33904f13f017f9e613ff2c7c8a13b10d023a543c705b50e1b9ab"
+  },
+  "research/owner_ideas_2026-10-03/levels_power.json": {
+   "bytes": 437,
+   "sha256": "7ac706033ab17d92a56473d96dbf7e8da8ef0391179eac1f6b90fbc22d55ae03"
+  },
+  "research/owner_ideas_2026-10-03/levels_power.py": {
+   "bytes": 2075,
+   "sha256": "5292ca726ba4a41d9ea8ce37b5568545f08df1386b13340800d4ac64e7e32511"
+  },
+  "research/owner_ideas_2026-10-03/media.json": {
+   "bytes": 9233,
+   "sha256": "ac5bb5fc25ca346129a03c52f9313ea705051373031d55c5bbd827b3faf97abf"
+  },
+  "research/owner_ideas_2026-10-03/media.py": {
+   "bytes": 8469,
+   "sha256": "d30c4e233d059d2215c9a772499e224cd11aba937811bdf5f7654b87223ccdd7"
+  },
+  "research/owner_ideas_2026-10-03/media_data.json": {
+   "bytes": 750515,
+   "sha256": "1b0e9278870a5724d6881ea322dd36b044c2955d9cf623d2fd28f72e15e749d0"
+  },
+  "research/owner_ideas_2026-10-03/media_vol_partial.json": {
+   "bytes": 2292,
+   "sha256": "e8cf359502a0c55f65b0fa0ef3205fb04931972105598b44213011e5d7ef87eb"
+  },
+  "research/owner_ideas_2026-10-03/media_vol_partial.py": {
+   "bytes": 2042,
+   "sha256": "1a636a4ffddd4b13ffc5db9d346d6349489dc59d8a1928695e72e6164417cbb7"
+  },
+  "research/owner_ideas_2026-10-03/occam.json": {
+   "bytes": 12745,
+   "sha256": "eacc2062826aa1ee942196a8346e670e75ee95a1ed3ea6e98778be867e222b6a"
+  },
+  "research/owner_ideas_2026-10-03/occam.py": {
+   "bytes": 6599,
+   "sha256": "bcdedb8094d2aa4f597f72260d8440d416cd0f36ee8fb5c52ef6427d26d284d1"
+  },
+  "research/owner_ideas_2026-10-03/occam_check.json": {
+   "bytes": 1113,
+   "sha256": "5639b023434a554767f199bcb5f68ede60967fbfb89589b3fc34918dffad146d"
+  },
+  "research/owner_ideas_2026-10-03/occam_check.py": {
+   "bytes": 2534,
+   "sha256": "1ad8d51d774e216855a451fc941db18276ea8415c2a83e775f17928dfecf910f"
+  },
+  "research/real_data_2026-10-02/baseline.json": {
+   "bytes": 3587,
+   "sha256": "53c4bc63966c5cdb1e6df400129e4272f8806404196b003dcd7059aead2de75e"
+  },
+  "research/real_data_2026-10-02/baseline.py": {
+   "bytes": 1704,
+   "sha256": "76e17896c50df3901ef85add231297ed6b3e212b0022e81e40abc22f1bc8d500"
+  },
+  "research/real_data_2026-10-02/fetch.py": {
+   "bytes": 1406,
+   "sha256": "62a7c4c1d483ab1d5c37ca6269e01097da5117d3128082b790296c269a944e33"
+  },
+  "research/real_data_2026-10-02/fib.json": {
+   "bytes": 869,
+   "sha256": "b14168a98383cf3f4c6c4e9de5bfb5c160ff5128c188cc7859853bf15e921b0e"
+  },
+  "research/real_data_2026-10-02/fib.py": {
+   "bytes": 3695,
+   "sha256": "7c42fd291fc952c722a249ad5487eab457ac49f78789c8a3055bcd6675532dbb"
+  },
+  "research/real_data_2026-10-02/xsec.json": {
+   "bytes": 649,
+   "sha256": "c5d7fa26bd1d1448517e1c0ca7ee220d7a7a5888f5c3f6b31ccbcce0599cd0f7"
+  },
+  "research/real_data_2026-10-02/xsec.py": {
+   "bytes": 2879,
+   "sha256": "8f3b1726746aa2c8e3831ba907695bbc5b4667a3289c848d04ea32964a0d355c"
+  },
+  "run.py": {
+   "bytes": 1568,
+   "sha256": "98a19b44953bcbfef46eed1dd7ca9999c06e87293e7eabaf0ea8a1ab53f6e3f0"
+  },
+  "setup_models.py": {
+   "bytes": 8623,
+   "sha256": "cc5bbdd2a25fea4bad7d1752b71a56edd00af47b3f67cf8483c9cc028473d81b"
+  },
+  "state/events.jsonl": {
+   "bytes": 1550,
+   "sha256": "b346d618c7f4f740eeaa3e0fceb94423762946ecdccd3f353cb153624e70a64b"
+  },
+  "tests/fakeweb_v05.py": {
+   "bytes": 3243,
+   "sha256": "10bc36b0258ec70fca31acf1d52cd4c733cfe4cdd29148d2f520010772174385"
+  },
+  "tests/test_apex.py": {
+   "bytes": 1631,
+   "sha256": "5facd4b482ef20bbda30019eb0dd3010b8f2577b6101967ea0d6ce2069a4428c"
+  },
+  "tests/test_apex_v03.py": {
+   "bytes": 22735,
+   "sha256": "7948e362191e6497f7309427384182e3ec8d9ca0912269b1a3dbe83bd99627bd"
+  },
+  "tests/test_apex_v04.py": {
+   "bytes": 42525,
+   "sha256": "11136e0a220ec8a95cbdbcad637e10b59893fd41c9ded34a12ecc8af61f01c8c"
+  },
+  "tests/test_apex_v05.py": {
+   "bytes": 14296,
+   "sha256": "19286a84cd7ff418ea9bbe0b8a7cc872b275495f583a5dc4be78d1968cc474ca"
+  },
+  "tests/test_apex_v051.py": {
+   "bytes": 10885,
+   "sha256": "db613be83f577690801848846f65a02c6506d4ecbd2f09ff77376664f49ed81e"
+  }
+ },
+ "rule": "v0.5.1 snapshot for the next version's add-only check: .py files byte-identical, documents append-only, state/ excluded (hash-chained history)",
+ "version": "0.5.1"
+}

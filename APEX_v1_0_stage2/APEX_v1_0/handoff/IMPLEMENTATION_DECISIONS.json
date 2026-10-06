@@ -1,0 +1,96 @@
+{
+  "package": "APEX_v1_0_Claude_Implementation_Handoff",
+  "research_only": true,
+  "decisions": [
+    {
+      "topic": "8-layer DAG",
+      "decision": "accept",
+      "note": "Keep as modular chassis; no model family is architecture-mandated."
+    },
+    {
+      "topic": "adapter/shared trunk architecture",
+      "decision": "accept_with_staging",
+      "note": "Interfaces now; cross-domain trunk training after data/execution/audit are stable."
+    },
+    {
+      "topic": "continuous geometry hazard",
+      "decision": "accept_modify",
+      "note": "Use ratio_grid for labels; prefer differentiable monotone competing-risk surface over cummin post-processing."
+    },
+    {
+      "topic": "Fibonacci ratios",
+      "decision": "controls_not_priors",
+      "note": "Named ratios retained as markers/placebos, not privileged constants."
+    },
+    {
+      "topic": "trial ledger",
+      "decision": "accept_expand",
+      "note": "Must include actual-trial identity, lineage, hashes and per-period return references; summary metrics alone are insufficient for PBO."
+    },
+    {
+      "topic": "DSR gate",
+      "decision": "accept_correct",
+      "note": "Use 0.95 threshold; never require >1.0."
+    },
+    {
+      "topic": "CSCV/PBO",
+      "decision": "accept_conditionally",
+      "note": "Only with aligned return matrices; purge/embargo overlapping labels."
+    },
+    {
+      "topic": "FRED/direct macro",
+      "decision": "accept_modify",
+      "note": "Direct-source preferred; release timestamps must be authoritative or conservatively tagged, not generic hard-coded lags."
+    },
+    {
+      "topic": "funding every 8h",
+      "decision": "reject_as_universal",
+      "note": "Accrue from actual historical funding event timestamps/intervals."
+    },
+    {
+      "topic": "fixed maker/taker/MMR",
+      "decision": "reject_as_universal",
+      "note": "Versioned venue/date/notional schedules plus sensitivity models."
+    },
+    {
+      "topic": "Ledoit-Wolf",
+      "decision": "accept",
+      "note": "Add deterministic conditioning fallback and caps."
+    },
+    {
+      "topic": "condition threshold 50",
+      "decision": "accept_as_config",
+      "note": "Research config, not universal constant."
+    },
+    {
+      "topic": "expert output scalar [-1,1]",
+      "decision": "modify",
+      "note": "Use structured ExpertForecast so Matrix Kelly receives calibrated expected-return units/horizons."
+    },
+    {
+      "topic": "HMM/GMM state model",
+      "decision": "candidate_family",
+      "note": "Retain deterministic baseline; compare candidates out of sample."
+    },
+    {
+      "topic": "dynamic plugins",
+      "decision": "accept_safe_registry",
+      "note": "Manifest/hash/allowlist; no arbitrary auto-import in authority-bearing process."
+    },
+    {
+      "topic": "walk-forward AutoML",
+      "decision": "defer_until_core",
+      "note": "After Stage 0-3; all search trials count in ledger; final holdout protected."
+    },
+    {
+      "topic": "agentic self-programming",
+      "decision": "out_of_scope",
+      "note": "Phase 2/3 future work; no live authority."
+    },
+    {
+      "topic": "Qwen/vendor compliance discussion",
+      "decision": "exclude",
+      "note": "Not required for current code architecture and should not steer the quant implementation."
+    }
+  ]
+}

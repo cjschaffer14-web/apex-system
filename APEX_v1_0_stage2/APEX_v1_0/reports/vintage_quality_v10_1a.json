@@ -1,0 +1,490 @@
+{
+  "funding": [
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 8902,
+      "symbol": "ETHUSD",
+      "value_vintage_quality": "market_record",
+      "venue": "bitmex"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 11290,
+      "symbol": "XBTUSD",
+      "value_vintage_quality": "market_record",
+      "venue": "bitmex"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 30942,
+      "symbol": "BTC-PERP",
+      "value_vintage_quality": "market_record",
+      "venue": "coinbase_intx"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 30942,
+      "symbol": "ETH-PERP",
+      "value_vintage_quality": "market_record",
+      "venue": "coinbase_intx"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 65103,
+      "symbol": "BTC-PERPETUAL",
+      "value_vintage_quality": "market_record",
+      "venue": "deribit"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 65103,
+      "symbol": "ETH-PERPETUAL",
+      "value_vintage_quality": "market_record",
+      "venue": "deribit"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 8795,
+      "symbol": "PF_ETHUSD",
+      "value_vintage_quality": "market_record",
+      "venue": "kraken_futures"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 8795,
+      "symbol": "PF_XBTUSD",
+      "value_vintage_quality": "market_record",
+      "venue": "kraken_futures"
+    }
+  ],
+  "h41_revision_audit": {
+    "first_to_latest_changed": 0,
+    "first_to_second_changed": 0,
+    "rows": 666
+  },
+  "macro": [
+    {
+      "availability_time_quality": "conservative_lag",
+      "rows": 3240,
+      "series_id": "vix_close",
+      "source": "cboe",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "availability_time_quality": "exact_release",
+      "rows": 666,
+      "series_id": "RESPPMA_N.WW",
+      "source": "fed_h41",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "availability_time_quality": "exact_release",
+      "rows": 666,
+      "series_id": "RESPPMA_N.WW",
+      "source": "fed_h41_first_release",
+      "value_vintage_quality": "first_release"
+    },
+    {
+      "availability_time_quality": "approximate",
+      "rows": 497,
+      "series_id": "rrp_total_accepted",
+      "source": "nyfed",
+      "value_vintage_quality": "edited_after_release"
+    },
+    {
+      "availability_time_quality": "source_timestamp",
+      "rows": 2689,
+      "series_id": "rrp_total_accepted",
+      "source": "nyfed",
+      "value_vintage_quality": "unrevised_since_release"
+    },
+    {
+      "availability_time_quality": "conservative_lag",
+      "rows": 3203,
+      "series_id": "tga_closing_balance",
+      "source": "treasury_fiscaldata",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "availability_time_quality": "conservative_lag",
+      "rows": 3190,
+      "series_id": "par_yield_10y",
+      "source": "treasury_yields",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "availability_time_quality": "conservative_lag",
+      "rows": 3190,
+      "series_id": "par_yield_2y",
+      "source": "treasury_yields",
+      "value_vintage_quality": "market_record"
+    }
+  ],
+  "note": "market_record is admissible as a canonical source event/history record; it is not claimed equivalent to a verified first release. TGA remains unverified and excluded.",
+  "policies": [
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:AAVE-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ADA-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ALGO-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ATOM-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:AVAX-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:BCH-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:BTC-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:BTC-USD:60",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:DOGE-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:DOT-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ETC-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ETH-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:ETH-USD:60",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:FIL-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:HBAR-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:LINK-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:LTC-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:NEAR-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:SOL-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:UNI-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:XLM-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "candles:coinbase:XRP-USD:1440",
+      "rationale": "Exchange OHLCV history treated as the canonical market record; retrospective source corrections remain possible.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:bitmex:ETHUSD",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:bitmex:XBTUSD",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:coinbase_intx:BTC-PERP",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:coinbase_intx:ETH-PERP",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:deribit:BTC-PERPETUAL",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:deribit:ETH-PERPETUAL",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:kraken_futures:PF_ETHUSD",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "funding:kraken_futures:PF_XBTUSD",
+      "rationale": "Venue-tagged funding history is a source event record; no claim of immutable vendor storage.",
+      "revision_status": "source_event_record",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "macro:cboe:vix_close",
+      "rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "macro:fed_h41:RESPPMA_N.WW",
+      "rationale": "DDP value is latest vintage even though its release time is exact.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "macro:fed_h41_first_release:RESPPMA_N.WW",
+      "rationale": "Value parsed from the Board's archived first H.4.1 release after the observation Wednesday.",
+      "revision_status": "first_release_verified",
+      "value_vintage_quality": "first_release"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "macro:nyfed:rrp_total_accepted",
+      "rationale": "Rows whose source lastUpdated is same-day are admissible; edited rows are downgraded row-wise.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "unrevised_since_release"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "macro:treasury_fiscaldata:tga_closing_balance",
+      "rationale": "TGA first-print archive was not available in this environment; excluded from evidence-grade use.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "macro:treasury_yields:par_yield_10y",
+      "rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": true,
+      "family": "macro:treasury_yields:par_yield_2y",
+      "rationale": "Originator historical market series treated as canonical market record; no first-print archive was used.",
+      "revision_status": "no_known_revision_process",
+      "value_vintage_quality": "market_record"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:fear_greed",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:gdelt:bitcoin",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:gdelt:cryptocurrency",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:gdelt_tone:bitcoin",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:wiki:Bitcoin",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:wiki:Cryptocurrency",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:attention:wiki:Ethereum",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:funding:funding:BTC-USD",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:funding:funding:ETH-USD",
+      "rationale": "Legacy day-stamped reading lacks a verified publication/vintage record.",
+      "revision_status": "unverified",
+      "value_vintage_quality": "unverified"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:AdrActCnt",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:CapMVRVCur",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:FlowInExNtv",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:FlowOutExNtv",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:SplyCur",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    },
+    {
+      "evidence_eligible": false,
+      "family": "readings:onchain:cm:SplyExNtv",
+      "rationale": "Legacy Coin Metrics values have no stored historical vintage.",
+      "revision_status": "latest_vintage",
+      "value_vintage_quality": "latest_vintage"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{
+  "research_only": true,
+  "tests": [
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_market_states",
+      "cutoff_index": 3693,
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_fast_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_medium_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_slow_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_strategy_mixture_returns",
+      "pass": true,
+      "compared_returns": 3691
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_market_states",
+      "cutoff_index": 3388,
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_fast_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_medium_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_slow_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_strategy_mixture_returns",
+      "pass": true,
+      "compared_returns": 3386
+    },
+    {
+      "test": "matrix_kelly_near_singular_covariance_is_finite_and_gross_capped",
+      "pass": true,
+      "max_gross": 3.0000000000000004
+    }
+  ],
+  "all_pass": true,
+  "database_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596"
+}
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{
+  "BTC": {
+    "state": "bull_core",
+    "mix25": {
+      "days": 4092,
+      "cagr": 0.6296983285826034,
+      "sharpe": 0.9587307043727654,
+      "sortino": 1.7989145443272183,
+      "max_drawdown": 0.765294450539979,
+      "total_x": 238.7400762335393,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2763929618768328,
+      "ann_vol": 0.9067101957087864
+    }
+  },
+  "ETH": {
+    "state": "bull_core",
+    "mix25": {
+      "days": 3787,
+      "cagr": 0.5659404133309847,
+      "sharpe": 0.895676335203334,
+      "sortino": 1.7645655096767265,
+      "max_drawdown": 0.9381051734204096,
+      "total_x": 104.9203522540902,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2508581991021917,
+      "ann_vol": 1.099311506148592
+    }
+  },
+  "matrix": [
+    {
+      "fraction": 0.25,
+      "days": 3787,
+      "cagr": 0.14151369396153357,
+      "sharpe": 0.8176366254518717,
+      "sortino": 1.2619405135700463,
+      "max_drawdown": 0.2807021306394404,
+      "total_x": 3.9480838291373455,
+      "turnover_per_year": null,
+      "win_day_rate": 0.3005017163982044,
+      "ann_vol": 0.18222405508208778,
+      "mean_gross_exposure": 0.1554622404334984,
+      "max_gross_exposure": 0.6684062050480559
+    },
+    {
+      "fraction": 0.5,
+      "days": 3787,
+      "cagr": 0.26019051272157134,
+      "sharpe": 0.8176366254518717,
+      "sortino": 1.2619405135700463,
+      "max_drawdown": 0.5010454186904933,
+      "total_x": 11.016915804252145,
+      "turnover_per_year": null,
+      "win_day_rate": 0.3005017163982044,
+      "ann_vol": 0.36444811016417555,
+      "mean_gross_exposure": 0.3109244808669968,
+      "max_gross_exposure": 1.3368124100961118
+    },
+    {
+      "fraction": 1.0,
+      "days": 3787,
+      "cagr": 0.3823250551283577,
+      "sharpe": 0.8149262446189353,
+      "sortino": 1.2569850879804925,
+      "max_drawdown": 0.7858298102881646,
+      "total_x": 28.76595322486089,
+      "turnover_per_year": null,
+      "win_day_rate": 0.3005017163982044,
+      "ann_vol": 0.7282522434797006,
+      "mean_gross_exposure": 0.6203087878874323,
+      "max_gross_exposure": 2.6736248201922237
+    }
+  ]
+}
+{
+  "all_pass": true,
+  "baseline_unchanged": true,
+  "validation": {
+    "rerun_all_pass": true,
+    "identical_tests": 11,
+    "tests": 11,
+    "all_identical": true,
+    "database_sha256_identical": true,
+    "differences": []
+  },
+  "historical": {
+    "byte_identical": false,
+    "rerun_sha256": "943bb7b4cb831d61cda9717653f58bd0b95b63d3a8af5dea6caefaacbbcdca2b",
+    "structural_differences": [],
+    "n_structural_differences": 0,
+    "max_abs_numeric_difference": 7.105427357601002e-15,
+    "first_numeric_differences": [
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].ann_vol",
+        "frozen": 0.18222405508208775,
+        "rerun": 0.18222405508208778
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].max_drawdown",
+        "frozen": 0.28070213063943983,
+        "rerun": 0.2807021306394404
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].sortino",
+        "frozen": 1.261940513570046,
+        "rerun": 1.2619405135700463
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].ann_vol",
+        "frozen": 0.3644481101641755,
+        "rerun": 0.36444811016417555
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].total_x",
+        "frozen": 11.016915804252138,
+        "rerun": 11.016915804252145
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].sortino",
+        "frozen": 1.261940513570046,
+        "rerun": 1.2619405135700463
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].sharpe",
+        "frozen": 0.8149262446189351,
+        "rerun": 0.8149262446189353
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].max_drawdown",
+        "frozen": 0.7858298102881643,
+        "rerun": 0.7858298102881646
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].sortino",
+        "frozen": 1.2569850879804922,
+        "rerun": 1.2569850879804925
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+A5 evidence receipt (Claude, 2026-10-05 ~23:08 EDT). No tests were run; no code written.
+
+Published to Drive folder APEX_v1_0_stage2 (id 1PQ92ZTCSmV8e7-llcNVfWnwoim4zpbo4):
+  test_output_full_regression_181_with_stage3_funding_bridge_macOS_2026-10-05.txt
+  Drive file id 1sPq6Pubq0KU7GA0EQnPFmUcadRwltp_O, 21747 bytes (Drive size equals local size)
+  SHA-256 of the local original (Mac): 02607ded5e338c413406c8c66f2dac9efe7e43e36e7b7109c12ab1827a95e1c1
+  Caveat: Drive hash was not recomputed from downloaded bytes; byte count match only. Owner/ChatGPT can verify with shasum -a 256 on a download.
+
+Authoritative Stage 2 manifest (unchanged, local-only on the Mac, source of truth):
+  APEX_v1_0_stage2/APEX_v1_0/stage2/STAGE2_MANIFEST.json
+  SHA-256 2dc631139f86d663ecf1a780480aeb1f2f268c49e1e316173ead482b1b80d367, 334064 bytes, 1,644 files
+  (also recorded in STAGE2_MANIFEST_CHECKSUMS_and_regression_log_SHA256_2026-10-05.txt)

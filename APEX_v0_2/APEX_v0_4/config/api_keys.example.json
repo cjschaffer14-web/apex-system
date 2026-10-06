@@ -1,0 +1,4 @@
+{
+  "note": "Optional. Copy to config/api_keys.json and keep it private. Only header names starting with x- are read; keys travel in request headers, never in URLs, and are never written to the ledger.",
+  "x-cg-demo-api-key": "<your free CoinGecko Demo key>"
+}

@@ -1,0 +1,155 @@
+{
+ "fear & greed level": {
+  "to_2021": {
+   "n": 203,
+   "partial_ic": 0.085,
+   "z": 1.21
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": -0.025,
+   "z": -0.39
+  },
+  "full": {
+   "n": 450,
+   "partial_ic": 0.045,
+   "z": 0.95
+  }
+ },
+ "extreme fear (F&G < 25)": {
+  "to_2021": {
+   "n": 203,
+   "partial_ic": 0.081,
+   "z": 1.15
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.056,
+   "z": 0.87
+  },
+  "full": {
+   "n": 450,
+   "partial_ic": 0.019,
+   "z": 0.4
+  }
+ },
+ "Wikipedia attention surprise (7d vs prior 28d)": {
+  "to_2021": {
+   "n": 280,
+   "partial_ic": 0.204,
+   "z": 3.39
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.085,
+   "z": 1.33
+  },
+  "full": {
+   "n": 527,
+   "partial_ic": 0.15,
+   "z": 3.44
+  }
+ },
+ "news volume surprise, GDELT (7d vs prior 28d)": {
+  "to_2021": {
+   "n": 257,
+   "partial_ic": 0.166,
+   "z": 2.64
+  },
+  "2022_on": {
+   "n": 240,
+   "partial_ic": 0.035,
+   "z": 0.54
+  },
+  "full": {
+   "n": 497,
+   "partial_ic": 0.094,
+   "z": 2.1
+  }
+ },
+ "news tone, GDELT (7d vs prior 28d)": {
+  "to_2021": {
+   "n": 257,
+   "partial_ic": -0.081,
+   "z": -1.28
+  },
+  "2022_on": {
+   "n": 240,
+   "partial_ic": -0.054,
+   "z": -0.83
+  },
+  "full": {
+   "n": 497,
+   "partial_ic": -0.055,
+   "z": -1.23
+  }
+ },
+ "whales: net flow into exchanges, 7d (% of supply)": {
+  "to_2021": {
+   "n": 280,
+   "partial_ic": 0.168,
+   "z": 2.8
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.082,
+   "z": 1.28
+  },
+  "full": {
+   "n": 527,
+   "partial_ic": 0.146,
+   "z": 3.35
+  }
+ },
+ "whales: change in exchange balances, 28d (% of supply)": {
+  "to_2021": {
+   "n": 280,
+   "partial_ic": 0.144,
+   "z": 2.4
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.046,
+   "z": 0.72
+  },
+  "full": {
+   "n": 527,
+   "partial_ic": 0.114,
+   "z": 2.61
+  }
+ },
+ "valuation: MVRV (log)": {
+  "to_2021": {
+   "n": 280,
+   "partial_ic": 0.165,
+   "z": 2.74
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.038,
+   "z": 0.59
+  },
+  "full": {
+   "n": 527,
+   "partial_ic": 0.133,
+   "z": 3.06
+  }
+ },
+ "adoption: active addresses (7d vs prior 90d)": {
+  "to_2021": {
+   "n": 280,
+   "partial_ic": 0.079,
+   "z": 1.31
+  },
+  "2022_on": {
+   "n": 247,
+   "partial_ic": 0.036,
+   "z": 0.57
+  },
+  "full": {
+   "n": 527,
+   "partial_ic": 0.077,
+   "z": 1.76
+  }
+ }
+}

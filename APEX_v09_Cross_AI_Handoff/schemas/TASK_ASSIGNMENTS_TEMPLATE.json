@@ -1,0 +1,12 @@
+{
+  "packet_version": "0.9",
+  "assignments": [
+    {"role":"falsifier","task":"Try to invalidate the state-conditioned strategy mixture. Focus on alternative state thresholds, base-rate effects, transaction-cost sensitivity and hidden selection bias. Do not optimize a replacement on the same history."},
+    {"role":"leakage_auditor","task":"Audit every feature and target for as-of chronology, pivot confirmation delay, label overlap, same-bar OHLC ambiguity and data revision leakage."},
+    {"role":"execution_auditor","task":"Replace generic cost bps with venue-specific maker/taker fees, spread/slippage, funding, maintenance margin, liquidation tiers and intraday stop ordering. Quantify the difference."},
+    {"role":"statistical_reviewer","task":"Count effective trials, compute DSR and CSCV/PBO for strategy families, block-bootstrap confidence intervals, and test stability across eras/assets."},
+    {"role":"structure_reviewer","task":"Propose competing causal Elliott/fractal geometries and non-Fibonacci controls. Test direct target calibration and incremental predictive value over generic trend/volatility."},
+    {"role":"macro_reviewer","task":"Add timestamp-faithful Fed balance sheet components, TGA/RRP, yields, DXY, VIX, Nasdaq/S&P and liquidity proxies. Treat signs as hypotheses, not fixed rules."},
+    {"role":"synthesizer","task":"Reconcile only after other roles submit EvidenceBundles. Preserve disagreements; do not select a winner solely by historical Sharpe."}
+  ]
+}

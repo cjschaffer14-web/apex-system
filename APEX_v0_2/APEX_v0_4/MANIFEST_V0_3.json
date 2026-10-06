@@ -1,0 +1,253 @@
+{
+  "rule": "v0.3 files at the v0.4 baseline. Hybrid add-only (ratified 2 Oct 2026): v0.2 frozen; v0.3+ files may change only through a signed migration recorded in the main ledger, refactors only; behavior changes go in new modules.",
+  "files": {
+    "APEX_V0_2_IMPLEMENTATION_SPEC.md": {
+      "sha256": "819f2f46384cb056e623875fd9301c31ba44a9d6391d2e06a1e1537cc3e128f3",
+      "bytes": 18413
+    },
+    "APEX_V0_3_IMPLEMENTATION_SPEC.md": {
+      "sha256": "76296ba180030bfb58e8c74d5c2bd1aacaf1ddd4a0a1d3097e86042677c5280e",
+      "bytes": 19435
+    },
+    "MANIFEST_V0_2.json": {
+      "sha256": "95dd10acada0205d960a346d34d320778436dc53454f13beec1c1362da068b18",
+      "bytes": 4318
+    },
+    "README.md": {
+      "sha256": "f68477a9c6ccd842cb6ec775ec288bfe6faa93febf4dc1627e0b68a679a754f1",
+      "bytes": 2868
+    },
+    "TEST_RESULTS.txt": {
+      "sha256": "a3f10b8346377aa62a54101cb5af8adf2a803d94ffa389fcbefc2852d369d5fd",
+      "bytes": 2336
+    },
+    "TEST_RESULTS_V0_3.txt": {
+      "sha256": "968c1a40e7f0282427521f1c802714a6ae5bbf3514a4afec555c4d6d544ec50e",
+      "bytes": 7185
+    },
+    "apex/__init__.py": {
+      "sha256": "18f04cdf930a0ec5da8eba56f29c07d2310dbe5dae69f75283a1166cbead5be9",
+      "bytes": 65
+    },
+    "apex/actuation/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/actuation/runtime.py": {
+      "sha256": "d2d14f381b1ffc6a8e67abb0f2cd371a553ca9d4bfe9eee3115a1d4b7379422e",
+      "bytes": 1295
+    },
+    "apex/authority/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/authority/broker.py": {
+      "sha256": "116731d3ad801196a8a007f51b3e4af9bde41bca132064c8bf4e58d11329547a",
+      "bytes": 1318
+    },
+    "apex/authority/constitution.py": {
+      "sha256": "a7c6afba8b8c983a0ef0f165224b96198a7b6690109fe3a9c22be275ee3ebf38",
+      "bytes": 1301
+    },
+    "apex/authority/gatekeeper.py": {
+      "sha256": "a0c18bd9c156029091a14517f3c2d6e5218a709245ff5c4eea8dfff9f0b2a630",
+      "bytes": 2637
+    },
+    "apex/cognition/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/cognition/deliberation.py": {
+      "sha256": "39eb4d8dacb8b89993de72ac77ccbc0922957408e10d654f62d84f25428fb691",
+      "bytes": 886
+    },
+    "apex/cognition/evolution.py": {
+      "sha256": "995bcffe39ef7dc664f3f85512332361a45c7f1593b570dce95ed993f8757db4",
+      "bytes": 1325
+    },
+    "apex/cognition/layers.py": {
+      "sha256": "d68364cb6174a954fcc0d978b8d6711efffb3ab8697279ff3cc538954fb53cea",
+      "bytes": 6600
+    },
+    "apex/cognition/math_systems.py": {
+      "sha256": "c136587b7e9035ac71746591d74c026b82b7b177c64a40951d3a22ef60d5e261",
+      "bytes": 7750
+    },
+    "apex/collab.py": {
+      "sha256": "beaad743d12604d79f0076175c8ce88247a472d7487bc7cb814fc5c8915a1bbc",
+      "bytes": 1832
+    },
+    "apex/core.py": {
+      "sha256": "4968ff1de46f80b4f50491bb0d0d2ffc9de78b9cf810e929c4312c5db8fd5078",
+      "bytes": 7042
+    },
+    "apex/domain/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "apex/domain/base.py": {
+      "sha256": "faa5dda23f1198e5cf0b22b9f760fce3dc7e24f4816311cee5007ecbc8e497fd",
+      "bytes": 662
+    },
+    "apex/domain/research.py": {
+      "sha256": "97bbf7d680c88679c48319bc84319bf939fbd3917f5ae1265a6e74098e8b5996",
+      "bytes": 654
+    },
+    "apex/domain/trading.py": {
+      "sha256": "446f7cf89939d66e97281c4cf41f3b17a219e409ba5f0c3f02649421f897a927",
+      "bytes": 674
+    },
+    "apex/ext/__init__.py": {
+      "sha256": "7db7d49167110bae09da49b066710bb9129440e5b9246a9945df86ff976640e3",
+      "bytes": 2399
+    },
+    "apex/ext/authority_service.py": {
+      "sha256": "07e7b364e5bb2ca5f05f686cd228a49c94b810ae0ac08109793c93f17ba4b72b",
+      "bytes": 23702
+    },
+    "apex/ext/awakening.py": {
+      "sha256": "0ac83a616b6873d4024bb7bbeaa16d4d9ffa501424f63384fc86f77cceaaa735",
+      "bytes": 20166
+    },
+    "apex/ext/collective.py": {
+      "sha256": "82cd9c01548ef4e6ffd4455fa24e59f7d6636282cf6e5ae5edb2342e9a92c387",
+      "bytes": 11297
+    },
+    "apex/ext/contracts.py": {
+      "sha256": "39368737c24dcbff485fe4997c766378275cef6f4fcf0cd514fd4a7fa0be76a2",
+      "bytes": 5352
+    },
+    "apex/ext/cybernetics.py": {
+      "sha256": "81ed078ea296bae0262854a745723bd9becf9917a98ef8e90e52c9cd9677efee",
+      "bytes": 3956
+    },
+    "apex/ext/design_space.py": {
+      "sha256": "f02c48e241266437c9df4a22fa4eb6720ab7460c488e5b569c0cd4253f01abf2",
+      "bytes": 10802
+    },
+    "apex/ext/domain_policy.py": {
+      "sha256": "f99f20f276e5569fe5dc7c5d921efda454958a02127c80915478c4a1250e4905",
+      "bytes": 6219
+    },
+    "apex/ext/epistemics.py": {
+      "sha256": "4fb045278c5a45b9d5ce9190ffecae13346747716cc77f5c190ab6ce05a0b984",
+      "bytes": 11726
+    },
+    "apex/ext/evolution.py": {
+      "sha256": "23a98ed2d4870c2b38e8c2e6f6776d9107f4af33cadd86f32dbc9753a00c203c",
+      "bytes": 9719
+    },
+    "apex/ext/incubation.py": {
+      "sha256": "8d0b871b7a7e2308c11da2c302e87dec7c14106ba36ed0d7a61ec8f97a8f301a",
+      "bytes": 7399
+    },
+    "apex/ext/ledger.py": {
+      "sha256": "f517941d19bea4fd9307a6296e29a29386a3531f189f6dad77bdaf74eeb9265c",
+      "bytes": 5062
+    },
+    "apex/ext/math_ext.py": {
+      "sha256": "002fd6465c3071ef28946b99fdb582845b394edf72440a9d00bd2deaca374937",
+      "bytes": 5451
+    },
+    "apex/ext/operator_channel.py": {
+      "sha256": "0f4aa202050da4413f5af4487c18e13fdffb4aa80c69c7fc965177ddff3d2988",
+      "bytes": 6472
+    },
+    "apex/ext/registry_ext.py": {
+      "sha256": "796f8779e6cbc7c5fe04a7a756295c571ff59f43657c397c25ba96bf9a80ae48",
+      "bytes": 9522
+    },
+    "apex/ext/research_slice.py": {
+      "sha256": "55c10445c168f95b749e66db5c33b42f28851f2b694b354b1a0e4f456b07faff",
+      "bytes": 8580
+    },
+    "apex/ext/runtime.py": {
+      "sha256": "80efbd610ccd3798f389c27fb031b57bf486c9e91e129cdb922325eaffd2c26e",
+      "bytes": 6827
+    },
+    "apex/ext/scheduler.py": {
+      "sha256": "113745b6d4ec3b7c8cdec955765bc328b959d9a9970904fc4d597a3511e1d19d",
+      "bytes": 3783
+    },
+    "apex/ext/topology.py": {
+      "sha256": "364678f7b8cf900c7e688c24e514c90f1a7be1aeb3bb9cfe8d85c09cbfacd32e",
+      "bytes": 7862
+    },
+    "apex/ext/transcendent.py": {
+      "sha256": "2d526fadc8dca46d6ef3056cfb32abf7d215a14a91a825139ad392af102500c6",
+      "bytes": 7494
+    },
+    "apex/ext/views.py": {
+      "sha256": "f20b281e8b7e6b59bd69edeb7e94994819e8a92aa6ef7b8a0f46ad9fea88aed7",
+      "bytes": 4244
+    },
+    "apex/ext/walls.py": {
+      "sha256": "2d516d349902a10f05cce41644de5920b515d41b2797d7c05d3edcf3a54627a9",
+      "bytes": 5960
+    },
+    "apex/scheduler.py": {
+      "sha256": "daadb01f3ee6a903aca1eb77e2fd72b1cc8ed91bf530c0920da368a1b0e2f99c",
+      "bytes": 768
+    },
+    "awaken.py": {
+      "sha256": "d914c1dff75d2db982ee979861bc7b2d5465795fce641eb8028b621b9784c25f",
+      "bytes": 2978
+    },
+    "config/owner.example.json": {
+      "sha256": "dc5d0adca7bc4ca0804590926584ead185ca8142069adc759fb2eede2d779bf3",
+      "bytes": 323
+    },
+    "constitution/autonomy_charter.json": {
+      "sha256": "d6dba7e63fff83a14ba7898c33565fe7c692b7e46e44da5375e69a68860842a5",
+      "bytes": 1312
+    },
+    "constitution/invariants.json": {
+      "sha256": "e5f38ae764e7c9e3092f11e686db3ed7f7e73d2655badae0dc588906a45bf7c6",
+      "bytes": 2253
+    },
+    "docs/ABSTRACTION_MAP.md": {
+      "sha256": "cb56588dff5aba6ee5827a7193df5df30658e3b651c5597fe7b1c03b62050cfd",
+      "bytes": 2005
+    },
+    "docs/CROSS_AI_COLLAB_PSEUDOCODE.md": {
+      "sha256": "e474e8f3aa60bb8b2acfee300ff41490420b6bc41987f41d317a051933c58046",
+      "bytes": 8546
+    },
+    "docs/IMPLEMENTATION_PLAN.md": {
+      "sha256": "cfb55da4346cb0001ebde189fd8c4abda9499ccd871cb0d2a9222a0b6ec0fc08",
+      "bytes": 1455
+    },
+    "docs/MATHEMATICAL_SYSTEMS.md": {
+      "sha256": "06c463eef09eb0822b288745a5869b71a4d68cae9939447d48a4d43737dda41b",
+      "bytes": 4605
+    },
+    "philosophy/egg.md": {
+      "sha256": "d2a0c532840b219dbb16bd1cc0f4c19f6f0e7d8c757074f6dcc9ccd2c16efa92",
+      "bytes": 2910
+    },
+    "philosophy/many_worlds.md": {
+      "sha256": "4d1907e373baf320fb35b8c9f49b2e4ab357b790f5248ab7330a4fbab20e6261",
+      "bytes": 2955
+    },
+    "philosophy/ontology.md": {
+      "sha256": "a712d4d155c686685e96ff3f48e67f62663753d7cf81d7307b81dbca610551ce",
+      "bytes": 2589
+    },
+    "philosophy/tower.md": {
+      "sha256": "916d4914fde141a8d17f6acb3b6f6254b3889269cdd7edcbbe525b8c1a635cba",
+      "bytes": 1791
+    },
+    "run.py": {
+      "sha256": "98a19b44953bcbfef46eed1dd7ca9999c06e87293e7eabaf0ea8a1ab53f6e3f0",
+      "bytes": 1568
+    },
+    "tests/test_apex.py": {
+      "sha256": "5facd4b482ef20bbda30019eb0dd3010b8f2577b6101967ea0d6ce2069a4428c",
+      "bytes": 1631
+    },
+    "tests/test_apex_v03.py": {
+      "sha256": "7948e362191e6497f7309427384182e3ec8d9ca0912269b1a3dbe83bd99627bd",
+      "bytes": 22735
+    }
+  }
+}

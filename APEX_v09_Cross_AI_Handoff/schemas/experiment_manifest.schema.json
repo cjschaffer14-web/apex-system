@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "APEX Experiment Manifest",
+  "type": "object",
+  "required": ["experiment_id","hypothesis","frozen_before_run","data","features","strategy","cost_model","controls","evaluation"],
+  "properties": {
+    "experiment_id":{"type":"string"},
+    "hypothesis":{"type":"string"},
+    "frozen_before_run":{"type":"boolean"},
+    "data":{"type":"object"},
+    "features":{"type":"array","items":{"type":"string"}},
+    "strategy":{"type":"object"},
+    "cost_model":{"type":"object"},
+    "controls":{"type":"array","items":{"type":"string"}},
+    "evaluation":{"type":"array","items":{"type":"string"}},
+    "trial_family":{"type":"string"},
+    "result_status":{"enum":["not_run","failed","inconclusive","supported","rejected"]}
+  }
+}

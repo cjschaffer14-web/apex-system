@@ -1,0 +1,32 @@
+{
+ "what": "APEX v0.5 store as it stood when the governed v0.5 research trials ran (scratchpad/xv5b/state/market.sqlite, 2 Oct 2026 22:39 EDT)",
+ "v05_store": {
+  "file_sha256": "3b1d1bf6168efd92025c5f6afc3cabfc00999bebdd6e80cdcc575873b30c2e1b",
+  "table_logical_sha256": {
+   "candles": "ac34e53fa3b04e9ac209bc038e9f9989a5d0f8fb2898ae102d03483b0b2f2006",
+   "imports": "3bd0782db4216ba44a827f7d6f056386db4839ea6fd534e64ed72bbbf6b22e59",
+   "readings": "5b595c536258fca7313994faccaa31406d68bda73ba69af755dd19a943b31a02"
+  },
+  "row_counts": {
+   "candles": 220062,
+   "readings": 19764,
+   "imports": 0
+  }
+ },
+ "frozen_v09_database": {
+  "file_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+  "table_logical_sha256": {
+   "candles": "ac34e53fa3b04e9ac209bc038e9f9989a5d0f8fb2898ae102d03483b0b2f2006",
+   "imports": "3bd0782db4216ba44a827f7d6f056386db4839ea6fd534e64ed72bbbf6b22e59",
+   "readings": "ee6bdbe4a61841dae8585f15dc47e581a036c742f6718dfd7db238ec71592c3d"
+  },
+  "row_counts": {
+   "candles": 220062,
+   "readings": 52583,
+   "imports": 0
+  }
+ },
+ "candles_identical": true,
+ "consequence": "the v0.5 research reads only the candles table (Panel.from_store), so the frozen database reproduces its input exactly; the v0.5 store itself (18.7 MB) is not archived",
+ "method": "apex_v10.data.schema.logical_digest (per-table SHA-256 over all rows ordered by every column)"
+}

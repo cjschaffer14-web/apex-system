@@ -1,0 +1,50 @@
+{
+  "stage": 0,
+  "jobs": [
+    {
+      "frozen": "results/btc_v06_historical_25bps.json",
+      "command": "trading_backtest_v06.py --pair BTC-USD --cost-bps 25 --db <scratch copy>",
+      "returncode": 0,
+      "seconds": 1.0,
+      "byte_identical": true,
+      "n_structural_differences": 0,
+      "structural_differences": [],
+      "max_abs_numeric_difference": 0.0,
+      "first_numeric_differences": []
+    },
+    {
+      "frozen": "results/eth_v06_historical_25bps.json",
+      "command": "trading_backtest_v06.py --pair ETH-USD --cost-bps 25 --db <scratch copy>",
+      "returncode": 0,
+      "seconds": 0.8,
+      "byte_identical": true,
+      "n_structural_differences": 0,
+      "structural_differences": [],
+      "max_abs_numeric_difference": 0.0,
+      "first_numeric_differences": []
+    },
+    {
+      "frozen": "results/btc_real_v08_25bps.json",
+      "command": "trading_backtest_v08.py --pair BTC-USD --cost-bps 25 --db <scratch copy>",
+      "returncode": 0,
+      "seconds": 18.8,
+      "byte_identical": true,
+      "n_structural_differences": 0,
+      "structural_differences": [],
+      "max_abs_numeric_difference": 0.0,
+      "first_numeric_differences": []
+    },
+    {
+      "frozen": "results/eth_real_v08_25bps.json",
+      "command": "trading_backtest_v08.py --pair ETH-USD --cost-bps 25 --db <scratch copy>",
+      "returncode": 0,
+      "seconds": 18.2,
+      "byte_identical": true,
+      "n_structural_differences": 0,
+      "structural_differences": [],
+      "max_abs_numeric_difference": 0.0,
+      "first_numeric_differences": []
+    }
+  ],
+  "baseline_unchanged": true
+}

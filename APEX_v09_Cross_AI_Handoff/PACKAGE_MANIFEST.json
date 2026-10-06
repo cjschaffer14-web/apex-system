@@ -1,0 +1,186 @@
+{
+  "package": "APEX_v09_Cross_AI_Handoff",
+  "research_only": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1622,
+      "sha256": "bb4f45645e1c74026d04e9f1f77b6b52d69f29b36a58bef689581b5691677c6e"
+    },
+    {
+      "path": "analysis/APEX_v09_Historical_State_Mixture_and_Representative_Learning.docx",
+      "bytes": 328909,
+      "sha256": "b0f267ec8a00c9fbbbb64380aba15f91919cee0b7037bad8b3b4b13976650de7"
+    },
+    {
+      "path": "code/trading_backtest_v06.py",
+      "bytes": 16330,
+      "sha256": "822d7f583810c77cc6f01e1904a58ad96b4830e49d6ac7e015bf7bfa70697f90"
+    },
+    {
+      "path": "code/trading_backtest_v07.py",
+      "bytes": 11307,
+      "sha256": "248d6e8cf7f0841ed8337668735e2d4ad12b582493504007f2485812a806e84f"
+    },
+    {
+      "path": "code/trading_backtest_v08.py",
+      "bytes": 21489,
+      "sha256": "4854c6423948213c4f6929cbfca2cdc3523d1e5bf8f7a5100f4d2604be8ac76c"
+    },
+    {
+      "path": "code/trading_backtest_v09.py",
+      "bytes": 14466,
+      "sha256": "babd06698dd0e14e2d67994bc834588ed4d232a27ba5b504a43899aa3f5938f7"
+    },
+    {
+      "path": "code/validate_v09.py",
+      "bytes": 3426,
+      "sha256": "95d4d4a26cb7babf89a623302ec12215fa0ac1f639de01e08347a26e39a25fc6"
+    },
+    {
+      "path": "data/market_2026-10-03.sqlite",
+      "bytes": 20119552,
+      "sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596"
+    },
+    {
+      "path": "prior_design/APEX_Trading_Arm_Research_and_Cross_Collaborative_Design_v0_6.docx",
+      "bytes": 642659,
+      "sha256": "f22a2e8591c3ca440079a475e5fa4548f230ab5a74e5c6739e2c18718280f17e"
+    },
+    {
+      "path": "research/CHECKSUMS.txt",
+      "bytes": 240,
+      "sha256": "92340db02b8891fe99b1792202297d057bafb7b9a8db3ed32ab3760c12a6dc71"
+    },
+    {
+      "path": "research/CROSS_DOMAIN_CURRICULUM.md",
+      "bytes": 2224,
+      "sha256": "46144c20ba8c7cb17ded4d19ba641d65bbbde6c0e57eb77084f312db856df076"
+    },
+    {
+      "path": "research/DATA_MANIFEST.json",
+      "bytes": 5481,
+      "sha256": "4f7ea79419328192a3750a9c696ac2e47ca305d24b965c0eeb51a47c898f67bf"
+    },
+    {
+      "path": "research/FINANCIAL_TRUTH_PROTOCOL.md",
+      "bytes": 2093,
+      "sha256": "09c9cd398be7a56a7b517bf2615f888826dd650a7a98c39eb11f72d76d7280d1"
+    },
+    {
+      "path": "research/FROZEN_SPEC_v09.json",
+      "bytes": 2395,
+      "sha256": "e3415de69d1ba2e56f6afeb71fd61be2feb7253b061b5cc1b61a60ffbf4b4707"
+    },
+    {
+      "path": "research/README_HANDOFF.md",
+      "bytes": 3253,
+      "sha256": "799b8cb387448456a88d8c747263eefb9a8c1763cdf5820a67f6fef02eeb9d81"
+    },
+    {
+      "path": "research/SOURCES.md",
+      "bytes": 1697,
+      "sha256": "dbb7e303f85952e6aa74dae26d5981723934b71582c47d8cbe0730d21ed9a357"
+    },
+    {
+      "path": "research/WORK_SEGMENTATION_AND_RECOMBINATION.md",
+      "bytes": 3959,
+      "sha256": "cfe6f2a0b89e3262756aa1366109c6d9ceff183937f63b9959ed8eacd26ee40e"
+    },
+    {
+      "path": "results/btc_real_v08_25bps.json",
+      "bytes": 4658,
+      "sha256": "b1c67a375bac81e68369f4762d17868d627148eb9ed8c74f040c139640f304de"
+    },
+    {
+      "path": "results/btc_v06_historical_25bps.json",
+      "bytes": 31605,
+      "sha256": "6bfcb254589f3c113833fe7c6072c5e1681d0e738e01c277b971806e137d58cf"
+    },
+    {
+      "path": "results/btc_v06_historical_25bps.md",
+      "bytes": 1253,
+      "sha256": "4a7744e0b2d82858fb56ce4fdf0a87f46457342e4e6a1791aa313fa7d40acd51"
+    },
+    {
+      "path": "results/current_state_and_projections.json",
+      "bytes": 6333,
+      "sha256": "878bc1ce526d10a7e82a9ab33d1610dc440233e53b00e99ee422dd98c587e7b0"
+    },
+    {
+      "path": "results/eth_real_v08_25bps.json",
+      "bytes": 4661,
+      "sha256": "b25659e74d232684e7b43a4002dc104c54ced8964c244b7728d8d2b4dac3ac1b"
+    },
+    {
+      "path": "results/eth_v06_historical_25bps.json",
+      "bytes": 31719,
+      "sha256": "83daf6e998903b011dcd412484af6503f4f9565f182e1dc1baa0a4257f0daca5"
+    },
+    {
+      "path": "results/eth_v06_historical_25bps.md",
+      "bytes": 1256,
+      "sha256": "c398598002f660ad4f687c4a1146d2e8486fc5218f82c57f720b1e85d291091d"
+    },
+    {
+      "path": "results/frozen_ladder_v08_25bps.csv",
+      "bytes": 4036,
+      "sha256": "0a34c58190d421a0d0081261ef9f4e4d00b7657a836c2bab547ddf362cec3830"
+    },
+    {
+      "path": "results/geometry_named_vs_neighbors.csv",
+      "bytes": 12567,
+      "sha256": "2f83fbbc212b1416fc2172b5f10b04b927e705ac51d26278a9d9c1165f4d3722"
+    },
+    {
+      "path": "results/historical_v09_results.json",
+      "bytes": 29787761,
+      "sha256": "4324e22d17c3b715ad42c3e2308fbbd2d62c88702940740bff27158d3ff56962"
+    },
+    {
+      "path": "results/matrix_kelly_btc_eth_25bps.csv",
+      "bytes": 678,
+      "sha256": "2327602d5522119a13fb1eaa66cede233d0fe5852204e3cb34623f3bbcbf02e8"
+    },
+    {
+      "path": "results/mixture_cost_sensitivity.csv",
+      "bytes": 1798,
+      "sha256": "46b7305dfd148a5cac25fd359b89fe5b25825d72c9fa84ecd7a19d673f00888e"
+    },
+    {
+      "path": "results/neural_ablation_real_25bps.csv",
+      "bytes": 5750,
+      "sha256": "1b72edd9f493a68b4e20f1883a7dff19f3db915e07cfde7cf49d393b441922e8"
+    },
+    {
+      "path": "results/neural_ablation_real_25bps.json",
+      "bytes": 11842,
+      "sha256": "7891d8ac29bf764acfa3ce24c49f18342ebd3d64a3d69ecd8868fe1214ec3986"
+    },
+    {
+      "path": "results/state_forward_distributions.csv",
+      "bytes": 8004,
+      "sha256": "0a8389ac9bf532ad740b70b854144aaf0bc0b9e9bc3f73b64ec0739818964233"
+    },
+    {
+      "path": "results/validation_v09.json",
+      "bytes": 1738,
+      "sha256": "4d1f9dc0ce732e7e14a3f2fa7d3923ee017c8db2b71831c45e8c9ed3e634591c"
+    },
+    {
+      "path": "schemas/TASK_ASSIGNMENTS_TEMPLATE.json",
+      "bytes": 1502,
+      "sha256": "e2b39833299d5e1952cad33b941111425ffb4d63fe1236660ddae3246b868ea4"
+    },
+    {
+      "path": "schemas/evidence_bundle.schema.json",
+      "bytes": 1568,
+      "sha256": "7c5dcd1d6eb5ece2c84f604dc94df0c990139086f62b89d54dcdd523bb954b53"
+    },
+    {
+      "path": "schemas/experiment_manifest.schema.json",
+      "bytes": 802,
+      "sha256": "417c840f88773e98cd7a581270184b6316139dd9f251fcdb92ff0297368c0e31"
+    }
+  ]
+}

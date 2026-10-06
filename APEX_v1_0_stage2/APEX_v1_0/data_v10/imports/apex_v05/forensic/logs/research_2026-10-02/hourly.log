@@ -1,0 +1,6 @@
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+BTC-USD 3600 85437 2017-01-01 00:00:00 2026-10-03 01:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+ETH-USD 3600 85452 2017-01-01 00:00:00 2026-10-03 01:00:00

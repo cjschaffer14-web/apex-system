@@ -1,0 +1,6 @@
+APEX Stage 2 closure - checksums of authoritative Mac files (computed 2026-10-05 with shasum -a 256)
+
+3aa96b7e5e67f25d4b8c88aefaec251f4255e75d018c0e82e7e6f974de175338  19509 bytes  test_output_full_regression_164_with_allocator_v2_rev3_macOS_2026-10-05.txt  (exact copy now in this Drive folder)
+2dc631139f86d663ecf1a780480aeb1f2f268c49e1e316173ead482b1b80d367  334064 bytes  APEX_v1_0/stage2/STAGE2_MANIFEST.json  (1,644 files; NOT uploaded - 334 KB exceeds practical connector upload size; remains local-only on the Mac, source of truth)
+
+Notes: the manifest SHA256 matches the value reported in APEX System Collaboration (2dc63113...d367). The manifest is unchanged since it was written once under owner authorization. Upload of the exact file needs a manual Drive copy from the Mac (APEX_v1_0_stage2/APEX_v1_0/stage2/STAGE2_MANIFEST.json) or a code-based upload.

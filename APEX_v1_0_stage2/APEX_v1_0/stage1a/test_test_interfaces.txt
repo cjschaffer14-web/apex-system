@@ -1,0 +1,34 @@
+# APEX v1.0 test run - 2026-10-04T03:00:15Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_interfaces.py', ResourceWarnings counted as failures)
+
+test_asof_uses_publication_time_and_latest_vintage (test_interfaces.Chronology.test_asof_uses_publication_time_and_latest_vintage) ... ok
+test_availability_quality_is_mandatory (test_interfaces.Chronology.test_availability_quality_is_mandatory) ... ok
+test_bars_must_be_ordered_and_consistent (test_interfaces.Chronology.test_bars_must_be_ordered_and_consistent) ... ok
+test_frame_rejects_future_bars_and_unpublished_observations (test_interfaces.Chronology.test_frame_rejects_future_bars_and_unpublished_observations) ... ok
+test_coverage_result_validation (test_interfaces.Coverage.test_coverage_result_validation) ... ok
+test_gate_rules (test_interfaces.Evidence.test_gate_rules) ... ok
+test_identical_returns_do_not_merge_distinct_hypotheses (test_interfaces.Evidence.test_identical_returns_do_not_merge_distinct_hypotheses) ... ok
+test_objects_are_frozen_and_hash_deterministically (test_interfaces.Evidence.test_objects_are_frozen_and_hash_deterministically) ... ok
+test_returns_and_kind_rules (test_interfaces.Evidence.test_returns_and_kind_rules) ... ok
+test_funding_needs_recorded_event_and_signed_payment (test_interfaces.Execution.test_funding_needs_recorded_event_and_signed_payment) ... ok
+test_liquidation_and_same_bar_rules (test_interfaces.Execution.test_liquidation_and_same_bar_rules) ... ok
+test_prices_and_fee_sign_conventions (test_interfaces.Execution.test_prices_and_fee_sign_conventions) ... ok
+test_forecast_units_and_bounds (test_interfaces.Experts.test_forecast_units_and_bounds) ... ok
+test_weights_are_per_expert_and_asset (test_interfaces.Mixture.test_weights_are_per_expert_and_asset) ... ok
+test_caps_condition_number_and_fallback_rungs (test_interfaces.Risk.test_caps_condition_number_and_fallback_rungs) ... ok
+test_allowlist_fails_closed (test_interfaces.SanitizedFeatures.test_allowlist_fails_closed) ... ok
+test_every_feature_has_provenance_and_known_at (test_interfaces.SanitizedFeatures.test_every_feature_has_provenance_and_known_at) ... ok
+test_expert_has_no_channel_for_account_router_execution_or_labels (test_interfaces.SanitizedFeatures.test_expert_has_no_channel_for_account_router_execution_or_labels) ... ok
+test_distribution_sums_to_one_and_baseline_is_one_hot (test_interfaces.State.test_distribution_sums_to_one_and_baseline_is_one_hot) ... ok
+test_state_objects_cannot_size_trades (test_interfaces.State.test_state_objects_cannot_size_trades) ... ok
+test_geometry_forecast_invariants (test_interfaces.Structure.test_geometry_forecast_invariants) ... ok
+test_only_confirmed_pivots (test_interfaces.Structure.test_only_confirmed_pivots) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.004s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (22 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

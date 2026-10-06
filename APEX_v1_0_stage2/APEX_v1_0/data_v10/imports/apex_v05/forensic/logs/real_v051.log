@@ -1,0 +1,34 @@
+APEX 0.5.1 awake | authorityd pid 3174 (this process 3171) | walls all pass | hatch HATCHED
+leases: network.web (open), market.paper_order (open)
+[heartbeat 1] WARM worked_on=None
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 2] WARM worked_on=None
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 3] WARM worked_on=None
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 4] WARM worked_on=None
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[hypothesis tested] media: news tone -> next-week BTC return: no data for this feature yet (it arrives with the attention and on-chain backfill)
+
+EVIDENCE (continuous; nothing passes or fails here)
+  trials counted None | probability of backtest overfitting (family) None
+  benchmarks: None
+  attention -> volatility: None
+  paper perps_long_short: 1 days, return -0.05%, Sharpe 0.0, t 0.0
+  paper spot_long_only: 1 days, return -0.68%, Sharpe 0.0, t 0.0
+
+LADDER: R0 Public data: done | R1 Evidence (continuous): combined-model evidence 0.00 of 1.00 | R2 Paper trading (continuous): 1 days of paper record | R3 Shadow: owner: venue, attorney review, limits, keys | R4 Live, single deployment: owner ratification with verified presence
+
+BEFORE THE SINGLE LIVE DEPLOYMENT
+  [x] APEX   Public price history validated (R0)
+  [ ] APEX   Research evidence: combined model deflated Sharpe >= 0.95 and family PBO <= 0.20 (now: None DSR 0.00, PBO None)
+  [ ] APEX   Paper record: the deployed book paper-traded >= 90 days, consistent with its backtest (z > -2), drawdown < 20% (now: perps_long_short 1 days, spot_long_only 1 days)
+  [x] APEX   Halt drill passes under load (hatch criterion 9)
+  [ ] Owner  Install the local models once: python3 setup_models.py
+  [ ] Owner  Add the BTC core trend book to paper trading (widens the paper lease by one book; paper only)
+  [ ] Owner  Choose the venue for the single deployment (US perps or spot) and complete the attorney review
+  [ ] Owner  Set the capital ceiling, daily loss limit and drawdown halt in the charter
+  [ ] Owner  Create a trade-only exchange API key (withdrawals disabled, IP allow-listed); it goes into the macOS Keychain, never into a file
+  [ ] Claude Production key custody (Secure Enclave) and the evaluator out of process
+  [ ] Claude Live order adapter for the chosen venue, tested in the venue's sandbox
+  [ ] Owner  Ratify the single deployment with verified presence: one model version, pinned by hash

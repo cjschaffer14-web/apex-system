@@ -1,0 +1,34 @@
+{
+ "BTC-USD daily": {
+  "fib_gross_sharpe": 0.454,
+  "fib_net_sharpe_45bps": 0.333,
+  "fib_trades": 92,
+  "random_levels_median_gross": 0.482,
+  "fib_percentile_among_random": 0.5,
+  "thirds_levels_gross": 0.576
+ },
+ "BTC-USD hourly": {
+  "fib_gross_sharpe": 0.657,
+  "fib_net_sharpe_45bps": -1.879,
+  "fib_trades": 1606,
+  "random_levels_median_gross": 0.705,
+  "fib_percentile_among_random": 0.42,
+  "thirds_levels_gross": 0.764
+ },
+ "ETH-USD daily": {
+  "fib_gross_sharpe": 0.005,
+  "fib_net_sharpe_45bps": -0.066,
+  "fib_trades": 66,
+  "random_levels_median_gross": 0.185,
+  "fib_percentile_among_random": 0.2,
+  "thirds_levels_gross": 0.038
+ },
+ "ETH-USD hourly": {
+  "fib_gross_sharpe": 0.048,
+  "fib_net_sharpe_45bps": -1.547,
+  "fib_trades": 1198,
+  "random_levels_median_gross": 0.143,
+  "fib_percentile_among_random": 0.38,
+  "thirds_levels_gross": 0.234
+ }
+}

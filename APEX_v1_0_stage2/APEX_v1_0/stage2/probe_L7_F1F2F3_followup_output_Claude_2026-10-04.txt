@@ -1,0 +1,7 @@
+REFUSED  F1 ETH weight on BTC-PERPETUAL schedule: asset/schedule symbol mismatch
+REFUSED  F1 quote symbol differs from schedule: quote/schedule symbol mismatch
+ACCEPTED F1 control: matching ETH mapping (should be ACCEPTED)
+REFUSED  F2 stale quote in rebalance: stale quote
+REFUSED  F2 stale quote in liquidation_required: stale quote
+ACCEPTED F3 settle after explicit close (should be ACCEPTED)
+REFUSED  Edge: same symbol reopened in a later session: accrual after explicit position close

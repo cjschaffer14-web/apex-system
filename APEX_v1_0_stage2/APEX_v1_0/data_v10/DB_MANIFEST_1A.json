@@ -1,0 +1,45 @@
+{
+  "as_of_ts": 1790992800,
+  "code_sha256": "66fb014532557f390c49f0368b5c74072e84f503d3b7b6931563e6b98dc0d2eb",
+  "counts": {
+    "candles": 220062,
+    "data_families": 52,
+    "funding_events": 229872,
+    "macro_observations": 17341,
+    "macro_revisions": 666,
+    "provenance": 994,
+    "readings": 52583,
+    "vintage_policy": 52
+  },
+  "file": "data_v10/market_2026-10-03_v10_1a.sqlite",
+  "file_sha256": "0861688a774baf94e39df222a551449f0d5933af7b026dcaadee57cffbacc908",
+  "foreign_key_violations": 0,
+  "h41_first_release": {
+    "audit_failures": 0,
+    "payloads": 666,
+    "rows": 666
+  },
+  "h41_revisions": {
+    "changed_by_latest_vintage": 0,
+    "changed_by_second_print": 0,
+    "rows": 666
+  },
+  "integrity_check": "ok",
+  "logical_sha256": "60164b73cb5dc6a14c7d003d4f366c48a9382e7ca225dcbb4ef219bffdf7b5e3",
+  "parent_stage1_file_sha256": "2b5f420cebe5823f1e11653ffdcfaf548364d8c2ee4de923d2183d9721ac7e8e",
+  "parent_stage1_logical_sha256": "b6be7251b11c5a3598d4d718f9b874505c1c4ddf346250637bf653617fb76c51",
+  "per_table_logical_sha256": {
+    "candles": "ac34e53fa3b04e9ac209bc038e9f9989a5d0f8fb2898ae102d03483b0b2f2006",
+    "data_families": "1b183cfad4dbadfa63cdaa995aef8ac42a874ae7ec7246071d8aaea6825e9ea0",
+    "funding_events": "d25b75aecc54ca84320cbb67feff9b922ebfd39badc6accf4ccd78d2145d276a",
+    "imports": "3bd0782db4216ba44a827f7d6f056386db4839ea6fd534e64ed72bbbf6b22e59",
+    "macro_observations": "cf9370f0b06a5f214a65e9c0aabb88d59c8aa3e53ec5bfcfaf0049e3bbd47716",
+    "macro_revisions": "e5482f594b357a3331d5a5ee8ee68fe6f9897bed5fafc8f7afbb8e67f1e92b35",
+    "provenance": "0cabe70f162c439292c05515dd429ea36d5283458d2ec15ce46fcbd8b2de940e",
+    "reading_availability": "23a9d17fb76fcf8edb81cfc3384ec256f50752b2b4c6e049c0731bce942fb49a",
+    "readings": "ee6bdbe4a61841dae8585f15dc47e581a036c742f6718dfd7db238ec71592c3d",
+    "release_calendar": "390bc248a0865790b2ce0dbb8aa6cb52f496d92df238c1a68b3071911818d284",
+    "vintage_policy": "fba1b38d4c2292f1ce71c143dbe5cc035224c43a9cfa1e8d330f4c72a409c686"
+  },
+  "schema_version": "1.0.1-stage1a"
+}

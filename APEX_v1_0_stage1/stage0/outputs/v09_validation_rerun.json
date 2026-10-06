@@ -1,0 +1,66 @@
+{
+  "research_only": true,
+  "tests": [
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_market_states",
+      "cutoff_index": 3693,
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_fast_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_medium_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_slow_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "BTC-USD",
+      "test": "future_mutation_does_not_change_past_strategy_mixture_returns",
+      "pass": true,
+      "compared_returns": 3691
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_market_states",
+      "cutoff_index": 3388,
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_fast_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_medium_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_slow_geometry_state",
+      "pass": true
+    },
+    {
+      "pair": "ETH-USD",
+      "test": "future_mutation_does_not_change_past_strategy_mixture_returns",
+      "pass": true,
+      "compared_returns": 3386
+    },
+    {
+      "test": "matrix_kelly_near_singular_covariance_is_finite_and_gross_capped",
+      "pass": true,
+      "max_gross": 3.0000000000000004
+    }
+  ],
+  "all_pass": true,
+  "database_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596"
+}

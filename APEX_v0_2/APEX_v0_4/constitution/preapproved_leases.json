@@ -1,0 +1,30 @@
+{
+  "ratified_on": "2026-10-02",
+  "ratified_by": "owner (APEX v0.4 Synthesis: all synthesized recommendations approved)",
+  "amended_on": "2026-10-02",
+  "amendment": "Revision 2, owner approved: Coin Metrics' free Community API host (community-api.coinmetrics.io) replaces api.coinmetrics.io (the paid Pro API).",
+  "note": "Applied at awakening with the owner's verified presence and recorded in the ledger as LeasePreapproved. A higher revision here supersedes an older one in the ledger; an amendment made later in the ledger supersedes this file. A pre-approval is not a lease: the lease opens only when its condition is met, only within this scope, and the owner can revoke it at any time by voice or command.",
+  "preapprovals": [
+    {
+      "capability": "network.web",
+      "purpose": "Crypto Data Pack live feed (read-only)",
+      "revision": 2,
+      "scope": {
+        "hosts": [
+          "api.coinbase.com",
+          "api.coingecko.com",
+          "api.llama.fi",
+          "community-api.coinmetrics.io",
+          "mempool.space",
+          "api.alternative.me"
+        ],
+        "methods": [
+          "GET"
+        ]
+      },
+      "ttl_s": 2592000,
+      "condition": "t0_gate_passed",
+      "open_note": "Opens automatically once the T0 corpus gate passes (owner note: forced incubation)."
+    }
+  ]
+}

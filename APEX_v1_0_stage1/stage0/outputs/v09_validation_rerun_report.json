@@ -1,0 +1,81 @@
+{
+  "stage": 0,
+  "python": "3.13.15",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "db_copy_sha256": "ac53b123361e5de0f4aa00530cbe1c35286cfd3959224d4e2bf845f634267596",
+  "db_copy_matches_baseline": true,
+  "validate_v09_sha256": "95d4d4a26cb7babf89a623302ec12215fa0ac1f639de01e08347a26e39a25fc6",
+  "validation_seconds": 1.6,
+  "validation": {
+    "rerun_all_pass": true,
+    "identical_tests": 11,
+    "tests": 11,
+    "all_identical": true,
+    "database_sha256_identical": true,
+    "differences": []
+  },
+  "historical_seconds": 6.3,
+  "historical": {
+    "byte_identical": false,
+    "rerun_sha256": "943bb7b4cb831d61cda9717653f58bd0b95b63d3a8af5dea6caefaacbbcdca2b",
+    "structural_differences": [],
+    "n_structural_differences": 0,
+    "max_abs_numeric_difference": 7.105427357601002e-15,
+    "first_numeric_differences": [
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].ann_vol",
+        "frozen": 0.18222405508208775,
+        "rerun": 0.18222405508208778
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].max_drawdown",
+        "frozen": 0.28070213063943983,
+        "rerun": 0.2807021306394404
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[0].sortino",
+        "frozen": 1.261940513570046,
+        "rerun": 1.2619405135700463
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].ann_vol",
+        "frozen": 0.3644481101641755,
+        "rerun": 0.36444811016417555
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].total_x",
+        "frozen": 11.016915804252138,
+        "rerun": 11.016915804252145
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[1].sortino",
+        "frozen": 1.261940513570046,
+        "rerun": 1.2619405135700463
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].sharpe",
+        "frozen": 0.8149262446189351,
+        "rerun": 0.8149262446189353
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].max_drawdown",
+        "frozen": 0.7858298102881643,
+        "rerun": 0.7858298102881646
+      },
+      {
+        "path": "$.matrix_kelly_25bps.rows[2].sortino",
+        "frozen": 1.2569850879804922,
+        "rerun": 1.2569850879804925
+      }
+    ]
+  },
+  "baseline_files_hashed": 37,
+  "baseline_unchanged": true,
+  "changed_baseline_files": [],
+  "all_pass": true
+}

@@ -1,0 +1,80 @@
+# APEX v1.0 test run - 2026-10-04T01:06:32Z
+# python 3.13.15 | sqlite 3.45.1 | Linux-6.18.44-fc-v64-x86_64-with-glibc2.39 | numpy 2.5.3 | pandas 3.0.5 | scipy 1.18.1 | scikit-learn 1.9.1
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_*.py', ResourceWarnings counted as failures)
+
+test_asof_uses_publication_time_and_latest_vintage (test_interfaces.Chronology.test_asof_uses_publication_time_and_latest_vintage) ... ok
+test_availability_quality_is_mandatory (test_interfaces.Chronology.test_availability_quality_is_mandatory) ... ok
+test_bars_must_be_ordered_and_consistent (test_interfaces.Chronology.test_bars_must_be_ordered_and_consistent) ... ok
+test_frame_rejects_future_bars_and_unpublished_observations (test_interfaces.Chronology.test_frame_rejects_future_bars_and_unpublished_observations) ... ok
+test_coverage_result_validation (test_interfaces.Coverage.test_coverage_result_validation) ... ok
+test_gate_rules (test_interfaces.Evidence.test_gate_rules) ... ok
+test_identical_returns_do_not_merge_distinct_hypotheses (test_interfaces.Evidence.test_identical_returns_do_not_merge_distinct_hypotheses) ... ok
+test_objects_are_frozen_and_hash_deterministically (test_interfaces.Evidence.test_objects_are_frozen_and_hash_deterministically) ... ok
+test_returns_and_kind_rules (test_interfaces.Evidence.test_returns_and_kind_rules) ... ok
+test_funding_needs_recorded_event_and_signed_payment (test_interfaces.Execution.test_funding_needs_recorded_event_and_signed_payment) ... ok
+test_liquidation_and_same_bar_rules (test_interfaces.Execution.test_liquidation_and_same_bar_rules) ... ok
+test_prices_and_fee_sign_conventions (test_interfaces.Execution.test_prices_and_fee_sign_conventions) ... ok
+test_forecast_units_and_bounds (test_interfaces.Experts.test_forecast_units_and_bounds) ... ok
+test_weights_are_per_expert_and_asset (test_interfaces.Mixture.test_weights_are_per_expert_and_asset) ... ok
+test_caps_condition_number_and_fallback_rungs (test_interfaces.Risk.test_caps_condition_number_and_fallback_rungs) ... ok
+test_allowlist_fails_closed (test_interfaces.SanitizedFeatures.test_allowlist_fails_closed) ... ok
+test_every_feature_has_provenance_and_known_at (test_interfaces.SanitizedFeatures.test_every_feature_has_provenance_and_known_at) ... ok
+test_expert_has_no_channel_for_account_router_execution_or_labels (test_interfaces.SanitizedFeatures.test_expert_has_no_channel_for_account_router_execution_or_labels) ... ok
+test_distribution_sums_to_one_and_baseline_is_one_hot (test_interfaces.State.test_distribution_sums_to_one_and_baseline_is_one_hot) ... ok
+test_state_objects_cannot_size_trades (test_interfaces.State.test_state_objects_cannot_size_trades) ... ok
+test_geometry_forecast_invariants (test_interfaces.Structure.test_geometry_forecast_invariants) ... ok
+test_only_confirmed_pivots (test_interfaces.Structure.test_only_confirmed_pivots) ... ok
+test_both_manifests_verify (test_stage0_baseline.BaselineHashes.test_both_manifests_verify) ... ok
+test_database_and_frozen_spec (test_stage0_baseline.BaselineHashes.test_database_and_frozen_spec) ... ok
+test_path_redirect_is_exact (test_stage0_baseline.FrozenValidation.test_path_redirect_is_exact) ... ok
+test_v09_validation_reruns_identically_and_leaves_baseline_untouched (test_stage0_baseline.FrozenValidation.test_v09_validation_reruns_identically_and_leaves_baseline_untouched) ... ok
+test_availability_quality_is_mandatory (test_stage1_database.Database.test_availability_quality_is_mandatory) ... ok
+test_every_legacy_reading_has_an_availability_rule (test_stage1_database.Database.test_every_legacy_reading_has_an_availability_rule) ... ok
+test_every_value_traces_to_an_archived_payload (test_stage1_database.Database.test_every_value_traces_to_an_archived_payload) ... ok
+test_families_registered (test_stage1_database.Database.test_families_registered) ... ok
+test_frozen_database_untouched (test_stage1_database.Database.test_frozen_database_untouched) ... ok
+test_funding_venues_are_separate_and_labelled (test_stage1_database.Database.test_funding_venues_are_separate_and_labelled) ... ok
+test_integrity_and_foreign_keys (test_stage1_database.Database.test_integrity_and_foreign_keys) ... ok
+test_legacy_tables_identical_to_frozen (test_stage1_database.Database.test_legacy_tables_identical_to_frozen) ... ok
+test_manifest_matches_the_file (test_stage1_database.Database.test_manifest_matches_the_file) ... ok
+test_no_future_duplicate_or_inverted_rows (test_stage1_database.Database.test_no_future_duplicate_or_inverted_rows) ... ok
+test_reports_cover_every_family_and_window (test_stage1_database.Database.test_reports_cover_every_family_and_window) ... ok
+test_schema_version_links_parent (test_stage1_database.Database.test_schema_version_links_parent) ... ok
+test_rebuild_from_raw_archive_reproduces_the_logical_hash (test_stage1_database.RawRebuild.test_rebuild_from_raw_archive_reproduces_the_logical_hash) ... ok
+test_apex_v05_history_imported (test_stage1_ledger.Ledger.test_apex_v05_history_imported) ... ok
+test_controls_failures_and_sensitivities_retained (test_stage1_ledger.Ledger.test_controls_failures_and_sensitivities_retained) ... ok
+test_counts_match_the_frozen_artifacts (test_stage1_ledger.Ledger.test_counts_match_the_frozen_artifacts) ... ok
+test_identical_paths_stay_distinct_trials (test_stage1_ledger.Ledger.test_identical_paths_stay_distinct_trials) ... ok
+test_ids_and_identities_are_unique (test_stage1_ledger.Ledger.test_ids_and_identities_are_unique) ... ok
+test_lines_round_trip_exactly (test_stage1_ledger.Ledger.test_lines_round_trip_exactly) ... ok
+test_no_orphan_return_files (test_stage1_ledger.Ledger.test_no_orphan_return_files) ... ok
+test_reconstruction_reconciles (test_stage1_ledger.Ledger.test_reconstruction_reconciles) ... ok
+test_sensitivities_point_to_real_parents (test_stage1_ledger.Ledger.test_sensitivities_point_to_real_parents) ... ok
+test_stored_series_match_their_hashes_and_equivalence_ids (test_stage1_ledger.Ledger.test_stored_series_match_their_hashes_and_equivalence_ids) ... ok
+test_summary_matches_the_file (test_stage1_ledger.Ledger.test_summary_matches_the_file) ... ok
+test_require_named_ablation (test_stage1_pit_coverage.Gate.test_require_named_ablation) ... ok
+test_require_refuses_fail_and_partial_by_default (test_stage1_pit_coverage.Gate.test_require_refuses_fail_and_partial_by_default) ... ok
+test_require_shortens_only_when_the_shorter_window_passes (test_stage1_pit_coverage.Gate.test_require_shortens_only_when_the_shorter_window_passes) ... ok
+test_statuses (test_stage1_pit_coverage.Gate.test_statuses) ... ok
+test_funding_accrues_only_at_recorded_events (test_stage1_pit_coverage.PointInTime.test_funding_accrues_only_at_recorded_events) ... ok
+test_legacy_readings_use_their_lag_rule (test_stage1_pit_coverage.PointInTime.test_legacy_readings_use_their_lag_rule) ... ok
+test_macro_asof_respects_publication_and_revisions (test_stage1_pit_coverage.PointInTime.test_macro_asof_respects_publication_and_revisions) ... ok
+test_macro_series_matches_sql_on_random_revisions (test_stage1_pit_coverage.PointInTime.test_macro_series_matches_sql_on_random_revisions) ... ok
+test_position_opened_after_the_settlement_instant_is_not_charged (test_stage1_pit_coverage.PointInTime.test_position_opened_after_the_settlement_instant_is_not_charged) ... ok
+test_bitmex_uses_recorded_interval_and_as_of (test_stage1_sources.Adapters.test_bitmex_uses_recorded_interval_and_as_of) ... ok
+test_deribit_dedupes_and_labels_semantics (test_stage1_sources.Adapters.test_deribit_dedupes_and_labels_semantics) ... ok
+test_h41_release_calendar_handles_holiday (test_stage1_sources.Adapters.test_h41_release_calendar_handles_holiday) ... ok
+test_kraken_and_intx_derive_spacing (test_stage1_sources.Adapters.test_kraken_and_intx_derive_spacing) ... ok
+test_nyfed_late_edits_are_flagged (test_stage1_sources.Adapters.test_nyfed_late_edits_are_flagged) ... ok
+test_raw_archive_detects_tampering (test_stage1_sources.Adapters.test_raw_archive_detects_tampering) ... ok
+test_rows_insert_into_the_schema (test_stage1_sources.Adapters.test_rows_insert_into_the_schema) ... ok
+test_tga_layouts_spliced_only_when_seams_match (test_stage1_sources.Adapters.test_tga_layouts_spliced_only_when_seams_match) ... ok
+test_yields_and_vix (test_stage1_sources.Adapters.test_yields_and_vix) ... ok
+
+----------------------------------------------------------------------
+Ran 68 tests in 34.724s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (68 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

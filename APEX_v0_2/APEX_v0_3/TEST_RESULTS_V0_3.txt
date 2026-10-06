@@ -1,0 +1,126 @@
+APEX v0.3 TEST RESULTS  (2026-10-02T20:01Z, Python 3.13.15; also passes on 3.11)
+==================================================
+
+test_authority_ignores_advisory_confidence (test_apex.ApexTests.test_authority_ignores_advisory_confidence) ... ok
+test_forbidden_authority_capability (test_apex.ApexTests.test_forbidden_authority_capability) ... ok
+test_graph_authorizes_is_authority_only (test_apex.ApexTests.test_graph_authorizes_is_authority_only) ... ok
+test_no_token_no_execution (test_apex.ApexTests.test_no_token_no_execution) ... ok
+test_p3_checkpointable (test_apex.ApexTests.test_p3_checkpointable) ... ok
+test_v02_files_add_only (test_apex_v03.AddOnly.test_v02_files_add_only)
+Original v0.2 bytes survive as an exact prefix (append-only); code is byte-identical. ... ok
+test_approve_mint_verify_and_tamper (test_apex_v03.Authority.test_approve_mint_verify_and_tamper) ... ok
+test_correlated_bundles_count_once (test_apex_v03.Authority.test_correlated_bundles_count_once) ... ok
+test_halt_revokes (test_apex_v03.Authority.test_halt_revokes) ... ok
+test_low_trust_channel_cannot_authorize (test_apex_v03.Authority.test_low_trust_channel_cannot_authorize) ... ok
+test_mystery_defers_and_escalates (test_apex_v03.Authority.test_mystery_defers_and_escalates) ... ok
+test_operator_override_and_auth (test_apex_v03.Authority.test_operator_override_and_auth) ... ok
+test_ratified_axiom_forbids_capability (test_apex_v03.Authority.test_ratified_axiom_forbids_capability) ... ok
+test_seal_breach_fails_closed (test_apex_v03.Authority.test_seal_breach_fails_closed) ... ok
+test_shadow_denies_consensus_capture (test_apex_v03.Authority.test_shadow_denies_consensus_capture) ... ok
+test_unresolved_evidence_denied (test_apex_v03.Authority.test_unresolved_evidence_denied) ... ok
+test_envelope_v2 (test_apex_v03.Collective.test_envelope_v2) ... ok
+test_lineage_counts_once_and_minority_kept (test_apex_v03.Collective.test_lineage_counts_once_and_minority_kept) ... ok
+test_stigmergy (test_apex_v03.Collective.test_stigmergy) ... ok
+test_action_contract_must_be_complete (test_apex_v03.Contracts.test_action_contract_must_be_complete) ... ok
+test_metaphor_cannot_affect_action (test_apex_v03.Contracts.test_metaphor_cannot_affect_action) ... ok
+test_awaken_isolated_hatch (test_apex_v03.EndToEnd.test_awaken_isolated_hatch) ... ok
+test_active_inference (test_apex_v03.Epistemics.test_active_inference) ... ok
+test_compression_and_viability (test_apex_v03.Epistemics.test_compression_and_viability) ... ok
+test_membrane_quarantines_injection (test_apex_v03.Epistemics.test_membrane_quarantines_injection) ... ok
+test_trust_lattice_partial_order (test_apex_v03.Epistemics.test_trust_lattice_partial_order) ... ok
+test_fork_on_missing_capability_and_grant (test_apex_v03.Evolution.test_fork_on_missing_capability_and_grant) ... ok
+test_sealed_pipeline (test_apex_v03.Evolution.test_sealed_pipeline) ... ok
+test_key_never_crosses_boundary (test_apex_v03.IsolatedProcess.test_key_never_crosses_boundary) ... ok
+test_replay_projection (test_apex_v03.Ledger.test_replay_projection) ... ok
+test_v02_history_verifies_and_tamper_breaks (test_apex_v03.Ledger.test_v02_history_verifies_and_tamper_breaks) ... ok
+test_escalation_reaches_owner_through_gate (test_apex_v03.Operator.test_escalation_reaches_owner_through_gate) ... ok
+test_incubation (test_apex_v03.PolicyMathIncubation.test_incubation) ... ok
+test_math (test_apex_v03.PolicyMathIncubation.test_math) ... ok
+test_packs_and_stewardship (test_apex_v03.PolicyMathIncubation.test_packs_and_stewardship) ... ok
+test_regulator_and_termination (test_apex_v03.PolicyMathIncubation.test_regulator_and_termination) ... ok
+test_research_slice_and_views (test_apex_v03.PolicyMathIncubation.test_research_slice_and_views) ... ok
+test_forged_scope_budget_replay_halt_rename (test_apex_v03.Runtime.test_forged_scope_budget_replay_halt_rename) ... ok
+test_manifest_required (test_apex_v03.Runtime.test_manifest_required) ... ok
+test_reserve_and_preemption (test_apex_v03.Scheduling.test_reserve_and_preemption) ... ok
+test_blankets (test_apex_v03.Topology.test_blankets) ... ok
+test_no_bypass_and_witness (test_apex_v03.Topology.test_no_bypass_and_witness) ... ok
+test_producer_rule (test_apex_v03.Topology.test_producer_rule) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.261s
+
+OK
+
+ONE-CLICK DEMO (python awaken.py --ticks 2, on a copy of this folder)
+==================================================
+APEX v0.3 awake  |  first awakening: True  |  authorityd pid 442 (this process 440)
+shell: 3 prior events, intact=True
+walls:
+  W1 PASS  Mediated Boundary: no Proposal->Actuation path avoids Authority
+  W2 PASS  Token-Only Actuation: missing and forged tokens refused before execution
+  W3 PASS  Immutable Provenance: 5 events, chain intact
+  W4 PASS  Protected Constitution & Evaluators: evaluator seal intact=True; proposals cannot touch authority surface=True
+  W5 PASS  Observed Self-Modification: self-modification of protected evaluators is refused
+  W6 PASS  Operator Sovereignty & Liveness: operator channel reachable=True; P-1 reserve intact=True; autonomous liveness charter=True
+  W7 PASS  Reserves & Reversibility: resource reserve=True; rollback path=True; checkpoint dir=True
+
+[governed path] approved -> {'echo': 'APEX v0.3 governed path is alive.'}
+[negative test] authority.mint -> denied | forbidden authority capabilities: ['authority.mint']
+[epistemic horizon] -> deferred | owner notified: note_1124fa260c8d486e
+[heartbeat 1] band=ACCELERATED T=1.0 worked_on=robust retrieval
+[heartbeat 2] band=ACCELERATED T=1.0 worked_on=candidate evaluation
+[sleep] {"replayed": 49, "compression_loss": 0.6734693877551021, "motifs": []}
+[morning report] {
+  "experiments": {
+    "evaluated": 4,
+    "promoted": 1,
+    "rejected": 2,
+    "archived": 0,
+    "awaiting_capability": 1
+  },
+  "decisions": {
+    "approved": 3,
+    "denied": 1,
+    "deferred": 1
+  },
+  "capabilities": {
+    "minted": 2,
+    "outcomes_ok": 2,
+    "outcomes_failed": 0,
+    "revoked": 0
+  },
+  "beliefs": 7,
+  "champion": "claim_graph",
+  "benchmark": 0.8,
+  "frontier": [
+    [
+      "persistent memory",
+      4.3636,
+      "ready"
+    ],
+    [
+      "whole-paper comprehension",
+      4.0,
+      "ready"
+    ],
+    [
+      "local reasoning model",
+      2.2308,
+      "blocked: needs ['mlx.runtime'] (fork, keep going)"
+    ]
+  ],
+  "awaiting_capability": [
+    "cand_cross_ai"
+  ]
+}
+[hatch readiness] stage=HATCHED  H={'L': True, 'G': True, 'M': True, 'R': True, 'E': True, 'A': True, 'C': True}
+
+[cell] (E4 view; explains, never authorizes)
+  Cytoplasm             ->  Proposal plane (high-entropy generation)  (proposal)
+  Nuclear membrane      ->  TranscendentGatekeeperWrapper -> ... -> Gatekeeper  (authority)
+  DNA                   ->  Constitution + axioms  (authority)
+  Pressure-vessel hull  ->  VerifiedRuntime + ResourceBroker  (actuation)
+  Steward               ->  Operator  (operator)
+  Environment           ->  World  (world)
+
+v0.2 run.py afterwards on the same ledger: {'echo': 'APEX v0.2 governed path is alive.'}  -> chain still verifies (55 events; one expected v0.2 clock-restart warning)

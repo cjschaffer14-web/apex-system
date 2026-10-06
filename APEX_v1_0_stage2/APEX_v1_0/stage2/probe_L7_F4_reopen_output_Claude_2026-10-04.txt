@@ -1,0 +1,8 @@
+valid cycle ends: {'BTC-PERPETUAL': 32400} closed: set() pending: -0.01
+[AS EXPECTED] valid close->settle->reopen->accrual: accepted
+[AS EXPECTED] reopen active symbol: refused (ValueError: open requires a previously closed symbol)
+[AS EXPECTED] reopen before settlement: refused (ValueError: open requires prior session settlement)
+[AS EXPECTED] reopen wrong currency: refused (ValueError: currency mismatch, duplicate, or out-of-order event)
+[FINDING] F5a accrual starting before reopen ts: accepted
+[FINDING] F5b zero-pending reopen before settlement: accepted
+[FINDING] F6 reopen while another symbol accrues: refused (ValueError: open requires prior session settlement)

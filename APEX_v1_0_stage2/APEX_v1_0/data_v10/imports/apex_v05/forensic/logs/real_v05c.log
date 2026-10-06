@@ -1,0 +1,48 @@
+APEX 0.5.0 awake | authorityd pid 2516 (this process 2514) | walls all pass | hatch INCUBATING
+leases: network.web (open), market.paper_order (open)
+[heartbeat 1] ACCELERATED worked_on=persistent memory
+[heartbeat 2] ACCELERATED worked_on=self-model
+[heartbeat 3] ACCELERATED worked_on=public price history
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 4] ACCELERATED worked_on=owner hypotheses
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 5] INCUBATING worked_on=signal factory and combined model
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 6] INCUBATING worked_on=attention data
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 7] ACCELERATED worked_on=robust retrieval
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 8] ACCELERATED worked_on=candidate evaluation
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+[heartbeat 9] ACCELERATED worked_on=whole-paper comprehension
+   paper: perps_long_short: 1 days, equity 99,950; spot_long_only: 1 days, equity 99,321
+
+EVIDENCE (continuous; nothing passes or fails here)
+  trials counted 21 | probability of backtest overfitting (family) 0.4
+  signal:mom14                       Sharpe   0.96  deflated Sharpe 0.78  evidence 0.47
+  signal:trend50                     Sharpe   0.62  deflated Sharpe 0.41  evidence 0.25
+  signal:mom3                        Sharpe   0.62  deflated Sharpe 0.40  evidence 0.24
+  signal:lowbeta60                   Sharpe   0.59  deflated Sharpe 0.37  evidence 0.22
+  signal:mom28                       Sharpe   0.50  deflated Sharpe 0.29  evidence 0.17
+  model:combined:perps_long_short    Sharpe   0.26  deflated Sharpe 0.11  evidence 0.06
+  model:combined:spot_long_only      Sharpe   0.19  deflated Sharpe 0.08  evidence 0.05
+  benchmarks: {'equal_weight_hold_sharpe': 0.724, 'btc_hold_sharpe': 1.127}
+  attention -> volatility: {'weeks_tested': 475, 'loss_har': 0.2521, 'loss_har_attention': 0.25, 'improvement_pct': 0.82, 'dm_t': 0.85, 'attention_series': ['wiki:Bitcoin']}
+  paper perps_long_short: 1 days, return -0.05%, Sharpe 0.0, t 0.0
+  paper spot_long_only: 1 days, return -0.68%, Sharpe 0.0, t 0.0
+
+LADDER: R0 Public data: done | R1 Evidence (continuous): combined-model evidence 0.06 of 1.00 | R2 Paper trading (continuous): 1 days of paper record | R3 Shadow: owner: venue, attorney review, limits, keys | R4 Live, single deployment: owner ratification with verified presence
+[hatch] HATCHED {'L': True, 'G': True, 'M': True, 'R': True, 'E': True, 'A': True, 'C': True, 'O': True, 'D': True}
+
+BEFORE THE SINGLE LIVE DEPLOYMENT
+  [x] APEX   Public price history validated (R0)
+  [ ] APEX   Research evidence: combined model deflated Sharpe >= 0.95 and family PBO <= 0.20 (now: model:combined:perps_long_short DSR 0.11, PBO 0.4)
+  [ ] APEX   Paper record: the deployed book paper-traded >= 90 days, consistent with its backtest (z > -2), drawdown < 20% (now: perps_long_short 1 days, spot_long_only 1 days)
+  [x] APEX   Halt drill passes under load (hatch criterion 9)
+  [ ] Owner  Install the local models once: python3 setup_models.py
+  [ ] Owner  Choose the venue for the single deployment (US perps or spot) and complete the attorney review
+  [ ] Owner  Set the capital ceiling, daily loss limit and drawdown halt in the charter
+  [ ] Owner  Create a trade-only exchange API key (withdrawals disabled, IP allow-listed); it goes into the macOS Keychain, never into a file
+  [ ] Claude Production key custody (Secure Enclave) and the evaluator out of process
+  [ ] Claude Live order adapter for the chosen venue, tested in the venue's sandbox
+  [ ] Owner  Ratify the single deployment with verified presence: one model version, pinned by hash

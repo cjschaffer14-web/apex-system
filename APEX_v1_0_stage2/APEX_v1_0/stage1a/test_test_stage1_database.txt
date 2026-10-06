@@ -1,0 +1,25 @@
+# APEX v1.0 test run - 2026-10-04T03:00:21Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage1_database.py', ResourceWarnings counted as failures)
+
+test_availability_quality_is_mandatory (test_stage1_database.Database.test_availability_quality_is_mandatory) ... ok
+test_every_legacy_reading_has_an_availability_rule (test_stage1_database.Database.test_every_legacy_reading_has_an_availability_rule) ... ok
+test_every_value_traces_to_an_archived_payload (test_stage1_database.Database.test_every_value_traces_to_an_archived_payload) ... ok
+test_families_registered (test_stage1_database.Database.test_families_registered) ... ok
+test_frozen_database_untouched (test_stage1_database.Database.test_frozen_database_untouched) ... ok
+test_funding_venues_are_separate_and_labelled (test_stage1_database.Database.test_funding_venues_are_separate_and_labelled) ... ok
+test_integrity_and_foreign_keys (test_stage1_database.Database.test_integrity_and_foreign_keys) ... ok
+test_legacy_tables_identical_to_frozen (test_stage1_database.Database.test_legacy_tables_identical_to_frozen) ... ok
+test_manifest_matches_the_file (test_stage1_database.Database.test_manifest_matches_the_file) ... ok
+test_no_future_duplicate_or_inverted_rows (test_stage1_database.Database.test_no_future_duplicate_or_inverted_rows) ... ok
+test_reports_cover_every_family_and_window (test_stage1_database.Database.test_reports_cover_every_family_and_window) ... ok
+test_schema_version_links_parent (test_stage1_database.Database.test_schema_version_links_parent) ... ok
+test_rebuild_from_raw_archive_reproduces_the_logical_hash (test_stage1_database.RawRebuild.test_rebuild_from_raw_archive_reproduces_the_logical_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 8.706s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (13 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

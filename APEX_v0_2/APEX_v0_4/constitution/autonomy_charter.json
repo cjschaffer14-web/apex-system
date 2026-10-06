@@ -1,0 +1,53 @@
+{
+  "may": [
+    "modify proposal-plane code",
+    "change prompts",
+    "change model routing",
+    "add retrieval strategies",
+    "train/fine-tune local models",
+    "create new abstractions",
+    "reorganize the model graph",
+    "run simulations",
+    "ingest approved datasets",
+    "write new tools",
+    "create new domain packs",
+    "benchmark alternatives",
+    "recombine archived branches",
+    "install a superior candidate",
+    "roll back failures",
+    "allocate P1-P3 compute",
+    "use approved cloud budgets",
+    "use approved network resources",
+    "restart non-authority services",
+    "update the portal",
+    "improve audio/video pipelines",
+    "continue research indefinitely"
+  ],
+  "may_not": [
+    "rewrite constitutional authority",
+    "grant itself a new external permission",
+    "exceed the owner-set spending ceiling",
+    "obtain previously unauthorized credentials",
+    "remove the operator's ability to stop it",
+    "silently erase audit history"
+  ],
+  "autonomous_targets": [
+    "prompt",
+    "retrieval",
+    "tool",
+    "algorithm",
+    "code",
+    "memory",
+    "scheduler",
+    "routing",
+    "graph",
+    "portal",
+    "audio",
+    "vision",
+    "domain_pack",
+    "model"
+  ],
+  "granted_capabilities": [],
+  "spending_ceiling": 0.0,
+  "network_allowlist": []
+}

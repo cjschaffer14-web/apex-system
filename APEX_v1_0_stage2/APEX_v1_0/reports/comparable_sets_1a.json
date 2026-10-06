@@ -1,0 +1,1843 @@
+[
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "adhoc.flat:85bps",
+    "distinct_columns": 3,
+    "equivalence_aliases": {
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|hold": [
+        "owner_ideas_2026-10-03|ETH-USD|occam_check|hold"
+      ],
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200": [
+        "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200"
+      ],
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200_vt": [
+        "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200_vt"
+      ]
+    },
+    "first_ts": 1480896000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_cbff804445cb701a.csv.gz",
+    "matrix_sha256": "4943a8aed4f3a1ef49d449580c5dd45419cd3ff4b58b598adf82add1b19efeb5",
+    "members": [
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|hold",
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200",
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200_vt"
+    ],
+    "representative_columns": [
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|hold",
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200_vt",
+      "owner_ideas_2026-10-03|ETH-USD|occam_check|sma200"
+    ],
+    "rows": 3589,
+    "selection_family_id": "owner_ideas_2026-10-03|adhoc.occam_check|ETH-USD|adhoc.flat:85bps|annualized_sharpe",
+    "set_id": "cscv:cbff804445cb701a"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "adhoc.flat:40bps",
+    "distinct_columns": 8,
+    "equivalence_aliases": {
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|hold|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma100|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma200|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma50|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|40bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|40bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|40bps"
+      ]
+    },
+    "first_ts": 1454716800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_335a61b27c7d0de5.csv.gz",
+    "matrix_sha256": "e07f31c1950d314977e923f5c7babb7f7e6ea68d5364edff73aed0f1b4c465c0",
+    "members": [
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|40bps"
+    ],
+    "representative_columns": [
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|40bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|40bps"
+    ],
+    "rows": 3892,
+    "selection_family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|BTC-USD|adhoc.flat:40bps|annualized_sharpe",
+    "set_id": "cscv:335a61b27c7d0de5"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "adhoc.flat:85bps",
+    "distinct_columns": 8,
+    "equivalence_aliases": {
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|hold|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma100|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma200|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|sma50|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|85bps"
+      ],
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|85bps": [
+        "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|85bps"
+      ]
+    },
+    "first_ts": 1454716800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_68c1cc112a3168ef.csv.gz",
+    "matrix_sha256": "0feafef4c55f95a0d168641c33e403f3f0318f9dcfe09e283fc65fbb4410472b",
+    "members": [
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|85bps"
+    ],
+    "representative_columns": [
+      "owner_ideas_2026-10-03|BTC-USD|occam|voltarget|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma100|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|hold|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom90|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma200_vt|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|tsmom28|85bps",
+      "owner_ideas_2026-10-03|BTC-USD|occam|sma50|85bps"
+    ],
+    "rows": 3892,
+    "selection_family_id": "owner_ideas_2026-10-03|adhoc.occam_rule|BTC-USD|adhoc.flat:85bps|annualized_sharpe",
+    "set_id": "cscv:68c1cc112a3168ef"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "cost_bps:85.0",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.5.1|hypothesis|cdbbbea1c5c1": [
+        "v0.5.1|hypothesis|cdbbbea1c5c1"
+      ],
+      "v0.5.1|hypothesis|f7cccc54cfba": [
+        "v0.5.1|hypothesis|f7cccc54cfba"
+      ]
+    },
+    "first_ts": 1454716800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_3413e2359308e4dd.csv.gz",
+    "matrix_sha256": "4c2078dc857e36359af6afb488fd20939dce9cbff381ae4054d69bc107e1dbfd",
+    "members": [
+      "v0.5.1|hypothesis|cdbbbea1c5c1",
+      "v0.5.1|hypothesis|f7cccc54cfba"
+    ],
+    "representative_columns": [
+      "v0.5.1|hypothesis|f7cccc54cfba",
+      "v0.5.1|hypothesis|cdbbbea1c5c1"
+    ],
+    "rows": 3892,
+    "selection_family_id": "v0.5.1|apex.hypothesis.rule|BTC-USD|cost_bps:85.0|annualized_sharpe",
+    "set_id": "cscv:3413e2359308e4dd"
+  },
+  {
+    "asset": "universe20",
+    "cost_model_id": "apex.v05.venues",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.5|universe|model:combined:perps_long_short": [
+        "v0.5|universe|model:combined:perps_long_short"
+      ],
+      "v0.5|universe|model:combined:spot_long_only": [
+        "v0.5|universe|model:combined:spot_long_only"
+      ]
+    },
+    "first_ts": 1557446400,
+    "frequency": "weekly",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_27ec5d03923c342a.csv.gz",
+    "matrix_sha256": "0cd35acbb5f5c739e6abe2b5913f58b61d81480a51edcc9de6dd7116f2a43dda",
+    "members": [
+      "v0.5|universe|model:combined:perps_long_short",
+      "v0.5|universe|model:combined:spot_long_only"
+    ],
+    "representative_columns": [
+      "v0.5|universe|model:combined:perps_long_short",
+      "v0.5|universe|model:combined:spot_long_only"
+    ],
+    "rows": 387,
+    "selection_family_id": "v0.5|apex.research_v05.model|universe20|apex.v05.venues|annualized_sharpe",
+    "set_id": "cscv:27ec5d03923c342a"
+  },
+  {
+    "asset": "universe20",
+    "cost_model_id": "apex.v05.venues",
+    "distinct_columns": 12,
+    "equivalence_aliases": {
+      "v0.5|universe|signal:edm_simplex": [
+        "v0.5|universe|signal:edm_simplex"
+      ],
+      "v0.5|universe|signal:lowbeta60": [
+        "v0.5|universe|signal:lowbeta60"
+      ],
+      "v0.5|universe|signal:lowvol28": [
+        "v0.5|universe|signal:lowvol28"
+      ],
+      "v0.5|universe|signal:maxret7": [
+        "v0.5|universe|signal:maxret7"
+      ],
+      "v0.5|universe|signal:mom14": [
+        "v0.5|universe|signal:mom14"
+      ],
+      "v0.5|universe|signal:mom28": [
+        "v0.5|universe|signal:mom28"
+      ],
+      "v0.5|universe|signal:mom3": [
+        "v0.5|universe|signal:mom3"
+      ],
+      "v0.5|universe|signal:mom56": [
+        "v0.5|universe|signal:mom56"
+      ],
+      "v0.5|universe|signal:mom7": [
+        "v0.5|universe|signal:mom7"
+      ],
+      "v0.5|universe|signal:rev1": [
+        "v0.5|universe|signal:rev1"
+      ],
+      "v0.5|universe|signal:trend50": [
+        "v0.5|universe|signal:trend50"
+      ],
+      "v0.5|universe|signal:volz28": [
+        "v0.5|universe|signal:volz28"
+      ]
+    },
+    "first_ts": 1572566400,
+    "frequency": "weekly",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_d14114832f0d4610.csv.gz",
+    "matrix_sha256": "dca87c5adc1079e69bb4a52ab69a09ee36860b0c74c97b70fdbe62103359f0a6",
+    "members": [
+      "v0.5|universe|signal:edm_simplex",
+      "v0.5|universe|signal:lowbeta60",
+      "v0.5|universe|signal:lowvol28",
+      "v0.5|universe|signal:maxret7",
+      "v0.5|universe|signal:mom14",
+      "v0.5|universe|signal:mom28",
+      "v0.5|universe|signal:mom3",
+      "v0.5|universe|signal:mom56",
+      "v0.5|universe|signal:mom7",
+      "v0.5|universe|signal:rev1",
+      "v0.5|universe|signal:trend50",
+      "v0.5|universe|signal:volz28"
+    ],
+    "representative_columns": [
+      "v0.5|universe|signal:edm_simplex",
+      "v0.5|universe|signal:mom7",
+      "v0.5|universe|signal:mom28",
+      "v0.5|universe|signal:trend50",
+      "v0.5|universe|signal:mom14",
+      "v0.5|universe|signal:lowvol28",
+      "v0.5|universe|signal:lowbeta60",
+      "v0.5|universe|signal:rev1",
+      "v0.5|universe|signal:volz28",
+      "v0.5|universe|signal:mom3",
+      "v0.5|universe|signal:mom56",
+      "v0.5|universe|signal:maxret7"
+    ],
+    "rows": 362,
+    "selection_family_id": "v0.5|apex.research_v05.signal|universe20|apex.v05.venues|annualized_sharpe",
+    "set_id": "cscv:d14114832f0d4610"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 45,
+    "equivalence_aliases": {
+      "v0.6|BTC-USD|T12_named_fibonacci|25bps": [
+        "v0.6|BTC-USD|T12_named_fibonacci|25bps",
+        "v0.6|BTC-USD|T12_placebo_00|25bps",
+        "v0.6|BTC-USD|T12_placebo_19|25bps",
+        "v0.6|BTC-USD|T12_placebo_44|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_01|25bps": [
+        "v0.6|BTC-USD|T12_placebo_01|25bps",
+        "v0.6|BTC-USD|T12_placebo_10|25bps",
+        "v0.6|BTC-USD|T12_placebo_30|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_02|25bps": [
+        "v0.6|BTC-USD|T12_placebo_02|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_03|25bps": [
+        "v0.6|BTC-USD|T12_placebo_03|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_04|25bps": [
+        "v0.6|BTC-USD|T12_placebo_04|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_05|25bps": [
+        "v0.6|BTC-USD|T12_placebo_05|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_06|25bps": [
+        "v0.6|BTC-USD|T12_placebo_06|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_07|25bps": [
+        "v0.6|BTC-USD|T12_placebo_07|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_08|25bps": [
+        "v0.6|BTC-USD|T12_placebo_08|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_09|25bps": [
+        "v0.6|BTC-USD|T12_placebo_09|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_11|25bps": [
+        "v0.6|BTC-USD|T12_placebo_11|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_12|25bps": [
+        "v0.6|BTC-USD|T12_placebo_12|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_13|25bps": [
+        "v0.6|BTC-USD|T12_placebo_13|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_14|25bps": [
+        "v0.6|BTC-USD|T12_placebo_14|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_15|25bps": [
+        "v0.6|BTC-USD|T12_placebo_15|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_16|25bps": [
+        "v0.6|BTC-USD|T12_placebo_16|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_17|25bps": [
+        "v0.6|BTC-USD|T12_placebo_17|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_18|25bps": [
+        "v0.6|BTC-USD|T12_placebo_18|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_20|25bps": [
+        "v0.6|BTC-USD|T12_placebo_20|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_21|25bps": [
+        "v0.6|BTC-USD|T12_placebo_21|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_22|25bps": [
+        "v0.6|BTC-USD|T12_placebo_22|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_23|25bps": [
+        "v0.6|BTC-USD|T12_placebo_23|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_24|25bps": [
+        "v0.6|BTC-USD|T12_placebo_24|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_25|25bps": [
+        "v0.6|BTC-USD|T12_placebo_25|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_26|25bps": [
+        "v0.6|BTC-USD|T12_placebo_26|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_27|25bps": [
+        "v0.6|BTC-USD|T12_placebo_27|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_28|25bps": [
+        "v0.6|BTC-USD|T12_placebo_28|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_29|25bps": [
+        "v0.6|BTC-USD|T12_placebo_29|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_31|25bps": [
+        "v0.6|BTC-USD|T12_placebo_31|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_32|25bps": [
+        "v0.6|BTC-USD|T12_placebo_32|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_33|25bps": [
+        "v0.6|BTC-USD|T12_placebo_33|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_34|25bps": [
+        "v0.6|BTC-USD|T12_placebo_34|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_35|25bps": [
+        "v0.6|BTC-USD|T12_placebo_35|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_36|25bps": [
+        "v0.6|BTC-USD|T12_placebo_36|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_37|25bps": [
+        "v0.6|BTC-USD|T12_placebo_37|25bps",
+        "v0.6|BTC-USD|T12_placebo_49|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_38|25bps": [
+        "v0.6|BTC-USD|T12_placebo_38|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_39|25bps": [
+        "v0.6|BTC-USD|T12_placebo_39|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_40|25bps": [
+        "v0.6|BTC-USD|T12_placebo_40|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_41|25bps": [
+        "v0.6|BTC-USD|T12_placebo_41|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_42|25bps": [
+        "v0.6|BTC-USD|T12_placebo_42|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_43|25bps": [
+        "v0.6|BTC-USD|T12_placebo_43|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_45|25bps": [
+        "v0.6|BTC-USD|T12_placebo_45|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_46|25bps": [
+        "v0.6|BTC-USD|T12_placebo_46|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_47|25bps": [
+        "v0.6|BTC-USD|T12_placebo_47|25bps"
+      ],
+      "v0.6|BTC-USD|T12_placebo_48|25bps": [
+        "v0.6|BTC-USD|T12_placebo_48|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_cbe2fb2d756a29e8.csv.gz",
+    "matrix_sha256": "19ebedb86d329f7089e882709f50bc864230b8733cdaa224d991b9b9e7efe59e",
+    "members": [
+      "v0.6|BTC-USD|T12_named_fibonacci|25bps",
+      "v0.6|BTC-USD|T12_placebo_00|25bps",
+      "v0.6|BTC-USD|T12_placebo_01|25bps",
+      "v0.6|BTC-USD|T12_placebo_02|25bps",
+      "v0.6|BTC-USD|T12_placebo_03|25bps",
+      "v0.6|BTC-USD|T12_placebo_04|25bps",
+      "v0.6|BTC-USD|T12_placebo_05|25bps",
+      "v0.6|BTC-USD|T12_placebo_06|25bps",
+      "v0.6|BTC-USD|T12_placebo_07|25bps",
+      "v0.6|BTC-USD|T12_placebo_08|25bps",
+      "v0.6|BTC-USD|T12_placebo_09|25bps",
+      "v0.6|BTC-USD|T12_placebo_10|25bps",
+      "v0.6|BTC-USD|T12_placebo_11|25bps",
+      "v0.6|BTC-USD|T12_placebo_12|25bps",
+      "v0.6|BTC-USD|T12_placebo_13|25bps",
+      "v0.6|BTC-USD|T12_placebo_14|25bps",
+      "v0.6|BTC-USD|T12_placebo_15|25bps",
+      "v0.6|BTC-USD|T12_placebo_16|25bps",
+      "v0.6|BTC-USD|T12_placebo_17|25bps",
+      "v0.6|BTC-USD|T12_placebo_18|25bps",
+      "v0.6|BTC-USD|T12_placebo_19|25bps",
+      "v0.6|BTC-USD|T12_placebo_20|25bps",
+      "v0.6|BTC-USD|T12_placebo_21|25bps",
+      "v0.6|BTC-USD|T12_placebo_22|25bps",
+      "v0.6|BTC-USD|T12_placebo_23|25bps",
+      "v0.6|BTC-USD|T12_placebo_24|25bps",
+      "v0.6|BTC-USD|T12_placebo_25|25bps",
+      "v0.6|BTC-USD|T12_placebo_26|25bps",
+      "v0.6|BTC-USD|T12_placebo_27|25bps",
+      "v0.6|BTC-USD|T12_placebo_28|25bps",
+      "v0.6|BTC-USD|T12_placebo_29|25bps",
+      "v0.6|BTC-USD|T12_placebo_30|25bps",
+      "v0.6|BTC-USD|T12_placebo_31|25bps",
+      "v0.6|BTC-USD|T12_placebo_32|25bps",
+      "v0.6|BTC-USD|T12_placebo_33|25bps",
+      "v0.6|BTC-USD|T12_placebo_34|25bps",
+      "v0.6|BTC-USD|T12_placebo_35|25bps",
+      "v0.6|BTC-USD|T12_placebo_36|25bps",
+      "v0.6|BTC-USD|T12_placebo_37|25bps",
+      "v0.6|BTC-USD|T12_placebo_38|25bps",
+      "v0.6|BTC-USD|T12_placebo_39|25bps",
+      "v0.6|BTC-USD|T12_placebo_40|25bps",
+      "v0.6|BTC-USD|T12_placebo_41|25bps",
+      "v0.6|BTC-USD|T12_placebo_42|25bps",
+      "v0.6|BTC-USD|T12_placebo_43|25bps",
+      "v0.6|BTC-USD|T12_placebo_44|25bps",
+      "v0.6|BTC-USD|T12_placebo_45|25bps",
+      "v0.6|BTC-USD|T12_placebo_46|25bps",
+      "v0.6|BTC-USD|T12_placebo_47|25bps",
+      "v0.6|BTC-USD|T12_placebo_48|25bps",
+      "v0.6|BTC-USD|T12_placebo_49|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|BTC-USD|T12_placebo_05|25bps",
+      "v0.6|BTC-USD|T12_placebo_45|25bps",
+      "v0.6|BTC-USD|T12_placebo_17|25bps",
+      "v0.6|BTC-USD|T12_placebo_25|25bps",
+      "v0.6|BTC-USD|T12_placebo_12|25bps",
+      "v0.6|BTC-USD|T12_placebo_06|25bps",
+      "v0.6|BTC-USD|T12_placebo_35|25bps",
+      "v0.6|BTC-USD|T12_placebo_40|25bps",
+      "v0.6|BTC-USD|T12_placebo_36|25bps",
+      "v0.6|BTC-USD|T12_placebo_26|25bps",
+      "v0.6|BTC-USD|T12_placebo_14|25bps",
+      "v0.6|BTC-USD|T12_placebo_38|25bps",
+      "v0.6|BTC-USD|T12_placebo_34|25bps",
+      "v0.6|BTC-USD|T12_placebo_48|25bps",
+      "v0.6|BTC-USD|T12_placebo_01|25bps",
+      "v0.6|BTC-USD|T12_placebo_03|25bps",
+      "v0.6|BTC-USD|T12_placebo_42|25bps",
+      "v0.6|BTC-USD|T12_placebo_39|25bps",
+      "v0.6|BTC-USD|T12_placebo_16|25bps",
+      "v0.6|BTC-USD|T12_placebo_21|25bps",
+      "v0.6|BTC-USD|T12_placebo_13|25bps",
+      "v0.6|BTC-USD|T12_placebo_24|25bps",
+      "v0.6|BTC-USD|T12_placebo_47|25bps",
+      "v0.6|BTC-USD|T12_placebo_15|25bps",
+      "v0.6|BTC-USD|T12_placebo_31|25bps",
+      "v0.6|BTC-USD|T12_placebo_43|25bps",
+      "v0.6|BTC-USD|T12_placebo_04|25bps",
+      "v0.6|BTC-USD|T12_placebo_41|25bps",
+      "v0.6|BTC-USD|T12_placebo_18|25bps",
+      "v0.6|BTC-USD|T12_placebo_32|25bps",
+      "v0.6|BTC-USD|T12_placebo_28|25bps",
+      "v0.6|BTC-USD|T12_placebo_37|25bps",
+      "v0.6|BTC-USD|T12_placebo_46|25bps",
+      "v0.6|BTC-USD|T12_placebo_09|25bps",
+      "v0.6|BTC-USD|T12_placebo_27|25bps",
+      "v0.6|BTC-USD|T12_named_fibonacci|25bps",
+      "v0.6|BTC-USD|T12_placebo_23|25bps",
+      "v0.6|BTC-USD|T12_placebo_22|25bps",
+      "v0.6|BTC-USD|T12_placebo_08|25bps",
+      "v0.6|BTC-USD|T12_placebo_20|25bps",
+      "v0.6|BTC-USD|T12_placebo_02|25bps",
+      "v0.6|BTC-USD|T12_placebo_11|25bps",
+      "v0.6|BTC-USD|T12_placebo_29|25bps",
+      "v0.6|BTC-USD|T12_placebo_07|25bps",
+      "v0.6|BTC-USD|T12_placebo_33|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.6|v06.T12|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:cbe2fb2d756a29e8"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 45,
+    "equivalence_aliases": {
+      "v0.6|ETH-USD|T12_named_fibonacci|25bps": [
+        "v0.6|ETH-USD|T12_named_fibonacci|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_00|25bps": [
+        "v0.6|ETH-USD|T12_placebo_00|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_01|25bps": [
+        "v0.6|ETH-USD|T12_placebo_01|25bps",
+        "v0.6|ETH-USD|T12_placebo_30|25bps",
+        "v0.6|ETH-USD|T12_placebo_44|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_02|25bps": [
+        "v0.6|ETH-USD|T12_placebo_02|25bps",
+        "v0.6|ETH-USD|T12_placebo_40|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_03|25bps": [
+        "v0.6|ETH-USD|T12_placebo_03|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_04|25bps": [
+        "v0.6|ETH-USD|T12_placebo_04|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_05|25bps": [
+        "v0.6|ETH-USD|T12_placebo_05|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_06|25bps": [
+        "v0.6|ETH-USD|T12_placebo_06|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_07|25bps": [
+        "v0.6|ETH-USD|T12_placebo_07|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_08|25bps": [
+        "v0.6|ETH-USD|T12_placebo_08|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_09|25bps": [
+        "v0.6|ETH-USD|T12_placebo_09|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_10|25bps": [
+        "v0.6|ETH-USD|T12_placebo_10|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_11|25bps": [
+        "v0.6|ETH-USD|T12_placebo_11|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_12|25bps": [
+        "v0.6|ETH-USD|T12_placebo_12|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_13|25bps": [
+        "v0.6|ETH-USD|T12_placebo_13|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_14|25bps": [
+        "v0.6|ETH-USD|T12_placebo_14|25bps",
+        "v0.6|ETH-USD|T12_placebo_27|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_15|25bps": [
+        "v0.6|ETH-USD|T12_placebo_15|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_16|25bps": [
+        "v0.6|ETH-USD|T12_placebo_16|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_17|25bps": [
+        "v0.6|ETH-USD|T12_placebo_17|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_18|25bps": [
+        "v0.6|ETH-USD|T12_placebo_18|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_19|25bps": [
+        "v0.6|ETH-USD|T12_placebo_19|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_20|25bps": [
+        "v0.6|ETH-USD|T12_placebo_20|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_21|25bps": [
+        "v0.6|ETH-USD|T12_placebo_21|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_22|25bps": [
+        "v0.6|ETH-USD|T12_placebo_22|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_23|25bps": [
+        "v0.6|ETH-USD|T12_placebo_23|25bps",
+        "v0.6|ETH-USD|T12_placebo_47|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_24|25bps": [
+        "v0.6|ETH-USD|T12_placebo_24|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_25|25bps": [
+        "v0.6|ETH-USD|T12_placebo_25|25bps",
+        "v0.6|ETH-USD|T12_placebo_42|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_26|25bps": [
+        "v0.6|ETH-USD|T12_placebo_26|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_28|25bps": [
+        "v0.6|ETH-USD|T12_placebo_28|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_29|25bps": [
+        "v0.6|ETH-USD|T12_placebo_29|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_31|25bps": [
+        "v0.6|ETH-USD|T12_placebo_31|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_32|25bps": [
+        "v0.6|ETH-USD|T12_placebo_32|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_33|25bps": [
+        "v0.6|ETH-USD|T12_placebo_33|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_34|25bps": [
+        "v0.6|ETH-USD|T12_placebo_34|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_35|25bps": [
+        "v0.6|ETH-USD|T12_placebo_35|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_36|25bps": [
+        "v0.6|ETH-USD|T12_placebo_36|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_37|25bps": [
+        "v0.6|ETH-USD|T12_placebo_37|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_38|25bps": [
+        "v0.6|ETH-USD|T12_placebo_38|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_39|25bps": [
+        "v0.6|ETH-USD|T12_placebo_39|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_41|25bps": [
+        "v0.6|ETH-USD|T12_placebo_41|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_43|25bps": [
+        "v0.6|ETH-USD|T12_placebo_43|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_45|25bps": [
+        "v0.6|ETH-USD|T12_placebo_45|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_46|25bps": [
+        "v0.6|ETH-USD|T12_placebo_46|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_48|25bps": [
+        "v0.6|ETH-USD|T12_placebo_48|25bps"
+      ],
+      "v0.6|ETH-USD|T12_placebo_49|25bps": [
+        "v0.6|ETH-USD|T12_placebo_49|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_6e9cd61af1af5a1b.csv.gz",
+    "matrix_sha256": "0f87bb7ee411e7729c42c17426eeab546a9be5edfd2c1fc1c99390a0cda7a151",
+    "members": [
+      "v0.6|ETH-USD|T12_named_fibonacci|25bps",
+      "v0.6|ETH-USD|T12_placebo_00|25bps",
+      "v0.6|ETH-USD|T12_placebo_01|25bps",
+      "v0.6|ETH-USD|T12_placebo_02|25bps",
+      "v0.6|ETH-USD|T12_placebo_03|25bps",
+      "v0.6|ETH-USD|T12_placebo_04|25bps",
+      "v0.6|ETH-USD|T12_placebo_05|25bps",
+      "v0.6|ETH-USD|T12_placebo_06|25bps",
+      "v0.6|ETH-USD|T12_placebo_07|25bps",
+      "v0.6|ETH-USD|T12_placebo_08|25bps",
+      "v0.6|ETH-USD|T12_placebo_09|25bps",
+      "v0.6|ETH-USD|T12_placebo_10|25bps",
+      "v0.6|ETH-USD|T12_placebo_11|25bps",
+      "v0.6|ETH-USD|T12_placebo_12|25bps",
+      "v0.6|ETH-USD|T12_placebo_13|25bps",
+      "v0.6|ETH-USD|T12_placebo_14|25bps",
+      "v0.6|ETH-USD|T12_placebo_15|25bps",
+      "v0.6|ETH-USD|T12_placebo_16|25bps",
+      "v0.6|ETH-USD|T12_placebo_17|25bps",
+      "v0.6|ETH-USD|T12_placebo_18|25bps",
+      "v0.6|ETH-USD|T12_placebo_19|25bps",
+      "v0.6|ETH-USD|T12_placebo_20|25bps",
+      "v0.6|ETH-USD|T12_placebo_21|25bps",
+      "v0.6|ETH-USD|T12_placebo_22|25bps",
+      "v0.6|ETH-USD|T12_placebo_23|25bps",
+      "v0.6|ETH-USD|T12_placebo_24|25bps",
+      "v0.6|ETH-USD|T12_placebo_25|25bps",
+      "v0.6|ETH-USD|T12_placebo_26|25bps",
+      "v0.6|ETH-USD|T12_placebo_27|25bps",
+      "v0.6|ETH-USD|T12_placebo_28|25bps",
+      "v0.6|ETH-USD|T12_placebo_29|25bps",
+      "v0.6|ETH-USD|T12_placebo_30|25bps",
+      "v0.6|ETH-USD|T12_placebo_31|25bps",
+      "v0.6|ETH-USD|T12_placebo_32|25bps",
+      "v0.6|ETH-USD|T12_placebo_33|25bps",
+      "v0.6|ETH-USD|T12_placebo_34|25bps",
+      "v0.6|ETH-USD|T12_placebo_35|25bps",
+      "v0.6|ETH-USD|T12_placebo_36|25bps",
+      "v0.6|ETH-USD|T12_placebo_37|25bps",
+      "v0.6|ETH-USD|T12_placebo_38|25bps",
+      "v0.6|ETH-USD|T12_placebo_39|25bps",
+      "v0.6|ETH-USD|T12_placebo_40|25bps",
+      "v0.6|ETH-USD|T12_placebo_41|25bps",
+      "v0.6|ETH-USD|T12_placebo_42|25bps",
+      "v0.6|ETH-USD|T12_placebo_43|25bps",
+      "v0.6|ETH-USD|T12_placebo_44|25bps",
+      "v0.6|ETH-USD|T12_placebo_45|25bps",
+      "v0.6|ETH-USD|T12_placebo_46|25bps",
+      "v0.6|ETH-USD|T12_placebo_47|25bps",
+      "v0.6|ETH-USD|T12_placebo_48|25bps",
+      "v0.6|ETH-USD|T12_placebo_49|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|ETH-USD|T12_placebo_05|25bps",
+      "v0.6|ETH-USD|T12_placebo_29|25bps",
+      "v0.6|ETH-USD|T12_placebo_26|25bps",
+      "v0.6|ETH-USD|T12_placebo_04|25bps",
+      "v0.6|ETH-USD|T12_placebo_41|25bps",
+      "v0.6|ETH-USD|T12_placebo_32|25bps",
+      "v0.6|ETH-USD|T12_placebo_15|25bps",
+      "v0.6|ETH-USD|T12_placebo_07|25bps",
+      "v0.6|ETH-USD|T12_placebo_20|25bps",
+      "v0.6|ETH-USD|T12_placebo_34|25bps",
+      "v0.6|ETH-USD|T12_placebo_23|25bps",
+      "v0.6|ETH-USD|T12_placebo_12|25bps",
+      "v0.6|ETH-USD|T12_placebo_43|25bps",
+      "v0.6|ETH-USD|T12_placebo_49|25bps",
+      "v0.6|ETH-USD|T12_placebo_38|25bps",
+      "v0.6|ETH-USD|T12_placebo_16|25bps",
+      "v0.6|ETH-USD|T12_placebo_19|25bps",
+      "v0.6|ETH-USD|T12_placebo_03|25bps",
+      "v0.6|ETH-USD|T12_placebo_01|25bps",
+      "v0.6|ETH-USD|T12_placebo_28|25bps",
+      "v0.6|ETH-USD|T12_placebo_14|25bps",
+      "v0.6|ETH-USD|T12_placebo_45|25bps",
+      "v0.6|ETH-USD|T12_placebo_11|25bps",
+      "v0.6|ETH-USD|T12_placebo_33|25bps",
+      "v0.6|ETH-USD|T12_placebo_02|25bps",
+      "v0.6|ETH-USD|T12_placebo_37|25bps",
+      "v0.6|ETH-USD|T12_placebo_21|25bps",
+      "v0.6|ETH-USD|T12_placebo_46|25bps",
+      "v0.6|ETH-USD|T12_placebo_31|25bps",
+      "v0.6|ETH-USD|T12_placebo_35|25bps",
+      "v0.6|ETH-USD|T12_placebo_00|25bps",
+      "v0.6|ETH-USD|T12_named_fibonacci|25bps",
+      "v0.6|ETH-USD|T12_placebo_06|25bps",
+      "v0.6|ETH-USD|T12_placebo_39|25bps",
+      "v0.6|ETH-USD|T12_placebo_25|25bps",
+      "v0.6|ETH-USD|T12_placebo_09|25bps",
+      "v0.6|ETH-USD|T12_placebo_36|25bps",
+      "v0.6|ETH-USD|T12_placebo_10|25bps",
+      "v0.6|ETH-USD|T12_placebo_08|25bps",
+      "v0.6|ETH-USD|T12_placebo_24|25bps",
+      "v0.6|ETH-USD|T12_placebo_48|25bps",
+      "v0.6|ETH-USD|T12_placebo_22|25bps",
+      "v0.6|ETH-USD|T12_placebo_13|25bps",
+      "v0.6|ETH-USD|T12_placebo_17|25bps",
+      "v0.6|ETH-USD|T12_placebo_18|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.6|v06.T12|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:6e9cd61af1af5a1b"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.6|BTC-USD|T14_control_chop_30|25bps": [
+        "v0.6|BTC-USD|T14_control_chop_30|25bps"
+      ],
+      "v0.6|BTC-USD|T14_control_chop_45|25bps": [
+        "v0.6|BTC-USD|T14_control_chop_45|25bps"
+      ],
+      "v0.6|BTC-USD|T14_control_chop_55|25bps": [
+        "v0.6|BTC-USD|T14_control_chop_55|25bps"
+      ],
+      "v0.6|BTC-USD|T14_sma200_plus_choppiness38_2|25bps": [
+        "v0.6|BTC-USD|T14_sma200_plus_choppiness38_2|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_fa5dc4fd641da33b.csv.gz",
+    "matrix_sha256": "941bbe41f14751c94b93e104eb9b275b98abc1ad072c01865ddb14af502bd169",
+    "members": [
+      "v0.6|BTC-USD|T14_control_chop_30|25bps",
+      "v0.6|BTC-USD|T14_control_chop_45|25bps",
+      "v0.6|BTC-USD|T14_control_chop_55|25bps",
+      "v0.6|BTC-USD|T14_sma200_plus_choppiness38_2|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|BTC-USD|T14_sma200_plus_choppiness38_2|25bps",
+      "v0.6|BTC-USD|T14_control_chop_45|25bps",
+      "v0.6|BTC-USD|T14_control_chop_55|25bps",
+      "v0.6|BTC-USD|T14_control_chop_30|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.6|v06.T14|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:fa5dc4fd641da33b"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.6|ETH-USD|T14_control_chop_30|25bps": [
+        "v0.6|ETH-USD|T14_control_chop_30|25bps"
+      ],
+      "v0.6|ETH-USD|T14_control_chop_45|25bps": [
+        "v0.6|ETH-USD|T14_control_chop_45|25bps"
+      ],
+      "v0.6|ETH-USD|T14_control_chop_55|25bps": [
+        "v0.6|ETH-USD|T14_control_chop_55|25bps"
+      ],
+      "v0.6|ETH-USD|T14_sma200_plus_choppiness38_2|25bps": [
+        "v0.6|ETH-USD|T14_sma200_plus_choppiness38_2|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_7b7e2bc88c0f3b56.csv.gz",
+    "matrix_sha256": "f17d3a5935e2c986c77444732c5a199b3303845df82898c72136dc109d4a0f0e",
+    "members": [
+      "v0.6|ETH-USD|T14_control_chop_30|25bps",
+      "v0.6|ETH-USD|T14_control_chop_45|25bps",
+      "v0.6|ETH-USD|T14_control_chop_55|25bps",
+      "v0.6|ETH-USD|T14_sma200_plus_choppiness38_2|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|ETH-USD|T14_control_chop_45|25bps",
+      "v0.6|ETH-USD|T14_control_chop_55|25bps",
+      "v0.6|ETH-USD|T14_sma200_plus_choppiness38_2|25bps",
+      "v0.6|ETH-USD|T14_control_chop_30|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.6|v06.T14|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:7b7e2bc88c0f3b56"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.6|BTC-USD|T21_control_voltarget50|25bps": [
+        "v0.6|BTC-USD|T21_control_voltarget50|25bps"
+      ],
+      "v0.6|BTC-USD|T21_fractional_kelly_05pct|25bps": [
+        "v0.6|BTC-USD|T21_fractional_kelly_05pct|25bps"
+      ],
+      "v0.6|BTC-USD|T21_fractional_kelly_10pct|25bps": [
+        "v0.6|BTC-USD|T21_fractional_kelly_10pct|25bps"
+      ],
+      "v0.6|BTC-USD|T21_fractional_kelly_25pct|25bps": [
+        "v0.6|BTC-USD|T21_fractional_kelly_25pct|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_b7d21261ad5a9dd0.csv.gz",
+    "matrix_sha256": "3b3d64a5da55b6a131159eb9321ecb9e82ec7175582cf90ab111601a702f0deb",
+    "members": [
+      "v0.6|BTC-USD|T21_control_voltarget50|25bps",
+      "v0.6|BTC-USD|T21_fractional_kelly_05pct|25bps",
+      "v0.6|BTC-USD|T21_fractional_kelly_10pct|25bps",
+      "v0.6|BTC-USD|T21_fractional_kelly_25pct|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|BTC-USD|T21_fractional_kelly_25pct|25bps",
+      "v0.6|BTC-USD|T21_control_voltarget50|25bps",
+      "v0.6|BTC-USD|T21_fractional_kelly_05pct|25bps",
+      "v0.6|BTC-USD|T21_fractional_kelly_10pct|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.6|v06.T21|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:b7d21261ad5a9dd0"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.6|ETH-USD|T21_control_voltarget50|25bps": [
+        "v0.6|ETH-USD|T21_control_voltarget50|25bps"
+      ],
+      "v0.6|ETH-USD|T21_fractional_kelly_05pct|25bps": [
+        "v0.6|ETH-USD|T21_fractional_kelly_05pct|25bps"
+      ],
+      "v0.6|ETH-USD|T21_fractional_kelly_10pct|25bps": [
+        "v0.6|ETH-USD|T21_fractional_kelly_10pct|25bps"
+      ],
+      "v0.6|ETH-USD|T21_fractional_kelly_25pct|25bps": [
+        "v0.6|ETH-USD|T21_fractional_kelly_25pct|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_f6df271dd57fc8d8.csv.gz",
+    "matrix_sha256": "9c00ecf62ac80a2298519d289d0689a552ede7d5ecf09e3fb18a1b87d1a400f6",
+    "members": [
+      "v0.6|ETH-USD|T21_control_voltarget50|25bps",
+      "v0.6|ETH-USD|T21_fractional_kelly_05pct|25bps",
+      "v0.6|ETH-USD|T21_fractional_kelly_10pct|25bps",
+      "v0.6|ETH-USD|T21_fractional_kelly_25pct|25bps"
+    ],
+    "representative_columns": [
+      "v0.6|ETH-USD|T21_fractional_kelly_10pct|25bps",
+      "v0.6|ETH-USD|T21_fractional_kelly_25pct|25bps",
+      "v0.6|ETH-USD|T21_fractional_kelly_05pct|25bps",
+      "v0.6|ETH-USD|T21_control_voltarget50|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.6|v06.T21|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:f6df271dd57fc8d8"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.7nn|BTC-USD|NN_fractal_namedFib|25bps": [
+        "v0.7nn|BTC-USD|NN_fractal_namedFib|25bps"
+      ],
+      "v0.7nn|BTC-USD|NN_fractal_placeboFib|25bps": [
+        "v0.7nn|BTC-USD|NN_fractal_placeboFib|25bps"
+      ],
+      "v0.7nn|BTC-USD|NN_fractal|25bps": [
+        "v0.7nn|BTC-USD|NN_fractal|25bps"
+      ],
+      "v0.7nn|BTC-USD|NN_generic|25bps": [
+        "v0.7nn|BTC-USD|NN_generic|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_b42247ef8228d151.csv.gz",
+    "matrix_sha256": "b5fec6045bc6db327fe5f7e800dfa1bc67a5c13094356436a010e2aa7cfcbe68",
+    "members": [
+      "v0.7nn|BTC-USD|NN_fractal_namedFib|25bps",
+      "v0.7nn|BTC-USD|NN_fractal_placeboFib|25bps",
+      "v0.7nn|BTC-USD|NN_fractal|25bps",
+      "v0.7nn|BTC-USD|NN_generic|25bps"
+    ],
+    "representative_columns": [
+      "v0.7nn|BTC-USD|NN_fractal|25bps",
+      "v0.7nn|BTC-USD|NN_fractal_placeboFib|25bps",
+      "v0.7nn|BTC-USD|NN_fractal_namedFib|25bps",
+      "v0.7nn|BTC-USD|NN_generic|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.7-nn|v07.walkforward_mlp|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:b42247ef8228d151"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.7nn|ETH-USD|NN_fractal_namedFib|25bps": [
+        "v0.7nn|ETH-USD|NN_fractal_namedFib|25bps"
+      ],
+      "v0.7nn|ETH-USD|NN_fractal_placeboFib|25bps": [
+        "v0.7nn|ETH-USD|NN_fractal_placeboFib|25bps"
+      ],
+      "v0.7nn|ETH-USD|NN_fractal|25bps": [
+        "v0.7nn|ETH-USD|NN_fractal|25bps"
+      ],
+      "v0.7nn|ETH-USD|NN_generic|25bps": [
+        "v0.7nn|ETH-USD|NN_generic|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_0e764bf1b2cec80a.csv.gz",
+    "matrix_sha256": "2047be668c2e340e99ef1590d7ea107391a2bd3834250ed99f099d168be8193d",
+    "members": [
+      "v0.7nn|ETH-USD|NN_fractal_namedFib|25bps",
+      "v0.7nn|ETH-USD|NN_fractal_placeboFib|25bps",
+      "v0.7nn|ETH-USD|NN_fractal|25bps",
+      "v0.7nn|ETH-USD|NN_generic|25bps"
+    ],
+    "representative_columns": [
+      "v0.7nn|ETH-USD|NN_fractal_namedFib|25bps",
+      "v0.7nn|ETH-USD|NN_fractal|25bps",
+      "v0.7nn|ETH-USD|NN_generic|25bps",
+      "v0.7nn|ETH-USD|NN_fractal_placeboFib|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.7-nn|v07.walkforward_mlp|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:0e764bf1b2cec80a"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.8|BTC-USD|NN_analysis_namedFib|25bps": [
+        "v0.8|BTC-USD|NN_analysis_namedFib|25bps"
+      ],
+      "v0.8|BTC-USD|NN_analysis_placeboFib|25bps": [
+        "v0.8|BTC-USD|NN_analysis_placeboFib|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_2b2aaf95950b14d8.csv.gz",
+    "matrix_sha256": "8a28aad64712b27e373f37ac4d1251679032d62fc7f1e21423e3b41b1b58b0fa",
+    "members": [
+      "v0.8|BTC-USD|NN_analysis_namedFib|25bps",
+      "v0.8|BTC-USD|NN_analysis_placeboFib|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|BTC-USD|NN_analysis_placeboFib|25bps",
+      "v0.8|BTC-USD|NN_analysis_namedFib|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.8|v08.NN|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:2b2aaf95950b14d8"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.8|ETH-USD|NN_analysis_namedFib|25bps": [
+        "v0.8|ETH-USD|NN_analysis_namedFib|25bps"
+      ],
+      "v0.8|ETH-USD|NN_analysis_placeboFib|25bps": [
+        "v0.8|ETH-USD|NN_analysis_placeboFib|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_20e9248da2cdc6ac.csv.gz",
+    "matrix_sha256": "e58649ce926ea59b5df0c4ccccb4b64d6dbf135f9da0a643f79869d153842b0c",
+    "members": [
+      "v0.8|ETH-USD|NN_analysis_namedFib|25bps",
+      "v0.8|ETH-USD|NN_analysis_placeboFib|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|ETH-USD|NN_analysis_namedFib|25bps",
+      "v0.8|ETH-USD|NN_analysis_placeboFib|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.8|v08.NN|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:20e9248da2cdc6ac"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.8|BTC-USD|T20_intrabar_1_2.5_4|25bps": [
+        "v0.8|BTC-USD|T20_intrabar_1_2.5_4|25bps"
+      ],
+      "v0.8|BTC-USD|T20_intrabar_1_2_3|25bps": [
+        "v0.8|BTC-USD|T20_intrabar_1_2_3|25bps"
+      ],
+      "v0.8|BTC-USD|T20_intrabar_1_3_5|25bps": [
+        "v0.8|BTC-USD|T20_intrabar_1_3_5|25bps"
+      ],
+      "v0.8|BTC-USD|T20_intrabar_1_4_7|25bps": [
+        "v0.8|BTC-USD|T20_intrabar_1_4_7|25bps"
+      ]
+    },
+    "first_ts": 1437350400,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_b2e700884a072c01.csv.gz",
+    "matrix_sha256": "37086bc7f870a330bf12ad8b6da35ead91a524b8ce9a289e3154817570e7a69f",
+    "members": [
+      "v0.8|BTC-USD|T20_intrabar_1_2.5_4|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_2_3|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_3_5|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_4_7|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|BTC-USD|T20_intrabar_1_2_3|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_3_5|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_2.5_4|25bps",
+      "v0.8|BTC-USD|T20_intrabar_1_4_7|25bps"
+    ],
+    "rows": 4093,
+    "selection_family_id": "v0.8|v08.T20|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:b2e700884a072c01"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.8|ETH-USD|T20_intrabar_1_2.5_4|25bps": [
+        "v0.8|ETH-USD|T20_intrabar_1_2.5_4|25bps"
+      ],
+      "v0.8|ETH-USD|T20_intrabar_1_2_3|25bps": [
+        "v0.8|ETH-USD|T20_intrabar_1_2_3|25bps"
+      ],
+      "v0.8|ETH-USD|T20_intrabar_1_3_5|25bps": [
+        "v0.8|ETH-USD|T20_intrabar_1_3_5|25bps"
+      ],
+      "v0.8|ETH-USD|T20_intrabar_1_4_7|25bps": [
+        "v0.8|ETH-USD|T20_intrabar_1_4_7|25bps"
+      ]
+    },
+    "first_ts": 1463529600,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_75bf66ca7bb5363f.csv.gz",
+    "matrix_sha256": "70634f385a830d0725d77b1cd011991f04329ec994ca5a745199ccc9e1161c86",
+    "members": [
+      "v0.8|ETH-USD|T20_intrabar_1_2.5_4|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_2_3|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_3_5|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_4_7|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|ETH-USD|T20_intrabar_1_2.5_4|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_4_7|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_2_3|25bps",
+      "v0.8|ETH-USD|T20_intrabar_1_3_5|25bps"
+    ],
+    "rows": 3788,
+    "selection_family_id": "v0.8|v08.T20|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:75bf66ca7bb5363f"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.8|BTC-USD|T21_cont_kelly_0.25|25bps": [
+        "v0.8|BTC-USD|T21_cont_kelly_0.25|25bps"
+      ],
+      "v0.8|BTC-USD|T21_cont_kelly_0.5|25bps": [
+        "v0.8|BTC-USD|T21_cont_kelly_0.5|25bps"
+      ],
+      "v0.8|BTC-USD|T21_cont_kelly_1.5|25bps": [
+        "v0.8|BTC-USD|T21_cont_kelly_1.5|25bps"
+      ],
+      "v0.8|BTC-USD|T21_cont_kelly_1|25bps": [
+        "v0.8|BTC-USD|T21_cont_kelly_1|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_8dca783ea2d0a40c.csv.gz",
+    "matrix_sha256": "64e9fa56d757ba7e5eef87a0e1a2a83dd2f88a7c3c33e2abd179471fa872e52b",
+    "members": [
+      "v0.8|BTC-USD|T21_cont_kelly_0.25|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_0.5|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_1.5|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_1|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|BTC-USD|T21_cont_kelly_1.5|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_1|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_0.5|25bps",
+      "v0.8|BTC-USD|T21_cont_kelly_0.25|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.8|v08.T21|BTC-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:8dca783ea2d0a40c"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v08.flat_bps:25",
+    "distinct_columns": 4,
+    "equivalence_aliases": {
+      "v0.8|ETH-USD|T21_cont_kelly_0.25|25bps": [
+        "v0.8|ETH-USD|T21_cont_kelly_0.25|25bps"
+      ],
+      "v0.8|ETH-USD|T21_cont_kelly_0.5|25bps": [
+        "v0.8|ETH-USD|T21_cont_kelly_0.5|25bps"
+      ],
+      "v0.8|ETH-USD|T21_cont_kelly_1.5|25bps": [
+        "v0.8|ETH-USD|T21_cont_kelly_1.5|25bps"
+      ],
+      "v0.8|ETH-USD|T21_cont_kelly_1|25bps": [
+        "v0.8|ETH-USD|T21_cont_kelly_1|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_68f6a0b0c89639c6.csv.gz",
+    "matrix_sha256": "2707c1f1f7619a4ef28407bb9f1f4ea6da969e794ff87dc020261842c0c9d2d4",
+    "members": [
+      "v0.8|ETH-USD|T21_cont_kelly_0.25|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_0.5|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_1.5|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_1|25bps"
+    ],
+    "representative_columns": [
+      "v0.8|ETH-USD|T21_cont_kelly_0.25|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_1|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_0.5|25bps",
+      "v0.8|ETH-USD|T21_cont_kelly_1.5|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.8|v08.T21|ETH-USD|v08.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:68f6a0b0c89639c6"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|bear_short|25bps": [
+        "v0.9|BTC-USD|bear_short|25bps"
+      ],
+      "v0.9|BTC-USD|hold_long|25bps": [
+        "v0.9|BTC-USD|hold_long|25bps"
+      ],
+      "v0.9|BTC-USD|panic_half_short|25bps": [
+        "v0.9|BTC-USD|panic_half_short|25bps"
+      ],
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|25bps": [
+        "v0.9|BTC-USD|pyramid_bullvol_1_2_3|25bps"
+      ],
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|25bps": [
+        "v0.9|BTC-USD|pyramid_core_1_2.5_4|25bps"
+      ],
+      "v0.9|BTC-USD|range_mr_long|25bps": [
+        "v0.9|BTC-USD|range_mr_long|25bps"
+      ],
+      "v0.9|BTC-USD|recovery_half_long|25bps": [
+        "v0.9|BTC-USD|recovery_half_long|25bps"
+      ],
+      "v0.9|BTC-USD|sma200_long|25bps": [
+        "v0.9|BTC-USD|sma200_long|25bps"
+      ],
+      "v0.9|BTC-USD|trend_long|25bps": [
+        "v0.9|BTC-USD|trend_long|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_5f2460cea29564c7.csv.gz",
+    "matrix_sha256": "662d1d3897bb7a0f418fa279e22b3f1cc3415d59bca4114fd77b0d857153e93b",
+    "members": [
+      "v0.9|BTC-USD|bear_short|25bps",
+      "v0.9|BTC-USD|hold_long|25bps",
+      "v0.9|BTC-USD|panic_half_short|25bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|25bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|25bps",
+      "v0.9|BTC-USD|range_mr_long|25bps",
+      "v0.9|BTC-USD|recovery_half_long|25bps",
+      "v0.9|BTC-USD|sma200_long|25bps",
+      "v0.9|BTC-USD|trend_long|25bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|range_mr_long|25bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|25bps",
+      "v0.9|BTC-USD|recovery_half_long|25bps",
+      "v0.9|BTC-USD|trend_long|25bps",
+      "v0.9|BTC-USD|hold_long|25bps",
+      "v0.9|BTC-USD|sma200_long|25bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|25bps",
+      "v0.9|BTC-USD|bear_short|25bps",
+      "v0.9|BTC-USD|panic_half_short|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:5f2460cea29564c7"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:6",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|bear_short|6bps": [
+        "v0.9|BTC-USD|bear_short|6bps"
+      ],
+      "v0.9|BTC-USD|hold_long|6bps": [
+        "v0.9|BTC-USD|hold_long|6bps"
+      ],
+      "v0.9|BTC-USD|panic_half_short|6bps": [
+        "v0.9|BTC-USD|panic_half_short|6bps"
+      ],
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|6bps": [
+        "v0.9|BTC-USD|pyramid_bullvol_1_2_3|6bps"
+      ],
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|6bps": [
+        "v0.9|BTC-USD|pyramid_core_1_2.5_4|6bps"
+      ],
+      "v0.9|BTC-USD|range_mr_long|6bps": [
+        "v0.9|BTC-USD|range_mr_long|6bps"
+      ],
+      "v0.9|BTC-USD|recovery_half_long|6bps": [
+        "v0.9|BTC-USD|recovery_half_long|6bps"
+      ],
+      "v0.9|BTC-USD|sma200_long|6bps": [
+        "v0.9|BTC-USD|sma200_long|6bps"
+      ],
+      "v0.9|BTC-USD|trend_long|6bps": [
+        "v0.9|BTC-USD|trend_long|6bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_8dada0d8bafb9905.csv.gz",
+    "matrix_sha256": "a86a2a2c3eab96ca174d06e2ece227c87f2d331966b5be80933101025486f787",
+    "members": [
+      "v0.9|BTC-USD|bear_short|6bps",
+      "v0.9|BTC-USD|hold_long|6bps",
+      "v0.9|BTC-USD|panic_half_short|6bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|6bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|6bps",
+      "v0.9|BTC-USD|range_mr_long|6bps",
+      "v0.9|BTC-USD|recovery_half_long|6bps",
+      "v0.9|BTC-USD|sma200_long|6bps",
+      "v0.9|BTC-USD|trend_long|6bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|hold_long|6bps",
+      "v0.9|BTC-USD|bear_short|6bps",
+      "v0.9|BTC-USD|panic_half_short|6bps",
+      "v0.9|BTC-USD|range_mr_long|6bps",
+      "v0.9|BTC-USD|trend_long|6bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|6bps",
+      "v0.9|BTC-USD|sma200_long|6bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|6bps",
+      "v0.9|BTC-USD|recovery_half_long|6bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:6|annualized_sharpe",
+    "set_id": "cscv:8dada0d8bafb9905"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:85",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|bear_short|85bps": [
+        "v0.9|BTC-USD|bear_short|85bps"
+      ],
+      "v0.9|BTC-USD|hold_long|85bps": [
+        "v0.9|BTC-USD|hold_long|85bps"
+      ],
+      "v0.9|BTC-USD|panic_half_short|85bps": [
+        "v0.9|BTC-USD|panic_half_short|85bps"
+      ],
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|85bps": [
+        "v0.9|BTC-USD|pyramid_bullvol_1_2_3|85bps"
+      ],
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|85bps": [
+        "v0.9|BTC-USD|pyramid_core_1_2.5_4|85bps"
+      ],
+      "v0.9|BTC-USD|range_mr_long|85bps": [
+        "v0.9|BTC-USD|range_mr_long|85bps"
+      ],
+      "v0.9|BTC-USD|recovery_half_long|85bps": [
+        "v0.9|BTC-USD|recovery_half_long|85bps"
+      ],
+      "v0.9|BTC-USD|sma200_long|85bps": [
+        "v0.9|BTC-USD|sma200_long|85bps"
+      ],
+      "v0.9|BTC-USD|trend_long|85bps": [
+        "v0.9|BTC-USD|trend_long|85bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_9c936d1ca324adfc.csv.gz",
+    "matrix_sha256": "3ea8cb92a7ef4b6010d02060aeb320c533131b552d4c1af414890ecdb558771e",
+    "members": [
+      "v0.9|BTC-USD|bear_short|85bps",
+      "v0.9|BTC-USD|hold_long|85bps",
+      "v0.9|BTC-USD|panic_half_short|85bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|85bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|85bps",
+      "v0.9|BTC-USD|range_mr_long|85bps",
+      "v0.9|BTC-USD|recovery_half_long|85bps",
+      "v0.9|BTC-USD|sma200_long|85bps",
+      "v0.9|BTC-USD|trend_long|85bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|panic_half_short|85bps",
+      "v0.9|BTC-USD|recovery_half_long|85bps",
+      "v0.9|BTC-USD|hold_long|85bps",
+      "v0.9|BTC-USD|range_mr_long|85bps",
+      "v0.9|BTC-USD|sma200_long|85bps",
+      "v0.9|BTC-USD|pyramid_core_1_2.5_4|85bps",
+      "v0.9|BTC-USD|pyramid_bullvol_1_2_3|85bps",
+      "v0.9|BTC-USD|trend_long|85bps",
+      "v0.9|BTC-USD|bear_short|85bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.expert|BTC-USD|v06.flat_bps:85|annualized_sharpe",
+    "set_id": "cscv:9c936d1ca324adfc"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|bear_short|25bps": [
+        "v0.9|ETH-USD|bear_short|25bps"
+      ],
+      "v0.9|ETH-USD|hold_long|25bps": [
+        "v0.9|ETH-USD|hold_long|25bps"
+      ],
+      "v0.9|ETH-USD|panic_half_short|25bps": [
+        "v0.9|ETH-USD|panic_half_short|25bps"
+      ],
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|25bps": [
+        "v0.9|ETH-USD|pyramid_bullvol_1_2_3|25bps"
+      ],
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|25bps": [
+        "v0.9|ETH-USD|pyramid_core_1_2.5_4|25bps"
+      ],
+      "v0.9|ETH-USD|range_mr_long|25bps": [
+        "v0.9|ETH-USD|range_mr_long|25bps"
+      ],
+      "v0.9|ETH-USD|recovery_half_long|25bps": [
+        "v0.9|ETH-USD|recovery_half_long|25bps"
+      ],
+      "v0.9|ETH-USD|sma200_long|25bps": [
+        "v0.9|ETH-USD|sma200_long|25bps"
+      ],
+      "v0.9|ETH-USD|trend_long|25bps": [
+        "v0.9|ETH-USD|trend_long|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_fbb7a68221b69759.csv.gz",
+    "matrix_sha256": "707b499c1bd6ffcbb3e777de354d3e5eb23601603d0feb26f0ead0e7cd3ed3db",
+    "members": [
+      "v0.9|ETH-USD|bear_short|25bps",
+      "v0.9|ETH-USD|hold_long|25bps",
+      "v0.9|ETH-USD|panic_half_short|25bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|25bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|25bps",
+      "v0.9|ETH-USD|range_mr_long|25bps",
+      "v0.9|ETH-USD|recovery_half_long|25bps",
+      "v0.9|ETH-USD|sma200_long|25bps",
+      "v0.9|ETH-USD|trend_long|25bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|recovery_half_long|25bps",
+      "v0.9|ETH-USD|trend_long|25bps",
+      "v0.9|ETH-USD|bear_short|25bps",
+      "v0.9|ETH-USD|range_mr_long|25bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|25bps",
+      "v0.9|ETH-USD|hold_long|25bps",
+      "v0.9|ETH-USD|sma200_long|25bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|25bps",
+      "v0.9|ETH-USD|panic_half_short|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:fbb7a68221b69759"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:6",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|bear_short|6bps": [
+        "v0.9|ETH-USD|bear_short|6bps"
+      ],
+      "v0.9|ETH-USD|hold_long|6bps": [
+        "v0.9|ETH-USD|hold_long|6bps"
+      ],
+      "v0.9|ETH-USD|panic_half_short|6bps": [
+        "v0.9|ETH-USD|panic_half_short|6bps"
+      ],
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|6bps": [
+        "v0.9|ETH-USD|pyramid_bullvol_1_2_3|6bps"
+      ],
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|6bps": [
+        "v0.9|ETH-USD|pyramid_core_1_2.5_4|6bps"
+      ],
+      "v0.9|ETH-USD|range_mr_long|6bps": [
+        "v0.9|ETH-USD|range_mr_long|6bps"
+      ],
+      "v0.9|ETH-USD|recovery_half_long|6bps": [
+        "v0.9|ETH-USD|recovery_half_long|6bps"
+      ],
+      "v0.9|ETH-USD|sma200_long|6bps": [
+        "v0.9|ETH-USD|sma200_long|6bps"
+      ],
+      "v0.9|ETH-USD|trend_long|6bps": [
+        "v0.9|ETH-USD|trend_long|6bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_3e6c03ba3ddc7062.csv.gz",
+    "matrix_sha256": "c3015cae3e7cf0e7c20433c08d3f6b7223057432e53d2122589315a98a81711b",
+    "members": [
+      "v0.9|ETH-USD|bear_short|6bps",
+      "v0.9|ETH-USD|hold_long|6bps",
+      "v0.9|ETH-USD|panic_half_short|6bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|6bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|6bps",
+      "v0.9|ETH-USD|range_mr_long|6bps",
+      "v0.9|ETH-USD|recovery_half_long|6bps",
+      "v0.9|ETH-USD|sma200_long|6bps",
+      "v0.9|ETH-USD|trend_long|6bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|sma200_long|6bps",
+      "v0.9|ETH-USD|trend_long|6bps",
+      "v0.9|ETH-USD|recovery_half_long|6bps",
+      "v0.9|ETH-USD|hold_long|6bps",
+      "v0.9|ETH-USD|bear_short|6bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|6bps",
+      "v0.9|ETH-USD|panic_half_short|6bps",
+      "v0.9|ETH-USD|range_mr_long|6bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|6bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:6|annualized_sharpe",
+    "set_id": "cscv:3e6c03ba3ddc7062"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:85",
+    "distinct_columns": 9,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|bear_short|85bps": [
+        "v0.9|ETH-USD|bear_short|85bps"
+      ],
+      "v0.9|ETH-USD|hold_long|85bps": [
+        "v0.9|ETH-USD|hold_long|85bps"
+      ],
+      "v0.9|ETH-USD|panic_half_short|85bps": [
+        "v0.9|ETH-USD|panic_half_short|85bps"
+      ],
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|85bps": [
+        "v0.9|ETH-USD|pyramid_bullvol_1_2_3|85bps"
+      ],
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|85bps": [
+        "v0.9|ETH-USD|pyramid_core_1_2.5_4|85bps"
+      ],
+      "v0.9|ETH-USD|range_mr_long|85bps": [
+        "v0.9|ETH-USD|range_mr_long|85bps"
+      ],
+      "v0.9|ETH-USD|recovery_half_long|85bps": [
+        "v0.9|ETH-USD|recovery_half_long|85bps"
+      ],
+      "v0.9|ETH-USD|sma200_long|85bps": [
+        "v0.9|ETH-USD|sma200_long|85bps"
+      ],
+      "v0.9|ETH-USD|trend_long|85bps": [
+        "v0.9|ETH-USD|trend_long|85bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_03ff21021cc39211.csv.gz",
+    "matrix_sha256": "609232620373d8f2b6f1bb8ef83d03ace7d02d81d48b88067c3e248e2f486745",
+    "members": [
+      "v0.9|ETH-USD|bear_short|85bps",
+      "v0.9|ETH-USD|hold_long|85bps",
+      "v0.9|ETH-USD|panic_half_short|85bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|85bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|85bps",
+      "v0.9|ETH-USD|range_mr_long|85bps",
+      "v0.9|ETH-USD|recovery_half_long|85bps",
+      "v0.9|ETH-USD|sma200_long|85bps",
+      "v0.9|ETH-USD|trend_long|85bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|recovery_half_long|85bps",
+      "v0.9|ETH-USD|sma200_long|85bps",
+      "v0.9|ETH-USD|panic_half_short|85bps",
+      "v0.9|ETH-USD|pyramid_bullvol_1_2_3|85bps",
+      "v0.9|ETH-USD|range_mr_long|85bps",
+      "v0.9|ETH-USD|trend_long|85bps",
+      "v0.9|ETH-USD|hold_long|85bps",
+      "v0.9|ETH-USD|pyramid_core_1_2.5_4|85bps",
+      "v0.9|ETH-USD|bear_short|85bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.expert|ETH-USD|v06.flat_bps:85|annualized_sharpe",
+    "set_id": "cscv:03ff21021cc39211"
+  },
+  {
+    "asset": "BTC-USD+ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 3,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.25|25bps": [
+        "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.25|25bps"
+      ],
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.5|25bps": [
+        "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.5|25bps"
+      ],
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=1|25bps": [
+        "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=1|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_d90d96862340378e.csv.gz",
+    "matrix_sha256": "42c42e895eedf66dc4b980b180a636e1a4228bddf256a60218dc97df5a32dbd8",
+    "members": [
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.25|25bps",
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.5|25bps",
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=1|25bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.5|25bps",
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=0.25|25bps",
+      "v0.9|BTC-USD+ETH-USD|matrix_kelly|fraction=1|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.matrix_kelly_pair|BTC-USD+ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:d90d96862340378e"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|directional_mixture|25bps": [
+        "v0.9|BTC-USD|directional_mixture|25bps"
+      ],
+      "v0.9|BTC-USD|long_only_mixture|25bps": [
+        "v0.9|BTC-USD|long_only_mixture|25bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_8a698222d674fbcd.csv.gz",
+    "matrix_sha256": "1e0ed9211f2963d3278a40bf32558339b29cf13730360fa810d2d9f0fa82f781",
+    "members": [
+      "v0.9|BTC-USD|directional_mixture|25bps",
+      "v0.9|BTC-USD|long_only_mixture|25bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|directional_mixture|25bps",
+      "v0.9|BTC-USD|long_only_mixture|25bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:8a698222d674fbcd"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:6",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|directional_mixture|6bps": [
+        "v0.9|BTC-USD|directional_mixture|6bps"
+      ],
+      "v0.9|BTC-USD|long_only_mixture|6bps": [
+        "v0.9|BTC-USD|long_only_mixture|6bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_6cd2879a43994379.csv.gz",
+    "matrix_sha256": "7e9693806ece456682f58d0f133a241a66d0240b2bb00a56ae166ebd9507414c",
+    "members": [
+      "v0.9|BTC-USD|directional_mixture|6bps",
+      "v0.9|BTC-USD|long_only_mixture|6bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|long_only_mixture|6bps",
+      "v0.9|BTC-USD|directional_mixture|6bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:6|annualized_sharpe",
+    "set_id": "cscv:6cd2879a43994379"
+  },
+  {
+    "asset": "BTC-USD",
+    "cost_model_id": "v06.flat_bps:85",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|BTC-USD|directional_mixture|85bps": [
+        "v0.9|BTC-USD|directional_mixture|85bps"
+      ],
+      "v0.9|BTC-USD|long_only_mixture|85bps": [
+        "v0.9|BTC-USD|long_only_mixture|85bps"
+      ]
+    },
+    "first_ts": 1437436800,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_8aba395a583c3aab.csv.gz",
+    "matrix_sha256": "a74849eb5a572be19f66341f78513e98d7e815f492dead66ebf6d137443d878b",
+    "members": [
+      "v0.9|BTC-USD|directional_mixture|85bps",
+      "v0.9|BTC-USD|long_only_mixture|85bps"
+    ],
+    "representative_columns": [
+      "v0.9|BTC-USD|directional_mixture|85bps",
+      "v0.9|BTC-USD|long_only_mixture|85bps"
+    ],
+    "rows": 4092,
+    "selection_family_id": "v0.9|v09.mixture|BTC-USD|v06.flat_bps:85|annualized_sharpe",
+    "set_id": "cscv:8aba395a583c3aab"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:25",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|directional_mixture|25bps": [
+        "v0.9|ETH-USD|directional_mixture|25bps"
+      ],
+      "v0.9|ETH-USD|long_only_mixture|25bps": [
+        "v0.9|ETH-USD|long_only_mixture|25bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_a3f4f17ae561b25c.csv.gz",
+    "matrix_sha256": "b76456880c7741b86bddcf127b6725815fdf9461cfcf3e6d45d039265f559d48",
+    "members": [
+      "v0.9|ETH-USD|directional_mixture|25bps",
+      "v0.9|ETH-USD|long_only_mixture|25bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|long_only_mixture|25bps",
+      "v0.9|ETH-USD|directional_mixture|25bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:25|annualized_sharpe",
+    "set_id": "cscv:a3f4f17ae561b25c"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:6",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|directional_mixture|6bps": [
+        "v0.9|ETH-USD|directional_mixture|6bps"
+      ],
+      "v0.9|ETH-USD|long_only_mixture|6bps": [
+        "v0.9|ETH-USD|long_only_mixture|6bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_9ff989c1fb2d9ee8.csv.gz",
+    "matrix_sha256": "afda7439ee295eb728ce24fbb7d355fe4f013d90aa3b9796f063ba55b3fb5377",
+    "members": [
+      "v0.9|ETH-USD|directional_mixture|6bps",
+      "v0.9|ETH-USD|long_only_mixture|6bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|directional_mixture|6bps",
+      "v0.9|ETH-USD|long_only_mixture|6bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:6|annualized_sharpe",
+    "set_id": "cscv:9ff989c1fb2d9ee8"
+  },
+  {
+    "asset": "ETH-USD",
+    "cost_model_id": "v06.flat_bps:85",
+    "distinct_columns": 2,
+    "equivalence_aliases": {
+      "v0.9|ETH-USD|directional_mixture|85bps": [
+        "v0.9|ETH-USD|directional_mixture|85bps"
+      ],
+      "v0.9|ETH-USD|long_only_mixture|85bps": [
+        "v0.9|ETH-USD|long_only_mixture|85bps"
+      ]
+    },
+    "first_ts": 1463616000,
+    "frequency": "daily",
+    "last_ts": 1790899200,
+    "matrix_ref": "reports/cscv_matrices_1a/cscv_f2c87155d1509087.csv.gz",
+    "matrix_sha256": "1929e40d1dee012d74e3986f43c7f9af745cd3dca6245497544f3247f591a492",
+    "members": [
+      "v0.9|ETH-USD|directional_mixture|85bps",
+      "v0.9|ETH-USD|long_only_mixture|85bps"
+    ],
+    "representative_columns": [
+      "v0.9|ETH-USD|long_only_mixture|85bps",
+      "v0.9|ETH-USD|directional_mixture|85bps"
+    ],
+    "rows": 3787,
+    "selection_family_id": "v0.9|v09.mixture|ETH-USD|v06.flat_bps:85|annualized_sharpe",
+    "set_id": "cscv:f2c87155d1509087"
+  }
+]

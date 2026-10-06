@@ -1,0 +1,39 @@
+{
+  "adhoc": {
+    "n": 30,
+    "status": {
+      "mismatch": 3,
+      "reproduced_series": 22,
+      "reproduced_statistic_only": 5
+    }
+  },
+  "owner": {
+    "n": 82,
+    "status": {
+      "reproduced_series": 21,
+      "reproduced_statistic_only": 61
+    }
+  },
+  "total": {
+    "n": 148,
+    "status": {
+      "mismatch": 3,
+      "reproduced_series": 59,
+      "reproduced_statistic_only": 86
+    }
+  },
+  "v05": {
+    "n": 21,
+    "status": {
+      "reproduced_series": 14,
+      "reproduced_statistic_only": 7
+    }
+  },
+  "v051": {
+    "n": 15,
+    "status": {
+      "reproduced_series": 2,
+      "reproduced_statistic_only": 13
+    }
+  }
+}

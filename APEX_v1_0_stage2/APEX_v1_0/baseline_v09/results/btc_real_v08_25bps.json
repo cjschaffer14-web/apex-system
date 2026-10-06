@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "synthetic": false,
+    "bars": 4093,
+    "cost_bps": 25.0,
+    "from_ts": 1437350400,
+    "to_ts": 1790899200
+  },
+  "runs": [
+    {
+      "name": "T20_intrabar_1_2_3",
+      "days": 4093,
+      "cagr": 0.5355015436210415,
+      "sharpe": 0.9116201477843557,
+      "sortino": 1.6738114971472517,
+      "max_drawdown": 0.7539642253912546,
+      "total_x": 122.61800784487585,
+      "turnover_per_year": null,
+      "win_day_rate": 0.23943317859760566,
+      "ann_vol": 0.7890030190671415,
+      "max_exposure": 3
+    },
+    {
+      "name": "T20_intrabar_1_2.5_4",
+      "days": 4093,
+      "cagr": 0.5997164726519262,
+      "sharpe": 0.9392840818576005,
+      "sortino": 1.7629723901237615,
+      "max_drawdown": 0.7522119939778864,
+      "total_x": 194.12295723001046,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2374786220376252,
+      "ann_vol": 0.8860036658236979,
+      "max_exposure": 4
+    },
+    {
+      "name": "T20_intrabar_1_3_5",
+      "days": 4093,
+      "cagr": 0.39194573605773986,
+      "sharpe": 0.7820311749326385,
+      "sortino": 1.4756132095074694,
+      "max_drawdown": 0.8785979551341258,
+      "total_x": 40.78845398438934,
+      "turnover_per_year": null,
+      "win_day_rate": 0.23625702418763744,
+      "ann_vol": 0.9905702597077628,
+      "max_exposure": 5
+    },
+    {
+      "name": "T20_intrabar_1_4_7",
+      "days": 4093,
+      "cagr": 0.2383842404128771,
+      "sharpe": 0.7045379867366097,
+      "sortino": 1.3824890943280173,
+      "max_drawdown": 0.9169823410229498,
+      "total_x": 10.996453893649713,
+      "turnover_per_year": null,
+      "win_day_rate": 0.23503542633764965,
+      "ann_vol": 1.2235792678760016,
+      "max_exposure": 7
+    },
+    {
+      "name": "T21_cont_kelly_0.25",
+      "days": 4092,
+      "cagr": 0.14120539877443594,
+      "sharpe": 0.9489233534700683,
+      "sortino": 1.5625922982718063,
+      "max_drawdown": 0.28362007313359705,
+      "total_x": 4.396462781519932,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2773704789833822,
+      "ann_vol": 0.15118083203556212,
+      "max_exposure": 1
+    },
+    {
+      "name": "T21_cont_kelly_0.5",
+      "days": 4092,
+      "cagr": 0.27336875484867806,
+      "sharpe": 0.9489233534700683,
+      "sortino": 1.5625922982718063,
+      "max_drawdown": 0.4990769360847642,
+      "total_x": 15.01886459905552,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2773704789833822,
+      "ann_vol": 0.30236166407112425,
+      "max_exposure": 2
+    },
+    {
+      "name": "T21_cont_kelly_1",
+      "days": 4092,
+      "cagr": 0.4828427315102992,
+      "sharpe": 0.9489233534700683,
+      "sortino": 1.5625922982718063,
+      "max_drawdown": 0.7726843735533983,
+      "total_x": 82.82092053451046,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2773704789833822,
+      "ann_vol": 0.6047233281422485,
+      "max_exposure": 3
+    },
+    {
+      "name": "T21_cont_kelly_1.5",
+      "days": 4092,
+      "cagr": 0.5780772227251552,
+      "sharpe": 0.9489233534700683,
+      "sortino": 1.5625922982718061,
+      "max_drawdown": 0.9070149489721528,
+      "total_x": 166.4208304631753,
+      "turnover_per_year": null,
+      "win_day_rate": 0.2773704789833822,
+      "ann_vol": 0.9070849922133728,
+      "max_exposure": 4
+    },
+    {
+      "name": "NN_analysis_namedFib",
+      "days": 4092,
+      "cagr": -0.05909073885972005,
+      "sharpe": -0.031075938549753816,
+      "sortino": -0.046944519106014715,
+      "max_drawdown": 0.8318479200460096,
+      "total_x": 0.5051784734098825,
+      "turnover_per_year": null,
+      "win_day_rate": 0.13318670576735092,
+      "ann_vol": 0.3193387990678167,
+      "features": 58,
+      "signal_rate": 0.2743708771072563
+    },
+    {
+      "name": "NN_analysis_placeboFib",
+      "days": 4092,
+      "cagr": -0.028969446273975574,
+      "sharpe": 0.07729405531561975,
+      "sortino": 0.11905866473501495,
+      "max_drawdown": 0.7215530839618977,
+      "total_x": 0.7192311922562277,
+      "turnover_per_year": null,
+      "win_day_rate": 0.1424731182795699,
+      "ann_vol": 0.3325356051459683,
+      "features": 58,
+      "signal_rate": 0.28707549474712923
+    },
+    {
+      "name": "STATE_router_vector",
+      "days": 4092,
+      "cagr": 0.7144975178653374,
+      "sharpe": 1.0536067052758704,
+      "sortino": 1.907805013210405,
+      "max_drawdown": 0.787661500488783,
+      "total_x": 421.5981760641007,
+      "turnover_per_year": null,
+      "win_day_rate": 0.30376344086021506,
+      "ann_vol": 0.7982098343418179,
+      "states": {
+        "bull_pyramid": 1875,
+        "cash": 1523,
+        "mean_reversion": 307,
+        "trend": 388
+      }
+    }
+  ]
+}

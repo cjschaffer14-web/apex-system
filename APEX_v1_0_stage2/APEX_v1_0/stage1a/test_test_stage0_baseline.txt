@@ -1,0 +1,16 @@
+# APEX v1.0 test run - 2026-10-04T03:00:16Z
+# python 3.13.5 | sqlite 3.46.1 | Linux-6.18.44-x86_64-with-glibc2.41 | numpy 2.3.5 | pandas 2.2.3 | scipy 1.17.0 | scikit-learn 1.8.0
+# command: python3 scripts/run_tests.py (unittest discover -s tests_v10 -p 'test_stage0_baseline.py', ResourceWarnings counted as failures)
+
+test_both_manifests_verify (test_stage0_baseline.BaselineHashes.test_both_manifests_verify) ... ok
+test_database_and_frozen_spec (test_stage0_baseline.BaselineHashes.test_database_and_frozen_spec) ... ok
+test_path_redirect_is_exact (test_stage0_baseline.FrozenValidation.test_path_redirect_is_exact) ... ok
+test_v09_validation_reruns_identically_and_leaves_baseline_untouched (test_stage0_baseline.FrozenValidation.test_v09_validation_reruns_identically_and_leaves_baseline_untouched) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.429s
+
+OK
+
+ResourceWarnings: 0
+RESULT: PASS (4 tests, 0 failures, 0 errors, 0 skipped, 0 ResourceWarnings)

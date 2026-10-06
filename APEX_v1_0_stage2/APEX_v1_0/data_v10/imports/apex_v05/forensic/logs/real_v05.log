@@ -1,0 +1,60 @@
+APEX 0.5.0 awake | authorityd pid 2394 (this process 2392) | walls all pass | hatch INCUBATING
+leases: network.web (open), market.paper_order (open)
+[heartbeat 1] ACCELERATED worked_on=persistent memory
+[heartbeat 2] ACCELERATED worked_on=self-model
+[heartbeat 3] ACCELERATED worked_on=public price history
+   paper: perps_long_short: 0 days, equity 99,950; spot_long_only: 0 days, equity 99,321
+[heartbeat 4] INCUBATING worked_on=owner hypotheses
+   paper: perps_long_short: 0 days, equity 99,950; spot_long_only: 0 days, equity 99,321
+[heartbeat 5] WARM worked_on=signal factory and combined model
+   paper: perps_long_short: 0 days, equity 99,950; spot_long_only: 0 days, equity 99,321
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/awaken_v05.py", line 74, in <module>
+    main()
+    ~~~~^^
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/awaken_v05.py", line 44, in main
+    t = org.heartbeat_tick()
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 395, in heartbeat_tick
+    out = super().heartbeat_tick(user_active, body, t)
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v04.py", line 866, in heartbeat_tick
+    work = self._work_on(nxt)
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 279, in _work_on
+    r = self.backfill_attention()
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 237, in backfill_attention
+    r = self._governed(f"attention data from {host}", "data.backfill", {"host": host}, host=host, kind="attention")
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 216, in _governed
+    return self.act(goal, capability, [ev], tier=1, scope=scope, **kwargs)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/awakening.py", line 154, in act
+    out["outcome"] = self.runtime.execute(tokens[0], **kwargs)
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/runtime.py", line 153, in execute
+    outcome = super().execute(token, **kwargs)
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/actuation/runtime.py", line 25, in execute
+    result = self._capabilities[token.capability](**kwargs)
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 164, in backfill
+    return self._attention_job(host)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/organism_v05.py", line 190, in _attention_job
+    res = self.fetcher(host=host, path="/api/v2/doc/doc",
+                       params={"query": q, "mode": "timelinevolraw", "format": "json",
+                               "startdatetime": "20170101000000", "enddatetime": f"{today:%Y%m%d}000000"})
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/data_v05.py", line 92, in __call__
+    status, body = self.opener(url, headers, self.timeout)
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/xv5/apex/ext/crypto_pack.py", line 538, in _urllib_opener
+    with urllib.request.build_opener(NoRedirect()).open(req, timeout=timeout) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests

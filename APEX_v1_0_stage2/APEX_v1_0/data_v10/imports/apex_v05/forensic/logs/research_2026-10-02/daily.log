@@ -1,0 +1,48 @@
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+SOL-USD 86400 1935 2021-06-17 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+XRP-USD 86400 1873 2019-02-26 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+ADA-USD 86400 2026 2021-03-18 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+DOGE-USD 86400 1949 2021-06-03 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+LTC-USD 86400 3699 2016-08-17 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+LINK-USD 86400 2656 2019-06-27 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+BCH-USD 86400 3206 2017-12-20 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+DOT-USD 86400 1936 2021-06-16 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+AVAX-USD 86400 1830 2021-09-30 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+XLM-USD 86400 2761 2019-03-14 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+ATOM-USD 86400 2455 2020-01-14 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+UNI-USD 86400 2208 2020-09-17 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+ETC-USD 86400 2979 2018-08-08 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+AAVE-USD 86400 2119 2020-12-15 00:00:00 2026-10-03 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+MATIC-USD 86400 1679 2021-03-11 00:00:00 2025-10-14 00:00:00
+/tmp/claude-0/-home-claude/8df26588-3f8e-543c-829b-2ca810af8eb3/scratchpad/real/fetch.py:26: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  print(prod, gran, len(out), dt.datetime.utcfromtimestamp(out[0][0]), dt.datetime.utcfromtimestamp(out[-1][0]))
+FIL-USD 86400 2125 2020-12-09 00:00:00 2026-10-03 00:00:00

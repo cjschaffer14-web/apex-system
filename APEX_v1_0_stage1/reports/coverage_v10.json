@@ -1,0 +1,1026 @@
+{
+ "candles:coinbase:AAVE-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2118,
+  "first": "2020-12-15 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2117
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2118
+  }
+ },
+ "candles:coinbase:ADA-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2025,
+  "first": "2021-03-18 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2024
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2025
+  }
+ },
+ "candles:coinbase:ALGO-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2606,
+  "first": "2019-08-15 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2605
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2606
+  }
+ },
+ "candles:coinbase:ATOM-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2454,
+  "first": "2020-01-14 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2453
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2454
+  }
+ },
+ "candles:coinbase:AVAX-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1829,
+  "first": "2021-09-30 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1828
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1829
+  }
+ },
+ "candles:coinbase:BCH-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 3205,
+  "first": "2017-12-20 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 4,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3203
+   ],
+   [
+    432000,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 3205
+  }
+ },
+ "candles:coinbase:BTC-USD:60": {
+  "kind": "candles",
+  "cadence": "step:3600",
+  "rows": 85437,
+  "first": "2017-01-01 00:00",
+  "last": "2026-10-03 01:00",
+  "missing_steps": 53,
+  "most_common_spacing_s": [
+   [
+    3600,
+    85416
+   ],
+   [
+    7200,
+    12
+   ],
+   [
+    21600,
+    3
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 85437
+  }
+ },
+ "candles:coinbase:BTC-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 4093,
+  "first": "2015-07-20 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4092
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 4093
+  }
+ },
+ "candles:coinbase:DOGE-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1948,
+  "first": "2021-06-03 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1947
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1948
+  }
+ },
+ "candles:coinbase:DOT-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1935,
+  "first": "2021-06-16 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1934
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1935
+  }
+ },
+ "candles:coinbase:ETC-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2978,
+  "first": "2018-08-08 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2977
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2978
+  }
+ },
+ "candles:coinbase:ETH-USD:60": {
+  "kind": "candles",
+  "cadence": "step:3600",
+  "rows": 85452,
+  "first": "2017-01-01 00:00",
+  "last": "2026-10-03 01:00",
+  "missing_steps": 38,
+  "most_common_spacing_s": [
+   [
+    3600,
+    85433
+   ],
+   [
+    7200,
+    10
+   ],
+   [
+    21600,
+    3
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 85452
+  }
+ },
+ "candles:coinbase:ETH-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 3788,
+  "first": "2016-05-18 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 2,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3786
+   ],
+   [
+    259200,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 3788
+  }
+ },
+ "candles:coinbase:FIL-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2124,
+  "first": "2020-12-09 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2123
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2124
+  }
+ },
+ "candles:coinbase:HBAR-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1451,
+  "first": "2022-10-13 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1450
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1451
+  }
+ },
+ "candles:coinbase:LINK-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2655,
+  "first": "2019-06-27 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2654
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2655
+  }
+ },
+ "candles:coinbase:LTC-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 3698,
+  "first": "2016-08-17 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 1,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3696
+   ],
+   [
+    172800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 3698
+  }
+ },
+ "candles:coinbase:NEAR-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1493,
+  "first": "2022-09-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1492
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1493
+  }
+ },
+ "candles:coinbase:SOL-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1934,
+  "first": "2021-06-17 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1933
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1934
+  }
+ },
+ "candles:coinbase:UNI-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2207,
+  "first": "2020-09-17 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2206
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2207
+  }
+ },
+ "candles:coinbase:XLM-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 2760,
+  "first": "2019-03-14 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2759
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 2760
+  }
+ },
+ "candles:coinbase:XRP-USD:1440": {
+  "kind": "candles",
+  "cadence": "step:86400",
+  "rows": 1872,
+  "first": "2019-02-26 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 904,
+  "most_common_spacing_s": [
+   [
+    86400,
+    1870
+   ],
+   [
+    78192000,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 1872
+  }
+ },
+ "readings:attention:fear_greed": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 3163,
+  "first": "2018-02-01 00:00",
+  "last": "2026-10-03 00:00",
+  "missing_steps": 4,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3160
+   ],
+   [
+    345600,
+    1
+   ],
+   [
+    172800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 3163
+  }
+ },
+ "readings:attention:gdelt:bitcoin": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 3530,
+  "first": "2017-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 32,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3522
+   ],
+   [
+    172800,
+    3
+   ],
+   [
+    259200,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 3530
+  }
+ },
+ "readings:attention:gdelt:cryptocurrency": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 3530,
+  "first": "2017-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 32,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3522
+   ],
+   [
+    172800,
+    3
+   ],
+   [
+    259200,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 3530
+  }
+ },
+ "readings:attention:gdelt_tone:bitcoin": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 3530,
+  "first": "2017-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 32,
+  "most_common_spacing_s": [
+   [
+    86400,
+    3522
+   ],
+   [
+    172800,
+    3
+   ],
+   [
+    259200,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 3530
+  }
+ },
+ "readings:attention:wiki:Bitcoin": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4112,
+  "first": "2015-07-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4111
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4112
+  }
+ },
+ "readings:attention:wiki:Cryptocurrency": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4112,
+  "first": "2015-07-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4111
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4112
+  }
+ },
+ "readings:attention:wiki:Ethereum": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4112,
+  "first": "2015-07-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4111
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4112
+  }
+ },
+ "readings:funding:funding:BTC-USD": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 368,
+  "first": "2025-10-01 00:00",
+  "last": "2026-10-03 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    367
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 368
+  }
+ },
+ "readings:funding:funding:ETH-USD": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 368,
+  "first": "2025-10-01 00:00",
+  "last": "2026-10-03 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    367
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 368
+  }
+ },
+ "readings:onchain:cm:AdrActCnt": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "readings:onchain:cm:CapMVRVCur": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "readings:onchain:cm:FlowInExNtv": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "readings:onchain:cm:FlowOutExNtv": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "readings:onchain:cm:SplyCur": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "readings:onchain:cm:SplyExNtv": {
+  "kind": "readings",
+  "cadence": "step:86400",
+  "rows": 4293,
+  "first": "2015-01-01 00:00",
+  "last": "2026-10-02 00:00",
+  "missing_steps": 0,
+  "most_common_spacing_s": [
+   [
+    86400,
+    4292
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 4293
+  }
+ },
+ "funding:bitmex:ETHUSD": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 8902,
+  "first": "2018-08-02 12:00",
+  "last": "2026-09-16 12:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    28800,
+    8901
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 8902
+  }
+ },
+ "funding:bitmex:XBTUSD": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 11290,
+  "first": "2016-05-14 12:00",
+  "last": "2026-09-16 12:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    28800,
+    11268
+   ],
+   [
+    86400,
+    21
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 11290
+  }
+ },
+ "funding:coinbase_intx:BTC-PERP": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 30942,
+  "first": "2023-03-22 00:00",
+  "last": "2026-10-01 09:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    30933
+   ],
+   [
+    7200,
+    2
+   ],
+   [
+    12025,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 30942
+  }
+ },
+ "funding:coinbase_intx:ETH-PERP": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 30942,
+  "first": "2023-03-22 00:00",
+  "last": "2026-10-01 09:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    30933
+   ],
+   [
+    7200,
+    2
+   ],
+   [
+    12025,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 30942
+  }
+ },
+ "funding:deribit:BTC-PERPETUAL": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 65103,
+  "first": "2019-04-30 10:00",
+  "last": "2026-10-03 02:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    65101
+   ],
+   [
+    10800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 65103
+  }
+ },
+ "funding:deribit:ETH-PERPETUAL": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 65103,
+  "first": "2019-04-30 10:00",
+  "last": "2026-10-03 02:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    65101
+   ],
+   [
+    10800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 65103
+  }
+ },
+ "funding:kraken_futures:PF_ETHUSD": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 8795,
+  "first": "2025-10-01 08:00",
+  "last": "2026-10-03 02:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    8787
+   ],
+   [
+    7200,
+    6
+   ],
+   [
+    10800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 8795
+  }
+ },
+ "funding:kraken_futures:PF_XBTUSD": {
+  "kind": "funding",
+  "cadence": "event",
+  "rows": 8795,
+  "first": "2025-10-01 08:00",
+  "last": "2026-10-03 02:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    3600,
+    8787
+   ],
+   [
+    7200,
+    6
+   ],
+   [
+    10800,
+    1
+   ]
+  ],
+  "availability_quality": {
+   "source_timestamp": 8795
+  }
+ },
+ "macro:cboe:vix_close": {
+  "kind": "macro",
+  "cadence": "business_daily",
+  "rows": 3240,
+  "first": "2014-01-02 21:15",
+  "last": "2026-10-02 20:15",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2552
+   ],
+   [
+    259200,
+    575
+   ],
+   [
+    345600,
+    65
+   ]
+  ],
+  "availability_quality": {
+   "conservative_lag": 3240
+  }
+ },
+ "macro:fed_h41:RESPPMA_N.WW": {
+  "kind": "macro",
+  "cadence": "weekly",
+  "rows": 666,
+  "first": "2014-01-02 05:00",
+  "last": "2026-10-01 04:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    604800,
+    640
+   ],
+   [
+    601200,
+    13
+   ],
+   [
+    608400,
+    12
+   ]
+  ],
+  "availability_quality": {
+   "exact_release": 666
+  }
+ },
+ "macro:nyfed:rrp_total_accepted": {
+  "kind": "macro",
+  "cadence": "business_daily",
+  "rows": 3186,
+  "first": "2014-01-02 16:45",
+  "last": "2026-10-02 17:15",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2476
+   ],
+   [
+    259200,
+    533
+   ],
+   [
+    345600,
+    106
+   ]
+  ],
+  "availability_quality": {
+   "approximate": 497,
+   "source_timestamp": 2689
+  }
+ },
+ "macro:treasury_fiscaldata:tga_closing_balance": {
+  "kind": "macro",
+  "cadence": "business_daily",
+  "rows": 3203,
+  "first": "2014-01-03 05:00",
+  "last": "2026-10-02 04:00",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2503
+   ],
+   [
+    259200,
+    551
+   ],
+   [
+    345600,
+    89
+   ]
+  ],
+  "availability_quality": {
+   "conservative_lag": 3203
+  }
+ },
+ "macro:treasury_yields:par_yield_10y": {
+  "kind": "macro",
+  "cadence": "business_daily",
+  "rows": 3190,
+  "first": "2014-01-02 20:30",
+  "last": "2026-10-02 19:30",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2489
+   ],
+   [
+    259200,
+    538
+   ],
+   [
+    345600,
+    102
+   ]
+  ],
+  "availability_quality": {
+   "conservative_lag": 3190
+  }
+ },
+ "macro:treasury_yields:par_yield_2y": {
+  "kind": "macro",
+  "cadence": "business_daily",
+  "rows": 3190,
+  "first": "2014-01-02 20:30",
+  "last": "2026-10-02 19:30",
+  "missing_steps": null,
+  "most_common_spacing_s": [
+   [
+    86400,
+    2489
+   ],
+   [
+    259200,
+    538
+   ],
+   [
+    345600,
+    102
+   ]
+  ],
+  "availability_quality": {
+   "conservative_lag": 3190
+  }
+ }
+}

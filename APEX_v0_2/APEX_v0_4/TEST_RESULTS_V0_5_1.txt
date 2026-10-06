@@ -1,0 +1,62 @@
+APEX v0.5.1 — TEST RESULTS (3 Oct 2026)
+
+=== 1. Unit tests: python3 -m unittest discover -s tests ===
+----------------------------------------------------------------------
+Ran 109 tests in 228.786s
+
+OK
+Breakdown: 5 v0.2 + 38 v0.3 + 45 v0.4 + 13 v0.5 + 8 v0.5.1 = 109. v0.4.1 files byte-identical (AddOnlyV04).
+New v0.5.1 tests: planted price levels found and other grids not; placebo grids keep the spacing; rules use no
+future prices; a trend rule cuts a planted crash; a planted media feature found and noise not; Coin Metrics rows
+cross the membrane (free text does not); a paper book outside the lease is denied; the core book waits for the
+owner, trades once added, and the evidence record survives a restart.
+
+=== 2. APEX tests the owner's 3 Oct ideas itself (real data, v0.5.1 awakened on the v0.5 ledger) ===
+Migration 0.5.0 -> 0.5.1 recorded. On-chain data downloaded under the existing web lease (Coin Metrics Community:
+6 series x 4,293 days); GDELT news tone 3,530 days. Each hypothesis registered before it was tested.
+
+  round numbers 1-2-5 (10k, 20k, 50k, 100k), BTC
+      touches 121/68  bounce z +0.03/-0.93  volatility z +0.12/+1.98  -> not supported: these levels behave like randomly placed levels with the same spacing
+  multiples of 10k, BTC
+      touches 137/300  bounce z -0.64/+0.51  volatility z -0.22/+1.32  -> not supported: these levels behave like randomly placed levels with the same spacing
+  round numbers x golden ratio (16.18k, 32.4k, 64.7k, 161.8k), BTC
+      touches 203/88  bounce z -1.05/-0.89  volatility z -0.86/-0.95  -> not supported: these levels behave like randomly placed levels with the same spacing
+  powers of the golden ratio 1.618, BTC
+      touches 173/138  bounce z +0.70/-1.25  volatility z -1.25/-1.03  -> not supported: these levels behave like randomly placed levels with the same spacing
+  powers of 1.1618 (as written), BTC
+      touches 658/354  bounce z -0.50/-1.52  volatility z +0.10/-0.31  -> not supported: these levels behave like randomly placed levels with the same spacing
+  powers of e, BTC
+      touches 111/54  bounce z +0.54/+1.16  volatility z -0.61/+0.24  -> not supported: these levels behave like randomly placed levels with the same spacing
+  powers of pi, BTC
+      touches 70/74  bounce z +1.00/+0.84  volatility z -0.41/+0.22  -> not supported: these levels behave like randomly placed levels with the same spacing
+  simple rule: BTC above its 200-day average, vol-sized (the core book), spot costs
+      rule +45.1%/yr Sharpe 1.154 worst DD 58% | hold +65.8%/yr Sharpe 1.094 worst DD 84%
+      last 365 days: rule -4.2%, hold -29.9% | DSR 0.958 | P(Sharpe better) 0.64 P(drawdown smaller) 0.963
+      -> positive return beyond luck; does not beat holding on Sharpe; smaller drawdowns than holding
+  simple rule: BTC above its 200-day average, spot costs
+      rule +54.6%/yr Sharpe 1.091 worst DD 72% | hold +65.8%/yr Sharpe 1.094 worst DD 84%
+      last 365 days: rule -4.7%, hold -29.9% | DSR 0.934 | P(Sharpe better) 0.543 P(drawdown smaller) 0.74
+      -> positive return not established; does not beat holding on Sharpe; drawdowns not reliably smaller
+  whales: net flow into exchanges -> next-week BTC return
+      IC/z to 2021 -0.115/-2.02, from 2022 -0.070/-1.06  -> not supported (fails a period)
+  whales: change in exchange balances -> next-week BTC return
+      IC/z to 2021 -0.125/-2.22, from 2022 -0.006/-0.09  -> not supported (fails a period)
+  media: extreme fear -> next-week BTC return
+      IC/z to 2021 +0.120/+1.70, from 2022 -0.042/-0.67  -> not supported (fails a period)
+  media: Wikipedia attention surprise -> next-week BTC volatility
+      IC/z to 2021 +0.145/+2.40, from 2022 +0.085/+1.52 (controls: today's 7- and 28-day volatility)  -> not supported (fails a period)
+  whales: net flow into exchanges -> next-week BTC volatility
+      IC/z to 2021 +0.160/+2.73, from 2022 +0.082/+1.32 (controls: today's 7- and 28-day volatility)  -> not supported (fails a period)
+  media: news tone -> next-week BTC return
+      IC/z to 2021 +0.022/+0.38, from 2022 +0.045/+0.71  -> not supported (fails a period)
+
+Periods: before 2022 / from 2022. z: distance from the placebo or permutation distribution in standard deviations.
+A rule's DSR depends on how many trials were counted when it ran (later trials face a higher bar).
+
+=== 3. Research scripts (numpy; independent implementation, same numbers) ===
+research/owner_ideas_2026-10-03/: levels.py (400 placebos), levels_power.py, occam.py, occam_check.py, media.py,
+media_vol_partial.py. The APEX implementation matches them: touch counts within one on every grid, the same
+verdicts, and identical rule statistics (CAGR, Sharpe, drawdown).
+See docs/OWNER_IDEAS_2026-10-03.md.
+
+Nothing here is financial advice. Nothing in v0.5.1 can place a real order.
