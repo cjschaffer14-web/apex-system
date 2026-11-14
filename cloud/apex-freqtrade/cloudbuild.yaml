@@ -1,0 +1,4 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  args: ["build", "-f", "Dockerfile.apex", "-t", "us-central1-docker.pkg.dev/alert-maker-509913-m7/schaffer-workspace/apex-freqtrade:latest", "."]
+images: ["us-central1-docker.pkg.dev/alert-maker-509913-m7/schaffer-workspace/apex-freqtrade:latest"]

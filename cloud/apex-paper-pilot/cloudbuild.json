@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "name": "us-central1-docker.pkg.dev/alert-maker-509913-m7/apex-public/paper-pilot@sha256:d11869fc46fa366c0052a80cf5c3cee36c8bfd7cd1f536433a1fb8be4379edb0",
+      "entrypoint": "python",
+      "dir": ".",
+      "env": ["PYTHONDONTWRITEBYTECODE=1"],
+      "args": ["-m", "unittest", "test_broker_reconciliation", "test_cloud_snapshot", "test_broker_ledger", "test_broker_bundle", "-q"]
+    },
+    {
+      "name": "gcr.io/cloud-builders/docker",
+      "args": ["build", "-f", "cloud-pilot/Dockerfile", "-t", "${_IMAGE}", "."]
+    }
+  ],
+  "images": ["${_IMAGE}"],
+  "substitutions": {
+    "_IMAGE": "us-central1-docker.pkg.dev/alert-maker-509913-m7/apex-public/paper-pilot:broker-ledger-20261103-v2"
+  },
+  "timeout": "300s"
+}

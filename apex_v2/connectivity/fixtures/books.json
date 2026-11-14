@@ -1,0 +1,5 @@
+{
+  "notice": "Synthetic normalization fixtures; not captured markets",
+  "coinbase": {"sequence": 42, "bids": [["99", "2", 7], ["98", "3", 1]], "asks": [["100", "2", 9], ["101", "3", 1]]},
+  "kraken": {"error": [], "result": {"XXBTZUSD": {"bids": [["103", "2", 100], ["102", "3", 90]], "asks": [["104", "2", 100], ["105", "3", 90]]}}}
+}

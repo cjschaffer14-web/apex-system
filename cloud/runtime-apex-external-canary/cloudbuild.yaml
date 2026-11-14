@@ -1,0 +1,4 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  args: ['build', '-f', 'Overlay.Dockerfile', '-t', 'us-central1-docker.pkg.dev/alert-maker-509913-m7/schaffer-workspace/runtime:apex-external-canary-20261104', '.']
+images: ['us-central1-docker.pkg.dev/alert-maker-509913-m7/schaffer-workspace/runtime:apex-external-canary-20261104']

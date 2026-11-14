@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:apex:episode-packet:1.0.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "episode_id",
+    "timestamp_ns",
+    "market",
+    "mechanism",
+    "economic_venues",
+    "observations",
+    "opportunity",
+    "agent_state",
+    "prediction",
+    "decision",
+    "realized_shadow_outcome",
+    "attribution",
+    "provenance",
+    "censoring",
+    "selection"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "observations": {
+      "type": "object"
+    },
+    "opportunity": {
+      "type": "object"
+    },
+    "agent_state": {
+      "type": "object"
+    },
+    "prediction": {
+      "type": "object"
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "mode",
+        "orders_authorized"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "shadow",
+            "paper"
+          ]
+        },
+        "orders_authorized": {
+          "const": false
+        }
+      }
+    },
+    "realized_shadow_outcome": {
+      "type": "object"
+    },
+    "attribution": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "formula_ids",
+        "model_versions",
+        "source_ids",
+        "code_commit"
+      ],
+      "properties": {
+        "formula_ids": {
+          "const": [
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5"
+          ]
+        },
+        "model_versions": {
+          "type": "object"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "code_commit": {
+          "type": "string"
+        }
+      }
+    },
+    "censoring": {
+      "type": "object"
+    },
+    "selection": {
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "episode_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_ns": {
+      "type": "integer"
+    },
+    "market": {
+      "type": "string"
+    },
+    "mechanism": {
+      "type": "string"
+    },
+    "economic_venues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-07",
+  "repo": "/Users/chris/Downloads/APEX System",
+  "base_commit": "8ae92ae8853922630e4dc8d781e1dc430521cbf4",
+  "saved_changes": true,
+  "changes_committed": false,
+  "mode": "shadow/paper/data_observation_only",
+  "live_enabled": false,
+  "live_orders_submitted": 0,
+  "continuous_runner_started": false,
+  "existing_runners_restarted": false,
+  "mac_execution": {
+    "integrated_tests": 52,
+    "observatory_tests": 15,
+    "all_passed": true,
+    "recorded_kraken_audit": "recorded_book_validation.json",
+    "public_one_shot": "public_probe/global_observatory_status.json",
+    "one_shot_exited": true
+  },
+  "promoted_features": [],
+  "global_rebalancing_hypothesis": "unproven; paired framework and negative synthetic fixture verified; real multi-venue corpus missing",
+  "limitations": [
+    "Kraken CRC32 checksum remains unverified",
+    "v3/Aerodrome executable curve adapters not added",
+    "capture/survival not calibrated on real labeled episodes",
+    "single-shot public quotes do not provide known account fees or finalized DEX executable state",
+    "exact allocator limited to 20 candidates and supplied discrete sizes/routes",
+    "no continuous forward profit-engine run started"
+  ]
+}

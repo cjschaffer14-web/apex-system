@@ -1,0 +1,13 @@
+{
+  "assets": [
+    "NOBODY",
+    "FORTH",
+    "ADX",
+    "GTC"
+  ],
+  "mode": "read_only_spot_research",
+  "shorting": "not verified; no order adapters",
+  "schedule_minutes": 20,
+  "coverage": "bounded REST samples; not complete ticks or execution replay",
+  "market_cap_source": "CoinGecko initial screening; not re-ranked every run"
+}

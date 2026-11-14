@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!paper_live.py
+!cloud_intake.py
+!paper_dashboard.html
+!.gcloudignore

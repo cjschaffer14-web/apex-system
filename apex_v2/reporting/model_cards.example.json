@@ -1,0 +1,188 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "model_id": "spread_only-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "executable terminal minus initial"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "spread_cost-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "F1",
+      "costs"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "existing_observatory-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "existing Observatory decision"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "episode_survival_capture-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "survival",
+      "latency",
+      "reliability",
+      "uncertainty",
+      "capture labels"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "agent_inventory-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "previous layer",
+      "capital",
+      "margin",
+      "venue inventory",
+      "feasibility"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "competition-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "observed actor counts",
+      "attempt rates",
+      "failure indicators"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "model_id": "scientific_features-v1",
+    "target": "incremental held-out net shadow economics and capture calibration",
+    "inputs": [
+      "explicit frozen candidate scientific features"
+    ],
+    "train_window": null,
+    "oos_window": null,
+    "calibration": {
+      "status": "not_fitted",
+      "brier": null
+    },
+    "economic_increment": {
+      "status": "not_established",
+      "net_usd": null
+    },
+    "status": "research",
+    "orders_authorized": false,
+    "promotion": "paired held-out economics, noninferior calibration/risk/turnover/compute and capital-time efficiency; reviewed code needed for production",
+    "known_limits": [
+      "no multi-venue labeled episode corpus yet",
+      "synthetic examples are not promotion evidence"
+    ]
+  }
+]

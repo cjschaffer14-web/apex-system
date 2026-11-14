@@ -1,0 +1,8 @@
+nohup: ignoring input
++ SA=748368520319-compute@developer.gserviceaccount.com
++ URI=https://us-central1-run.googleapis.com/apis/run.googleapis.com/v1/namespaces/alert-maker-509913-m7/jobs/apex-cloud-auditor:run
++ gcloud run jobs deploy apex-cloud-auditor --source . --region us-central1 --max-retries 0 --task-timeout 10m --set-secrets=OPENAI_API_KEY=dec-openai-api-key:latest,ANTHROPIC_API_KEY=dec-anthropic-api-key:latest,GEMINI_API_KEY=dec-gemini-api-key:latest --set-env-vars=AUDIT_URL=https://dec-research-rtr25d4k5q-uc.a.run.app/ --quiet
+This command is equivalent to running `gcloud builds submit --tag [IMAGE] .` and `gcloud run jobs deploy apex-cloud-auditor --image [IMAGE]`
+
+Building using Dockerfile and deploying container to Cloud Run job [[1mapex-cloud-auditor[m] in project [[1malert-maker-509913-m7[m] region [[1mus-central1[m]
+Building and creating job...
