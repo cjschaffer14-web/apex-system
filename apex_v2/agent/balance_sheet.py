@@ -16,4 +16,4 @@ class AgentState:
         from ..economics.formulas import finite
         finite(self.capital_usd,self.margin_usd,self.latency_seconds,self.max_latency_seconds,*self.inventory.values(),*self.venue_limits.values())
         if min(self.capital_usd,self.margin_usd,self.latency_seconds,self.max_latency_seconds,*self.inventory.values(),*self.venue_limits.values())<0: raise ValueError('negative agent resources')
-        if self.mode not in ('shadow','paper'): raise ValueError('only shadow/paper allowed')
+        if self.mode not in ('shadow','live'): raise ValueError('mode must be shadow or live')

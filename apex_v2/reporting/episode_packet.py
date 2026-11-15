@@ -5,7 +5,7 @@ FIELDS=('schema_version','episode_id','timestamp_ns','market','mechanism','econo
 def validate_packet(p):
     if any(k not in p for k in FIELDS): raise ValueError('missing packet fields')
     if p['schema_version']!=SCHEMA_VERSION: raise ValueError('unknown schema')
-    if p['decision'].get('mode') not in ('shadow','paper') or p['decision'].get('orders_authorized') is not False: raise ValueError('unsafe decision')
+    if p['decision'].get('mode')!='shadow' or p['decision'].get('orders_authorized') is not False: raise ValueError('unsafe decision')
     if p['provenance'].get('formula_ids')!=list(FORMULAS): raise ValueError('formula provenance required')
     if not p['provenance'].get('code_commit') or not p['provenance'].get('model_versions') or not p['provenance'].get('source_ids'): raise ValueError('missing provenance')
     json.dumps(p,allow_nan=False)

@@ -1,16 +1,14 @@
-"""Hummingbot -> APEX: connector order books, fees and paper-trade configs.
+"""Hummingbot -> APEX: connector order books and fees.
 
 What Hummingbot adds: ~30 CEX/DEX spot and perp connectors with maintained websocket
-order books, trading rules and fee schedules, plus a built-in `*_paper_trade` mode.
+order books, trading rules and fee schedules.
 APEX uses it as a *market-data and rules source*; it never calls buy()/sell().
 """
 from decimal import Decimal
 
 from ..connectivity.interfaces import VenueConnector
 from ..connectivity.markets import SpotMarket
-from ..execution.interfaces import ExecutionEngine
-from ..execution.simulated import SimulatedExecutionEngine
-from .common import build_snapshot, require_safe_mode, split_pair, dec
+from .common import build_snapshot, split_pair, dec
 
 
 def _entries(book, side):
@@ -29,7 +27,7 @@ def fee_bps_from_connector(connector, pair_hb, is_maker=False):
 
 
 def snapshot_from_connector(connector, venue, pair_hb, depth=20, fee_bps='auto'):
-    """connector: a hummingbot ExchangePyBase (live data or paper_trade). pair like 'BTC-USDT'."""
+    """connector: a hummingbot ExchangePyBase (live data). pair like 'BTC-USDT'."""
     base, quote = split_pair(pair_hb, '-')
     ob = connector.get_order_book(pair_hb)
     if fee_bps == 'auto':
@@ -59,22 +57,3 @@ class HummingbotMarketData(VenueConnector):
     def snapshot(self, pair):
         base, quote = pair.split('/')
         return snapshot_from_connector(self.connector, self.venue, '%s-%s' % (base, quote), self.depth)
-
-
-class HummingbotPaperExecution(ExecutionEngine):
-    """APEX book-walk fill model; the hummingbot connector is never touched."""
-
-    def __init__(self):
-        self._inner = SimulatedExecutionEngine()
-
-    def execute(self, request, snapshot, now_ns):
-        require_safe_mode(request.mode)
-        return self._inner.execute(request, snapshot, now_ns)
-
-
-def paper_bot_config(strategy_script, exchange, trading_pair):
-    """Config for `hbot create/start`. Forces the *_paper_trade connector; live names rejected."""
-    if not exchange.endswith('_paper_trade'):
-        raise ValueError('only *_paper_trade connectors may be configured by APEX')
-    return {'script_file_name': strategy_script, 'exchange': exchange, 'trading_pair': trading_pair,
-            'apex_mode': 'paper'}

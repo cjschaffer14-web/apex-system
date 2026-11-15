@@ -2,7 +2,7 @@
 
 The bridges are duck-typed: none of hummingbot, freqtrade, vnpy or Lean needs to be
 importable. They convert framework objects into APEX's own read-only types, so the
-APEX safety rules (paper/shadow only, no signing, no credentials) stay in one place.
+APEX mode rules stay in one place.
 """
 import time
 from decimal import Decimal
@@ -12,13 +12,13 @@ from ..connectivity.markets import pair_name
 from ..core import Book, Level
 from ..economics.formulas import finite
 
-SAFE_MODES = ('paper', 'shadow', 'backtest')
+MODES = ('live', 'shadow', 'backtest')
 
 
-def require_safe_mode(mode):
-    """Every bridge funnels through this; live submission is not representable."""
-    if mode not in SAFE_MODES:
-        raise ValueError('live mode forbidden: %r (allowed: %s)' % (mode, ', '.join(SAFE_MODES)))
+def require_mode(mode):
+    """Every bridge funnels through this. Paper mode no longer exists."""
+    if mode not in MODES:
+        raise ValueError('unknown mode: %r (allowed: %s)' % (mode, ', '.join(MODES)))
     return mode
 
 

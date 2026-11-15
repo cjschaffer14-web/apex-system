@@ -41,7 +41,8 @@ class ProfitEngineTests(unittest.TestCase):
     def test_hard_vetoes(self):
         for kw in ({'quality_ok':False},{'settlement_ok':False},{'liquidity_ok':False},{'feature_status':'qualified'},{'feature_status':'research'}):
             self.assertFalse(allocate([self.c('a','a',**kw)],self.state()).selected)
-        with self.assertRaises(ValueError): replace(self.state(),mode='live')
+        with self.assertRaises(ValueError): replace(self.state(),mode='paper')
+        self.assertEqual(replace(self.state(),mode='live').mode,'live')
         self.assertFalse(allocate([self.c('a','a')],replace(self.state(),legal_allowed=False)).selected)
     def test_episode_alternatives(self): self.assertEqual(len(allocate([self.c('a','same'),self.c('b','same')],self.state()).selected),1)
     def test_reference_and_redundant_depth(self):

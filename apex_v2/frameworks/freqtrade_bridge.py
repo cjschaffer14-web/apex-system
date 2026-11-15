@@ -6,7 +6,7 @@ for (a) L2 snapshots through ccxt, and (b) a strategy that *consumes* APEX's gov
 verdicts, always in dry-run, as a second opinion on directional/market-making legs.
 """
 import json
-from .common import build_snapshot, require_safe_mode
+from .common import build_snapshot, require_mode
 
 
 def snapshot_from_ccxt_l2(l2, venue, pair, fee_bps=None, request_ns=None, received_ns=None):
@@ -22,7 +22,7 @@ def snapshot_from_ccxt_l2(l2, venue, pair, fee_bps=None, request_ns=None, receiv
 def write_signal_file(path, verdicts, mode='shadow'):
     """verdicts: iterable of dicts {pair, ts_ms, action: 'allow'|'veto', edge_bps, reason}.
     Freqtrade polls this file; APEX stays the single authority on vetoes."""
-    require_safe_mode(mode)
+    require_mode(mode)
     rows = []
     for v in verdicts:
         if v['action'] not in ('allow', 'veto'):
@@ -62,16 +62,12 @@ class ApexGovernedStrategy(IStrategy):
     minimal_roi = {{"0": 0.01}}
     stoploss = -0.02
 
-    def bot_start(self, **kwargs):
-        if not self.dp.runmode.value in ("dry_run", "backtest", "hyperopt", "plot"):
-            raise RuntimeError("APEX strategy refuses to run live")
-
     def _allowed(self, pair):
         try:
             data = json.load(open(SIGNAL_FILE))
         except (OSError, ValueError):
             return False  # no verdict => no trade
-        if data.get("mode") not in ("shadow", "paper", "backtest"):
+        if data.get("mode") not in ("live", "shadow", "backtest"):
             return False
         latest = [v for v in data["verdicts"] if v.get("pair") == pair]
         return bool(latest) and latest[-1]["action"] == "allow"
@@ -93,10 +89,3 @@ def render_strategy(signal_file):
     src = STRATEGY_TEMPLATE.format(signal_file=signal_file)
     compile(src, 'apex_strategy', 'exec')  # fail loudly on template errors
     return src
-
-
-def dry_run_config(exchange, pairs, stake='USDT'):
-    """Minimal config fragment. dry_run is hard-coded true and no key/secret fields exist."""
-    return {'dry_run': True, 'dry_run_wallet': 1000, 'stake_currency': stake, 'trading_mode': 'spot',
-            'exchange': {'name': exchange, 'key': '', 'secret': '', 'pair_whitelist': list(pairs)},
-            'strategy': 'ApexGovernedStrategy'}

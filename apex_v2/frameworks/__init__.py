@@ -1,4 +1,4 @@
-"""Bridges to hummingbot, freqtrade, vnpy and Lean. Paper/shadow/backtest only."""
+"""Bridges to hummingbot, freqtrade, vnpy and Lean. Live/shadow/backtest; no paper mode."""
 import importlib.util
 import json
 import os
@@ -7,7 +7,7 @@ import sys
 
 # role -> what APEX takes from the framework (see CAPABILITIES for the long form)
 CAPABILITIES = {
-    'hummingbot': {'module': 'hummingbot', 'role': 'live market data, fees and trading rules for ~30 venues; paper-trade connectors; arbitrage/XEMM executors as design reference'},
+    'hummingbot': {'module': 'hummingbot', 'role': 'live market data, fees and trading rules for ~30 venues; arbitrage/XEMM executors as design reference'},
     'freqtrade': {'module': 'freqtrade', 'role': 'candle backtesting, hyperopt, FreqAI walk-forward ML; dry-run strategy consuming APEX verdicts'},
     'vnpy': {'module': 'vnpy', 'role': 'event engine, gateway ticks (5-level depth), alpha research lab'},
     'lean': {'module': None, 'needs': 'dotnet', 'role': 'independent event-driven backtest of APEX signals with its own fill/portfolio models'},

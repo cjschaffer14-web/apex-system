@@ -3,7 +3,8 @@
 Source pulled on 2026-11-14 from Google Cloud project `alert-maker-509913-m7`
 (region `us-central1`). Each folder is the most recent source archive that was
 uploaded for that component's build; nothing here was edited after download
-(only `__pycache__` was dropped).
+(only `__pycache__` was dropped). `apex-paper-pilot/` (Alpaca paper broker pilot) was removed from
+this tree on 2026-11-15; the deployed Cloud Run service and its bucket are not affected by that.
 
 | Folder | Runs as | Trigger | Source archive |
 | --- | --- | --- | --- |
@@ -12,7 +13,6 @@ uploaded for that component's build; nothing here was edited after download
 | `apex-microcap-collect/` | Cloud Run job `apex-microcap-collect` | scheduler: every 20 min | Cloud Build `microcap:v1`, 2026-10-07 |
 | `apex-cloud-auditor/` | Cloud Run job `apex-cloud-auditor` | scheduler `apex-daily-audit`: 04:00 daily | run-sources upload, 2026-10-11 |
 | `apex-dex-paper-intake/` | Cloud Run service `apex-dex-paper-intake` | scheduler: every minute | run-sources upload, 2026-10-25 |
-| `apex-paper-pilot/` | Cloud Run service `apex-paper-pilot`, job `apex-paper-pilot-smoke` | on request | Cloud Build `paper-pilot:broker-ledger-20261103-v2`, 2026-11-03 |
 | `apex-freqtrade/` | Cloud Run job `apex-freqtrade` | manual | Cloud Build `apex-freqtrade:latest`, 2026-10-30 |
 | `apex-calendar-push/` | Cloud Run service `apex-calendar-push` | on request | run-sources upload, 2026-11-04 |
 | `runtime-apex-external-canary/` | image `schaffer-workspace/runtime:apex-external-canary-20261104` | n/a | Cloud Build, 2026-11-04 |

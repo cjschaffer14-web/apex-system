@@ -43,8 +43,7 @@
       "properties": {
         "mode": {
           "enum": [
-            "shadow",
-            "paper"
+            "shadow"
           ]
         },
         "orders_authorized": {

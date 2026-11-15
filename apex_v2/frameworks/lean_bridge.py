@@ -9,14 +9,14 @@ book-walk PnL.
 """
 import csv
 
-from .common import require_safe_mode
+from .common import require_mode
 
 COLUMNS = ['time', 'bid', 'ask', 'mid', 'edge_bps', 'allow']
 
 
 def export_custom_data(path, rows, mode='backtest'):
     """rows: dicts with ts_ns, bid, ask, edge_bps, allow(bool). Lean custom CSV, UTC, one symbol per file."""
-    require_safe_mode(mode)
+    require_mode(mode)
     last = -1
     with open(path, 'w', newline='') as f:
         w = csv.writer(f)

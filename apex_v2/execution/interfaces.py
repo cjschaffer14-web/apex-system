@@ -7,7 +7,7 @@ class OrderRequest:
     pair: str
     side: str
     quantity: Decimal
-    mode: str = 'paper'
+    mode: str = 'live'
 class ExecutionEngine(ABC):
     @abstractmethod
     def execute(self, request, snapshot, now_ns): pass

@@ -24,7 +24,7 @@ class ShadowEngine:
     def feedback(self,episode_id,outcome,attribution,censored=False):
         packets={p['episode_id']:p for p in self.store.packets()}
         p=packets[episode_id]
-        if outcome.get('mode') not in ('shadow','paper'): raise ValueError('shadow/paper outcome required')
+        if outcome.get('mode')!='shadow': raise ValueError('shadow outcome required')
         p['realized_shadow_outcome']=outcome; p['attribution']=attribution
         p['censoring']={'right_censored':bool(censored),'reason':'unresolved' if censored else None}
         self.store.save(p); return p

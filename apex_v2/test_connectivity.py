@@ -12,7 +12,6 @@ from .connectivity.dex import CurveSnapshot, DexQuoteAdapter
 from .connectivity.runner import PublicSnapshotStream, run
 from .core import Book, Level
 from .execution.interfaces import OrderRequest
-from .execution.simulated import SimulatedExecutionEngine
 from .episodes.tracker import EpisodeStore
 from .dexdata.rpc import Rpc, RpcError
 
@@ -103,20 +102,15 @@ class ConnectivityTests(unittest.TestCase):
     def test_skew_rejection(self):
         a,b=books(); b=replace(b,request_ns=T+1_500_000_000,received_ns=T+1_500_000_001)
         self.assertEqual(CandidatePipeline().observe([a,b],T+1_500_000_002),[])
-    def test_no_live_guard(self):
-        engine=SimulatedExecutionEngine(); a=books()[0]
-        request=OrderRequest(a.economic_venue_id,'BTC/USD','buy',D(100),'live')
-        with self.assertRaisesRegex(ValueError,'forbidden'): engine.execute(request,a,T+2)
-        with patch('urllib.request.urlopen',side_effect=AssertionError('network forbidden')):
-            result=engine.execute(replace(request,mode='paper'),a,T+2)
-        self.assertEqual(result['status'],'simulated_fill')
-        self.assertFalse(result['orders_authorized'])
-        self.assertAlmostEqual(float(result['amount_out']),.999)
+    def test_no_paper_mode(self):
+        a=books()[0]
+        self.assertEqual(OrderRequest(a.economic_venue_id,'BTC/USD','buy',D(100)).mode,'live')
+        import apex_v2.execution as execution
+        self.assertFalse(hasattr(execution,'simulated'))
+        from .frameworks.common import require_mode
+        self.assertEqual(require_mode('live'),'live')
+        with self.assertRaisesRegex(ValueError,'unknown mode'): require_mode('paper')
         self.assertFalse(hasattr(CoinbaseConnector(),'submit_order'))
-    def test_simulation_stale_unknown_fee(self):
-        a=books(None)[0]; r=OrderRequest(a.economic_venue_id,'BTC/USD','buy',D(1))
-        with self.assertRaises(ValueError): SimulatedExecutionEngine().execute(r,a,T+2)
-        with self.assertRaises(ValueError): SimulatedExecutionEngine().execute(r,books()[0],T+3_000_000_000)
     def test_rpc_no_send(self):
         rpc=Rpc(['https://example.invalid'],retries=1)
         for method in ('eth_sendRawTransaction','eth_sendTransaction','personal_sign','eth_sign'):
